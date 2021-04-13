@@ -1,2 +1,2 @@
-# SPO-Offeice365
+# SPO-Office365
 SharePoint - Office 365
