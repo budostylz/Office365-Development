@@ -6,3 +6,5 @@ SharePoint - Office 365
 [HillBilly Tabs](http://www.markrackley.net/2018/04/08/the-return-of-hillbillytabs-part-4/)
 
 [HillBilly Tabs Repo](https://github.com/mrackley/HillbillyTabs-4.0)
+
+[Building Applications and Solutions with Microsoft 365 Core Services (MS-600T00)](https://www.globalknowledge.com/us-en/course/184331/building-applications-and-solutions-with-microsoft-365-core-services-ms-600t00/offerings/)
