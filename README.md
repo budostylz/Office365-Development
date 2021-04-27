@@ -6,6 +6,11 @@ SharePoint - Office 365
 
 [Build your first SharePoint Framework Extension (Hello World part 1)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension)
 
+## Switch NodeJS Versions on Machine
+[NVM](https://github.com/nvm-sh/nvm)
+
+[Gulp Packages](https://www.docker.com/resources/what-container)
+
 ## HillBilly Tabs
 
 [HillBilly Tabs](https://www.youtube.com/watch?v=jR62s32iycg)
