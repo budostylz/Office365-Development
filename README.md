@@ -8,6 +8,9 @@ SharePoint - Office 365
 
 [Build your first SharePoint Framework Extension (Hello World part 1)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension)
 
+## CDNs
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide)
+
 ## Switch NodeJS Versions on Machine
 [NVM](https://github.com/nvm-sh/nvm)
 
