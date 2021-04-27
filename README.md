@@ -11,8 +11,13 @@ SharePoint - Office 365
 [Develop web parts with the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/)
 
 
-## PnP SPFx
+## PnP
+
+[PnP Microsoft 365](https://pnp.github.io/)
+
 [Reusable property pane controls for the SharePoint Framework solutions](https://pnp.github.io/sp-dev-fx-property-controls/)
+
+
 
 ## CDNs
 [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide)
