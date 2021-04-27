@@ -10,6 +10,8 @@ SharePoint - Office 365
 
 [Develop web parts with the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/)
 
+[PnP SPFx Yeoman generator](https://pnp.github.io/generator-spfx/)
+
 
 ## PnP
 
