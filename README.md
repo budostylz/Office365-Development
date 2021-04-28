@@ -31,13 +31,11 @@ SharePoint - Office 365
 [Lab - Build Microsoft Teams customization using the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-teams-dev#lab---build-microsoft-teams-customization-using-the-sharepoint-framework)
 
 
-
 ## PnP
 
 [PnP Microsoft 365](https://pnp.github.io/)
 
 [Reusable property pane controls for the SharePoint Framework solutions](https://pnp.github.io/sp-dev-fx-property-controls/)
-
 
 
 ## CDNs
@@ -59,3 +57,6 @@ SharePoint - Office 365
 [HillBilly Tabs Repo](https://github.com/mrackley/HillbillyTabs-4.0)
 
 [Building Applications and Solutions with Microsoft 365 Core Services (MS-600T00)](https://www.globalknowledge.com/us-en/course/184331/building-applications-and-solutions-with-microsoft-365-core-services-ms-600t00/offerings/)
+
+## Fluent UI
+[Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
