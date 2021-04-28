@@ -50,6 +50,8 @@ SharePoint - Office 365
 
 [How to install Node Version Manager (NVM) for Windows 10?](https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi)
 
+[SPFX Development environment trouble, has anyone seen lookups.flatmap error?](https://stackoverflow.com/questions/67231581/spfx-development-environment-trouble-has-anyone-seen-lookups-flatmap-error)
+
 ## HillBilly Tabs
 
 [HillBilly Tabs](https://www.youtube.com/watch?v=jR62s32iycg)
