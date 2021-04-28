@@ -12,6 +12,25 @@ SharePoint - Office 365
 
 [PnP SPFx Yeoman generator](https://pnp.github.io/generator-spfx/)
 
+[Lab - Getting Started with the SharePoint Framework](https://aka.ms/spdevwsM4L1)
+
+[Lab - SharePoint Framework WebParts](https://github.com/SharePoint/sp-dev-training-spfx-web-parts#lab---developing-with-the-sharepoint-framework-web-parts)
+
+[Lab - Working with the Web Part Property Pane](https://github.com/SharePoint/sp-dev-training-spfx-webpart-proppane/#lab---working-with-the-web-part-property-pane)
+
+[Lab - Work with SharePoint Content using the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-spcontent#lab---work-with-sharepoint-content-using-the-sharepoint-framework)
+
+[Lab - Extend the SharePoint user interface with SharePoint Framework extensions](https://github.com/SharePoint/sp-dev-training-spfx-extensions#lab---extend-the-sharepoint-user-interface-with-sharepoint-framework-extensions)
+
+[Lab - Leverage Microsoft Graph & third-party APIs](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis#lab---leverage-microsoft-graph--third-party-apis)
+
+[Using React and Office UI Fabric React Components](https://github.com/SharePoint/sp-dev-training-spfx-react-fabric#lab---using-react-and-office-ui-fabric-react-components)
+
+[Lab - Deploy SharePoint Framework components to production](https://github.com/SharePoint/sp-dev-training-spfx-deployment#lab---deploy-sharepoint-framework-components-to-production)
+
+[Lab - Build Microsoft Teams customization using the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-teams-dev#lab---build-microsoft-teams-customization-using-the-sharepoint-framework)
+
+
 
 ## PnP
 
