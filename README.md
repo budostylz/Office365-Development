@@ -24,7 +24,7 @@ SharePoint - Office 365
 
 [Lab - Leverage Microsoft Graph & third-party APIs](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis#lab---leverage-microsoft-graph--third-party-apis)
 
-[Using React and Office UI Fabric React Components](https://github.com/SharePoint/sp-dev-training-spfx-react-fabric#lab---using-react-and-office-ui-fabric-react-components)
+[Lab - Using React and Office UI Fabric React Components](https://github.com/SharePoint/sp-dev-training-spfx-react-fabric#lab---using-react-and-office-ui-fabric-react-components)
 
 [Lab - Deploy SharePoint Framework components to production](https://github.com/SharePoint/sp-dev-training-spfx-deployment#lab---deploy-sharepoint-framework-components-to-production)
 
