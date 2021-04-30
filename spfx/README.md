@@ -63,3 +63,6 @@
 
 [Building Applications and Solutions with Microsoft 365 Core Services (MS-600T00)](https://www.globalknowledge.com/us-en/course/184331/building-applications-and-solutions-with-microsoft-365-core-services-ms-600t00/offerings/)
 
+## jQuery Promises
+[Working with jQuery’s AJAX, Promises and Deferred objects](//resource: http://michaelsoriano.com/working-with-jquerys-ajax-promises-and-deferred-objects/)
+
