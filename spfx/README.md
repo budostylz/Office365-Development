@@ -53,7 +53,8 @@
 ## SharePoint Site Design
 [Site Designer](https://www.sitedesigner.io)
 
-
+## Fluent UI Icons
+[Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
 ## HillBilly Tabs
 
