@@ -1,3 +1,6 @@
+## TypeScript Tutorial
+[TypeScript](https://www.tutorialspoint.com/typescript/index.htm)
+
 
 ## SharePoint Framework
 [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=m365-15744-cxa)
@@ -66,4 +69,6 @@
 
 ## jQuery Promises
 [Working with jQuery’s AJAX, Promises and Deferred objects](http://michaelsoriano.com/working-with-jquerys-ajax-promises-and-deferred-objects)
+
+
 
