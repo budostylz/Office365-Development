@@ -70,5 +70,8 @@
 ## jQuery Promises
 [Working with jQuery’s AJAX, Promises and Deferred objects](http://michaelsoriano.com/working-with-jquerys-ajax-promises-and-deferred-objects)
 
+## PnPjs
+[PnPjs](https://pnp.github.io/pnpjs/pnpjs/)
+
 
 
