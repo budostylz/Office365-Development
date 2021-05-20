@@ -73,7 +73,6 @@
 ## PnP
 [GitHub PnP](https://github.com/pnp/pnp)
 
-## PnPjs
 [PnPjs](https://pnp.github.io/pnpjs/pnpjs/)
 
 
