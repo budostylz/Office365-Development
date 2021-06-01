@@ -10,4 +10,7 @@ SharePoint - Office 365
 ## Create a hub site in SharePoint
 [Create a hub site in SharePoint](https://docs.microsoft.com/en-us/sharepoint/create-hub-site)
 
+## Power Automate
+[Power Automate](https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/)
 
+[Power Automate US Government feature limitations](https://docs.microsoft.com/en-us/power-automate/us-govt#power-automate-us-government-feature-limitations)
