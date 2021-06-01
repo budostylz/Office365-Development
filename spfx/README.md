@@ -84,5 +84,8 @@
 ## Fluent UI
 [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
 
+## API Docs
+[API Docs](https://docs.microsoft.com/en-us/javascript/api/sp-property-pane/ipropertypanecustomfieldprops?view=sp-typescript-latest)
+
 
 
