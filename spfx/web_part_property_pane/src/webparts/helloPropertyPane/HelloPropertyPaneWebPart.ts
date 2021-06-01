@@ -16,6 +16,11 @@ import {
   PrincipalType
 } from '@pnp/spfx-property-controls/lib/PropertyFieldPeoplePicker';
 
+import {
+  PropertyPaneContinentSelector,
+  IPropertyPaneContinentSelectorProps
+} from '../../controls/PropertyPaneContinentSelector';
+
 export interface IHelloPropertyPaneWebPartProps {
   description: string;
   people: IPropertyFieldGroupOrPerson[];
@@ -74,10 +79,19 @@ export default class HelloPropertyPaneWebPart extends BaseClientSideWebPart<IHel
                   label: strings.DescriptionFieldLabel
                 }),
 
-                PropertyPaneTextField('myContinent', {
+                /*PropertyPaneTextField('myContinent', {
                   label: 'Continent where I currently reside',
                   onGetErrorMessage: this.validateContinents.bind(this)
+                }),*/
+
+                new PropertyPaneContinentSelector('myContinent', <IPropertyPaneContinentSelectorProps>{
+                  label: 'Continent where I currently reside',
+                  disabled: false,
+                  selectedKey: this.properties.myContinent,
+                  onPropertyChange: this.onContinentSelectionChange.bind(this),
                 }),
+
+
 
                 PropertyPaneSlider('numContinentsVisited', {
                   label: 'Number of continents I\'ve visited',
@@ -114,5 +128,11 @@ export default class HelloPropertyPaneWebPart extends BaseClientSideWebPart<IHel
     return (validContinentOptions.indexOf(inputToValidate) === -1)
       ? 'Invalid continent entry; valid options are "Africa", "Antarctica", "Asia", "Australia", "Europe", "North America", and "South America"'
       : '';
+  }
+
+  private onContinentSelectionChange(propertyPath: string, newValue: any): void {
+    const oldValue: any = this.properties[propertyPath];
+    this.properties[propertyPath] = newValue;
+    this.render();
   }
 }
