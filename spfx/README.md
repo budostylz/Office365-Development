@@ -1,6 +1,9 @@
 ## TypeScript Tutorial
 [TypeScript](https://www.tutorialspoint.com/typescript/index.htm)
 
+## npm
+[npm](https://www.npmjs.com/)
+
 
 ## SharePoint Framework
 [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=m365-15744-cxa)
@@ -77,6 +80,9 @@
 
 ## Fluent UI Web
 [Fluent UI Web](https://github.com/microsoft/fluentui/blob/master/README.md)
+
+## Fluent UI
+[Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
 
 
 
