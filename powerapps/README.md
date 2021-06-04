@@ -1,7 +1,7 @@
-## Microsoft Power Platform Fundamentals
-[Microsoft Power Platform Fundamentals](https://www.globalknowledge.com/us-en/course/183460/microsoft-power-platform-fundamentals-pl-900t00/)
+## Power Automate
+[Power Automate](https://flow.microsoft.com/en-us/)
 
-## PowerApps
+## PowerApps Tutorial
 [PowerApps Starter](https://docs.microsoft.com/en-us/powerapps/)
 
 
