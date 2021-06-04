@@ -3,7 +3,7 @@
 
 [Power Automate Starter](https://docs.microsoft.com/en-us/power-automate/getting-started)
 
-## PowerApps Tutorial
+## PowerApps
 
 [Power Apps](https://powerapps.microsoft.com/en-us/)
 
