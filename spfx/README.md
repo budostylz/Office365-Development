@@ -78,6 +78,8 @@
 
 [PnPjs](https://pnp.github.io/pnpjs/pnpjs/)
 
+[PnP SPFx](https://pnp.github.io/sp-dev-fx-property-controls/controls/PropertyFieldPeoplePicker/)
+
 ## Fluent UI Web
 [Fluent UI Web](https://github.com/microsoft/fluentui/blob/master/README.md)
 
