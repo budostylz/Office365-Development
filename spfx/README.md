@@ -89,8 +89,7 @@
 ## API Docs
 [API Docs](https://docs.microsoft.com/en-us/javascript/api/sp-property-pane/ipropertypanecustomfieldprops?view=sp-typescript-latest)
 
-## Refs:
-
+## Refs
 [BaseApplicationCustomizer class](https://docs.microsoft.com/en-us/javascript/api/sp-application-base/baseapplicationcustomizer?view=sp-typescript-latest)
 
 
