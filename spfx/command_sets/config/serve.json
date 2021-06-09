@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://budoappsdev.sharepoint.com/Lists/Work%20Status/AllItems.aspx",
+      "customActions": {
+        "a00c7c41-2e53-4669-bcc4-58abe3115175": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "messagePrefix": "[command_set_prefix]"
+          }
+        }
+      }
+    },
+    "commandSetDemo": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "a00c7c41-2e53-4669-bcc4-58abe3115175": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
