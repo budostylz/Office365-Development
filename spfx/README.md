@@ -8,7 +8,7 @@
 [nvm](https://github.com/nvm-sh/nvm)
 
 1. nvm list
-2. nvm use <Version>
+2. nvm use '<Version>'
 
 
 ## SharePoint Framework
