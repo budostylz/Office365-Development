@@ -1,6 +1,8 @@
 ## TypeScript Tutorial
 [TypeScript](https://www.tutorialspoint.com/typescript/index.htm)
 
+[Working with TypeScript in Visual Studio Code](https://www.youtube.com/watch?v=6x8Xhhe37WE)
+
 ## npm
 [npm](https://www.npmjs.com/)
 
