@@ -4,6 +4,12 @@
 ## npm
 [npm](https://www.npmjs.com/)
 
+## nvm
+[nvm](https://github.com/nvm-sh/nvm)
+
+1. nvm list
+2. nvm use 'node version'
+
 
 ## SharePoint Framework
 [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=m365-15744-cxa)
