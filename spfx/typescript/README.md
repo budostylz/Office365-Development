@@ -3,3 +3,9 @@
 
 ## Python Bitwise Operators
 [Python Bitwise Operators](https://www.geeksforgeeks.org/python-bitwise-operators/)
+
+## Rest parameters
+[Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+## Function Overload & Override
+[Difference between Function Overloading and Function overriding in C++](https://beginnersbook.com/2017/09/cpp-function-overloading-vs-function-overriding/)
