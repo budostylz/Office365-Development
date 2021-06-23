@@ -1,3 +1,6 @@
+## TypeScript Tutorial
+[TypeScript Tutorial](https://www.tutorialspoint.com/typescript/index.htm)
+
 ## Bitwise Operators
 [Bitwise Operators Calculator](http://www.convertalot.com/bitwise_operators.html)
 
