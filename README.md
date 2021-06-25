@@ -20,3 +20,11 @@ SharePoint - Office 365
 
 ## SharePoint Look Book
 [SharePoint Lookbook](https://lookbook.microsoft.com/)
+
+## SharePoint Designer
+[Error "Your account is in bad state.Please sign-in to this account online to address the issue" while opening Sharepoint Online site in SharePoint Designer](https://answers.microsoft.com/en-us/msoffice/forum/all/error-your-account-is-in-bad-stateplease-sign-in/5bf8c178-8789-49b5-b162-8253f3171818)
+
+1. Add the following commands to command line
+2. reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity /v EnableADAL /t REG_DWORD /d 1
+3. reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity /v Version /t REG_DWORD /d 1 
+4. Verify EnableADAL in Registry at HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity
