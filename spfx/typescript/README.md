@@ -1,5 +1,6 @@
 ## TypeScript
 [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
 [TypeScript Tutorial](https://www.tutorialspoint.com/typescript/index.htm)
 
 ## Bitwise Operators
