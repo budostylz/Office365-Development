@@ -28,3 +28,6 @@ SharePoint - Office 365
 2. reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity /v EnableADAL /t REG_DWORD /d 1
 3. reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity /v Version /t REG_DWORD /d 1 
 4. Verify EnableADAL in Registry at HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity
+
+## Workflow Status Codes
+[Workflow Status Codes](https://community.nintex.com/t5/Nintex-for-SharePoint-Forum/Workflow-Status-Codes/td-p/85981)
