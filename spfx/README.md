@@ -100,5 +100,8 @@
 ## Refs
 [BaseApplicationCustomizer class](https://docs.microsoft.com/en-us/javascript/api/sp-application-base/baseapplicationcustomizer?view=sp-typescript-latest)
 
+## SharePoint online spfx script editor web part
+[SharePoint online spfx script editor web part](https://www.enjoysharepoint.com/spfx-script-editor-web-part/)
+
 
 
