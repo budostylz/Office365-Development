@@ -29,15 +29,12 @@ SharePoint - Office 365
 3. reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity /v Version /t REG_DWORD /d 1 
 4. Verify EnableADAL in Registry at HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\15.0\Common\Identity
 
-## Workflow Status Codes
 [Workflow Status Codes](https://community.nintex.com/t5/Nintex-for-SharePoint-Forum/Workflow-Status-Codes/td-p/85981)
 
-## Removing Deny permission on Add and customize pages
 [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
 
-## [[Solved] Connect-SPOService : Current site is not a tenant administration site error in SharePoint Online Office 365 Site](https://www.enjoysharepoint.com/connect-sposervice-current-site-is-not-a-tenant-administration-site/)
+[[Solved] Connect-SPOService : Current site is not a tenant administration site error in SharePoint Online Office 365 Site](https://www.enjoysharepoint.com/connect-sposervice-current-site-is-not-a-tenant-administration-site/)
 
-## Removing Deny permission on Add and customize pages
 [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
 
 
