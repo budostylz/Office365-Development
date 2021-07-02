@@ -37,6 +37,9 @@ SharePoint - Office 365
 
 [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
 
+## Allow or prevent custom script
+[Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)
+
 
 
 
