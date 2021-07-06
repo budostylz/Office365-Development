@@ -1,0 +1,113 @@
+/*-------GLOBAL NAVIGATION AND RIBBON STYLES--------*/
+/* red bar on the top*/
+div#suiteBarLeft {
+	background: rgba(138,0,0,1);
+	background: -moz-linear-gradient(top, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(138,0,0,1)), color-stop(50%, rgba(120,0,0,1)), color-stop(100%, rgba(96,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0000', endColorstr='#600000', GradientType=0 );
+}
+
+/* Global Navigation (Black bar) */
+.ms-cui-topBar2 {
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+
+#mainContent {
+	/*ALL STYLES FROM VIPERCOSTYLE SHOULD BE REMOVED*/
+}
+
+/* List table border */
+.ms-cui-tt-a > .ms-cui-tt-span, .ms-cui-tt-s.ms-browseTab > .ms-cui-tt-a > .ms-cui-tt-span, .ms-cui-tt-s.ms-browseTab > .ms-cui-tt-a:hover > .ms-cui-tt-span {
+	color:#FFFFFF!important;
+}
+
+/* Global Navigation border */
+.ms-browseTabContainer.ms-cui-topBar2 {
+	border-bottom:1px solid black!important;
+}
+
+/* Links on the black bar */
+.ms-promotedActionButton-text {
+	color:white!important;
+}
+
+/* Global Navigation links */
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link, .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited, .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected, .ms-tv-selected:link,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-selected.ms-core-listMenu-item:hover, a.ms-tv-item:hover, a.ms-tv-header:hover {
+	color:maroon!important;
+}
+
+/* links on the global navigation (Newsfeed, OneDrive, Sites, etc) */
+.ms-core-suiteLink-a:hover {
+	background: rgba(138,0,0,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(138,0,0,1)), color-stop(50%, rgba(120,0,0,1)), color-stop(100%, rgba(96,0,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(138,0,0,1) 0%, rgba(120,0,0,1) 50%, rgba(96,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0000', endColorstr='#600000', GradientType=1 );
+}
+
+/* button style */
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus, button:focus {
+	border-color:rgba(255,213,213,1);
+	background:rgba(255,243,243,1);
+}
+
+/* quick-links hover menu*/
+
+li > a.ms-core-listMenu-selected.ms-core-listMenu-item:hover {
+    background-color: maroon;
+}
+
+li > a.ms-core-listMenu-item:hover, li > a.ms-core-listMenu-item:active {
+	background-color:rgba(255,243,243,1);
+}
+
+/* menu links*/
+.ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected {
+	background-color:maroon;
+	color:white;
+}
+
+/* h1 in content page */
+.ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2 {
+	color:maroon;
+}
+
+
+/* List table border */
+table.ms-listviewtable {
+    border-collapse: separate;
+    border: 1px solid lightgrey;
+    width:100%;
+}
+
+/* Alternating rows on any given list */
+.ms-alternating {
+    background-color: transparent;
+    background-color: aliceBlue;
+}
+.ms-vl-recent {
+	background-color:#D7C800;
+}
+
+.ms-rteStyle-CodeView {
+	-ms-name:"Code View";
+	font-family: Consolas, Courier New;
+	color:#999;
+	font-size:12px;
+	line-height:12px;
+}
