@@ -5,6 +5,8 @@
 
 ## PowerApps
 
+[How to Customize SharePoint list forms with Power Apps - Beginners Tutorial](https://www.youtube.com/watch?v=aFzd5qwS4-c)
+
 [Power Apps](https://powerapps.microsoft.com/en-us/)
 
 [PowerApps Starter](https://docs.microsoft.com/en-us/powerapps/)
