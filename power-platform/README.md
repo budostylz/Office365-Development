@@ -18,3 +18,7 @@
 [Power BI Starter](https://docs.microsoft.com/en-us/learn/powerplatform/power-bi)
 
 
+##  PowerApps Form - Hiding fields from certain Users
+[PowerApps Form - Hiding fields from certain Users](https://powerusers.microsoft.com/t5/Building-Power-Apps/PowerApps-Form-Hiding-fields-from-certain-Users/td-p/241993)
+
+
