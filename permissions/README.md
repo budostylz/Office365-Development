@@ -4,6 +4,6 @@
 
 Connect-PnPOnline -Identity https://budoappsdev.sharepoint.com/ 
 
-Set-PnPSite -Identity https://budoappsdev.sharepoint.com/ -DenyAddAndCustomizePages $false
+Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
