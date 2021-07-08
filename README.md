@@ -38,6 +38,9 @@ SharePoint - Office 365
 
 [SharePoint O365 Permissions - Deny - Add And Customise Pages Issue](https://www.qdoscc.com/blog/sharepoint-o365-permissions-deny-add-and-customise-pages-issue)
 
+## Migration Assessment Scan: Master Pages
+[Migration Assessment Scan: Master Pages](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-master-pages)
+
 
 
 
