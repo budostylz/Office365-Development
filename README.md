@@ -38,6 +38,15 @@ SharePoint - Office 365
 
 [SharePoint O365 Permissions - Deny - Add And Customise Pages Issue](https://www.qdoscc.com/blog/sharepoint-o365-permissions-deny-add-and-customise-pages-issue)
 
+## Migration Assessment Scan: Master Pages
+[Migration Assessment Scan: Master Pages](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-master-pages)
+
+## Migrate to Microsoft Office 365 or SharePoint with minimal business disruption.
+[AvePoint](https://www.avepoint.com/products/hybrid/office-365-migration/sharepoint-migration?utm_source=google&utm_medium=cpc&utm_content=lp-form&utm_campaign=migrate-na&gclid=Cj0KCQjwxJqHBhC4ARIsAChq4at4t5cvRKLdoLWGA46Hwl79HYeGQmFLhCjf0kpMTuigVjca_LWe_M4aAsNNEALw_wcB)
+
+## Change the look of your SharePoint site
+[Change the look of your SharePoint site](https://support.microsoft.com/en-us/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
+
 
 
 
