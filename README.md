@@ -47,6 +47,12 @@ SharePoint - Office 365
 ## Change the look of your SharePoint site
 [Change the look of your SharePoint site](https://support.microsoft.com/en-us/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
 
+## Enable Content & Script Editor Webparts in SPO Classic
+1. Enable Scripting in Admin Center
+2. Open SharePoint Online Management Shell
+2. Connect-PnPOnline -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled
+3. Set-PnPSite -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled -NoScriptSite $false
+
 
 
 
