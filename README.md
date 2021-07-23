@@ -54,5 +54,8 @@ SharePoint - Office 365
 3. Set-PnPSite -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled -NoScriptSite $false
 
 
+## Sandbox Solutions In SharePoint Online
+[How To Deploy Sandbox Solutions In SharePoint Online](https://www.c-sharpcorner.com/blogs/how-to-deploy-sandbox-solutions-in-sharepoint-online)
 
+[]()
 
