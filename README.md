@@ -63,3 +63,6 @@ SharePoint - Office 365
 ## Living Large with Large Lists and Large Libraries
 [Living Large with Large Lists and Large Libraries](https://docs.microsoft.com/en-us/microsoft-365/community/large-lists-large-libraries-in-sharepoint)
 
+## Content Organizer - Possible Archive Solution
+[Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a?ui=en-us&rs=en-us&ad=us)
+
