@@ -60,3 +60,6 @@ SharePoint - Office 365
 ## Manage large lists and libraries
 [Manage large lists and libraries](https://support.microsoft.com/en-us/office/manage-large-lists-and-libraries-b8588dae-9387-48c2-9248-c24122f07c59)
 
+## Living Large with Large Lists and Large Libraries
+[Living Large with Large Lists and Large Libraries](https://docs.microsoft.com/en-us/microsoft-365/community/large-lists-large-libraries-in-sharepoint)
+
