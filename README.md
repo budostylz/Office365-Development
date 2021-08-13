@@ -66,3 +66,6 @@ SharePoint - Office 365
 ## Content Organizer - Possible Archive Solution
 [Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a?ui=en-us&rs=en-us&ad=us)
 
+## 4 types of sites in SharePoint Online
+[4 types of sites in SharePoint Online](https://sharepointmaven.com/4-types-of-sites-in-sharepoint-online/)
+
