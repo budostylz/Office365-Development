@@ -69,3 +69,7 @@ SharePoint - Office 365
 ## 4 types of sites in SharePoint Online
 [4 types of sites in SharePoint Online](https://sharepointmaven.com/4-types-of-sites-in-sharepoint-online/)
 
+## Throttling
+[Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
+
+
