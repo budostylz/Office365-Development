@@ -24,4 +24,8 @@
 ## Manage Microsoft Dataverse for Teams environments
 [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-cy/blog/manage-microsoft-dataverse-for-teams-environments/)
 
+## Environments overview
+[Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
+
+
 
