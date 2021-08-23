@@ -21,4 +21,7 @@
 ##  PowerApps Form - Hiding fields from certain Users
 [PowerApps Form - Hiding fields from certain Users](https://powerusers.microsoft.com/t5/Building-Power-Apps/PowerApps-Form-Hiding-fields-from-certain-Users/td-p/241993)
 
+## Manage Microsoft Dataverse for Teams environments
+[Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-cy/blog/manage-microsoft-dataverse-for-teams-environments/)
+
 
