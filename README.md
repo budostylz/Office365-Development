@@ -50,12 +50,30 @@ SharePoint - Office 365
 ## Enable Content & Script Editor Webparts in SPO Classic
 1. [Enable Scripting in Admin Center](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)
 2. Open SharePoint Online Management Shell
-2. Connect-PnPOnline -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled
+2. Connect-PnPOnline -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled -UseWebLogin
 3. Set-PnPSite -Url https://tenant-admin.sharepoint.com/sites/siteThatNeedsEnabled -NoScriptSite $false
 
 
 ## Sandbox Solutions In SharePoint Online
 [How To Deploy Sandbox Solutions In SharePoint Online](https://www.c-sharpcorner.com/blogs/how-to-deploy-sandbox-solutions-in-sharepoint-online)
 
-[]()
+[Sync SharePoint files with VS Code](https://wiliammbr.com/sharepoint-sync-files-visual-studio-code/)
 
+[SPGo Docs](https://www.chrishasz.com/spgo/)
+
+[Troubleshoot mapped network drives that connect to SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/administration/troubleshoot-mapped-network-drives)
+
+
+## Find out what is ERR_TOO_MANY_REDIRECTS and how to fix it
+[Find out what is ERR_TOO_MANY_REDIRECTS and how to fix it](https://rockcontent.com/blog/err_too_many_redirects)
+
+[How to Fix The ERR_TOO_MANY_REDIRECTS Error](https://kinsta.com/blog/err_too_many_redirects/)
+
+[httpstatus](https://httpstatus.io/)
+
+[SharePoint 2013 Workflow - Elevated Permission With App Step](https://www.c-sharpcorner.com/article/sharepoint-2013-workflow-elevated-permission-with-app-step/)
+
+## Microsoft Graph
+[Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+
+## [Easier browser debugging with Developer Tools integration in Visual Studio Code](https://blogs.windows.com/msedgedev/2021/07/16/easier-debugging-developer-tools-in-visual-studio-code/)
