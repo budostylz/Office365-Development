@@ -21,4 +21,17 @@
 ##  PowerApps Form - Hiding fields from certain Users
 [PowerApps Form - Hiding fields from certain Users](https://powerusers.microsoft.com/t5/Building-Power-Apps/PowerApps-Form-Hiding-fields-from-certain-Users/td-p/241993)
 
+## Manage Microsoft Dataverse for Teams environments
+[Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-cy/blog/manage-microsoft-dataverse-for-teams-environments/)
+
+## Environments overview
+[Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
+
+## [Getting started with Power BI and SharePoint Online](https://www.youtube.com/watch?v=w8nYU4Qp_tU)
+
+## [PowerApps with a SharePoint List - Learn PowerApps Tutorial](https://www.youtube.com/watch?v=BnYe_7fpZRM)
+
+## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
+
+
 

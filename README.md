@@ -57,7 +57,25 @@ SharePoint - Office 365
 ## Sandbox Solutions In SharePoint Online
 [How To Deploy Sandbox Solutions In SharePoint Online](https://www.c-sharpcorner.com/blogs/how-to-deploy-sandbox-solutions-in-sharepoint-online)
 
+<<<<<<< HEAD
 [Sync SharePoint files with VS Code](https://wiliammbr.com/sharepoint-sync-files-visual-studio-code/)
+=======
+## Manage large lists and libraries
+[Manage large lists and libraries](https://support.microsoft.com/en-us/office/manage-large-lists-and-libraries-b8588dae-9387-48c2-9248-c24122f07c59)
+
+## Living Large with Large Lists and Large Libraries
+[Living Large with Large Lists and Large Libraries](https://docs.microsoft.com/en-us/microsoft-365/community/large-lists-large-libraries-in-sharepoint)
+
+## Content Organizer - Possible Archive Solution
+[Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a?ui=en-us&rs=en-us&ad=us)
+
+## 4 types of sites in SharePoint Online
+[4 types of sites in SharePoint Online](https://sharepointmaven.com/4-types-of-sites-in-sharepoint-online/)
+
+## Throttling
+[Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
+
+>>>>>>> d3d80479da5aaa08692c6e1fb9a5904fa5857f01
 
 [SPGo Docs](https://www.chrishasz.com/spgo/)
 

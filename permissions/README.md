@@ -1,9 +1,10 @@
-[Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)
+## [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)
 
-[Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
+## [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
 
-Connect-PnPOnline -Identity https://budoappsdev.sharepoint.com/ 
+ Connect-PnPOnline -Identity https://budoappsdev.sharepoint.com/ 
 
+<<<<<<< HEAD
 Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false 
 
 [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
@@ -18,3 +19,10 @@ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 [Permission levels](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels)
 
+=======
+ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
+
+## [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
+
+## [User permissions and permission levels in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels)
+>>>>>>> d3d80479da5aaa08692c6e1fb9a5904fa5857f01
