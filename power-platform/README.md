@@ -31,5 +31,7 @@
 
 ## [PowerApps with a SharePoint List - Learn PowerApps Tutorial](https://www.youtube.com/watch?v=BnYe_7fpZRM)
 
+## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
+
 
 
