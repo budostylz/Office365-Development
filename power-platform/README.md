@@ -27,5 +27,8 @@
 ## Environments overview
 [Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
+## Getting started with Power BI and SharePoint Online
+[Getting started with Power BI and SharePoint Online](https://www.youtube.com/watch?v=w8nYU4Qp_tU)
+
 
 
