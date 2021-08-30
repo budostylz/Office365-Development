@@ -103,5 +103,8 @@
 ## SharePoint online spfx script editor web part
 [SharePoint online spfx script editor web part](https://www.enjoysharepoint.com/spfx-script-editor-web-part/)
 
+## Lab
+[Microsoft Campus](https://mslearningcampus.com/ClassEnrollment/2422974)
+
 
 
