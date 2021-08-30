@@ -3,6 +3,9 @@
 
 [Power Automate Starter](https://docs.microsoft.com/en-us/power-automate/getting-started)
 
+## CriticalPathTraining Repo
+[Modules](https://github.com/CriticalPathTraining/DDPAF/tree/master/Student/Modules)
+
 ## PowerApps
 
 [How to Customize SharePoint list forms with Power Apps - Beginners Tutorial](https://www.youtube.com/watch?v=aFzd5qwS4-c)
@@ -42,6 +45,8 @@
 
 ## Power Apps Formula Reference
 [Formula reference for Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference)
+
+
 
 
 
