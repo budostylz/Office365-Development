@@ -106,5 +106,6 @@
 ## Lab
 [Microsoft Campus](https://mslearningcampus.com/ClassEnrollment/2422974)
 
-
+## Sharepoint Online: Integrate Power apps canvas form with SPFx
+[Sharepoint Online: Integrate Power apps canvas form with SPFx](https://social.technet.microsoft.com/wiki/contents/articles/52935.sharepoint-online-integrate-power-apps-canvas-form-with-spfx.aspx)
 
