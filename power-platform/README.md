@@ -33,5 +33,7 @@
 
 ## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
 
+## [Link to Create New Environment in Power Apps](https://admin.powerplatform.microsoft.com/environments)
+
 
 
