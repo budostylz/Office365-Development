@@ -48,6 +48,9 @@
 ## Power Apps Formula Reference
 [Formula reference for Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference)
 
+## PowerApps Security Trimming
+[PowerApps Security Trimming](https://www.youtube.com/watch?v=uBAVcXrHWK0)
+
 
 
 
