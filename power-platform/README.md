@@ -37,6 +37,8 @@
 ## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
 
 ## Links
+[Microsoft Campus](https://mslearningcampus.com/) 
+
 [Lab Link](https://labclient.labondemand.com/LabClient/c24e50ff-256f-4b4b-8098-7470c1a81771?rc=10)
 
 [Make Power Apps](https://labclient.labondemand.com/LabClient/c24e50ff-256f-4b4b-8098-7470c1a81771?rc=10)
