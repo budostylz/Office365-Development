@@ -33,12 +33,17 @@
 
 ## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
 
-## [Link to Create New Environment in Power Apps](https://admin.powerplatform.microsoft.com/environments)
-
 ## Links
 [Lab Link](https://labclient.labondemand.com/LabClient/c24e50ff-256f-4b4b-8098-7470c1a81771?rc=10)
 
 [Make Power Apps](https://labclient.labondemand.com/LabClient/c24e50ff-256f-4b4b-8098-7470c1a81771?rc=10)
+
+[Link to Create New Environment in Power Apps](https://admin.powerplatform.microsoft.com/environments)
+
+## Power Apps Formula Reference
+[Formula reference for Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference)
+
+
 
 
 
