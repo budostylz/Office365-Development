@@ -57,7 +57,8 @@
 ## Operators and Identifiers in Power Apps
 [Operators and Identifiers in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/operators)
 
-
+## Learn to use the PowerApps Filter function
+[Learn to use the PowerApps Filter function](https://www.youtube.com/watch?v=nlhWQg03TL0)
 
 
 
