@@ -54,6 +54,9 @@
 ## Sharepoint Online: Integrate Power apps canvas form with SPFx
 [Sharepoint Online: Integrate Power apps canvas form with SPFx](https://social.technet.microsoft.com/wiki/contents/articles/52935.sharepoint-online-integrate-power-apps-canvas-form-with-spfx.aspx)
 
+## Operators and Identifiers in Power Apps
+[Operators and Identifiers in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/operators)
+
 
 
 
