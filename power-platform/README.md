@@ -60,6 +60,8 @@
 ## Learn to use the PowerApps Filter function
 [Learn to use the PowerApps Filter function](https://www.youtube.com/watch?v=nlhWQg03TL0)
 
+## Understand delegation in a canvas app
+[Understand delegation in a canvas app](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/delegation-overview#delegable-data-sources)
 
 
 
