@@ -66,4 +66,10 @@
 ## Using multimedia files in canvas apps
 [Using multimedia files in canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-images-pictures-audio-video)
 
+## Power Apps Portals
+[Power Apps Portals](https://powerapps.microsoft.com/en-us/portals/)
+
+## Using JavaScript in Power Apps Portals to Hide and Show Fields
+[Using JavaScript in Power Apps Portals to Hide and Show Fields](https://www.youtube.com/watch?v=XKkyNgByqf4)
+
 
