@@ -78,3 +78,6 @@
 ## PowerApps Search Function
 [PowerApps Search Function](https://www.youtube.com/watch?v=FaTnOOc34os)
 
+## Custom SharePoint List Form with PowerApps
+[Custom SharePoint List Form with PowerApps](https://www.youtube.com/watch?v=Badj3_T8zAw&list=RDCMUC7_OGRP8BYvtGB8eZdPG6Ng&index=4)
+
