@@ -109,3 +109,6 @@
 ## Sharepoint Online: Integrate Power apps canvas form with SPFx
 [Sharepoint Online: Integrate Power apps canvas form with SPFx](https://social.technet.microsoft.com/wiki/contents/articles/52935.sharepoint-online-integrate-power-apps-canvas-form-with-spfx.aspx)
 
+## Use Office UI Fabric React components in your SharePoint client-side web part
+[Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components)
+
