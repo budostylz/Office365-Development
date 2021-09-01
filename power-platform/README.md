@@ -72,4 +72,6 @@
 ## Using JavaScript in Power Apps Portals to Hide and Show Fields
 [Using JavaScript in Power Apps Portals to Hide and Show Fields](https://www.youtube.com/watch?v=XKkyNgByqf4)
 
+## PowerApps Security Trimming
+[PowerApps Security Trimming](https://www.youtube.com/watch?v=uBAVcXrHWK0&t=24s)
 
