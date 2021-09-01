@@ -95,3 +95,6 @@ SharePoint - Office 365
 [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
 
 ## [Easier browser debugging with Developer Tools integration in Visual Studio Code](https://blogs.windows.com/msedgedev/2021/07/16/easier-debugging-developer-tools-in-visual-studio-code/)
+
+## Office UI Fabric Icons
+[Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)
