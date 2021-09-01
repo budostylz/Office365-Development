@@ -63,6 +63,7 @@
 ## Understand delegation in a canvas app
 [Understand delegation in a canvas app](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/delegation-overview#delegable-data-sources)
 
-
+## Using multimedia files in canvas apps
+[Using multimedia files in canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-images-pictures-audio-video)
 
 
