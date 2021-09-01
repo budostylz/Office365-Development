@@ -75,3 +75,6 @@
 ## PowerApps Security Trimming
 [PowerApps Security Trimming](https://www.youtube.com/watch?v=uBAVcXrHWK0&t=24s)
 
+## PowerApps Search Function
+[PowerApps Search Function](https://www.youtube.com/watch?v=FaTnOOc34os)
+
