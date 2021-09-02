@@ -85,3 +85,6 @@
 ## Develop Forms in Power Apps Canvas App– Implement New form with Real Life Scenarios
 [Develop Forms in Power Apps Canvas App– Implement New form with Real Life Scenarios](https://www.youtube.com/watch?v=K_hh-FumHUA)
 
+## Develop Forms in Power Apps Canvas App– Implement Edit form with Real Life Scenarios
+[Develop Forms in Power Apps Canvas App– Implement Edit form with Real Life Scenarios](https://www.youtube.com/watch?v=wk55JQHG-Go)
+
