@@ -30,11 +30,12 @@
 ## Environments overview
 [Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
-## [Getting started with Power BI and SharePoint Online](https://www.youtube.com/watch?v=w8nYU4Qp_tU)
+## Power Apps Training
+[Getting started with Power BI and SharePoint Online](https://www.youtube.com/watch?v=w8nYU4Qp_tU)
 
-## [PowerApps with a SharePoint List - Learn PowerApps Tutorial](https://www.youtube.com/watch?v=BnYe_7fpZRM)
+[PowerApps with a SharePoint List - Learn PowerApps Tutorial](https://www.youtube.com/watch?v=BnYe_7fpZRM)
 
-## [Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
+[Create a SharePoint Online site with Power Apps and Power Automate via the Rest API](https://www.youtube.com/watch?v=mVOtFWC6Q8E)
 
 ## Links
 [Microsoft Campus](https://mslearningcampus.com/) 
