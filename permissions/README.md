@@ -4,7 +4,6 @@
 
  Connect-PnPOnline -Identity https://budoappsdev.sharepoint.com/ 
 
-<<<<<<< HEAD
 Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false 
 
 [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
@@ -19,7 +18,6 @@ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 [Permission levels](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels)
 
-=======
  Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 ## [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
