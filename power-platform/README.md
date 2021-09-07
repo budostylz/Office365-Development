@@ -97,3 +97,8 @@
 ## Types of columns
 [Types of columns](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/types-of-fields)
 
+## Create a business rule for a table
+[Create a business rule for a table](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-create-business-rule)
+
+
+
