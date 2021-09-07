@@ -100,5 +100,6 @@
 ## Create a business rule for a table
 [Create a business rule for a table](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-create-business-rule)
 
-
+## Understand data-form layout for canvas apps
+[Understand data-form layout for canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-form-layout)
 
