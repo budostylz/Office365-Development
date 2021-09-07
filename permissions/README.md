@@ -25,4 +25,6 @@ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 ## [Working with Office Group sites](https://www.infowisesolutions.com/blog/working-with-office-group-sites)
 
 ## [User permissions and permission levels in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels)
->>>>>>> d3d80479da5aaa08692c6e1fb9a5904fa5857f01
+
+## Office 365 Users
+[Office 365 Users](https://docs.microsoft.com/en-us/connectors/office365users/)
