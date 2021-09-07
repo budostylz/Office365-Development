@@ -103,3 +103,6 @@
 ## Understand data-form layout for canvas apps
 [Understand data-form layout for canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-form-layout)
 
+## Office 365 Users
+[Office 365 Users](https://docs.microsoft.com/en-us/connectors/office365users/)
+
