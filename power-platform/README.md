@@ -94,3 +94,6 @@
 ## About table/entity reference for Microsoft Dataverse
 [About table/entity reference for Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/reference/about-entity-reference)
 
+## Types of columns
+[Types of columns](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/types-of-fields)
+
