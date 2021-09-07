@@ -91,3 +91,6 @@
 ## Common Data Model(CDM)
 [Common Data Model(CDM)](https://github.com/microsoft/CDM)
 
+## About table/entity reference for Microsoft Dataverse
+[About table/entity reference for Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/reference/about-entity-reference)
+
