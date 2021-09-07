@@ -88,3 +88,6 @@
 ## Develop Forms in Power Apps Canvas App– Implement Edit form with Real Life Scenarios
 [Develop Forms in Power Apps Canvas App– Implement Edit form with Real Life Scenarios](https://www.youtube.com/watch?v=wk55JQHG-Go)
 
+## Common Data Model(CDM)
+[Common Data Model(CDM)](https://github.com/microsoft/CDM)
+
