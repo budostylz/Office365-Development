@@ -46,7 +46,7 @@
 
 [Link to Create New Environment in Power Apps](https://admin.powerplatform.microsoft.com/environments)
 
-## Power Apps Formula Reference
+## Power Apps Formula Reference -  API
 [Formula reference for Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference)
 
 ## PowerApps Security Trimming
