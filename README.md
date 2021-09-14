@@ -98,3 +98,6 @@ SharePoint - Office 365
 
 ## Office UI Fabric Icons
 [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)
+
+## Sync SharePoint files with the OneDrive sync client (Groove.exe)
+[Sync SharePoint files with the OneDrive sync client (Groove.exe)](https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd)
