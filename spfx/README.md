@@ -112,3 +112,6 @@
 ## Use Office UI Fabric React components in your SharePoint client-side web part
 [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components)
 
+## Introducing SharePoint Typed Item - Visual Studio Code extension
+[Introducing SharePoint Typed Item - Visual Studio Code extension](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
+
