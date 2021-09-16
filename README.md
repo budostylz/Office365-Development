@@ -104,3 +104,6 @@ SharePoint - Office 365
 
 ## Sync SharePoint files with the OneDrive sync client (Groove.exe)
 [Sync SharePoint files with the OneDrive sync client (Groove.exe)](https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd)
+
+## What do the OneDrive icons mean?
+[What do the OneDrive icons mean?](https://support.microsoft.com/en-us/office/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)
