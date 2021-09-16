@@ -115,3 +115,5 @@
 ## Introducing SharePoint Typed Item - Visual Studio Code extension
 [Introducing SharePoint Typed Item - Visual Studio Code extension](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
 
+## Unable get Lookup column value using REST
+[Unable get Lookup column value using REST](https://social.msdn.microsoft.com/Forums/en-US/6882078b-8e5e-4301-96cc-fe717b98a74f/unable-get-lookup-column-value-using-rest?forum=sharepointdevelopment)
