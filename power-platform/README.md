@@ -109,3 +109,6 @@
 ## How to customize or format Date and Time values in a flow
 [How to customize or format Date and Time values in a flow](https://docs.microsoft.com/en-us/troubleshoot/power-platform/power-automate/how-to-customize-or-format-date-and-time-values-in-flow)
 
+## Use data operations with Power Automate
+[Use data operations with Power Automate](https://docs.microsoft.com/en-us/power-automate/data-operations)
+
