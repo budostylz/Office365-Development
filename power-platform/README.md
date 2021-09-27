@@ -118,3 +118,9 @@
 ## Get Number of Days Between Dates in Flow
 [Get Number of Days Between Dates in Flow](https://grootcrm.net/tip-microsoft-flow-how-to-compare-dates/)
 
+## Compare dates using conditions in Power Automate
+[Compare dates using conditions in Power Automate](https://sharepains.com/2018/11/02/compare-dates-using-conditions/)
+
+## How to Compare Dates in Flow 
+[How to Compare Dates in Flow](https://grootcrm.net/tip-microsoft-flow-how-to-compare-dates/)
+
