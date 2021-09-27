@@ -106,3 +106,6 @@
 ## Office 365 Users
 [Office 365 Users](https://docs.microsoft.com/en-us/connectors/office365users/)
 
+## How to customize or format Date and Time values in a flow
+[How to customize or format Date and Time values in a flow](https://docs.microsoft.com/en-us/troubleshoot/power-platform/power-automate/how-to-customize-or-format-date-and-time-values-in-flow)
+
