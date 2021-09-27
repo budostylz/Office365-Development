@@ -78,8 +78,6 @@ SharePoint - Office 365
 ## Throttling
 [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
->>>>>>> d3d80479da5aaa08692c6e1fb9a5904fa5857f01
-
 [SPGo Docs](https://www.chrishasz.com/spgo/)
 
 [Troubleshoot mapped network drives that connect to SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/administration/troubleshoot-mapped-network-drives)
