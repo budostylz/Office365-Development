@@ -115,3 +115,6 @@
 ## FlowBites: Variables vs Compose - Power Automate Tutorial
 [FlowBites: Variables vs Compose - Power Automate Tutorial](https://www.youtube.com/watch?v=OBY1REzjcqY)
 
+## Get Number of Days Between Dates in Flow
+[Get Number of Days Between Dates in Flow](https://grootcrm.net/tip-microsoft-flow-how-to-compare-dates/)
+
