@@ -105,3 +105,6 @@ SharePoint - Office 365
 
 ## What do the OneDrive icons mean?
 [What do the OneDrive icons mean?](https://support.microsoft.com/en-us/office/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)
+
+## Excel functions (alphabetical)
+[Excel functions (alphabetical)](https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188#bm4)
