@@ -112,3 +112,6 @@
 ## Use data operations with Power Automate
 [Use data operations with Power Automate](https://docs.microsoft.com/en-us/power-automate/data-operations)
 
+## FlowBites: Variables vs Compose - Power Automate Tutorial
+[FlowBites: Variables vs Compose - Power Automate Tutorial](https://www.youtube.com/watch?v=OBY1REzjcqY)
+
