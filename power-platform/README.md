@@ -127,3 +127,6 @@
 ## What are Microsoft Flow Templates?
 [What are Microsoft Flow Templates?](https://www.youtube.com/watch?v=hRFSLGbWtw0)
 
+## BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE
+[BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE](https://wonderlaura.com/2018/07/18/button-in-sharepoint-list-to-trigger-microsoft-flow/)
+
