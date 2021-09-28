@@ -124,3 +124,6 @@
 ## How to Compare Dates in Flow 
 [How to Compare Dates in Flow](https://grootcrm.net/tip-microsoft-flow-how-to-compare-dates/)
 
+## What are Microsoft Flow Templates?
+[What are Microsoft Flow Templates?](https://www.youtube.com/watch?v=hRFSLGbWtw0)
+
