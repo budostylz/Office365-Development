@@ -133,3 +133,9 @@
 ## Reuse Flows connected to SharePoint Lists
 [Reuse Flows connected to SharePoint Lists](https://powernimbus.com/2020/09/reuse-flows-connected-to-sharepoint-lists/)
 
+## Manually trigger a flow to act on a Standpoint list
+[Manually trigger a flow to act on a Standpoint list](https://powerusers.microsoft.com/t5/General-Power-Automate/Manually-trigger-a-flow-to-act-on-a-Standpoint-list/td-p/87754)
+
+## Introducing Flow Launch Panel in SharePoint Lists and Libraries
+[Introducing Flow Launch Panel in SharePoint Lists and Libraries](https://flow.microsoft.com/en-us/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/)
+
