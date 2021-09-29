@@ -130,3 +130,6 @@
 ## BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE
 [BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE](https://wonderlaura.com/2018/07/18/button-in-sharepoint-list-to-trigger-microsoft-flow/)
 
+## Reuse Flows connected to SharePoint Lists
+[Reuse Flows connected to SharePoint Lists](https://powernimbus.com/2020/09/reuse-flows-connected-to-sharepoint-lists/)
+
