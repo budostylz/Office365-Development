@@ -139,3 +139,8 @@
 ## Introducing Flow Launch Panel in SharePoint Lists and Libraries
 [Introducing Flow Launch Panel in SharePoint Lists and Libraries](https://flow.microsoft.com/en-us/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/)
 
+## Developing custom connectors for Microsoft Flow and PowerApps : Build 2018
+[Developing custom connectors for Microsoft Flow and PowerApps : Build 2018](https://www.youtube.com/watch?v=dBCS1nPsDiE)
+
+## SharePoint Framework Extension: Leverage Power Apps
+[SharePoint Framework Extension: Leverage Power Apps](https://social.technet.microsoft.com/wiki/contents/articles/53442.sharepoint-framework-extension-leverage-power-apps.aspx)
