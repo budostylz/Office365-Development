@@ -117,3 +117,6 @@
 
 ## Unable get Lookup column value using REST
 [Unable get Lookup column value using REST](https://social.msdn.microsoft.com/Forums/en-US/6882078b-8e5e-4301-96cc-fe717b98a74f/unable-get-lookup-column-value-using-rest?forum=sharepointdevelopment)
+
+## Rest Query-The attempted operation is prohibited because it exceeds the list view threshold enforced by the administrator.
+[Rest Query-The attempted operation is prohibited because it exceeds the list view threshold enforced by the administrator.](https://social.msdn.microsoft.com/Forums/office/en-US/6e84eb21-37a6-42a5-9702-72bd44db44d7/rest-querythe-attempted-operation-is-prohibited-because-it-exceeds-the-list-view-threshold-enforced?forum=sharepointdevelopment)
