@@ -108,3 +108,6 @@ SharePoint - Office 365
 
 ## Excel functions (alphabetical)
 [Excel functions (alphabetical)](https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188#bm4)
+
+## Publish a InfoPath form
+[Publish a InfoPath form](https://support.microsoft.com/en-us/office/publish-a-form-bd6eb030-b26b-4774-b22b-7c80e0089403)
