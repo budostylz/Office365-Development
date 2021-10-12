@@ -144,3 +144,6 @@
 
 ## SharePoint Framework Extension: Leverage Power Apps
 [SharePoint Framework Extension: Leverage Power Apps](https://social.technet.microsoft.com/wiki/contents/articles/53442.sharepoint-framework-extension-leverage-power-apps.aspx)
+
+## Copy & Paste Actions In Microsoft Flow
+[Copy & Paste Actions In Microsoft Flow](https://www.youtube.com/watch?v=8G9kO6QLCAc)
