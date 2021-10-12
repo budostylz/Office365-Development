@@ -111,3 +111,6 @@ SharePoint - Office 365
 
 ## Publish a InfoPath form
 [Publish a InfoPath form](https://support.microsoft.com/en-us/office/publish-a-form-bd6eb030-b26b-4774-b22b-7c80e0089403)
+
+## Copy & Paste Actions In Microsoft Flow
+[Copy & Paste Actions In Microsoft Flow](https://www.youtube.com/watch?v=8G9kO6QLCAc)
