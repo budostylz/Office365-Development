@@ -173,4 +173,9 @@
 ## Create child flows
 [Create child flows](https://docs.microsoft.com/en-us/power-automate/create-child-flows)
 
+## Pass “reference” data from a parent Flow to a child Flow
+[Pass “reference” data from a parent Flow to a child Flow](https://msolenacrm.blog/2020/05/18/pass-reference-data-from-a-parent-flow-to-a-child-flow/)
+
+## Pass “reference” data from a parent Flow to a child Flow
+[Pass “reference” data from a parent Flow to a child Flow](https://powerusers.microsoft.com/t5/Building-Flows/Pass-reference-data-from-a-parent-Flow-to-a-child-Flow/td-p/792571)
 
