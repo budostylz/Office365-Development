@@ -145,5 +145,32 @@
 ## SharePoint Framework Extension: Leverage Power Apps
 [SharePoint Framework Extension: Leverage Power Apps](https://social.technet.microsoft.com/wiki/contents/articles/53442.sharepoint-framework-extension-leverage-power-apps.aspx)
 
+
+## The query cannot be completed because the number of lookup columns it contains exceeds the lookup column threshold enforced by administrator
+[The query cannot be completed because the number of lookup columns it contains exceeds the lookup column threshold enforced by administrator](https://powerusers.microsoft.com/t5/Building-Power-Apps/The-query-cannot-be-completed-because-the-number-of-lookup/td-p/237506)
+
+## How to increase lookup column limit in SharePoint lists
+[How to increase lookup column limit in SharePoint lists](https://natechamberlain.com/2018/09/04/how-to-increase-lookup-column-limit-in-sharepoint-lists/)
+
+## ELEVATED PERMISSIONS IN POWER AUTOMATE
+[ELEVATED PERMISSIONS IN POWER AUTOMATE](https://poszytek.eu/en/microsoft-en/office-365-en/powerautomate-en/elevated-permissions-in-microsoft-flow/)
+
+## QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW
+[QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW](https://poszytek.eu/en/microsoft-en/office-365-en/powerautomate-en/quick-tip-flow-cannot-be-used-as-a-child-flow/)
+
 ## Copy & Paste Actions In Microsoft Flow
 [Copy & Paste Actions In Microsoft Flow](https://www.youtube.com/watch?v=8G9kO6QLCAc)
+
+## FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE
+[FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE](https://linnzawwin.blogspot.com/2020/11/find-id-of-sharepoint-document-by-file.html)
+
+## Solutions in Microsoft Flow
+[Solutions in Microsoft Flow](https://flow.microsoft.com/en-us/blog/solutions-in-microsoft-flow/)
+
+## Solution concepts
+[Solution concepts](https://flow.microsoft.com/en-us/blog/solutions-in-microsoft-flow/)
+
+## Create child flows
+[Create child flows](https://docs.microsoft.com/en-us/power-automate/create-child-flows)
+
+
