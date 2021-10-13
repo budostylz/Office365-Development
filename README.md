@@ -117,3 +117,6 @@ SharePoint - Office 365
 
 ## Update File on SharePoint using Power Automate
 [Update File on SharePoint using Power Automate](https://www.youtube.com/watch?v=3Yhx7dAGFAw)
+
+## How to increase lookup column limit in SharePoint lists
+[How to increase lookup column limit in SharePoint lists](https://natechamberlain.com/2018/09/04/how-to-increase-lookup-column-limit-in-sharepoint-lists/)
