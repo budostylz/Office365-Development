@@ -126,3 +126,6 @@ SharePoint - Office 365
 
 ## QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW
 [QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW](https://poszytek.eu/en/microsoft-en/office-365-en/powerautomate-en/quick-tip-flow-cannot-be-used-as-a-child-flow/)
+
+## Set custom permissions on a list by using the REST interface
+[Set custom permissions on a list by using the REST interface](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-custom-permissions-on-a-list-by-using-the-rest-interface)
