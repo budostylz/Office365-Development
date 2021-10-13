@@ -120,3 +120,6 @@ SharePoint - Office 365
 
 ## How to increase lookup column limit in SharePoint lists
 [How to increase lookup column limit in SharePoint lists](https://natechamberlain.com/2018/09/04/how-to-increase-lookup-column-limit-in-sharepoint-lists/)
+
+## FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE
+[FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE](https://linnzawwin.blogspot.com/2020/11/find-id-of-sharepoint-document-by-file.html)
