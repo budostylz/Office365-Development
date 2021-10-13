@@ -123,3 +123,6 @@ SharePoint - Office 365
 
 ## FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE
 [FIND ID OF SHAREPOINT DOCUMENT BY FILE NAME IN POWER AUTOMATE](https://linnzawwin.blogspot.com/2020/11/find-id-of-sharepoint-document-by-file.html)
+
+## QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW
+[QUICK TIP: FLOW CANNOT BE USED AS A CHILD FLOW](https://poszytek.eu/en/microsoft-en/office-365-en/powerautomate-en/quick-tip-flow-cannot-be-used-as-a-child-flow/)
