@@ -179,3 +179,5 @@
 ## Pass “reference” data from a parent Flow to a child Flow
 [Pass “reference” data from a parent Flow to a child Flow](https://powerusers.microsoft.com/t5/Building-Flows/Pass-reference-data-from-a-parent-Flow-to-a-child-Flow/td-p/792571)
 
+## Power Automate – Extracting Values from JSON Array
+[Power Automate – Extracting Values from JSON Array](https://www.youtube.com/watch?time_continue=162&v=vhkPrm64hMk&feature=emb_logo)
