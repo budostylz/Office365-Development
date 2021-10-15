@@ -181,3 +181,6 @@
 
 ## Power Automate – Extracting Values from JSON Array
 [Power Automate – Extracting Values from JSON Array](https://www.youtube.com/watch?time_continue=162&v=vhkPrm64hMk&feature=emb_logo)
+
+## Handling NULL in Parse JSON
+[Handling NULL in Parse JSON](https://powerusers.microsoft.com/t5/General-Power-Automate/Handling-NULL-in-Parse-JSON/td-p/40906)
