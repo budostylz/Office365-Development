@@ -184,3 +184,6 @@
 
 ## Handling NULL in Parse JSON
 [Handling NULL in Parse JSON](https://powerusers.microsoft.com/t5/General-Power-Automate/Handling-NULL-in-Parse-JSON/td-p/40906)
+
+## Flow taking too much time to run
+[Flow taking too much time to run](https://powerusers.microsoft.com/t5/General-Power-Automate/Flow-taking-too-much-time-to-run/td-p/392849)
