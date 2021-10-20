@@ -3,3 +3,6 @@
 
 ## Making a SharePoint 2013 Workflow Wait for Document Check-In
 [Making a SharePoint 2013 Workflow Wait for Document Check-In](https://yieldreturnpost.wordpress.com/2015/05/28/making-a-sharepoint-2013-workflow-wait-for-document-check-in/)
+
+## Power automate: Solutions | Solutions
+[Power automate: Solutions | Solutions](https://www.youtube.com/watch?v=ZI9y7-TOWW4)
