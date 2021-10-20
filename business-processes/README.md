@@ -6,3 +6,7 @@
 
 ## Power automate: Solutions | Solutions
 [Power automate: Solutions | Solutions](https://www.youtube.com/watch?v=ZI9y7-TOWW4)
+
+## Prevent Power Automate Looping
+1. Add this to Trigger Settings to prevent looping @equals(triggerBody()?['StartFlow'], null)
+2. Or you can add a condition control
