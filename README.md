@@ -129,3 +129,6 @@ SharePoint - Office 365
 
 ## Set custom permissions on a list by using the REST interface
 [Set custom permissions on a list by using the REST interface](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-custom-permissions-on-a-list-by-using-the-rest-interface)
+
+## Configure InfoPath At The SharePoint Admin Center On Office 365
+[Configure InfoPath At The SharePoint Admin Center On Office 365](https://www.c-sharpcorner.com/article/configure-infopath-at-the-sharepoint-admin-center-on-office/)
