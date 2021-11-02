@@ -132,3 +132,6 @@ SharePoint - Office 365
 
 ## Configure InfoPath At The SharePoint Admin Center On Office 365
 [Configure InfoPath At The SharePoint Admin Center On Office 365](https://www.c-sharpcorner.com/article/configure-infopath-at-the-sharepoint-admin-center-on-office/)
+
+## InfoPath developing views (Chapter 8)
+[InfoPath developing views (Chapter 8)](https://www.youtube.com/watch?v=SWxbxd7dGO0)
