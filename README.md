@@ -136,5 +136,5 @@ SharePoint - Office 365
 ## InfoPath developing views (Chapter 8)
 [InfoPath developing views (Chapter 8)](https://www.youtube.com/watch?v=SWxbxd7dGO0)
 
-## Tech Tip: Switch InfoPath Views On Form Open For A Better User Experienc
+## Tech Tip: Switch InfoPath Views On Form Open For A Better User Experience
 [Tech Tip: Switch InfoPath Views On Form Open For A Better User Experienc](https://www.formotus.com/blog/switch-infopath-views-on-form-open-for-a-better-user-experience)
