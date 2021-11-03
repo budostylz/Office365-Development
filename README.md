@@ -138,3 +138,6 @@ SharePoint - Office 365
 
 ## Tech Tip: Switch InfoPath Views On Form Open For A Better User Experience
 [Tech Tip: Switch InfoPath Views On Form Open For A Better User Experienc](https://www.formotus.com/blog/switch-infopath-views-on-form-open-for-a-better-user-experience)
+
+## How To Create A Form Using InfoPath 2013 for Sharepoint
+[How To Create A Form Using InfoPath 2013 for Sharepoint](https://www.youtube.com/watch?v=HSyrqbgLdbs)
