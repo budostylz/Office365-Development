@@ -141,3 +141,6 @@ SharePoint - Office 365
 
 ## How To Create A Form Using InfoPath 2013 for Sharepoint
 [How To Create A Form Using InfoPath 2013 for Sharepoint](https://www.youtube.com/watch?v=HSyrqbgLdbs)
+
+## Using repeating tables from the Course InfoPath 2013 Essential Training
+[Using repeating tables from the Course InfoPath 2013 Essential Training](https://www.youtube.com/watch?v=yQfWVYMf9ro)
