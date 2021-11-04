@@ -144,3 +144,6 @@ SharePoint - Office 365
 
 ## Using repeating tables from the Course InfoPath 2013 Essential Training
 [Using repeating tables from the Course InfoPath 2013 Essential Training](https://www.youtube.com/watch?v=yQfWVYMf9ro)
+
+## how to update content type for a sharepoint list item using REST api in O365?
+[how to update content type for a sharepoint list item using REST api in O365?](https://sharepoint.stackexchange.com/questions/200280/how-to-update-content-type-for-a-sharepoint-list-item-using-rest-api-in-o365)
