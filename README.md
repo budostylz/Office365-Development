@@ -147,3 +147,6 @@ SharePoint - Office 365
 
 ## how to update content type for a sharepoint list item using REST api in O365?
 [how to update content type for a sharepoint list item using REST api in O365?](https://sharepoint.stackexchange.com/questions/200280/how-to-update-content-type-for-a-sharepoint-list-item-using-rest-api-in-o365)
+
+## Display modal pop up in SharePoint Online/2013/2016
+[Display modal pop up in SharePoint Online/2013/2016](https://www.enjoysharepoint.com/display-modal-pop-up-in-sharepoint/)
