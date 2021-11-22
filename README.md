@@ -150,3 +150,6 @@ SharePoint - Office 365
 
 ## Display modal pop up in SharePoint Online/2013/2016
 [Display modal pop up in SharePoint Online/2013/2016](https://www.enjoysharepoint.com/display-modal-pop-up-in-sharepoint/)
+
+## PowerApps: How to Customize "Save" and "Cancel" Buttons
+[PowerApps: How to Customize "Save" and "Cancel" Buttons](https://www.c5insight.com/Resources/Blog/tabid/148/entryid/885/powerapps-how-to-customize-save-and-cancel-buttons.aspx)
