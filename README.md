@@ -153,3 +153,9 @@ SharePoint - Office 365
 
 ## PowerApps: How to Customize "Save" and "Cancel" Buttons
 [PowerApps: How to Customize "Save" and "Cancel" Buttons](https://www.c5insight.com/Resources/Blog/tabid/148/entryid/885/powerapps-how-to-customize-save-and-cancel-buttons.aspx)
+
+## How To Fetch Access Token Using Microsoft Graph AP
+[How To Fetch Access Token Using Microsoft Graph AP](https://www.c-sharpcorner.com/article/getting-started-with-microsoft-graph-api/)
+
+## Retrieve Files and Items from Sharepoint Using Microsoft Graph API
+[Retrieve Files and Items from Sharepoint Using Microsoft Graph API](https://www.c-sharpcorner.com/article/retrieve-files-items-from-sharepoint-using-microsoft-graph-api/)
