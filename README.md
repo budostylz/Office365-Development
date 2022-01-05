@@ -159,3 +159,6 @@ SharePoint - Office 365
 
 ## Retrieve Files and Items from Sharepoint Using Microsoft Graph API
 [Retrieve Files and Items from Sharepoint Using Microsoft Graph API](https://www.c-sharpcorner.com/article/retrieve-files-items-from-sharepoint-using-microsoft-graph-api/)
+
+## Customizing "modern" lists and libraries
+[Customizing "modern" lists and libraries](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries)
