@@ -162,3 +162,6 @@ SharePoint - Office 365
 
 ## Customizing "modern" lists and libraries
 [Customizing "modern" lists and libraries](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries)
+
+## Use Power Automate to move Microsoft Lists items to another list
+[Use Power Automate to move Microsoft Lists items to another list](https://normyoung.ca/2020/10/01/use-power-automate-to-move-microsoft-lists-items-to-another-list/)
