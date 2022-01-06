@@ -165,3 +165,9 @@ SharePoint - Office 365
 
 ## Use Power Automate to move Microsoft Lists items to another list
 [Use Power Automate to move Microsoft Lists items to another list](https://normyoung.ca/2020/10/01/use-power-automate-to-move-microsoft-lists-items-to-another-list/)
+
+## SharePoint modern view formatting with JSON – part 1 of 2
+[SharePoint modern view formatting with JSON – part 1 of 2](https://collab365.com/sharepoint-modern-view-formatting-json-part-1-2/)
+
+## Enable new list experience on document library programmatically
+[Enable new list experience on document library programmatically](https://sharepoint.stackexchange.com/questions/188014/enable-new-list-experience-on-document-library-programmatically)
