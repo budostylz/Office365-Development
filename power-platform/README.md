@@ -187,3 +187,7 @@
 
 ## Flow taking too much time to run
 [Flow taking too much time to run](https://powerusers.microsoft.com/t5/General-Power-Automate/Flow-taking-too-much-time-to-run/td-p/392849)
+
+## Requests limits and allocations
+[Requests limits and allocations](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations)
+
