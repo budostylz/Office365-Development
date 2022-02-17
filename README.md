@@ -60,9 +60,8 @@ SharePoint - Office 365
 ## Sandbox Solutions In SharePoint Online
 [How To Deploy Sandbox Solutions In SharePoint Online](https://www.c-sharpcorner.com/blogs/how-to-deploy-sandbox-solutions-in-sharepoint-online)
 
-<<<<<<< HEAD
 [Sync SharePoint files with VS Code](https://wiliammbr.com/sharepoint-sync-files-visual-studio-code/)
-=======
+
 ## Manage large lists and libraries
 [Manage large lists and libraries](https://support.microsoft.com/en-us/office/manage-large-lists-and-libraries-b8588dae-9387-48c2-9248-c24122f07c59)
 
