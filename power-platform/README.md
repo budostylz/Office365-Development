@@ -191,3 +191,6 @@
 ## Requests limits and allocations
 [Requests limits and allocations](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations)
 
+## Power Platform Environments
+[Power Platform Environments](https://admin.powerplatform.microsoft.com/environments)
+
