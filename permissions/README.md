@@ -29,3 +29,6 @@ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 ## Add a Security Trim snippet in SharePoint
 [Add a Security Trim snippet in SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-add-a-security-trim-snippet-in-sharepoint)
+
+## Backup Solutions
+[Veeam](https://go.veeam.com/backup-office-365-sharepoint?st=adwordspaidsearch&utm_source=google&utm_medium=cpc&utm_campaign=01BR-O365-EFS_US_EN_0_Paid-Search_Trial_Backup-Office-365-Branded&utm_content=cid|1345565002_ntw|g_adgr|133783993153_creative|575546909246_ext|_adposition|_locph|9011948_dev|c_devm|_placement|_gclid|EAIaIQobChMI_MLl6oiU9gIVSBbUAR3VTwHNEAAYAiAAEgJqDvD_BwE_keyword|veeam%20sharepoint%20backup_matchtype|e_trgt|&gclid=EAIaIQobChMI_MLl6oiU9gIVSBbUAR3VTwHNEAAYAiAAEgJqDvD_BwE)
