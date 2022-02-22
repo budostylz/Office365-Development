@@ -26,3 +26,6 @@ Set-PnPSite -Url https://budoappsdev.sharepoint.com/ -NoScriptSite $false
 
 ## Office 365 Users
 [Office 365 Users](https://docs.microsoft.com/en-us/connectors/office365users/)
+
+## Add a Security Trim snippet in SharePoint
+[Add a Security Trim snippet in SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-add-a-security-trim-snippet-in-sharepoint)
