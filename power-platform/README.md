@@ -194,3 +194,6 @@
 ## Power Platform Environments
 [Power Platform Environments](https://admin.powerplatform.microsoft.com/environments)
 
+## Power Apps portals admin center
+[Power Apps portals admin center](https://docs.microsoft.com/en-us/powerapps/maker/portals/admin/admin-overview)
+
