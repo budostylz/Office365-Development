@@ -120,3 +120,9 @@
 
 ## Rest Query-The attempted operation is prohibited because it exceeds the list view threshold enforced by the administrator.
 [Rest Query-The attempted operation is prohibited because it exceeds the list view threshold enforced by the administrator.](https://social.msdn.microsoft.com/Forums/office/en-US/6e84eb21-37a6-42a5-9702-72bd44db44d7/rest-querythe-attempted-operation-is-prohibited-because-it-exceeds-the-list-view-threshold-enforced?forum=sharepointdevelopment)
+
+## Search Webpart App - GitHub
+[pnp/sp-dev-fx-webparts](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-directory)
+
+## Serch App - Affirma Labs
+[Sandbox](https://affirmalab.sharepoint.com/sites/ContosoHealthcare/SitePages/Test-Staff-Directory.aspx)
