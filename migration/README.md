@@ -16,6 +16,9 @@
 ## When is a Hybrid Migration to Office 365 Suitable for You?
 [When is a Hybrid Migration to Office 365 Suitable for You?](https://www.o365cloudexperts.com/blog/office-365-hybrid-migration)
 
+## SharePoint Governance – Guides, Links and Downloads
+[SharePoint Governance – Guides, Links and Downloads](https://sharegate.com/blog/sharepoint-governance-plan-presentation?gclid=EAIaIQobChMI58uny7Wl9gIVfhXUAR2-Kw6yEAAYASAAEgKsWPD_BwE)
+
 ## PowerShell Commands
 [PowerShell Commands](https://migration-tool.sharegate.com/hc/en-us/articles/115000597447-Import-Document-on-Powershell?_ga=2.78098708.1490724769.1645484331-119745986.1645484331&_gac=1.216785570.1645570378.EAIaIQobChMIxe79qbOU9gIVj8WGCh0SQw7sEAAYAiAAEgIiWPD_BwE)
 
