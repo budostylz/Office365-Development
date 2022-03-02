@@ -7,6 +7,9 @@
 ## ShareGate Migration Tool
 [ShareGate Migration Tool](https://sharegate.com/microsoft-migration?gclid=EAIaIQobChMIpID3g52W9gIVbRZMCh3_5A6fEAAYASAAEgJ8EPD_BwE)
 
+## SkySync
+[SkySync](https://www.skysync.com/?utm_source=google&utm_medium=ppc&gclid=EAIaIQobChMIhvSS1sql9gIVXhbUAR3R9AFqEAAYASAAEgIla_D_BwE)
+
 ## How to migrate to Microsoft 365 with ShareGate: Google Drive to OneDrive migration
 [How to migrate to Microsoft 365 with ShareGate: Google Drive to OneDrive migration](https://sharegate.com/blog/how-to-migrate-to-office365-onedrive-from-google-drive?gclid=EAIaIQobChMIxe79qbOU9gIVj8WGCh0SQw7sEAAYAiAAEgIiWPD_BwE)
 

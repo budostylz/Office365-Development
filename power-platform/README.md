@@ -197,3 +197,9 @@
 ## Power Apps portals admin center
 [Power Apps portals admin center](https://docs.microsoft.com/en-us/powerapps/maker/portals/admin/admin-overview)
 
+## Manage Power Apps
+[Manage Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/admin-manage-apps)
+
+## How to configure PowerApps Security and Permissions
+[How to configure PowerApps Security and Permissions](https://www.kieferconsulting.com/2020/09/11/how-to-configure-powerapps-security-and-permissions/)
+
