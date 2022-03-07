@@ -1,3 +1,6 @@
+## O365 Admin Roles
+[About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+
 ## [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)
 
 ## [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
