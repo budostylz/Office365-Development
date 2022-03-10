@@ -1,0 +1,2 @@
+## How to change the page layout on a modern SharePoint page
+[How to change the page layout on a modern SharePoint page](https://sharepoint.handsontek.net/2019/12/08/how-to-change-the-page-layout-on-a-modern-sharepoint-page/)

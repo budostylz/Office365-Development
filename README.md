@@ -180,3 +180,11 @@ SharePoint - Office 365
 ## SharePoint Limits
 [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252fen-us%252farticle%252fSharePoint-Online-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)
 
+## DownDetector
+[DownDetector](https://downdetector.com/status/wikipedia/)
+
+## Office 365 Status
+[Office 365 Status](https://status.office365.com/)
+
+
+

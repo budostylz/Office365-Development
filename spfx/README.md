@@ -12,6 +12,8 @@
 1. nvm list
 2. nvm use 'node version'
 
+## How to install Node Version Manager (NVM) for Windows 10?
+[How to install Node Version Manager (NVM) for Windows 10?](https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi)
 
 ## SharePoint Framework
 [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=m365-15744-cxa)
