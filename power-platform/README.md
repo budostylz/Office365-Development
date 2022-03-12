@@ -1,3 +1,6 @@
+## Admin Center
+[Power Apps Admin Center](https://admin.powerplatform.microsoft.com/)
+
 ## Power Automate
 [Power Automate](https://flow.microsoft.com/en-us/)
 
@@ -210,4 +213,11 @@
 [Embed PowerApps in SharePoint modern page](https://www.spguides.com/embed-powerapps-in-sharepoint-modern-page/)
 
 '<iframe width="980" height="600" src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&amp;source=iframe&amp;screenColor=rgba(104,101,171,1)&amp;appId=/providers/Microsoft.PowerApps/apps/YourAPPID"></iframe>'
+
+<iframe width="980" height="600" src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&amp;source=iframe&amp;screenColor=rgba(104,101,171,1)&amp;appId=/providers/Microsoft.PowerApps/apps/5e377c4b-4377-4573-8d89-021d51a49e12"></iframe>
+
+## Admin Analytics for Power Apps
+[Admin Analytics for Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/analytics-powerapps#:~:text=To%20access%20these%20reports%2C%20sign,the%20top%20of%20the%20page.)
+
+
 
