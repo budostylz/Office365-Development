@@ -7,4 +7,10 @@
 ## Franz 5
 [Franz 5](https://meetfranz.com/)
 
+## Embed a canvas app as personal app in Teams
+[Embed a canvas app as personal app in Teams](https://docs.microsoft.com/en-us/powerapps/teams/embed-teams-app)
+
+## SharePoint List Search
+[ SharePoint List Search](https://github.com/albegut/list-search)
+
 

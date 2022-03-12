@@ -203,3 +203,9 @@
 ## How to configure PowerApps Security and Permissions
 [How to configure PowerApps Security and Permissions](https://www.kieferconsulting.com/2020/09/11/how-to-configure-powerapps-security-and-permissions/)
 
+## Embed PowerApps on SharePoint Pages
+[Embed PowerApps on SharePoint Pages](https://powerapps.microsoft.com/en-us/blog/embed-powerapps-on-sharepoint-pages/)
+
+## Embed PowerApps in SharePoint modern page
+[Embed PowerApps in SharePoint modern page](https://www.spguides.com/embed-powerapps-in-sharepoint-modern-page/)
+
