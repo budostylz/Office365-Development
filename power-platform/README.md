@@ -211,7 +211,9 @@
 
 '<iframe 
     width="980" 
+
     height="600" 
+
     src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&amp;source=iframe&amp;screenColor=rgba(104,101,171,1)&amp;appId=/providers/Microsoft.PowerApps/apps/YourAPPID">
 </iframe>'
 
