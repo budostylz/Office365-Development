@@ -1,0 +1,3 @@
+## Resources
+
+[API & WEB ACCELERATION](https://info.varnish-software.com/us/varnish-web-api-acceleration-wp?adgroupid=133823245184&utm_campaign=DM_G_SEA_Opp-Webb-Acc_US_en_Ex&utm_source=google&utm_medium=cpc&utm_content=544812878529&utm_term=increase%20site%20speed&hsa_mt=p&hsa_ad=544812878529&hsa_net=adwords&hsa_src=g&hsa_kw=increase%20site%20speed&hsa_tgt=kwd-335729821350&hsa_cam=14601121856&hsa_acc=6232221083&hsa_ver=3&hsa_grp=133823245184&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb1F-dpSvTcVAkyNQyT4d2aXhGB2yYCWjz1mo0uxVma1I8qU0EtyMkwaAo5DEALw_wcB)
