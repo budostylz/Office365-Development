@@ -1,0 +1,39 @@
+{
+    "elmType": "div",
+    "style": {
+        "width": "100%",
+        "text-align": "left",
+        "overflow": "hidden",
+        "border-top-width": "1px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "width": "100%",
+                "padding": "10px",
+                "height": "45px",
+                "border": "2px solid #7ba1c9",
+                "border-radius": "5px"
+            },
+            "children": [
+                {
+                    "elmType": "a",
+                    "txtContent": "Read more",
+                    "attributes": {
+                        "target": "_blank",
+                        "href": "https://docs.microsoft.com/en-us/compliance",
+                        "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-m ms-fontColor-neutralSecondary–hover ms-bgColor-themeLight–hover"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "For more information on engagement exceptions, please visit Microsoft Compliance",
+                    "style": {
+                        "padding-top": "5px"
+                    }
+                }
+            ]
+        }
+    ]
+}

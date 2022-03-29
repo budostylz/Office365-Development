@@ -219,5 +219,12 @@
 ## Admin Analytics for Power Apps
 [Admin Analytics for Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/analytics-powerapps#:~:text=To%20access%20these%20reports%2C%20sign,the%20top%20of%20the%20page.)
 
+## Export and email a Power BI report with Power Automate
+[Export and email a Power BI report with Power Automate](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-automate-power-bi-report-export#:~:text=In%20Choose%20an%20operation%2C%20search,the%20Pages%20pageName%20%2D1%20field.)
+
+## Resources
+[Controls and properties in canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/reference-properties)
 
 
+
+Max(App.Width, App.MinScreenWidth)

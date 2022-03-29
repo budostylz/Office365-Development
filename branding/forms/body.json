@@ -1,0 +1,36 @@
+{
+    "sections": [
+        {
+            "displayname": "",
+            "fields": [
+                "Enter a title for Engagement",
+                "How many attendees are expected?",
+                "Is this a single account briefing or multi-account briefing?"
+            ]
+        },
+        {
+            "displayname": "",
+            "fields": [
+                "Please add at least one account (all accounts invited)",
+                "Enter TPID for account",
+                "Are any attending accounts State Owned Enterprises, US Public Sector, or WW Public Sector Companies?",
+                "How many days are you requesting the virtual briefing to be held?",
+                "What time zone will your briefing be held in?"
+            ]
+        },
+        {
+            "displayname": "",
+            "fields": [
+                "Please provide the goals and any other additional notes/information about this request (competitive play, tools, languages)",
+                "Additional Microsoft Team Members"
+            ]
+        },
+        {
+            "displayname": "",
+            "fields": [
+                "Does the intended audience include members of the military, defense contractors or government intelligence agencies?",
+                "Do presentation or discussion for intended audience involve engineering level content on one or more of the following?"
+            ]
+        }
+    ]
+}
