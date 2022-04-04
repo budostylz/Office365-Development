@@ -25,5 +25,8 @@
 ## PowerShell Commands
 [PowerShell Commands](https://migration-tool.sharegate.com/hc/en-us/articles/115000597447-Import-Document-on-Powershell?_ga=2.78098708.1490724769.1645484331-119745986.1645484331&_gac=1.216785570.1645570378.EAIaIQobChMIxe79qbOU9gIVj8WGCh0SQw7sEAAYAiAAEgIiWPD_BwE)
 
+## SkySync
+[SkySync](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775356702/User+Migration+Guides+G+Suite+to+OneDrive+for+Business)
+
 
 

@@ -10,3 +10,6 @@
 [Navigation options for SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/navigation-options-for-sharepoint-online?view=o365-worldwide#using-search-driven-client-side-scripting)
 
 [Overview of managed navigation in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/overview-of-managed-navigation)
+
+[Create FAQ's As Sharepoint Modern Page Used In Sharepoint Intranet Site](https://www.c-sharpcorner.com/article/create-an-faq-for-sharepoint-site2/#:~:text=Steps%20to%20add%20%22FAQ%22%20in,Choose%20the%20Text%20Web%20Part.&text=(ex%3A%20Frequently%20asked%20questions%20about,the%20text%20as%20Normal%20Text.)
+
