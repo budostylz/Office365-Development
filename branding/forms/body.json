@@ -13,9 +13,7 @@
             "fields": [
                 "Please add at least one account (all accounts invited)",
                 "Enter TPID for account",
-                "Are any attending accounts State Owned Enterprises, US Public Sector, or WW Public Sector Companies?",
-                "How many days are you requesting the virtual briefing to be held?",
-                "What time zone will your briefing be held in?"
+                "Are any attending accounts State Owned Enterprises, US Public Sector, or WW Public Sector Companies?"
             ]
         },
         {

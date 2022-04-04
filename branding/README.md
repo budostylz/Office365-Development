@@ -6,3 +6,7 @@
 [Format The SharePoint Modern Site List Form Using JSON Formatting](https://www.c-sharpcorner.com/article/fomat-the-sharepoint-modern-site-list-form-using-json-formatting/)
 
 [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
+[Navigation options for SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/navigation-options-for-sharepoint-online?view=o365-worldwide#using-search-driven-client-side-scripting)
+
+[Overview of managed navigation in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/overview-of-managed-navigation)

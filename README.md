@@ -186,5 +186,8 @@ SharePoint - Office 365
 ## Office 365 Status
 [Office 365 Status](https://status.office365.com/)
 
+## Page Diagnostics
+[Use the Page Diagnostics for SharePoint tool](https://docs.microsoft.com/en-us/microsoft-365/enterprise/page-diagnostics-for-spo?view=o365-worldwide)
+
 
 
