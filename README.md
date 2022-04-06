@@ -189,8 +189,10 @@ SharePoint - Office 365
 ## Page Diagnostics
 [Use the Page Diagnostics for SharePoint tool](https://docs.microsoft.com/en-us/microsoft-365/enterprise/page-diagnostics-for-spo?view=o365-worldwide)
 
-## SharePoint Important URLs
+## Resources
 [SharePoint Important URLs](https://mstechtalk.com/sharepoint-important-urls/)
+
+[Useful Famous SharePoint URLs & Locations (increase your productivity in SharePoint On-Premise and O365)](https://global-sharepoint.com/sharepoint-online/sharepoint-quick-reference-url/)
 
 
 
