@@ -225,6 +225,8 @@
 ## Resources
 [Controls and properties in canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/reference-properties)
 
+[How To Control The Level Of Permissions On Your PowerApps While Sharing](https://www.c-sharpcorner.com/article/how-to-control-the-level-of-permissions-on-your-powerapps-while-share/)
+
 
 
 Max(App.Width, App.MinScreenWidth)
