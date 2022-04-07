@@ -15,3 +15,5 @@
 
 [Lookbook](https://lookbook.microsoft.com/)
 
+[3 Types of Navigation in SharePoint Online](https://www.youtube.com/watch?v=hlCWZuogSwU)
+
