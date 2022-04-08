@@ -9,3 +9,7 @@
 
 ## Cmdlets
 [Cmdlets](https://pnp.github.io/powershell/cmdlets/Add-PnPAlert.html)
+
+## Enable Custom Scripts
+1. Connect-PnPOnline -Url https://affirmalab.sharepoint.com/sites/EBCIntake -UseWebLogin
+2. Set-PnPSite -NoScriptSite $false
