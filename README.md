@@ -194,5 +194,7 @@ SharePoint - Office 365
 
 [Useful Famous SharePoint URLs & Locations (increase your productivity in SharePoint On-Premise and O365)](https://global-sharepoint.com/sharepoint-online/sharepoint-quick-reference-url/)
 
+[Office365-SharePoint-Development](https://www.c-sharpcorner.com/article/how-to-deploy-power-app-list-form-from-one-tenant-to-another-tenant/)
+
 
 
