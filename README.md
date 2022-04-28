@@ -202,6 +202,8 @@ SharePoint - Office 365
 
 [Announcing multi-stage retention in Microsoft Purview Data Lifecycle Management](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/announcing-multi-stage-retention-in-microsoft-purview-data/ba-p/3282126)
 
+[Azure Functions support for PowerShell 6 is ending on 30 September 2022](https://azure.microsoft.com/en-us/updates/azure-functions-support-for-powershell-6-is-ending-on-30-september-2022/)
+
 
 
 
