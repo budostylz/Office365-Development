@@ -200,6 +200,8 @@ SharePoint - Office 365
 
 [Assign Licenses](https://docs.microsoft.com/en-us/power-platform/admin/assign-licenses#:~:text=You%20can%20add%20additional%20licenses,for%20each%20invitation%20you%20issue.)
 
+[Announcing multi-stage retention in Microsoft Purview Data Lifecycle Management](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/announcing-multi-stage-retention-in-microsoft-purview-data/ba-p/3282126)
+
 
 
 
