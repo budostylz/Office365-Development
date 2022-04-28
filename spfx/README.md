@@ -131,3 +131,6 @@
 
 ## Preview on upcoming list extensibility options with SPFx v1.15
 [Preview on upcoming list extensibility options with SPFx v1.15](https://www.youtube.com/watch?v=90DWB9hjo-k)
+
+## Ins and Outs of Viva Connect Dashboard - Part 1
+[Ins and Outs of Viva Connect Dashboard - Part 1](https://www.youtube.com/watch?v=x_XZx3DUF38&t=761s)
