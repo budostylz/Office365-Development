@@ -128,3 +128,6 @@
 
 ## Serch App - Affirma Labs
 [Sandbox](https://affirmalab.sharepoint.com/sites/ContosoHealthcare/SitePages/Test-Staff-Directory.aspx)
+
+## Preview on upcoming list extensibility options with SPFx v1.15
+[Preview on upcoming list extensibility options with SPFx v1.15](https://www.youtube.com/watch?v=90DWB9hjo-k)
