@@ -234,3 +234,5 @@
 [Understand behavior formulas for canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-formulas-in-depth)
 
 [Understand variables in canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-variables)
+
+[PowerApps - ForAll function with examples](https://www.codesharepoint.com/sharepoint-tutorial/powerapps-forall-function-with-examples)
