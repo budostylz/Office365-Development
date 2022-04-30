@@ -230,3 +230,7 @@
 [Explore Power Apps for free for 30 days](https://docs.microsoft.com/en-us/power-apps/maker/signup-for-powerapps#:~:text=Get%20a%20license%20from%20scratch,-Regardless%20of%20whether&text=Open%20the%20Power%20Apps%20site,then%20select%20Start%20free%20trial.)
 
 [&quot;Contains&quot; search in Combobox](https://powerusers.microsoft.com/t5/Building-Power-Apps/quot-Contains-quot-search-in-Combobox/td-p/604501)
+
+[Understand behavior formulas for canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-formulas-in-depth)
+
+[Understand variables in canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-variables)
