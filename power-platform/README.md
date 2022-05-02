@@ -240,3 +240,5 @@
 [PowerApps Combobox - Search, Filter, Default values, and more](https://www.youtube.com/watch?v=pjs0ZsnJZXo)
 
 [PowerApps Search Function](https://www.youtube.com/watch?v=FaTnOOc34os)
+
+[Learn to use the PowerApps Filter function](https://www.youtube.com/watch?v=nlhWQg03TL0)
