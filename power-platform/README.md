@@ -238,3 +238,5 @@
 [PowerApps - ForAll function with examples](https://www.codesharepoint.com/sharepoint-tutorial/powerapps-forall-function-with-examples)
 
 [PowerApps Combobox - Search, Filter, Default values, and more](https://www.youtube.com/watch?v=pjs0ZsnJZXo)
+
+[PowerApps Search Function](https://www.youtube.com/watch?v=FaTnOOc34os)
