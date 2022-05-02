@@ -236,3 +236,5 @@
 [Understand variables in canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-variables)
 
 [PowerApps - ForAll function with examples](https://www.codesharepoint.com/sharepoint-tutorial/powerapps-forall-function-with-examples)
+
+[PowerApps Combobox - Search, Filter, Default values, and more](https://www.youtube.com/watch?v=pjs0ZsnJZXo)
