@@ -204,6 +204,9 @@ SharePoint - Office 365
 
 [Azure Functions support for PowerShell 6 is ending on 30 September 2022](https://azure.microsoft.com/en-us/updates/azure-functions-support-for-powershell-6-is-ending-on-30-september-2022/)
 
+## Create a canvas app with deep link to a specific screen
+https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linking?cid=kerryherger#:~:text=Deep%20links%20are%20useful%20when,AppID%E2%80%94ID%20of%20the%20app.
+
 
 
 
