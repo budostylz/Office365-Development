@@ -134,3 +134,6 @@
 
 ## Ins and Outs of Viva Connect Dashboard - Part 1
 [Ins and Outs of Viva Connect Dashboard - Part 1](https://www.youtube.com/watch?v=x_XZx3DUF38&t=761s)
+
+## Execute Power Automate Workflow from SPFx
+[Execute Power Automate Workflow from SPFx](https://www.c-sharpcorner.com/article/execute-power-automate-workflow-from-spfx/)
