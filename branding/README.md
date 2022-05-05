@@ -17,3 +17,5 @@
 
 [3 Types of Navigation in SharePoint Online](https://www.youtube.com/watch?v=hlCWZuogSwU)
 
+[See the new Wizdom on SharePoint Modern Pages experience](https://www.contentformula.com/blog/see-the-new-wizdom-on-sharepoint-modern-pages-experience-2/)
+
