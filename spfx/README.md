@@ -140,3 +140,6 @@
 
 ## @microsoft/sp-webpart-base package
 [@microsoft/sp-webpart-base package](https://docs.microsoft.com/en-us/javascript/api/sp-webpart-base?view=sp-typescript-latest)
+
+## @microsoft/sp-http
+[@microsoft/sp-http](https://www.npmjs.com/package/@microsoft/sp-http)
