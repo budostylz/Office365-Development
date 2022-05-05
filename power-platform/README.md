@@ -242,3 +242,5 @@
 [PowerApps Search Function](https://www.youtube.com/watch?v=FaTnOOc34os)
 
 [Learn to use the PowerApps Filter function](https://www.youtube.com/watch?v=nlhWQg03TL0)
+
+[BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE](https://wonderlaura.com/2018/07/18/button-in-sharepoint-list-to-trigger-microsoft-flow/)
