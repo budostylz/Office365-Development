@@ -137,3 +137,6 @@
 
 ## Execute Power Automate Workflow from SPFx
 [Execute Power Automate Workflow from SPFx](https://www.c-sharpcorner.com/article/execute-power-automate-workflow-from-spfx/)
+
+## @microsoft/sp-webpart-base package
+[@microsoft/sp-webpart-base package](https://docs.microsoft.com/en-us/javascript/api/sp-webpart-base?view=sp-typescript-latest)
