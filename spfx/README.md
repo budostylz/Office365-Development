@@ -143,3 +143,6 @@
 
 ## @microsoft/sp-http
 [@microsoft/sp-http](https://www.npmjs.com/package/@microsoft/sp-http)
+
+## Using Office UI Fabric Core and Fabric React in SharePoint Framework
+[Using Office UI Fabric Core and Fabric React in SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/office-ui-fabric-integration)
