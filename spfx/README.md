@@ -146,3 +146,6 @@
 
 ## Using Office UI Fabric Core and Fabric React in SharePoint Framework
 [Using Office UI Fabric Core and Fabric React in SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/office-ui-fabric-integration)
+
+## Instafeed.js
+[Instafeed.js](https://instafeedjs.com/#/)
