@@ -250,3 +250,5 @@
 [Create or update bulk records in Power Apps](https://github.com/budostylz/Office365-SharePoint-Development/edit/main/power-platform/README.md)
 
 [Flow Actions: OneDrive for Business - Upload File From URL](https://www.youtube.com/watch?v=K3vyIBe-JlI&t=88s)
+
+[How To Trigger A Power Automate Flow From PowerApps](https://www.c-sharpcorner.com/article/how-to-trigger-a-power-automate-flow-from-powerapps/)
