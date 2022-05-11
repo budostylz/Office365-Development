@@ -248,3 +248,5 @@
 [HOW TO: Make a rectangle with rounded corners in a PowerApp](https://toddbaginski.com/blog/how-to-make-a-rectangle-with-rounded-corners-in-a-powerapp/)
 
 [Create or update bulk records in Power Apps](https://github.com/budostylz/Office365-SharePoint-Development/edit/main/power-platform/README.md)
+
+[Flow Actions: OneDrive for Business - Upload File From URL](https://www.youtube.com/watch?v=K3vyIBe-JlI&t=88s)
