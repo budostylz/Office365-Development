@@ -246,3 +246,5 @@
 [BUTTON IN SHAREPOINT LIST TO TRIGGER POWER AUTOMATE](https://wonderlaura.com/2018/07/18/button-in-sharepoint-list-to-trigger-microsoft-flow/)
 
 [HOW TO: Make a rectangle with rounded corners in a PowerApp](https://toddbaginski.com/blog/how-to-make-a-rectangle-with-rounded-corners-in-a-powerapp/)
+
+[Create or update bulk records in Power Apps](https://github.com/budostylz/Office365-SharePoint-Development/edit/main/power-platform/README.md)
