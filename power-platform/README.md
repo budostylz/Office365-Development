@@ -251,4 +251,4 @@
 
 [Flow Actions: OneDrive for Business - Upload File From URL](https://www.youtube.com/watch?v=K3vyIBe-JlI&t=88s)
 
-[How To Trigger A Power Automate Flow From PowerApps](https://www.c-sharpcorner.com/article/how-to-trigger-a-power-automate-flow-from-powerapps/)
+[Power Apps(V2) Trigger In Power Automate](https://www.youtube.com/watch?v=yDRzgl9JysU)
