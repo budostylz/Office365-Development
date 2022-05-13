@@ -252,3 +252,5 @@
 [Flow Actions: OneDrive for Business - Upload File From URL](https://www.youtube.com/watch?v=K3vyIBe-JlI&t=88s)
 
 [Power Apps(V2) Trigger In Power Automate](https://www.youtube.com/watch?v=yDRzgl9JysU)
+
+[How to create a popup in a PowerApps Canvas App](https://www.youtube.com/watch?v=r_9RVVWmKME)
