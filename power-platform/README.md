@@ -254,3 +254,5 @@
 [Power Apps(V2) Trigger In Power Automate](https://www.youtube.com/watch?v=yDRzgl9JysU)
 
 [How to create a popup in a PowerApps Canvas App](https://www.youtube.com/watch?v=r_9RVVWmKME)
+
+[Create responsive layouts in canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/create-responsive-layout)
