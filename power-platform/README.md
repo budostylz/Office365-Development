@@ -260,3 +260,5 @@
 [Roles in the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces)
 
 [Give users access to the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces)
+
+[Create a canvas app with deep link to a specific screen](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linking)
