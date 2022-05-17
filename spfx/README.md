@@ -149,3 +149,6 @@
 
 ## Instafeed.js
 [Instafeed.js](https://instafeedjs.com/#/)
+
+## 'node' is not recognized as an internal or external command, operable program or batch file ❓ [How to Solve]
+['node' is not recognized as an internal or external command, operable program or batch file ❓ [How to Solve]](https://love2dev.com/blog/node-is-not-recognized-as-an-internal-or-external-command/)
