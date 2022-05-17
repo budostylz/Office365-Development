@@ -258,3 +258,5 @@
 [Create responsive layouts in canvas apps](https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/create-responsive-layout)
 
 [Roles in the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces)
+
+[Give users access to the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces)
