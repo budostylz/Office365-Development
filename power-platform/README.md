@@ -266,3 +266,5 @@
 [Embed a report web part in SharePoint Online](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-embed-report-spo)
 
 [How to Create Power BI Report From SharePoint List](https://www.youtube.com/watch?v=XtH13UwUNgg)
+
+[Horizontally Scroll A Large Power Apps Gallery](https://www.richardawilson.com/2021/03/horizontally-scroll-large-power-apps.html)
