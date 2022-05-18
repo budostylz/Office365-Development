@@ -207,6 +207,9 @@ SharePoint - Office 365
 ## Create a canvas app with deep link to a specific screen
 https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linking?cid=kerryherger#:~:text=Deep%20links%20are%20useful%20when,AppID%E2%80%94ID%20of%20the%20app.
 
+## CoreIdentity
+[CoreIdentity](https://coreidentity.microsoft.com/)
+
 
 
 
