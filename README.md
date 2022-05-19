@@ -210,6 +210,14 @@ https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linkin
 ## CoreIdentity
 [CoreIdentity](https://coreidentity.microsoft.com/)
 
+## How to Embed Your Instagram Feed On Your Website
+[How to Embed Your Instagram Feed On Your Website](https://curator.io/blog/how-to-embed-your-instagram-feed-on-your-website)
+
+## The Best Social Media Aggregators for 2022
+[The Best Social Media Aggregators for 2022](https://curator.io/blog/the-best-social-media-aggregators)
+
+
+
 
 
 
