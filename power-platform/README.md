@@ -268,3 +268,5 @@
 [How to Create Power BI Report From SharePoint List](https://www.youtube.com/watch?v=XtH13UwUNgg)
 
 [Horizontally Scroll A Large Power Apps Gallery](https://www.richardawilson.com/2021/03/horizontally-scroll-large-power-apps.html)
+
+[Add Responsive Design to your Power Apps | Make existing Canvas Apps Responsive](https://www.youtube.com/watch?v=bEbY8Bhh8zw&t=147s)
