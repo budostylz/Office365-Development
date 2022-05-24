@@ -19,3 +19,5 @@
 
 [See the new Wizdom on SharePoint Modern Pages experience](https://www.contentformula.com/blog/see-the-new-wizdom-on-sharepoint-modern-pages-experience-2/)
 
+[Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
