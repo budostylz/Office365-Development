@@ -20,6 +20,8 @@
 
 [Set up your SharePoint Framework development environment](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment)
 
+[Build your first SharePoint client-side web part (Hello World part 1)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part)
+
 [Build your first SharePoint Framework Extension (Hello World part 1)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension)
 
 [Develop web parts with the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/)
