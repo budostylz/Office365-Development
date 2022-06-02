@@ -216,6 +216,9 @@ https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linkin
 ## The Best Social Media Aggregators for 2022
 [The Best Social Media Aggregators for 2022](https://curator.io/blog/the-best-social-media-aggregators)
 
+## Create event
+https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-1.0&tabs=http
+
 
 
 
