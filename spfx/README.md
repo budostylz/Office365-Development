@@ -1,3 +1,6 @@
+## Samples by Framework
+[Samples by Framework](https://aka.ms/sp-dev-fx-webparts/)
+
 ## TypeScript Tutorial
 [TypeScript](https://www.tutorialspoint.com/typescript/index.htm)
 
@@ -163,3 +166,6 @@
 
 ## Microsoft Graph Toolkit: UI Components and Authentication Providers for Microsoft Graph
 [Microsoft Graph Toolkit: UI Components and Authentication Providers for Microsoft Graph](https://mgt.dev/?path=/story/overview--page)
+
+## Building personal events web part with SPFx and Microsoft Graph Toolkit
+[Building personal events web part with SPFx and Microsoft Graph Toolkit](https://www.youtube.com/watch?v=St9QvaK_HUU)
