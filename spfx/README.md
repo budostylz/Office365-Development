@@ -1,5 +1,5 @@
 ## Samples by Framework
-[Samples by Framework](https://aka.ms/sp-dev-fx-webparts/)
+[Samples by Framework](https://aka.ms/spfx-webparts/)
 
 ## TypeScript Tutorial
 [TypeScript](https://www.tutorialspoint.com/typescript/index.htm)
