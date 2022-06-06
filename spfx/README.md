@@ -157,3 +157,6 @@
 
 ## SharePoint Framework: Retrieve and Display SharePoint List Items using REST API and React JS
 [SharePoint Framework: Retrieve and Display SharePoint List Items using REST API and React JS](https://social.technet.microsoft.com/wiki/contents/articles/37948.sharepoint-framework-retrieve-and-display-sharepoint-list-items-using-rest-api-and-react-js.aspx)
+
+## Retrieve SharePoint List Items Using SharePoint Framework Development Model
+[Retrieve SharePoint List Items Using SharePoint Framework Development Model](https://www.c-sharpcorner.com/article/retrieve-sharepoint-list-items-using-sharepoint-framework-development-model/)
