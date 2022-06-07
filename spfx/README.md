@@ -169,3 +169,6 @@
 
 ## Building personal events web part with SPFx and Microsoft Graph Toolkit
 [Building personal events web part with SPFx and Microsoft Graph Toolkit](https://www.youtube.com/watch?v=St9QvaK_HUU)
+
+## Calendar Feed
+[Calendar Feed](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar-feed)
