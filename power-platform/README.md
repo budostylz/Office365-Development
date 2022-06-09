@@ -272,3 +272,6 @@
 [Add Responsive Design to your Power Apps | Make existing Canvas Apps Responsive](https://www.youtube.com/watch?v=bEbY8Bhh8zw&t=147s)
 
 [Create secure, low-code business websites](https://powerpages.microsoft.com/en-us/?ocid=eml_pg343125_gdc_comm_ba&mkt_tok=MTU3LUdRRS0zODIAAAGEldS6rQRatlolfvM5GVyfHUPKD04rVtBo9wzLMKNBwxKuEYfaJrWCyCpq_X05-Wtbfbs-BcsPNbQgB4OSwZypFEcInwSLmC3XGn7P7Ty0AaHWxkplQUT5UgEQ)
+
+## Power Apps Copy To Clipboard Component
+[Power Apps Copy To Clipboard Component](https://github.com/TBag/power-apps-copy-text-to-clipboard)
