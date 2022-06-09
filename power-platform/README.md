@@ -275,3 +275,6 @@
 
 ## Power Apps Copy To Clipboard Component
 [Power Apps Copy To Clipboard Component](https://github.com/TBag/power-apps-copy-text-to-clipboard)
+
+## What is Microsoft Power Platform CLI?
+[What is Microsoft Power Platform CLI?](https://docs.microsoft.com/en-us/power-apps/developer/data-platform/powerapps-cli)
