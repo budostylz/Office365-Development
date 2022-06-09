@@ -172,3 +172,6 @@
 
 ## Calendar Feed
 [Calendar Feed](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar-feed)
+
+## Errors
+[Fix Onedrive The tag present in the reparse point buffer is invalid](https://www.itexperience.net/fix-onedrive-the-tag-present-in-the-reparse-point-buffer-is-invalid/)
