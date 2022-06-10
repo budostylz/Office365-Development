@@ -28,5 +28,8 @@
 ## SkySync
 [SkySync](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775356702/User+Migration+Guides+G+Suite+to+OneDrive+for+Business)
 
+## User Migration Guides | Google Workspace to SharePoint
+[User Migration Guides | Google Workspace to SharePoint](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775291383/User+Migration+Guides+Google+Workspace+to+SharePoint)
+
 
 
