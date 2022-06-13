@@ -31,5 +31,8 @@
 ## User Migration Guides | Google Workspace to SharePoint
 [User Migration Guides | Google Workspace to SharePoint](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775291383/User+Migration+Guides+Google+Workspace+to+SharePoint)
 
+## Migrate calendars with the data migration service
+[Migrate calendars with the data migration service](https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F6244305%3Fhl%3Den&product_context=6244305&product_name=UnuFlow&trigger_context=a)
+
 
 
