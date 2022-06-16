@@ -219,6 +219,9 @@ https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linkin
 ## Create event
 https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-1.0&tabs=http
 
+## How to use "Office UI Fabric Icons" in PowerApps
+[How to use "Office UI Fabric Icons" in PowerApps](https://www.youtube.com/watch?v=HygPiEgHJkQ)
+
 
 
 
