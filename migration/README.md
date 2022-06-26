@@ -19,7 +19,6 @@
 ## When is a Hybrid Migration to Office 365 Suitable for You?
 [When is a Hybrid Migration to Office 365 Suitable for You?](https://www.o365cloudexperts.com/blog/office-365-hybrid-migration)
 
-[Migrate Google Calendar from Google to Share Point](https://youtu.be/hPXWr-jIit8)
 
 ## SharePoint Governance – Guides, Links and Downloads
 [SharePoint Governance – Guides, Links and Downloads](https://sharegate.com/blog/sharepoint-governance-plan-presentation?gclid=EAIaIQobChMI58uny7Wl9gIVfhXUAR2-Kw6yEAAYASAAEgKsWPD_BwE)
@@ -38,6 +37,9 @@
 
 ## Connect to a Microsoft 365 group
 [Connect to a Microsoft 365 group](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-connect-to-office365-group)
+
+## Integrating Google Calendar Data with SharePoint using Microsoft Flow
+[Integrating Google Calendar Data with SharePoint using Microsoft Flow](https://youtu.be/hPXWr-jIit8)
 
 
 
