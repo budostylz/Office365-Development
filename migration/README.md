@@ -19,6 +19,8 @@
 ## When is a Hybrid Migration to Office 365 Suitable for You?
 [When is a Hybrid Migration to Office 365 Suitable for You?](https://www.o365cloudexperts.com/blog/office-365-hybrid-migration)
 
+[Migrate Google Calendar from Google to Share Point](https://youtu.be/hPXWr-jIit8)
+
 ## SharePoint Governance – Guides, Links and Downloads
 [SharePoint Governance – Guides, Links and Downloads](https://sharegate.com/blog/sharepoint-governance-plan-presentation?gclid=EAIaIQobChMI58uny7Wl9gIVfhXUAR2-Kw6yEAAYASAAEgKsWPD_BwE)
 
