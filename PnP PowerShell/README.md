@@ -25,3 +25,7 @@
 
 ## Add-PowerAppsAccount fails because method not found
 [Add-PowerAppsAccount fails because method not found](https://powerusers.microsoft.com/t5/Power-Apps-Governance-and/Add-PowerAppsAccount-fails-because-method-not-found/td-p/267037)
+
+## [How to Gain Owner Access to OneDrive for Business Sites in Office 365?](How to Gain Owner Access to OneDrive for Business Sites in Office 365?](https://www.sharepointdiary.com/2017/04/gain-admin-permission-to-onedrive-for-business-sites-using-powershell.html#ixzz7aGbPUZDF)
+
+## [Find All OneDrive for Business Sites using PowerShell](https://www.sharepointdiary.com/2018/04/find-all-onedrive-site-collections-in-sharepoint-online-using-powershell.html#ixzz7aGbg4Y62)
