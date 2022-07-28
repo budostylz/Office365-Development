@@ -175,3 +175,6 @@
 
 ## Errors
 [Fix Onedrive The tag present in the reparse point buffer is invalid](https://www.itexperience.net/fix-onedrive-the-tag-present-in-the-reparse-point-buffer-is-invalid/)
+
+## Microsoft Graph API - Schedule repeating appointments as recurring events in Outlook
+[Schedule repeating appointments as recurring events in Outlook](https://docs.microsoft.com/en-us/graph/outlook-schedule-recurring-events)
