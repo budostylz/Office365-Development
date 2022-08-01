@@ -173,8 +173,22 @@
 ## Calendar Feed
 [Calendar Feed](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar-feed)
 
+<<<<<<< HEAD
 ## Reusable React controls for your SharePoint Framework solutions
 [@pnp/spfx-controls-react](https://pnp.github.io/sp-dev-fx-controls-react/)
 
 ## office-ui-fabric-react package
 [office-ui-fabric-react package](https://docs.microsoft.com/en-us/javascript/api/office-ui-fabric-react?view=office-ui-fabric-react-latest)
+=======
+## Errors
+[Fix Onedrive The tag present in the reparse point buffer is invalid](https://www.itexperience.net/fix-onedrive-the-tag-present-in-the-reparse-point-buffer-is-invalid/)
+
+## Microsoft Graph API - Schedule repeating appointments as recurring events in Outlook
+[Schedule repeating appointments as recurring events in Outlook](https://docs.microsoft.com/en-us/graph/outlook-schedule-recurring-events)
+
+## Graph Explorer
+[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+## SharePoint Framework Node Version
+14.15.0 (Currently using 64-bit executable)
+>>>>>>> 1a0720033d61ae388dd01f31816717b83bdc1837

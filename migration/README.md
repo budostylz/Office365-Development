@@ -19,6 +19,7 @@
 ## When is a Hybrid Migration to Office 365 Suitable for You?
 [When is a Hybrid Migration to Office 365 Suitable for You?](https://www.o365cloudexperts.com/blog/office-365-hybrid-migration)
 
+
 ## SharePoint Governance – Guides, Links and Downloads
 [SharePoint Governance – Guides, Links and Downloads](https://sharegate.com/blog/sharepoint-governance-plan-presentation?gclid=EAIaIQobChMI58uny7Wl9gIVfhXUAR2-Kw6yEAAYASAAEgKsWPD_BwE)
 
@@ -28,8 +29,28 @@
 ## SkySync
 [SkySync](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775356702/User+Migration+Guides+G+Suite+to+OneDrive+for+Business)
 
+<<<<<<< HEAD
 ## SkySync Platform
 [SkySync Platform](https://skysync.atlassian.net/wiki/spaces/S4D/overview?homepageId=6800369)
+=======
+## User Migration Guides | Google Workspace to SharePoint
+[User Migration Guides | Google Workspace to SharePoint](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775291383/User+Migration+Guides+Google+Workspace+to+SharePoint)
+
+## Migrate calendars with the data migration service
+[Migrate calendars with the data migration service](https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F6244305%3Fhl%3Den&product_context=6244305&product_name=UnuFlow&trigger_context=a)
+
+## Connect to a Microsoft 365 group
+[Connect to a Microsoft 365 group](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-connect-to-office365-group)
+
+## Integrating Google Calendar Data with SharePoint using Microsoft Flow
+[Integrating Google Calendar Data with SharePoint using Microsoft Flow](https://youtu.be/hPXWr-jIit8)
+
+## SkySync CLI
+[SkySync CLI](https://www.npmjs.com/package/skysync-cli?activeTab=readme)
+
+## SkySync(DryvIQ Command Line)
+[SkySync(DryvIQ Command Line)](https://skysync.atlassian.net/wiki/spaces/S4D/pages/193331923/DryvIQ+Command-line+Interface)
+>>>>>>> 1a0720033d61ae388dd01f31816717b83bdc1837
 
 
 
