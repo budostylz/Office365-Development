@@ -1,0 +1,1 @@
+{"$schema":"https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json","elmType":"a","txtContent":"[$Title]","attributes":{"target":"_blank","href":"='https://apps.preview.powerapps.com/play/f356252b-6cef-4981-8c0e-dbf44aba9061?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&varID=' + @currentField  + [$ID]"}}

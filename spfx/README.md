@@ -172,3 +172,9 @@
 
 ## Calendar Feed
 [Calendar Feed](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar-feed)
+
+## Reusable React controls for your SharePoint Framework solutions
+[@pnp/spfx-controls-react](https://pnp.github.io/sp-dev-fx-controls-react/)
+
+## office-ui-fabric-react package
+[office-ui-fabric-react package](https://docs.microsoft.com/en-us/javascript/api/office-ui-fabric-react?view=office-ui-fabric-react-latest)

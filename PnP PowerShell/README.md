@@ -13,3 +13,6 @@
 ## Enable Custom Scripts
 1. Connect-PnPOnline -Url https://affirmalab.sharepoint.com/sites/EBCIntake -UseWebLogin
 2. Set-PnPSite -NoScriptSite $false
+
+## Office UI Fabric Icons
+[Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)

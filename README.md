@@ -219,6 +219,12 @@ https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/deep-linkin
 ## Create event
 https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-1.0&tabs=http
 
+## Announcing Microsoft Power Pages: Build secure, low-code websites
+[Announcing Microsoft Power Pages: Build secure, low-code websites](https://powerpages.microsoft.com/en-us/blog/announcing-microsoft-power-pages-build-secure-low-code-websites/)
+
+## SharePoint Online: How to Change Home Page using PowerShell?
+[SharePoint Online: How to Change Home Page using PowerShell?](https://www.sharepointdiary.com/2017/02/sharepoint-online-change-home-page-using-powershell.html)
+
 
 
 

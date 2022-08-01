@@ -21,3 +21,6 @@
 
 [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
+
+[Customize your SharePoint site](https://support.microsoft.com/en-us/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b)
+
