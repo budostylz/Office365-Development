@@ -41,5 +41,8 @@
 ## Integrating Google Calendar Data with SharePoint using Microsoft Flow
 [Integrating Google Calendar Data with SharePoint using Microsoft Flow](https://youtu.be/hPXWr-jIit8)
 
+## SkySync CLI
+[SkySync CLI](https://www.npmjs.com/package/skysync-cli?activeTab=readme)
+
 
 
