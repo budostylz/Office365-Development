@@ -44,5 +44,8 @@
 ## SkySync CLI
 [SkySync CLI](https://www.npmjs.com/package/skysync-cli?activeTab=readme)
 
+## SkySync(DryvIQ Command Line)
+[SkySync(DryvIQ Command Line)](https://skysync.atlassian.net/wiki/spaces/S4D/pages/193331923/DryvIQ+Command-line+Interface)
+
 
 
