@@ -181,3 +181,6 @@
 
 ## Graph Explorer
 [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+## SharePoint Framework Node Version
+14.15.0 (Currently using 64-bit executable)
