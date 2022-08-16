@@ -278,3 +278,11 @@
 
 ## What is Microsoft Power Platform CLI?
 [What is Microsoft Power Platform CLI?](https://docs.microsoft.com/en-us/power-apps/developer/data-platform/powerapps-cli)
+
+## Visualization types in Power BI
+[Visualization types in Power BI](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a)
+
+## Types of report development dashboards in Power BI
+[ Types of report development dashboards in Power BI](https://www.softwebsolutions.com/resources/types-of-reports-development-in-power-bi.html)
+
+
