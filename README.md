@@ -228,7 +228,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 =======
 ## How to use "Office UI Fabric Icons" in PowerApps
 [How to use "Office UI Fabric Icons" in PowerApps](https://www.youtube.com/watch?v=HygPiEgHJkQ)
->>>>>>> 1a0720033d61ae388dd01f31816717b83bdc1837
+
+## How to grant all employees access to a SharePoint site via Everyone except external users Group
+[How to grant all employees access to a SharePoint site via Everyone except external users Group](https://sharepointmaven.com/grant-employees-access-sharepoint-site-via-everyone-except-external-users-group/)
 
 
 
