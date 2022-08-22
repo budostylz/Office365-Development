@@ -52,5 +52,8 @@
 [SkySync(DryvIQ Command Line)](https://skysync.atlassian.net/wiki/spaces/S4D/pages/193331923/DryvIQ+Command-line+Interface)
 >>>>>>> 1a0720033d61ae388dd01f31816717b83bdc1837
 
+## Create a user mapping from a CSV file - ShareGate
+[Create a user mapping from a CSV file](https://migration-tool.sharegate.com/hc/en-us/articles/115000731827)
+
 
 
