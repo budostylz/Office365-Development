@@ -285,4 +285,7 @@
 ## Types of report development dashboards in Power BI
 [ Types of report development dashboards in Power BI](https://www.softwebsolutions.com/resources/types-of-reports-development-in-power-bi.html)
 
+## Microsoft Power BI Features – Reasons Why Power BI is a Leader in its Field!
+[Microsoft Power BI Features – Reasons Why Power BI is a Leader in its Field!](https://data-flair.training/blogs/power-bi-features/)
+
 
