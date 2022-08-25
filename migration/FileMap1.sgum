@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<UserAndGroupMappings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Mappings>
+    <Mapping>
+      <Source AccountName="1jfinance@lifetouch.com" DisplayName="1jfinance@lifetouch.com" PrincipalType="None" />
+      <Destination AccountName="1jfinance@shutterfly.com" DisplayName="1jfinance@shutterfly.com" PrincipalType="None" />
+    </Mapping>
+    <Mapping>
+      <Source AccountName="1jterr@lifetouch.com" DisplayName="1jterr@lifetouch.com" PrincipalType="None" />
+      <Destination AccountName="1jterr@shutterfly.com" DisplayName="1jterr@shutterfly.com" PrincipalType="None" />
+    </Mapping>
+  </Mappings>
+</UserAndGroupMappings>
