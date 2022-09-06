@@ -232,6 +232,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## How to grant all employees access to a SharePoint site via Everyone except external users Group
 [How to grant all employees access to a SharePoint site via Everyone except external users Group](https://sharepointmaven.com/grant-employees-access-sharepoint-site-via-everyone-except-external-users-group/)
 
+## Learn about retention policies and retention labels
+[Learn about retention policies and retention labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide)
+
 
 
 
