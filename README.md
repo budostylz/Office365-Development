@@ -235,6 +235,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Learn about retention policies and retention labels
 [Learn about retention policies and retention labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide)
 
+## KQL Cheat Sheet
+[KQL Cheat Sheet](https://www.cqure.nl/en/knowledge-platform/kql-cheat-sheet)
+
 
 
 
