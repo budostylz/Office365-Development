@@ -54,5 +54,8 @@
 ## Create a user mapping from a CSV file - ShareGate
 [Create a user mapping from a CSV file](https://migration-tool.sharegate.com/hc/en-us/articles/115000731827)
 
+## Recommendation for SQL Maintenance
+[Recommendation for SQL Maintenance](https://skysync.atlassian.net/wiki/spaces/CS/pages/6222859/Recommendation+for+SQL+Maintenance)
+
 
 
