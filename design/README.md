@@ -9,3 +9,5 @@
 [SharePoint site design and site script overview](https://docs.microsoft.com/en-US/sharepoint/dev/declarative-customization/site-design-overview?branch=sitedesign)
 
 [Extract and Apply look book designs to existing SharePoint site collections using PnP Powershell](https://www.youtube.com/watch?v=wvWN9wJR36g&t=642s)
+
+[How to configure and apply a custom theme in SharePoint Online](https://sharepointmaven.com/how-to-configure-and-apply-a-custom-theme-in-sharepoint-online)
