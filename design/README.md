@@ -1,5 +1,7 @@
 [SharePoint look book](https://lookbook.microsoft.com/)
 
+[Apply SharePoint Look book theme to existing Site Collection.](https://onetidbit.com/2021/07/01/apply-sharepoint-look-book-theme-to-existing-site-collection/)
+
 [SharePoint site theming](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
 
 [How to Create Hub Sites in SharePoint Online](https://sharepointmaven.com/how-to-create-hub-sites-in-sharepoint-online)
