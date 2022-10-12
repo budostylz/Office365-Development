@@ -241,6 +241,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Create a map view for the Geolocation field in SharePoint
 [Create a map view for the Geolocation field in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/create-a-map-view-for-the-geolocation-field-in-sharepoint)
 
+## Tips and tricks for Power BI map visualizations
+[Tips and tricks for Power BI map visualizations](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-map-tips-and-tricks)
+
 
 
 
