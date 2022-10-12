@@ -238,6 +238,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## KQL Cheat Sheet
 [KQL Cheat Sheet](https://www.cqure.nl/en/knowledge-platform/kql-cheat-sheet)
 
+## Create a map view for the Geolocation field in SharePoint
+[Create a map view for the Geolocation field in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/create-a-map-view-for-the-geolocation-field-in-sharepoint)
+
 
 
 
