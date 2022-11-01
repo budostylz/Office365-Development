@@ -244,6 +244,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Tips and tricks for Power BI map visualizations
 [Tips and tricks for Power BI map visualizations](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-map-tips-and-tricks)
 
+## Allow or restrict the ability to embed content on SharePoint pages
+[Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/en-us/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
+
 
 
 
