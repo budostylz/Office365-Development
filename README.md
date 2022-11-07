@@ -253,6 +253,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Infowise Connected Field
 [Infowise Connected Field](https://www.youtube.com/watch?v=wDqh2Ais_04)
 
+## Integration with Connected Field
+[Integration with Connected Field](https://www.infowisesolutions.com/documentation/index/111)
+
 
 
 
