@@ -29,7 +29,6 @@
 ## SkySync
 [SkySync](https://skysync.atlassian.net/wiki/spaces/S4D/pages/775356702/User+Migration+Guides+G+Suite+to+OneDrive+for+Business)
 
-<<<<<<< HEAD
 ## SkySync Platform
 [SkySync Platform](https://skysync.atlassian.net/wiki/spaces/S4D/overview?homepageId=6800369)
 =======
