@@ -247,6 +247,12 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Allow or restrict the ability to embed content on SharePoint pages
 [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/en-us/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 
+## Installing the Ultimate Forms Trial Version for O365
+[Installing the Ultimate Forms Trial Version for O365](https://www.youtube.com/watch?v=FB_vqZP4E34)
+
+## Infowise Connected Field
+[Infowise Connected Field](https://www.youtube.com/watch?v=wDqh2Ais_04)
+
 
 
 
