@@ -259,6 +259,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Removing Deny permission on Add and customize pages
 [Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
 
+## Setting up multiple cascading lookup levels
+[Setting up multiple cascading lookup levels](https://www.infowisesolutions.com/blog/setting-up-multiple-cascading-lookup-levels)
+
 
 
 
