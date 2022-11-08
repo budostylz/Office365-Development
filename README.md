@@ -256,6 +256,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Integration with Connected Field
 [Integration with Connected Field](https://www.infowisesolutions.com/documentation/index/111)
 
+## Removing Deny permission on Add and customize pages
+[Removing Deny permission on Add and customize pages](https://www.infowisesolutions.com/documentation/?ID=253)
+
 
 
 
