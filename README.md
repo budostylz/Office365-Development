@@ -262,6 +262,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Setting up multiple cascading lookup levels
 [Setting up multiple cascading lookup levels](https://www.infowisesolutions.com/blog/setting-up-multiple-cascading-lookup-levels)
 
+## Working with the Page Comments REST API in SharePoint Communication sites
+[Working with the Page Comments REST API in SharePoint Communication sites](https://www.vrdmn.com/2017/07/working-with-page-comments-rest-api-in.html)
+
 
 
 
