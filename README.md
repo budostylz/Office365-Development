@@ -265,6 +265,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Working with the Page Comments REST API in SharePoint Communication sites
 [Working with the Page Comments REST API in SharePoint Communication sites](https://www.vrdmn.com/2017/07/working-with-page-comments-rest-api-in.html)
 
+## Viva
+[Microsoft Viva](https://www.microsoft.com/en-us/microsoft-viva#layout-container-uidc84f)
+
 
 
 
