@@ -274,6 +274,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Set Up Microsoft Viva](https://learn.microsoft.com/en-us/viva/setup-microsoft-viva)
 
+[Overview of Viva Connections](https://learn.microsoft.com/en-us/viva/connections/viva-connections-overview)
+
 
 
 
