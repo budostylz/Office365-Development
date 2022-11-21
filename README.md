@@ -270,6 +270,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Microsoft Viva](https://learn.microsoft.com/en-us/viva/)
 
+[Microsoft Viva Dev Center](https://developer.microsoft.com/en-us/viva)
+
 
 
 
