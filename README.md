@@ -276,6 +276,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Overview of Viva Connections](https://learn.microsoft.com/en-us/viva/connections/viva-connections-overview)
 
+[Authoring a Microsoft Viva Connections Dashboard](https://www.youtube.com/watch?v=-p09L3RRNQ8)
+
 
 
 
