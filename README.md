@@ -278,6 +278,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Authoring a Microsoft Viva Connections Dashboard](https://www.youtube.com/watch?v=-p09L3RRNQ8)
 
+[A whole new way to deliver UI](https://adaptivecards.io/)
+
 
 
 
