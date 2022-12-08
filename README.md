@@ -282,6 +282,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Build your first SharePoint Adaptive Card Extension](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension)
 
+[Community Samples](https://github.com/pnp/sp-dev-fx-aces)
+
 
 
 
