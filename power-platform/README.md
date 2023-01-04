@@ -294,4 +294,7 @@
 ## Create Active Directory users with Power Automate for Desktop
 [Create Active Directory users with Power Automate for Desktop](https://4sysops.com/archives/create-active-directory-users-with-power-automate-for-desktop/)
 
+## Connect to a SharePoint Folder in Power BI Desktop - Option 1
+[Connect to a SharePoint Folder in Power BI Desktop - Option 1](https://www.youtube.com/watch?v=KzIjEUXm7Ic)
+
 
