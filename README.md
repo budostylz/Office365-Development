@@ -288,6 +288,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage)
 
+[Excel to JSON Converter](https://beautifytools.com/excel-to-json-converter.php)
+
 
 
 
