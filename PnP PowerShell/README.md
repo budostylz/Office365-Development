@@ -34,3 +34,9 @@
 
 ## [Find All OneDrive for Business Sites using PowerShell](https://www.sharepointdiary.com/2018/04/find-all-onedrive-site-collections-in-sharepoint-online-using-powershell.html#ixzz7aGbg4Y62)
 >>>>>>> 1a0720033d61ae388dd01f31816717b83bdc1837
+
+## Fix PowerShell Install-Module MSOnline, error:No match was found for the specified search criteria and module name 'MSOnline'
+[Fix PowerShell Install-Module MSOnline, error:No match was found for the specified search criteria and module name 'MSOnline'](https://www.sccm.ie/how-to/98-fix-powershell-install-module-msonline-error-no-match-was-found-for-the-specified-search-criteria-and-module-name-msonline)
+
+## Unable to install SPO module
+[Unable to install SPO module](https://community.spiceworks.com/topic/2273785-unable-to-install-spo-module)
