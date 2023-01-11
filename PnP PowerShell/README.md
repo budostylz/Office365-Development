@@ -40,3 +40,6 @@
 
 ## Unable to install SPO module
 [Unable to install SPO module](https://community.spiceworks.com/topic/2273785-unable-to-install-spo-module)
+
+## Add Credentials to Windows Credential Manager
+[Control Panel\User Accounts\Credential Manager](Control Panel\User Accounts\Credential Manager)
