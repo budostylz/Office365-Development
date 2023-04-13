@@ -290,6 +290,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 [Excel to JSON Converter](https://beautifytools.com/excel-to-json-converter.php)
 
+[SharePoint online spfx script editor web part](https://www.enjoysharepoint.com/spfx-script-editor-web-part/)
+
 
 
 
