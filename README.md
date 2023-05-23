@@ -293,6 +293,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Script Editor Webpart
 [SharePoint online spfx script editor web part](https://www.enjoysharepoint.com/spfx-script-editor-web-part/)
 
+## InfoPath
+[InfoPath to SharePoint Fields](https://www.office-forums.com/threads/how-to-show-infopath-form-fields-on-a-sharepoint-library.100260)
+
 
 
 
