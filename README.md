@@ -296,6 +296,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## InfoPath
 [InfoPath to SharePoint Fields](https://www.office-forums.com/threads/how-to-show-infopath-form-fields-on-a-sharepoint-library.100260)
 
+## List Item Entity FullName
+[List Item Entity FullName](https://sharepointeducation.wordpress.com/2020/02/16/list-item-entity-fullname/)
+
 
 
 
