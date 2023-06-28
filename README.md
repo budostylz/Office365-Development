@@ -299,6 +299,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## List Item Entity FullName
 [List Item Entity FullName](https://sharepointeducation.wordpress.com/2020/02/16/list-item-entity-fullname/)
 
+##  CamlJs: SharePoint JavaScript Caml Builder
+[CamlJs: SharePoint JavaScript Caml Builder](https://ecmascript21.rssing.com/chan-9313638/all_p5.html)
+
 
 
 
