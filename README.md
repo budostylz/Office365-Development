@@ -302,6 +302,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ##  CamlJs: SharePoint JavaScript Caml Builder
 [CamlJs: SharePoint JavaScript Caml Builder](https://ecmascript21.rssing.com/chan-9313638/all_p5.html)
 
+## How to use fetch() with CORS and credentials
+[How to use fetch() with CORS and credentials](https://byby.dev/js-fetch-cors-credentials)
+
 
 
 
