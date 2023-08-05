@@ -305,6 +305,12 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## How to use fetch() with CORS and credentials
 [How to use fetch() with CORS and credentials](https://byby.dev/js-fetch-cors-credentials)
 
+## Scheduler - Full Calendar
+[Full Calendar](https://fullcalendar.io/docs/premium)
+
+## Full Calendar Scheduler Installation
+[Docs Premium Plugins](https://fullcalendar.io/docs/premium)
+
 
 
 
