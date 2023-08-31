@@ -314,5 +314,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Full Calendar Scheduler Demo
 [Full Calendar](https://fullcalendar.io/docs/timeline-standard-view-demo)
 
+## CORS
+[Fix for __REQUESTDIGEST value undefined issue- SharePoint Hosted App / Regular Page without Master Page](https://blog.josephvelliah.com/fix-for-requestdigest-value-undefined-issue-sharepoint-hosted-app-regular-page-without-master-page)
+
 
 
