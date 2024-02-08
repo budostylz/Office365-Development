@@ -317,5 +317,7 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## CORS
 [Fix for __REQUESTDIGEST value undefined issue- SharePoint Hosted App / Regular Page without Master Page](https://blog.josephvelliah.com/fix-for-requestdigest-value-undefined-issue-sharepoint-hosted-app-regular-page-without-master-page)
 
+## Parse CSV File Using Power Automate
+[Parse CSV File Using Power Automate](https://www.c-sharpcorner.com/article/parse-csv-file-using-power-automate/)
 
 
