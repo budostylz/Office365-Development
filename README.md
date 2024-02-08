@@ -320,4 +320,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Parse CSV File Using Power Automate
 [Parse CSV File Using Power Automate](https://www.c-sharpcorner.com/article/parse-csv-file-using-power-automate/)
 
+## Reference guide to workflow expression functions in Azure Logic Apps and Power Automate
+[Reference guide to workflow expression functions in Azure Logic Apps and Power Automate](https://learn.microsoft.com/en-us/azure/logic-apps/workflow-definition-language-functions-reference)
 
