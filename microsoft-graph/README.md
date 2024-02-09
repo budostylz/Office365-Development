@@ -19,7 +19,8 @@
 ## microsoftgraph/microsoft-graph-toolkit - GitHub
 [microsoftgraph/microsoft-graph-toolkit - GitHub](https://github.com/microsoftgraph/microsoft-graph-toolkit)
 
-
+## Analyze and visualize your Outlook/Exchange calendar in Power BI
+[Analyze and visualize your Outlook/Exchange calendar in Power BI](https://www.youtube.com/watch?v=zXJphXou0TE)
 
 
 
