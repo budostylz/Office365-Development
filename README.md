@@ -323,3 +323,5 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Reference guide to workflow expression functions in Azure Logic Apps and Power Automate
 [Reference guide to workflow expression functions in Azure Logic Apps and Power Automate](https://learn.microsoft.com/en-us/azure/logic-apps/workflow-definition-language-functions-reference)
 
+## Tutorial: Embed a Power Apps visual in a Power BI report
+[Tutorial: Embed a Power Apps visual in a Power BI report](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-powerapp)
