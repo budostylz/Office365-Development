@@ -325,3 +325,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Tutorial: Embed a Power Apps visual in a Power BI report
 [Tutorial: Embed a Power Apps visual in a Power BI report](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-powerapp)
+
+## Analyze and visualize your Outlook/Exchange calendar in Power BI
+[Analyze and visualize your Outlook/Exchange calendar in Power BI](https://www.youtube.com/watch?v=zXJphXou0TE)
