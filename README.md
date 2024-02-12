@@ -334,3 +334,9 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Microsoft 365 Outlook Actions: Get Calendars V2
 [Microsoft 365 Outlook Actions: Get Calendars V2](https://www.youtube.com/watch?v=wYGKlgU5cvY)
+
+## How to get data from other people's outlook calendar
+[How to get data from other people's outlook calendar](https://powerusers.microsoft.com/t5/Building-Power-Apps/How-to-get-data-from-other-people-s-outlook-calendar/td-p/1482710)
+
+## Power Apps Canvas- Office365Outlook.CalendarGetTablesV2() did not show the ESTEMS calendar
+[Power Apps Canvas- Office365Outlook.CalendarGetTablesV2() did not show the ESTEMS calendar](https://powerusers.microsoft.com/t5/Building-Power-Apps/Power-Apps-Canvas-Office365Outlook-CalendarGetTablesV2-did-not/m-p/1366286#M355584)
