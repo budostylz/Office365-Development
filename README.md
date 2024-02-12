@@ -331,3 +331,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## How To Create Outlook Calendar Events from A Power App via a Power Automate Flow
 [How To Create Outlook Calendar Events from A Power App via a Power Automate Flow](https://www.youtube.com/watch?v=WQlvKxWuU7g)
+
+## Microsoft 365 Outlook Actions: Get Calendars V2
+[Microsoft 365 Outlook Actions: Get Calendars V2](https://www.youtube.com/watch?v=wYGKlgU5cvY)
