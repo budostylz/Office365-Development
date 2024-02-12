@@ -328,3 +328,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Analyze and visualize your Outlook/Exchange calendar in Power BI
 [Analyze and visualize your Outlook/Exchange calendar in Power BI](https://www.youtube.com/watch?v=zXJphXou0TE)
+
+## How To Create Outlook Calendar Events from A Power App via a Power Automate Flow
+[How To Create Outlook Calendar Events from A Power App via a Power Automate Flow](https://www.youtube.com/watch?v=WQlvKxWuU7g)
