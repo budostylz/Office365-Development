@@ -343,3 +343,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## PowerApps Horizontal Navigation Menu Component With Submenu
 [PowerApps Horizontal Navigation Menu Component With Submenu](https://www.c-sharpcorner.com/article/powerapps-horizontal-navigation-menu-component-with-submenu/)
+
+## Upload Files and Metadata to SharePoint in PowerApps
+[Upload Files and Metadata to SharePoint in PowerApps](https://www.c-sharpcorner.com/article/upload-files-and-metadata-to-sharepoint-in-powerapps/)
