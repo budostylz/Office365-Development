@@ -340,3 +340,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Canvas- Office365Outlook.CalendarGetTablesV2() did not show the ESTEMS calendar
 [Power Apps Canvas- Office365Outlook.CalendarGetTablesV2() did not show the ESTEMS calendar](https://powerusers.microsoft.com/t5/Building-Power-Apps/Power-Apps-Canvas-Office365Outlook-CalendarGetTablesV2-did-not/m-p/1366286#M355584)
+
+## PowerApps Horizontal Navigation Menu Component With Submenu
+[PowerApps Horizontal Navigation Menu Component With Submenu](https://www.c-sharpcorner.com/article/powerapps-horizontal-navigation-menu-component-with-submenu/)
