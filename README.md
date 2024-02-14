@@ -346,3 +346,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Upload Files and Metadata to SharePoint in PowerApps
 [Upload Files and Metadata to SharePoint in PowerApps](https://www.c-sharpcorner.com/article/upload-files-and-metadata-to-sharepoint-in-powerapps/)
+
+## Create a Calendar in PowerApps
+[Create a Calendar in PowerApps](https://www.c-sharpcorner.com/article/create-a-calendar-in-powerapps2/)
