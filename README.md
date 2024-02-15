@@ -352,3 +352,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Formula reference - Power Apps
 [Formula reference - Power Apps](https://learn.microsoft.com/en-us/power-platform/power-fx/formula-reference)
+
+## Using PowerApps Filter Function for All SharePoint List Columns
+[Using PowerApps Filter Function for All SharePoint List Columns](https://www.c-sharpcorner.com/article/using-powerapps-filter-function-for-all-sharepoint-list-columns/)
