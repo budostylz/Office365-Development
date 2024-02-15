@@ -349,3 +349,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Create a Calendar in PowerApps
 [Create a Calendar in PowerApps](https://www.c-sharpcorner.com/article/create-a-calendar-in-powerapps2/)
+
+## Formula reference - Power Apps
+[Formula reference - Power Apps](https://learn.microsoft.com/en-us/power-platform/power-fx/formula-reference)
