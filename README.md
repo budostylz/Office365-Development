@@ -355,3 +355,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Using PowerApps Filter Function for All SharePoint List Columns
 [Using PowerApps Filter Function for All SharePoint List Columns](https://www.c-sharpcorner.com/article/using-powerapps-filter-function-for-all-sharepoint-list-columns/)
+
+## Calendar-screen template in canvas apps
+[Calendar-screen template in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/screen-templates/calendar-screen-overview)
