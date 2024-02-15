@@ -358,3 +358,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Calendar-screen template in canvas apps
 [Calendar-screen template in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/screen-templates/calendar-screen-overview)
+
+## Display SharePoint List Attachments in Power Apps | Viewer Component
+[Display SharePoint List Attachments in Power Apps | Viewer Component](https://www.youtube.com/watch?v=3dNeMVLZDHo)
