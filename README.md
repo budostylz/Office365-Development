@@ -368,5 +368,5 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Make A Calendar In Power Apps – Part 1
 [Make A Calendar In Power Apps – Part 1](https://www.matthewdevaney.com/make-a-calendar-in-power-apps-part-1/)
 
-## ## Make A Calendar In Power Apps – Part 2
+## Make A Calendar In Power Apps – Part 2
 [Make A Calendar In Power Apps – Part 2](https://www.matthewdevaney.com/make-a-calendar-in-power-apps-part-2/)
