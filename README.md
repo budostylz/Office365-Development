@@ -370,3 +370,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Make A Calendar In Power Apps – Part 2
 [Make A Calendar In Power Apps – Part 2](https://www.matthewdevaney.com/make-a-calendar-in-power-apps-part-2/)
+
+## Custom API in Microsoft Dataverse or Dynamics 365 Configuration and Demo | Postman call Custom API
+[Custom API in Microsoft Dataverse or Dynamics 365 Configuration and Demo | Postman call Custom API](https://youtu.be/kEte_uYjFFE?si=-P5y72SIGO9FEBC4)
