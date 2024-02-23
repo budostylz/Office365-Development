@@ -373,3 +373,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Custom API in Microsoft Dataverse or Dynamics 365 Configuration and Demo | Postman call Custom API
 [Custom API in Microsoft Dataverse or Dynamics 365 Configuration and Demo | Postman call Custom API](https://youtu.be/kEte_uYjFFE?si=-P5y72SIGO9FEBC4)
+
+## All Power Apps Date & Time Functions (With Examples)
+[All Power Apps Date & Time Functions (With Examples)](https://www.matthewdevaney.com/all-power-apps-date-time-functions-with-examples/)
