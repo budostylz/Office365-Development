@@ -379,3 +379,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Navigating Folders & Subfolders In A SharePoint Document Library
 [Power Apps Navigating Folders & Subfolders In A SharePoint Document Library](https://www.matthewdevaney.com/power-apps-navigating-folders-subfolders-in-a-sharepoint-document-library/)
+
+## Variables In PowerApps
+[Variables In PowerApps](https://www.c-sharpcorner.com/article/variables-in-powerapps/)
