@@ -376,3 +376,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## All Power Apps Date & Time Functions (With Examples)
 [All Power Apps Date & Time Functions (With Examples)](https://www.matthewdevaney.com/all-power-apps-date-time-functions-with-examples/)
+
+## Power Apps Navigating Folders & Subfolders In A SharePoint Document Library
+[Power Apps Navigating Folders & Subfolders In A SharePoint Document Library](https://www.matthewdevaney.com/power-apps-navigating-folders-subfolders-in-a-sharepoint-document-library/)
