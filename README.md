@@ -388,3 +388,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Combining Filter and Sort in Gallery
 [Combining Filter and Sort in Gallery](https://www.matthewdevaney.com/power-apps-customize-a-sharepoint-list-form/](https://powerusers.microsoft.com/t5/Building-Power-Apps/Combining-Filter-and-Sort-in-Gallery/td-p/125923)https://powerusers.microsoft.com/t5/Building-Power-Apps/Combining-Filter-and-Sort-in-Gallery/td-p/125923)
+
+## Power Apps People Picker Delegation Workaround
+[Power Apps People Picker Delegation Workaround](https://www.matthewdevaney.com/power-apps-people-picker-delegation-workaround/)
