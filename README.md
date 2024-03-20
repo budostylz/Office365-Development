@@ -385,3 +385,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps: Customize A SharePoint List Form
 [Power Apps: Customize A SharePoint List Form](https://www.matthewdevaney.com/power-apps-customize-a-sharepoint-list-form/)
+
+## Combining Filter and Sort in Gallery
+[Combining Filter and Sort in Gallery]([https://www.matthewdevaney.com/power-apps-customize-a-sharepoint-list-form/](https://powerusers.microsoft.com/t5/Building-Power-Apps/Combining-Filter-and-Sort-in-Gallery/td-p/125923)https://powerusers.microsoft.com/t5/Building-Power-Apps/Combining-Filter-and-Sort-in-Gallery/td-p/125923)
