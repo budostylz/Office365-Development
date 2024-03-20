@@ -382,3 +382,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Variables In PowerApps
 [Variables In PowerApps](https://www.c-sharpcorner.com/article/variables-in-powerapps/)
+
+## Power Apps: Customize A SharePoint List Form
+[Power Apps: Customize A SharePoint List Form](https://www.matthewdevaney.com/power-apps-customize-a-sharepoint-list-form/)
