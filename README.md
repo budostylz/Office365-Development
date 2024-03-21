@@ -394,3 +394,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Drag & Drop Kanban Tutorial
 [Power Apps Drag & Drop Kanban Tutorial](https://www.matthewdevaney.com/power-apps-drag-drop-kanban-tutorial/)
+
+## 5 Power Apps Gallery Design UX Tips
+[5 Power Apps Gallery Design UX Tips](https://www.matthewdevaney.com/5-power-apps-gallery-design-ux-tips/)
