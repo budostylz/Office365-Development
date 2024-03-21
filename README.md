@@ -391,3 +391,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps People Picker Delegation Workaround
 [Power Apps People Picker Delegation Workaround](https://www.matthewdevaney.com/power-apps-people-picker-delegation-workaround/)
+
+## Power Apps Drag & Drop Kanban Tutorial
+[Power Apps Drag & Drop Kanban Tutorial](https://www.matthewdevaney.com/power-apps-drag-drop-kanban-tutorial/)
