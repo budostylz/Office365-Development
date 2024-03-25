@@ -397,3 +397,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## 5 Power Apps Gallery Design UX Tips
 [5 Power Apps Gallery Design UX Tips](https://www.matthewdevaney.com/5-power-apps-gallery-design-ux-tips/)
+
+## Power Apps Easiest Way To Upload Files To A SharePoint Document Library
+[Power Apps Easiest Way To Upload Files To A SharePoint Document Library](https://www.matthewdevaney.com/power-apps-easiest-way-to-upload-files-to-a-sharepoint-document-library/)
