@@ -403,3 +403,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps- How Components access Global Variables, Controls and Screens
 [Power Apps- How Components access Global Variables, Controls and Screens](https://automations365.com/power-apps-how-components-access-global-variables-controls-and-screens/)
+
+## Power Apps Design: Make Your Power Apps Look Better With This 1 Tip
+[Power Apps Design: Make Your Power Apps Look Better With This 1 Tip](https://www.youtube.com/watch?v=vh9X2cwmzAQ)
