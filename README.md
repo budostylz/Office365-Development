@@ -400,3 +400,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Easiest Way To Upload Files To A SharePoint Document Library
 [Power Apps Easiest Way To Upload Files To A SharePoint Document Library](https://www.matthewdevaney.com/power-apps-easiest-way-to-upload-files-to-a-sharepoint-document-library/)
+
+## Power Apps- How Components access Global Variables, Controls and Screens
+[Power Apps- How Components access Global Variables, Controls and Screens](https://automations365.com/power-apps-how-components-access-global-variables-controls-and-screens/)
