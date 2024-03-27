@@ -412,3 +412,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Patch Function Examples For Every SharePoint Column Type
 [Power Apps Patch Function Examples For Every SharePoint Column Type](https://www.matthewdevaney.com/power-apps-patch-function-examples-for-every-sharepoint-column-type/patch-a-sharepoint-single-line-text-column-in-power-apps/)
+
+## Supported Countries and Formats
+[Supported Countries and Formats](https://taxid.pro/docs/countries)
