@@ -411,7 +411,7 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 [Power Apps Navigating Folders & Subfolders In A SharePoint Document Library](https://www.matthewdevaney.com/power-apps-navigating-folders-subfolders-in-a-sharepoint-document-library/)
 
 ## Power Apps Patch Function Examples For Every SharePoint Column Type
-[Power Apps Patch Function Examples For Every SharePoint Column Type](https://www.matthewdevaney.com/power-apps-patch-function-examples-for-every-sharepoint-column-type/patch-a-sharepoint-single-line-text-column-in-power-apps/)
+[Power Apps Patch Function Examples For Every SharePoint Column Type](https://www.matthewdevaney.com/power-apps-patch-function-examples-for-every-sharepoint-column-type)
 
 ## How To Trigger A Power Automate Flow From PowerApps
 [How To Trigger A Power Automate Flow From PowerApps](https://www.c-sharpcorner.com/article/how-to-trigger-a-power-automate-flow-from-powerapps/)
