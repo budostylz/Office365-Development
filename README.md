@@ -416,7 +416,7 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## How To Trigger A Power Automate Flow From PowerApps
 [How To Trigger A Power Automate Flow From PowerApps](https://www.c-sharpcorner.com/article/how-to-trigger-a-power-automate-flow-from-powerapps/)
 
-## Office 365 Outlook
+## Office 365 Outlook - Connector
 [Office 365 Outlook](https://learn.microsoft.com/en-us/connectors/office365/#get-calendar-view-of-events-(v3))
 
 
