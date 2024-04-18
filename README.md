@@ -419,4 +419,7 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Office 365 Outlook - Connector
 [Office 365 Outlook](https://learn.microsoft.com/en-us/connectors/office365/#get-calendar-view-of-events-(v3))
 
+## Dynamically add a new control (text input for example) after clicking a button
+[Dynamically add a new control (text input for example) after clicking a button](https://powerusers.microsoft.com/t5/Building-Power-Apps/Dynamically-add-a-new-control-text-input-for-example-after/td-p/147483)
+
 
