@@ -422,4 +422,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Dynamically add a new control (text input for example) after clicking a button
 [Dynamically add a new control (text input for example) after clicking a button](https://powerusers.microsoft.com/t5/Building-Power-Apps/Dynamically-add-a-new-control-text-input-for-example-after/td-p/147483)
 
+## JSON In PowerApps
+[JSON In PowerApps](https://pankajsurti.com/2023/10/23/how-to-create-a-json-string-array-in-powerapps-2/)
 
