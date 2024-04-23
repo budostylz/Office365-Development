@@ -425,3 +425,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## JSON In PowerApps
 [JSON In PowerApps](https://pankajsurti.com/2023/10/23/how-to-create-a-json-string-array-in-powerapps-2/)
 
+## Help with formula using ForAll First and Split
+[Help with formula using ForAll First and Split](https://powerusers.microsoft.com/t5/Building-Power-Apps/Help-with-formula-using-ForAll-First-and-Split/td-p/2064682)
+
