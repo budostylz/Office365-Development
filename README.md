@@ -428,3 +428,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Help with formula using ForAll First and Split
 [Help with formula using ForAll First and Split](https://powerusers.microsoft.com/t5/Building-Power-Apps/Help-with-formula-using-ForAll-First-and-Split/td-p/2064682)
 
+## Group The Items In A Power Apps Gallery
+[Group The Items In A Power Apps Gallery](https://www.matthewdevaney.com/group-the-items-in-a-power-apps-gallery/)
+
