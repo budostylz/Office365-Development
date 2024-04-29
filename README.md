@@ -431,3 +431,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Group The Items In A Power Apps Gallery
 [Group The Items In A Power Apps Gallery](https://www.matthewdevaney.com/group-the-items-in-a-power-apps-gallery/)
 
+## Document Preview in Power Apps
+[Document Preview in Power Apps](https://www.matthewdevaney.com/the-secret-way-to-view-word-excel-powerpoint-files-in-power-apps/)
+
