@@ -434,3 +434,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Document Preview in Power Apps
 [Document Preview in Power Apps](https://www.matthewdevaney.com/the-secret-way-to-view-word-excel-powerpoint-files-in-power-apps/)
 
+## Text function
+[Text function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-text)
+
