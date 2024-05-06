@@ -437,3 +437,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Text function
 [Text function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-text)
 
+## The Complete Power Apps Functions List
+[The Complete Power Apps Functions List]([The Complete Power Apps Functions List](https://www.matthewdevaney.com/the-complete-power-apps-functions-list/))
+
