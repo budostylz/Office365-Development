@@ -440,3 +440,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## The Complete Power Apps Functions List
 [The Complete Power Apps Functions List]([The Complete Power Apps Functions List](https://www.matthewdevaney.com/the-complete-power-apps-functions-list/))
 
+## https://blog.softartisans.com/2009/12/08/list-of-internal-names-for-sharepoint-fields/
+[https://blog.softartisans.com/2009/12/08/list-of-internal-names-for-sharepoint-fields/](https://blog.softartisans.com/2009/12/08/list-of-internal-names-for-sharepoint-fields/)
+
