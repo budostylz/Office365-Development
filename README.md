@@ -443,3 +443,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## List of SharePoint Field Names
 [https://blog.softartisans.com/2009/12/08/list-of-internal-names-for-sharepoint-fields/](https://blog.softartisans.com/2009/12/08/list-of-internal-names-for-sharepoint-fields/)
 
+## Microsoft Graph API
+[Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/driveitem-put-content?view=graph-rest-1.0&tabs=http)
+
