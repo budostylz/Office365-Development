@@ -446,3 +446,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Microsoft Graph API
 [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/driveitem-put-content?view=graph-rest-1.0&tabs=http)
 
+## Power Automate - Break Inheritance And Set List Item-Level Permissions In SharePoint Online
+[Power Automate - Break Inheritance And Set List Item-Level Permissions In SharePoint Online](https://www.c-sharpcorner.com/article/power-automate-break-inheritance-and-set-list-item-level-permissions-in-sharep/)
+
