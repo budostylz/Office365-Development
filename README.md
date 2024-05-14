@@ -449,3 +449,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Power Automate - Break Inheritance And Set List Item-Level Permissions In SharePoint Online
 [Power Automate - Break Inheritance And Set List Item-Level Permissions In SharePoint Online](https://www.c-sharpcorner.com/article/power-automate-break-inheritance-and-set-list-item-level-permissions-in-sharep/)
 
+## Power Apps Business Days
+[Power Apps Business Days](https://powerapps.microsoft.com/de-at/blog/excluding-weekends-and-holidays-in-date-differences-in-powerapps/)
+
