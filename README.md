@@ -452,3 +452,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Power Apps Business Days
 [Power Apps Business Days](https://powerapps.microsoft.com/de-at/blog/excluding-weekends-and-holidays-in-date-differences-in-powerapps/)
 
+## Power Apps Loading Spinners, Saving Spinners and Progress Bars
+[Power Apps Loading Spinners, Saving Spinners and Progress Bars](https://www.matthewdevaney.com/power-apps-loading-spinners-saving-spinners-and-progress-bars/)
+
