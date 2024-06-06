@@ -455,3 +455,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## Power Apps Loading Spinners, Saving Spinners and Progress Bars
 [Power Apps Loading Spinners, Saving Spinners and Progress Bars](https://www.matthewdevaney.com/power-apps-loading-spinners-saving-spinners-and-progress-bars/)
 
+## EndPoint
+/_api/lists/getbytitle('DocArchive')/items?$filter=productTypes%20eq%20%275x8%27
+
