@@ -458,3 +458,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## EndPoint
 /_api/lists/getbytitle('DocArchive')/items?$filter=productTypes%20eq%20%275x8%27
 
+## KQL SharePoint Query EndPoint
+[KQL SharePoint Query EndPoint](https://dod365.sharepoint-mil.us/teams/USSOUTHCOM-CAG-RFI/_api/search/query?querytext=%27Path:https://dod365.sharepoint-mil.us/teams/USSOUTHCOM-CAG-RFI/Lists/CMDR_Calendar_SharePoint%27&refinementfilters=%27(Title:Transition)%27)
+
+## Keyword Query Language (KQL) syntax reference
+[Keyword Query Language (KQL) syntax reference](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
