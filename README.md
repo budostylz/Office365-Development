@@ -463,3 +463,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Keyword Query Language (KQL) syntax reference
 [Keyword Query Language (KQL) syntax reference](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+
+## HTML Text Control
+[HTML Text Control](https://svaghub.com/2019/09/25/powerapps-modern-minimalistic-design-tip-1-box-shadows/)
