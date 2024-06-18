@@ -466,3 +466,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## HTML Text Control
 [HTML Text Control](https://svaghub.com/2019/09/25/powerapps-modern-minimalistic-design-tip-1-box-shadows/)
+
+## Source code files for Canvas apps
+[Source code files for Canvas apps](https://www.microsoft.com/en-us/power-platform/blog/power-apps/source-code-files-for-canvas-apps/)
