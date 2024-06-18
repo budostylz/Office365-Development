@@ -469,3 +469,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Source code files for Canvas apps
 [Source code files for Canvas apps](https://www.microsoft.com/en-us/power-platform/blog/power-apps/source-code-files-for-canvas-apps/)
+
+## Power Apps Source Code Tool
+[Power Apps Source Code Tool](https://www.matthewdevaney.com/power-apps-source-code-tool/)
