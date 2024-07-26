@@ -472,3 +472,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Power Apps Source Code Tool
 [Power Apps Source Code Tool](https://www.matthewdevaney.com/power-apps-source-code-tool/)
+
+## Power Apps Calculate Business Days Excluding Weekends & Holidays
+[Power Apps Calculate Business Days Excluding Weekends & Holidays](https://www.matthewdevaney.com/power-apps-calculate-business-days-excluding-weekends-holidays/)
