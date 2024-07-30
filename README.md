@@ -1,11 +1,11 @@
+# Office 365 SharePoint Development
+SharePoint - Office 365
+
 ## Sandbox
 [BudoApps Sandbox](https://budoappsdev.sharepoint.com/)
 
 ## SharePoint Limits
 [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252fen-us%252farticle%252fSharePoint-Online-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)
-
-## Office 365 SharePoint Development
-SharePoint - Office 365
 
 ## Introduction to SharePoint information architecture
 [Introduction to SharePoint information architecture](https://docs.microsoft.com/en-us/sharepoint/information-architecture-modern-experience)
