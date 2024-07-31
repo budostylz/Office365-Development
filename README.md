@@ -478,3 +478,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## External Users Accessing Power App
 [External Users Accessing Power App](https://community.powerplatform.com/forums/thread/details/?threadid=dff2dc65-1b47-4af6-a252-cd18f3a24102)
+
+## About Power Apps per app plans
+[About Power Apps per app plans](https://learn.microsoft.com/en-us/power-platform/admin/about-powerapps-perapp)
