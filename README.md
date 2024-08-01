@@ -481,3 +481,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## About Power Apps per app plans
 [About Power Apps per app plans](https://learn.microsoft.com/en-us/power-platform/admin/about-powerapps-perapp)
+
+## Web API Using Power Apps Custom Connector
+[Web API Using Power Apps Custom Connector](https://www.c-sharpcorner.com/article/web-api-using-power-apps-custom-connector/)
