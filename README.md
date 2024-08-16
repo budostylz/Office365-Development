@@ -484,3 +484,6 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## Web API Using Power Apps Custom Connector
 [Web API Using Power Apps Custom Connector](https://www.c-sharpcorner.com/article/web-api-using-power-apps-custom-connector/)
+
+## OpenAI API
+[OpenAI API](https://platform.openai.com/docs/api-reference/introduction)
