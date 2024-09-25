@@ -488,5 +488,8 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 ## OpenAI API
 [OpenAI API](https://platform.openai.com/docs/api-reference/introduction)
 
+## Co-Pilot
+[Microsoft Co-Pilot](https://copilot.microsoft.com/)
+
 ## event resource type
 [event resource type](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0)
