@@ -1,5 +1,4 @@
 # Office 365 Development
-SharePoint - Office 365
 
 ## Sandbox
 [BudoApps Sandbox](https://budoappsdev.sharepoint.com/)
