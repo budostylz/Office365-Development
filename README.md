@@ -1,4 +1,4 @@
-# Office 365 SharePoint Development
+# Office 365 Development
 SharePoint - Office 365
 
 ## Sandbox
