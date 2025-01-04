@@ -3,7 +3,7 @@
 ## Microsoft Admin Portal - Sandbox
 [Microsoft Admin Portal - Sandbox](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)
 
-## Azure - Sandbox2
+## Azure - Sandbox
 [Azure - Sandbox](https://portal.azure.com/#home)
 
 ## SharePoint Limits
