@@ -1,7 +1,10 @@
 # Office 365 Development
 
-## Sandbox
-[BudoApps Sandbox](https://budoappsdev.sharepoint.com/)
+## Microsoft Admin Portal - Sandbox
+[Microsoft Admin Portal - Sandbox](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)
+
+## Azure - Sandbox
+[Azure - Sandbox](https://portal.azure.com/#home)
 
 ## SharePoint Limits
 [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252fen-us%252farticle%252fSharePoint-Online-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)
