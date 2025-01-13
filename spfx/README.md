@@ -1,3 +1,20 @@
+## Resources
+
+[Training](https://www.udemy.com/course/sharepointframeworkspfxdevelopment/learn/lecture/19133576#overview)
+
+[Download SharePoint Management Shell on Mac](https://chatgpt.com/share/e/677fe7de-bc30-8009-9238-bbee1bd9e3dd)
+
+[Register an Entra ID Application to use with PnP PowerShell](https://pnp.github.io/powershell/articles/registerapplication.html)
+
+[PnP PowerShell cmdlets](https://pnp.github.io/powershell/cmdlets/)
+
+[Microsoft.Online.SharePoint.PowerShell](https://learn.microsoft.com/en-us/powershell/module/sharepoint-online/?view=sharepoint-ps)
+
+[SharePoint Framework roadmap](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/roadmap)
+
+## Graph Explorer
+[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
 ## Samples by Framework
 [Samples by Framework](https://aka.ms/spfx-webparts/)
 
@@ -193,4 +210,20 @@
 
 ## SharePoint Framework Node Version
 14.15.0 (Currently using 64-bit executable)
+
+## Command Line Actions
+
+### Identify and Kill Process
+lsof -i :4321
+
+kill -9 <PID>
+
+gulp serve
+
+gulp trust-dev-cert
+
+yo @microsoft/sharepoint
+
+yo @microsoft/sharepoint --skip install
+
 

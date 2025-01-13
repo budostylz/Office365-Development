@@ -1,0 +1,5 @@
+If you want another video about how to sign up for a free Work Email address, please have a look at the "Guy in a Cube" video: https://www.youtube.com/watch?v=uZyy_qqRPiU
+
+More information about signing up for Power Platform can be found here: https://docs.microsoft.com/en-us/power-bi/fundamentals/service-self-service-signup-for-power-bi#sign-up-for-an-individual-trial-of-power-bi-pro
+
+A step-by-step explanation for how to sign up to Microsoft Office 365 E3 or 365 E5 can be found here: https://docs.microsoft.com/en-us/power-bi/admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial

@@ -1,5 +1,8 @@
-## Admin Center
+## Power Apps Admin Center
 [Power Apps Admin Center](https://admin.powerplatform.microsoft.com/)
+
+[Power Apps Maker](https://make.powerapps.com/)
+
 
 ## Power Automate
 [Power Automate](https://flow.microsoft.com/en-us/)
@@ -298,3 +301,4 @@
 [Connect to a SharePoint Folder in Power BI Desktop - Option 1](https://www.youtube.com/watch?v=KzIjEUXm7Ic)
 
 
+[](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)

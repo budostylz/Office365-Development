@@ -1,5 +1,8 @@
 # Office 365 Development
 
+## Pricing-Licenses
+[Pricing-Licenses](https://chatgpt.com/share/e/677949d5-7b10-8009-b140-0b267f024b19)
+
 ## Microsoft Admin Portal - Sandbox
 [Microsoft Admin Portal - Sandbox](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)
 
@@ -495,3 +498,7 @@ https://docs.microsoft.com/en-us/graph/api/calendar-post-events?view=graph-rest-
 
 ## event resource type
 [event resource type](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0)
+
+
+
+
