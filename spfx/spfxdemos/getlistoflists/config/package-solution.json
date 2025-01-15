@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "getlistoflists-client-side-solution",
+    "id": "1b8885a4-97f2-42ba-a58f-9a2edee59be3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "getlistoflists description"
+      },
+      "longDescription": {
+        "default": "getlistoflists description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "getlistoflists Feature",
+        "description": "The feature that activates elements of the getlistoflists solution.",
+        "id": "4ffd46a3-f8fe-49a1-8ecb-946d79bd3f6a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/getlistoflists.sppkg"
+  }
+}

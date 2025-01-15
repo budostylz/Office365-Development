@@ -218,9 +218,11 @@ lsof -i :4321
 
 kill -9 '<PID>'
 
-gulp serve
-
 gulp trust-dev-cert
+
+gulp build 
+
+gulp serve
 
 gulp bundle --ship
 

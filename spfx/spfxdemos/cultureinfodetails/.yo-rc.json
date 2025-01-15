@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "cultureinfodetails",
+    "libraryId": "32d2f088-0b80-41fc-bb29-7065acad39b8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cultureinfodetails",
+    "solutionShortDescription": "cultureinfodetails description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
