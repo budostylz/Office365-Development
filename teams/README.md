@@ -11,4 +11,6 @@
 
 [Connect and configure an agent for Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams)
 
+[Create Teams conversation bot](https://learn.microsoft.com/en-us/microsoftteams/platform/sbs-teams-conversation-bot?tabs=dev)
+
 

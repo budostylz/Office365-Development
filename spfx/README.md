@@ -218,12 +218,20 @@ lsof -i :4321
 
 kill -9 <PID>
 
+gulp build
+
 gulp serve
+
+gulp bundle --ship
+
+
 
 gulp trust-dev-cert
 
 yo @microsoft/sharepoint
 
 yo @microsoft/sharepoint --skip install
+
+
 
 
