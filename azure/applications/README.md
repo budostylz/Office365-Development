@@ -81,6 +81,9 @@
 
 [Deploy a website to Azure with Azure App Service](https://learn.microsoft.com/en-us/training/paths/deploy-a-website-with-azure-app-service/?WT.mc_id=udacity_learn-wwl)
 
+[Create Virtual Machines](https://learn.microsoft.com/en-gb/cli/azure/azure-cli-vm-tutorial-1?tabs=bash)
+
+
 -----------------------------------------
 
 ## Tasks

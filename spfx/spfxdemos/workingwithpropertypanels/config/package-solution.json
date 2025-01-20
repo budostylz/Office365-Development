@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "workingwithpropertypanels-client-side-solution",
+    "id": "22b64716-3f7b-47b9-ab53-b1aa937e09f6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "workingwithpropertypanels description"
+      },
+      "longDescription": {
+        "default": "workingwithpropertypanels description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "workingwithpropertypanels Feature",
+        "description": "The feature that activates elements of the workingwithpropertypanels solution.",
+        "id": "28a72674-4612-4248-b18c-3f4a4753e8a7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/workingwithpropertypanels.sppkg"
+  }
+}
