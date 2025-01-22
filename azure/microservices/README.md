@@ -18,3 +18,5 @@
 
 [Create Virtual Machines](https://learn.microsoft.com/en-gb/cli/azure/azure-cli-vm-tutorial-1?tabs=bash)
 
+[Azure Functions](https://azure.microsoft.com/en-in/products/functions/#overview)
+
