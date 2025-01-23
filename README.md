@@ -232,4 +232,16 @@ yo @microsoft/sharepoint
 
 yo @microsoft/sharepoint --skip install
 
+## Microsoft Certifications
+
+[Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/?practice-assessment-type=certification)
+
+[Microsoft 365 Certified: Teams Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/m365-teams-administrator-associate/?practice-assessment-type=certification)
+
+[Microsoft Certified: Power Platform Functional Consultant Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-platform-functional-consultant-associate/?practice-assessment-type=certification)
+
+[Microsoft Certified: Power Platform Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/?practice-assessment-type=certification)
+
+[Microsoft Power Platform Developer](https://learn.microsoft.com/en-us/training/courses/pl-400t00)
+
 

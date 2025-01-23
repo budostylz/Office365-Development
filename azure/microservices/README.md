@@ -20,3 +20,11 @@
 
 [Azure Functions](https://azure.microsoft.com/en-in/products/functions/#overview)
 
+[Azure Functions triggers and bindings concepts](https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?WT.mc_id=udacity_learn-wwl&tabs=isolated-process%2Cnode-v4%2Cpython-v2&pivots=programming-language-csharp)
+
+[Execute an Azure Function with triggers](https://learn.microsoft.com/en-us/training/modules/execute-azure-function-with-triggers/?WT.mc_id=udacity_learn-wwl)
+
+[Chain Azure Functions together using input and output bindings](https://learn.microsoft.com/en-us/training/modules/chain-azure-functions-data-using-bindings/?WT.mc_id=udacity_learn-wwl)
+
+
+

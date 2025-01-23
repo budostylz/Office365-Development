@@ -19,4 +19,14 @@
 
 [Azure AD built-in roles](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 
+[Azure Status](https://azure.status.microsoft/en-us/status)
+
+[Create serverless applications](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/?WT.mc_id=udacity_learn-wwl)
+
+[reate serverless logic with Azure Functions](https://learn.microsoft.com/en-us/training/modules/create-serverless-logic-with-azure-functions/?WT.mc_id=udacity_learn-wwl)
+
+[Quickstart: Create a function in Azure with Python using Visual Studio Code](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?WT.mc_id=udacity_learn-wwl)
+
+
+
 
