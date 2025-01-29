@@ -91,6 +91,8 @@
 ## SharePoint Site Design
 [Site Designer](https://www.sitedesigner.io)
 
+[SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/)
+
 ## Fluent UI Icons
 [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
