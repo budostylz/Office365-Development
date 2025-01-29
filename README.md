@@ -246,4 +246,6 @@ yo @microsoft/sharepoint --skip install
 
 [Microsoft Power Platform Developer](https://learn.microsoft.com/en-us/training/courses/pl-400t00)
 
+## Office 365 Service End Points
+[IP address configuration](https://learn.microsoft.com/en-us/power-automate/ip-address-configuration#required-services)
 
