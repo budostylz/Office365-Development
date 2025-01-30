@@ -252,3 +252,6 @@ yo @microsoft/sharepoint --skip install
 ## Compliance
 [Trust Center](https://www.microsoft.com/en-us/trust-center)
 
+## Dataverse
+[Explore Microsoft Dataverse](https://learn.microsoft.com/en-us/training/modules/identify-foundational-components-microsoft-power-platfor/4-explore-microsoft-dataverse)
+
