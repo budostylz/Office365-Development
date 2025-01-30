@@ -255,3 +255,122 @@ yo @microsoft/sharepoint --skip install
 ## Dataverse
 [Explore Microsoft Dataverse](https://learn.microsoft.com/en-us/training/modules/identify-foundational-components-microsoft-power-platfor/4-explore-microsoft-dataverse)
 
+
+
+Yes, you can overlay multiple calendars into one in Microsoft Outlook (O365). Here’s how:
+
+Using Calendar Overlay in Outlook (Desktop App)
+	1.	Open Outlook and go to the Calendar view.
+	2.	In the left navigation panel, check the boxes for the calendars you want to overlay.
+	3.	The calendars will appear side by side. To overlay them:
+	•	Click on the View tab.
+	•	Click Overlay Mode (found in the “Arrange” group).
+	•	The calendars will now appear merged into one view.
+	4.	Repeat step 3 for each calendar you want to overlay.
+
+Using Outlook on the Web (OWA)
+	1.	Go to Outlook on the Web.
+	2.	Click on the Calendar icon in the left panel.
+	3.	Under My Calendars, check multiple calendars.
+	4.	Click the View options (gear icon) in the top-right corner and ensure Overlay mode is enabled.
+
+Other Options
+
+If Outlook’s built-in overlay isn’t enough, consider these alternatives:
+	•	Microsoft Power Automate: Sync multiple calendar events into a single shared calendar.
+	•	Microsoft 365 Groups: Create a shared calendar for all team events.
+	•	Third-party Tools: Apps like CalendarBridge or Sync2 Cloud allow cross-platform calendar merging.
+
+Would you like guidance on automation using Power Automate?
+
+You can use Microsoft Power Automate to automatically sync events from multiple Outlook calendars into a single shared calendar. Follow these steps:
+
+Step 1: Set Up Your Power Automate Flow
+	1.	Go to Power Automate.
+	2.	Click Create → Automated cloud flow.
+	3.	Give your flow a name (e.g., “Sync Multiple Calendars”).
+	4.	Choose “When an event is added, updated, or deleted” (from Office 365 Outlook) as the trigger.
+	5.	Click Create.
+
+Step 2: Configure the Trigger (Source Calendar)
+	1.	In the Trigger Settings, select the first source calendar.
+	2.	Under Change Type, select Created or Updated (so that new and modified events sync).
+	3.	Click + New step.
+
+Step 3: Create an Event in the Shared Calendar
+	1.	Search for “Office 365 Outlook” and select “Create event (V4)”.
+	2.	Under Calendar ID, select the shared calendar where events should be copied.
+	3.	Map fields from the source event to the new event:
+	•	Subject → Dynamic Content: Subject
+	•	Start time → Dynamic Content: Start time
+	•	End time → Dynamic Content: End time
+	•	Location → Dynamic Content: Location
+	•	Body → Dynamic Content: Body
+	4.	Click Save.
+
+Step 4: Add Another Calendar to Sync
+	1.	Click + New step.
+	2.	Add another “When an event is added, updated, or deleted” trigger for the second calendar.
+	3.	Repeat Step 3 to create events in the shared calendar.
+
+Step 5: Handle Deleted Events (Optional)
+
+To remove deleted events from the shared calendar:
+	1.	Add a new “When an event is deleted” trigger for each source calendar.
+	2.	Use the “Delete event (V2)” action to remove it from the shared calendar.
+
+Step 6: Test and Enable Your Flow
+	1.	Click Test (top-right corner) and create a test event in one of your source calendars.
+	2.	Check if the event appears in the shared calendar.
+	3.	If everything works, click Turn on to activate the flow.
+
+Alternative: Sync with Google Calendar
+
+If you also use Google Calendar, you can add another step to “Create event in Google Calendar” using the Google Calendar connector.
+
+Would you like additional features, such as color-coding based on the original calendar?
+
+You can use Microsoft 365 Groups to create a shared calendar for team events. Follow these steps:
+
+Step 1: Create a Microsoft 365 Group
+	1.	Open Outlook (Web or Desktop App).
+	2.	Click on New Group:
+	•	In Outlook Web:
+	•	Click the People icon in the left navigation bar.
+	•	Click New Group.
+	•	In Outlook Desktop:
+	•	Go to the Home tab and click New Group.
+	3.	Enter Group Details:
+	•	Group Name (e.g., “Team Events Calendar”).
+	•	Group Email Address (optional).
+	•	Privacy Settings: Choose Public (anyone in the org can join) or Private (only invited members can access).
+	•	Click Create.
+
+Step 2: Access the Shared Calendar
+	1.	Once the group is created, go to Outlook Calendar.
+	2.	In the left panel, under Groups, select your newly created group.
+	3.	The shared calendar will now be visible, and any member can add, edit, or view events.
+
+Step 3: Add Members to the Group
+	1.	Open Outlook Web and go to the People section.
+	2.	Find your Group under Groups you own.
+	3.	Click Add Members.
+	4.	Search and select team members.
+	5.	Click Save.
+
+Step 4: Add Events to the Shared Calendar
+	1.	Open the Group Calendar in Outlook.
+	2.	Click New Event.
+	3.	Enter event details and choose to send invitations to group members.
+	4.	Click Save.
+
+Step 5: Make the Shared Calendar Easily Accessible
+	•	In Outlook Web, pin the group calendar by clicking the star next to it.
+	•	In Outlook Desktop, right-click the group calendar and select Add to Favorites.
+
+Additional Options
+	•	Sync with Power Automate: Automatically copy group calendar events to personal calendars.
+	•	Use Microsoft Teams: Integrate with Teams for event notifications.
+
+Would you like instructions on syncing the shared calendar with individual calendars?
+
