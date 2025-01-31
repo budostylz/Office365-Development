@@ -254,3 +254,48 @@ yo @microsoft/sharepoint --skip install
 
 ## Dataverse
 [Explore Microsoft Dataverse](https://learn.microsoft.com/en-us/training/modules/identify-foundational-components-microsoft-power-platfor/4-explore-microsoft-dataverse)
+
+
+If creating an event in Outlook Desktop (O365) does not trigger the Power Automate Outlook connector (for adding, updating, or deleting events), the issue could be due to one or more of the following reasons:
+
+1. Event Not Synced with Exchange Online
+	•	Power Automate relies on Microsoft Graph and Exchange Online to detect changes.
+	•	If the event is created in Outlook Desktop (Cached Mode) and is not yet synced to Exchange Online, Power Automate will not detect it.
+	•	Solution: Ensure Outlook Desktop is connected to the internet and fully synced. You can check this by creating the event and confirming it appears in Outlook Web (OWA).
+
+2. Power Automate Flow Triggers Only for Primary Calendar
+	•	Power Automate’s “When an event is added, updated, or deleted” trigger only works for the primary calendar (default calendar in Outlook).
+	•	Solution: Ensure the event is created in the primary calendar, not in a shared or secondary calendar.
+
+3. Cached Mode Delays
+	•	If Outlook is running in Cached Exchange Mode, updates might not sync immediately.
+	•	Solution: Try disabling Cached Mode:
+	1.	Go to File > Account Settings > Account Settings.
+	2.	Select your account and click Change.
+	3.	Uncheck Use Cached Exchange Mode and restart Outlook.
+
+4. Power Automate Flow Not Configured Correctly
+	•	Double-check the trigger in your Power Automate flow:
+	•	Ensure the correct Calendar ID is selected.
+	•	Test with a manual trigger to confirm Power Automate is functional.
+
+5. API Limitations and Delays
+	•	Power Automate may not trigger instantly due to API throttling.
+	•	Try waiting a few minutes to see if the event eventually triggers.
+
+6. Incorrect Permissions in Power Automate
+	•	Ensure Power Automate has the required Outlook permissions to monitor events.
+	•	Reconnect the Outlook connector in Power Automate.
+
+7. Outlook Add-ins or Third-party Sync Issues
+	•	Some add-ins or third-party tools may interfere with event synchronization.
+	•	Solution: Try disabling unnecessary add-ins and test again.
+
+8. Conditional Filtering in Power Automate
+	•	If your flow has filters, ensure they match your event.
+	•	Solution: Temporarily remove conditions to see if the trigger fires.
+
+9. Flow Not Turned On or Errors in Execution
+	•	Check if the flow is turned on and has no errors in Power Automate Run History.
+
+Would you like help troubleshooting further with a specific test case?
