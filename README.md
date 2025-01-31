@@ -254,3 +254,6 @@ yo @microsoft/sharepoint --skip install
 
 ## Dataverse
 [Explore Microsoft Dataverse](https://learn.microsoft.com/en-us/training/modules/identify-foundational-components-microsoft-power-platfor/4-explore-microsoft-dataverse)
+
+
+Flow save failed with code 'OpenApiOperationParameterValidationFailed' and message 'Input parameter 'item' validation failed in workflow operation 'Update_event_(V4)': The parameter with value '"@triggerBody()?['EventDate']"' in path 'item/start' with type/format 'String/date-time' is not convertible to type/format 'String/date-no-tz'.'.
