@@ -257,3 +257,43 @@ yo @microsoft/sharepoint --skip install
 
 
 Flow save failed with code 'OpenApiOperationParameterValidationFailed' and message 'Input parameter 'item' validation failed in workflow operation 'Update_event_(V4)': The parameter with value '"@triggerBody()?['EventDate']"' in path 'item/start' with type/format 'String/date-time' is not convertible to type/format 'String/date-no-tz'.'.
+
+
+
+
+
+The error message “OpenApiOperationParameterValidationFailed” in Power Automate indicates that the ‘EventDate’ value being passed does not match the expected format.
+
+The specific issue in your case is:
+	•	Power Automate is expecting a date without a time zone (date-no-tz) but is receiving a date-time format (yyyy-MM-ddTHH:mm:ssZ).
+
+Solution
+
+You need to ensure that ‘EventDate’ is formatted correctly before passing it to the Update Event (V4) action.
+
+Fix using Power Automate Expressions
+
+Try modifying the input for the EventDate field using the formatDateTime() function:
+	1.	Open your Power Automate flow.
+	2.	Navigate to the Update Event (V4) action.
+	3.	Locate the Start (EventDate) field.
+	4.	Replace "@triggerBody()?['EventDate']" with:
+
+formatDateTime(triggerBody()?['EventDate'], 'yyyy-MM-dd')
+
+This will convert the value to a date-only format (YYYY-MM-DD).
+
+Alternative Fix (If Time is Needed)
+
+If you need to keep the time, but remove the timezone, try:
+
+formatDateTime(triggerBody()?['EventDate'], 'yyyy-MM-ddTHH:mm:ss')
+
+This removes the timezone (Z) while preserving the time.
+
+Summary
+	•	The issue is due to a mismatch between date-time and date-no-tz.
+	•	Use formatDateTime(triggerBody()?['EventDate'], 'yyyy-MM-dd') to correct the format.
+	•	If the time is needed, use 'yyyy-MM-ddTHH:mm:ss'.
+
+This should resolve the error and allow your flow to save successfully. Let me know if you need further assistance!
