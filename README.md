@@ -297,3 +297,7 @@ Summary
 	•	If the time is needed, use 'yyyy-MM-ddTHH:mm:ss'.
 
 This should resolve the error and allow your flow to save successfully. Let me know if you need further assistance!
+
+
+
+Action 'Switch' failed: The execution of template action 'Switch' failed: The result of the evaluation of 'scope' action expression '@triggerBody()?['CalendarName']' is not valid. It is of type 'Object' but is expected to be a value of type 'String, Integer'.
