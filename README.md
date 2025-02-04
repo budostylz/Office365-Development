@@ -447,6 +447,42 @@ Step 5: Create a Flow for Event Deletions
 
 Would you like a template flow or detailed screenshots for setup?
 
+The error message suggests that Outlook does not allow calendar sharing with Office 365 Groups (O365GroupTest@groups.mail.mil) in the same way it does with individuals. Here are some reasons why this might be happening:
+
+Possible Reasons:
+	1.	Group Policy Restrictions:
+	•	Your organization’s IT administrators may have restricted sharing permissions for Office 365 Groups. They might allow individual sharing but not group-level calendar sharing.
+	2.	O365 Group Calendar Sharing Behavior:
+	•	Office 365 Groups have their own shared calendars that are accessible by all members. Unlike individual users, groups typically do not receive shared calendar invitations in the same way.
+	3.	Exchange Online Plan Limitations:
+	•	Some Microsoft 365 plans may restrict external or group-level calendar sharing.
+	4.	Default Sharing Settings:
+	•	Outlook and Exchange Online may have different default permissions for sharing with individuals vs. groups. Group-based sharing may require explicit permissions.
+	5.	Recipient Type Mismatch:
+	•	If O365GroupTest@groups.mail.mil is a distribution list or security group rather than a true Office 365 Group, calendar sharing will not work.
+
+Possible Solutions:
+	•	Check Your Organization’s Policies:
+Contact your IT department to verify if group-level calendar sharing is allowed.
+	•	Manually Add the Group Members:
+Instead of sharing the calendar with the group, add individual members manually.
+	•	Use the Office 365 Group Calendar Instead:
+If you want all group members to see a shared calendar, have them access the group’s calendar from the Outlook web or desktop app.
+	•	Verify Exchange Online Admin Settings:
+Admins can check the Exchange Admin Center → Recipients → Groups → Select the Group → Settings → Calendar Permissions.
+	•	Use PowerShell to Check Permissions:
+If you have administrative access, use PowerShell to verify and modify sharing settings:
+
+Get-MailboxFolderPermission -Identity user@domain.com:\Calendar
+
+To allow sharing:
+
+Set-MailboxFolderPermission -Identity user@domain.com:\Calendar -User "O365GroupTest@groups.mail.mil" -AccessRights Editor
+
+
+
+Would you like assistance checking any of these settings?
+
 
 
 
