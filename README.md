@@ -255,3 +255,5 @@ yo @microsoft/sharepoint --skip install
 ## Dataverse
 [Explore Microsoft Dataverse](https://learn.microsoft.com/en-us/training/modules/identify-foundational-components-microsoft-power-platfor/4-explore-microsoft-dataverse)
 
+## Microsoft Syntex
+[Microsoft Syntex](https://support.microsoft.com/en-us/office/microsoft-syntex-59476568-0a30-4a3e-8a12-206b8ae47a00)
