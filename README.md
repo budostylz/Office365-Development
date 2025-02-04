@@ -608,6 +608,287 @@ Final Notes
 
 Would you like help using the Group ID in Power Automate?
 
+No, Power Automate does not have a built-in connector that directly supports creating, updating, or deleting events in Microsoft 365 Group calendars. The Office 365 Outlook connector only works with individual calendars and does not support O365 Group calendars natively.
+
+However, you can achieve this functionality using Microsoft Graph API with Power Automate’s “HTTP Request” action.
+
+✅ Workaround: Use Microsoft Graph API in Power Automate
+
+Since Microsoft Graph API supports creating, updating, and deleting events in O365 Group calendars, you can use the “Send an HTTP request” action in Power Automate.
+
+1️⃣ Create an Event in an O365 Group Calendar
+
+Use an HTTP POST request to create an event in an O365 Group calendar.
+
+Power Automate Steps
+	1.	Add the “Send an HTTP request” action in Power Automate.
+	2.	Configure the request as follows:
+	•	Method: POST
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events
+
+
+	•	Headers:
+
+{
+  "Content-Type": "application/json"
+}
+
+
+	•	Body:
+
+{
+  "subject": "New Group Event",
+  "start": {
+    "dateTime": "2024-02-10T10:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "end": {
+    "dateTime": "2024-02-10T12:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "location": {
+    "displayName": "Conference Room"
+  }
+}
+
+2️⃣ Update an Existing Event
+
+Use an HTTP PATCH request to modify an existing event.
+
+Power Automate Steps
+	1.	Add the “Send an HTTP request” action.
+	2.	Configure the request:
+	•	Method: PATCH
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events/{event-id}
+
+
+	•	Headers:
+
+{
+  "Content-Type": "application/json"
+}
+
+
+	•	Body:
+
+{
+  "subject": "Updated Group Event Title",
+  "start": {
+    "dateTime": "2024-02-10T11:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "end": {
+    "dateTime": "2024-02-10T13:00:00",
+    "timeZone": "Eastern Standard Time"
+  }
+}
+
+
+
+	Tip: To get the event-id, first use a GET request:
+
+3️⃣ Delete an Event
+
+Use an HTTP DELETE request to remove an event from the Group calendar.
+
+Power Automate Steps
+	1.	Add the “Send an HTTP request” action.
+	2.	Configure the request:
+	•	Method: DELETE
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events/{event-id}
+
+🚀 Required Permissions
+	•	The user or application must have Calendars.ReadWrite and Group.ReadWrite.All permissions.
+	•	If using an Azure AD App, ensure the correct permissions are granted via Microsoft Entra (formerly Azure AD).
+
+Final Thoughts
+
+Since Power Automate does not support O365 Group calendar events natively, using Microsoft Graph API via HTTP requests is the best workaround.
+
+Would you like a step-by-step guide on setting this up in Power Automate?
+
+
+🚀 Step-by-Step Guide: Managing O365 Group Calendar Events in Power Automate Using Microsoft Graph API
+
+Since Power Automate does not natively support Office 365 Group calendar events, we’ll use Microsoft Graph API to create, update, and delete events via HTTP requests in Power Automate.
+
+🔧 Step 1: Register an Azure AD App for Authentication
+
+Before Power Automate can send requests to Microsoft Graph, you need to create an Azure AD App with the necessary permissions.
+
+1️⃣ Register the App in Azure AD
+	1.	Go to Microsoft Entra Admin Center (https://entra.microsoft.com).
+	2.	Navigate to Azure Active Directory > App registrations.
+	3.	Click New registration.
+	4.	Enter:
+	•	Name: PowerAutomateGroupCalendar
+	•	Supported account types: Select Accounts in this organizational directory only.
+	•	Redirect URI: Leave empty (not needed for this setup).
+	5.	Click Register.
+
+2️⃣ Configure API Permissions
+	1.	In the Azure App settings, go to API permissions.
+	2.	Click Add a permission > Microsoft Graph.
+	3.	Select Application permissions.
+	4.	Search for and add the following permissions:
+	•	Calendars.ReadWrite
+	•	Group.ReadWrite.All
+	5.	Click Grant admin consent (Admin approval may be required).
+
+3️⃣ Generate a Client Secret
+	1.	In the Azure App, go to Certificates & secrets.
+	2.	Click New client secret.
+	3.	Enter a name (e.g., PowerAutomateSecret) and select an expiration period.
+	4.	Click Add.
+	5.	Copy the client secret value (you won’t be able to see it again).
+
+4️⃣ Get Tenant ID and Client ID
+	1.	In the Azure App, go to Overview.
+	2.	Copy the Application (client) ID and Directory (tenant) ID.
+
+🔗 Step 2: Set Up Power Automate Flow
+
+Now that the Azure App is set up, let’s create the Power Automate flow.
+
+1️⃣ Create a New Flow
+	1.	Go to Power Automate (https://flow.microsoft.com).
+	2.	Click Create > Instant cloud flow.
+	3.	Name the flow: Manage O365 Group Calendar Events.
+	4.	Select Manually trigger a flow.
+
+2️⃣ Add HTTP Authentication Action
+	1.	Click + New step.
+	2.	Search for “HTTP” and select “Send an HTTP request”.
+	3.	Configure authentication:
+	•	Method: POST
+	•	URI:
+
+https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
+
+
+	•	Headers:
+
+{
+  "Content-Type": "application/x-www-form-urlencoded"
+}
+
+
+	•	Body:
+
+client_id={client-id}&client_secret={client-secret}&grant_type=client_credentials&scope=https://graph.microsoft.com/.default
+
+
+Replace:
+	•	{tenant-id} with your Directory (tenant) ID.
+	•	{client-id} with your Application (client) ID.
+	•	{client-secret} with your Client Secret.
+
+	4.	Click Save & Test.
+	5.	If successful, this step retrieves an OAuth token to authenticate requests.
+
+✅ Step 3: Create an Event in an O365 Group Calendar
+	1.	Click + New step.
+	2.	Search for “HTTP” and select “Send an HTTP request”.
+	3.	Configure the request:
+	•	Method: POST
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events
+
+
+	•	Headers:
+
+{
+  "Authorization": "Bearer {access-token}",
+  "Content-Type": "application/json"
+}
+
+
+	•	Body:
+
+{
+  "subject": "Power Automate Group Event",
+  "start": {
+    "dateTime": "2024-02-10T10:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "end": {
+    "dateTime": "2024-02-10T12:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "location": {
+    "displayName": "Conference Room"
+  }
+}
+
+
+
+🔹 Replace:
+	•	{group-id}: Your Office 365 Group ID.
+	•	{access-token}: Use the token retrieved from Step 2.
+
+	4.	Click Save & Test.
+	5.	If successful, an event will be created in the Group calendar.
+
+✏️ Step 4: Update an Event in the O365 Group Calendar
+
+To update an event, follow the same steps as Step 3, but change:
+	•	Method: PATCH
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events/{event-id}
+
+
+	•	Body:
+
+{
+  "subject": "Updated Event Title",
+  "start": {
+    "dateTime": "2024-02-10T11:00:00",
+    "timeZone": "Eastern Standard Time"
+  },
+  "end": {
+    "dateTime": "2024-02-10T13:00:00",
+    "timeZone": "Eastern Standard Time"
+  }
+}
+
+
+
+🔹 Get the event-id:
+	•	First, retrieve events using:
+
+GET https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events
+
+🗑️ Step 5: Delete an Event in the O365 Group Calendar
+
+To delete an event, use:
+	•	Method: DELETE
+	•	URI:
+
+https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events/{event-id}
+
+🚀 Testing & Deployment
+	1.	Run the flow manually and ensure the event is created in the O365 Group calendar.
+	2.	If successful, integrate the flow with Power Apps, Teams, or other triggers.
+
+🔥 Summary
+
+✔ Azure AD App is required for authentication.
+✔ Graph API allows creating, updating, and deleting events in O365 Group calendars.
+✔ Power Automate HTTP request action enables API communication.
+✔ Access token must be retrieved before making API calls.
+
+Need More Help?
+
+Would you like a video tutorial, JSON export of the Power Automate flow, or troubleshooting assistance? 🚀
+
 
 
 
