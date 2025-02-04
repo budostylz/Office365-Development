@@ -484,5 +484,130 @@ Set-MailboxFolderPermission -Identity user@domain.com:\Calendar -User "O365Group
 Would you like assistance checking any of these settings?
 
 
+The inability to pull Office 365 Group calendars into Power Automate while being able to access your personal calendar is likely due to a combination of API limitations, permissions, and the way group calendars are structured within Microsoft 365. Below are the key reasons:
+
+1. Graph API vs. Outlook Calendar Connector Limitation
+	•	Power Automate primarily interacts with Outlook calendars via the Microsoft Graph API.
+	•	Personal calendars are directly associated with user mailboxes and can be accessed using /me/calendar endpoints.
+	•	Group calendars belong to an Office 365 Group, and they require different API calls (/groups/{group-id}/calendar), which are not fully supported in Power Automate’s built-in Office 365 Outlook connector.
+
+2. Permissions Issue
+	•	When using Power Automate, it executes actions under your user account, which has access to personal calendars but might not have sufficient permissions to access a Group Calendar.
+	•	Office 365 Group calendars require different permission levels, such as Group.Read.All or Calendars.ReadWrite, which are not always granted by default.
+	•	Even if you are a member of the group, Power Automate may not recognize your permissions for the group calendar unless explicitly granted.
+
+3. Office 365 Groups Calendars Are Shared Resources
+	•	Unlike personal calendars, Group calendars are considered shared resources in Exchange Online.
+	•	The Power Automate “Get Events” action does not directly support shared resource calendars.
+
+4. Power Automate Connector Doesn’t Support Group Calendars Natively
+	•	The Office 365 Outlook connector in Power Automate is designed primarily for user mailboxes, not shared or group calendars.
+	•	Group calendars require Microsoft Graph API calls or an advanced workaround to access.
+
+✅ Workarounds to Pull Office 365 Group Calendar Events in Power Automate
+
+Option 1: Use Microsoft Graph API via HTTP Request in Power Automate
+
+Instead of the built-in Outlook connector, use an HTTP request action to call Microsoft Graph API:
+	1.	Use the HTTP Request action in Power Automate.
+	2.	Make a GET request to retrieve group calendar events:
+
+GET https://graph.microsoft.com/v1.0/groups/{group-id}/calendar/events
+
+
+	3.	Replace {group-id} with the actual Group ID.
+	4.	You may need to register an Azure AD app and grant it Group.Read.All permissions.
+	5.	Parse the JSON response and use the data in your flow.
+
+Option 2: Use a Shared Mailbox Instead of a Group Calendar
+	1.	If possible, create a Shared Mailbox instead of an O365 Group.
+	2.	Grant necessary permissions to access the shared mailbox’s calendar.
+	3.	Use Power Automate to pull calendar events from the shared mailbox.
+
+Option 3: Use an Outlook Calendar Workaround
+	1.	Add the Group Calendar to your own calendar list in Outlook.
+	2.	Share the Group Calendar with yourself and set permissions to “Can Edit.”
+	3.	Use Power Automate’s “Get Events” from the shared calendar (since it’s now linked to your account).
+
+Final Thoughts
+	•	If Microsoft Graph API is an option for your environment, that is the best way to access Group calendars in Power Automate.
+	•	If you don’t have API access, try the shared mailbox workaround or manually sync the Group calendar to your account.
+
+Would you like step-by-step guidance on implementing any of these solutions?
+
+To get the Office 365 Group ID, you can use several methods, depending on your access and tools available. Here are some common ways:
+
+1. Get the Group ID via Microsoft Graph API (Recommended)
+
+If you have access to Microsoft Graph Explorer or can run API requests in Power Automate, follow these steps:
+
+Steps to Retrieve Group ID using Microsoft Graph API
+	1.	Go to Microsoft Graph Explorer
+	2.	Sign in with your Office 365 account.
+	3.	In the query bar, enter:
+
+GET https://graph.microsoft.com/v1.0/groups
+
+
+	4.	Click Run Query.
+	5.	Look for the desired group in the response and find the “id” field.
+
+Example response:
+
+{
+    "value": [
+        {
+            "id": "12345678-abcd-efgh-ijkl-9876543210mn",
+            "displayName": "O365GroupTest",
+            "mail": "O365GroupTest@groups.mail.mil"
+        }
+    ]
+}
+
+	•	The id is your Group ID.
+
+2. Get the Group ID via PowerShell
+
+If you have Exchange Online PowerShell access, use this command:
+
+Steps
+	1.	Open PowerShell and connect to Exchange Online:
+
+Connect-ExchangeOnline -UserPrincipalName youradmin@yourdomain.com
+
+
+	2.	Run the following command to list all groups:
+
+Get-UnifiedGroup | Select DisplayName, Alias, ExternalDirectoryObjectId
+
+
+	3.	Look for the group O365GroupTest in the output.
+	4.	The ExternalDirectoryObjectId is the Group ID.
+
+3. Get the Group ID from the Microsoft 365 Admin Center
+	1.	Go to Microsoft 365 Admin Center (https://admin.microsoft.com).
+	2.	Navigate to Teams & groups → Active teams & groups.
+	3.	Select the Office 365 Group you need.
+	4.	Click on the group and look at the URL in the browser.
+	5.	The Group ID is in the URL, like this:
+
+https://admin.microsoft.com/Adminportal/Home#/groups/GroupDetails/12345678-abcd-efgh-ijkl-9876543210mn
+
+	•	The long alphanumeric string at the end is the Group ID.
+
+4. Get the Group ID via Azure AD
+	1.	Go to Azure AD Admin Center (https://portal.azure.com).
+	2.	Navigate to Azure Active Directory → Groups.
+	3.	Find the O365 Group and open its properties.
+	4.	The Object ID listed is the Group ID.
+
+Final Notes
+	•	If you are using Power Automate, you will need the Graph API method.
+	•	If you prefer PowerShell, use Get-UnifiedGroup for Exchange Online.
+	•	The Admin Center methods are easy if you have admin access.
+
+Would you like help using the Group ID in Power Automate?
+
+
 
 
