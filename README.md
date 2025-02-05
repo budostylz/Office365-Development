@@ -257,3 +257,12 @@ yo @microsoft/sharepoint --skip install
 
 ## Microsoft Syntex
 [Microsoft Syntex](https://support.microsoft.com/en-us/office/microsoft-syntex-59476568-0a30-4a3e-8a12-206b8ae47a00)
+
+To view Dataverse files within SharePoint, you can leverage the integration between the two platforms, which allows you to access and manage Dataverse files directly from a designated SharePoint document library, essentially viewing them as if they were native SharePoint documents; this is achieved by enabling document management settings in Dataverse and linking it to a specific SharePoint site and library, enabling users to view, upload, and manage files related to Dataverse records within SharePoint. 
+Key points about viewing Dataverse files in SharePoint:
+Integration setup:
+You need to configure document management settings in Dataverse, specifying which SharePoint site and library will be used for storing Dataverse files.
+Accessing files:
+Once set up, when viewing a Dataverse record within a Power Apps or Dynamics 365 application, you can access associated files by clicking on the "documents" section, which will open the linked SharePoint document library.
+File management:
+Within the SharePoint library, you can perform standard file operations like viewing, downloading, uploading, and deleting files related to your Dataverse records. 
