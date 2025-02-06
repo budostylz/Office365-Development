@@ -303,4 +303,5 @@
 ## Power Apps Tabbed Form With An Awesome-Looking Design
 [Power Apps Tabbed Form With An Awesome-Looking Design](https://www.matthewdevaney.com/power-apps-tabbed-form-with-an-awesome-looking-design/)
 
+## Create a Planning View of Your Outlook Diary in Power BI
 [Create a Planning View of Your Outlook Diary in Power BI](https://exceleratorbi.com.au/create-a-planning-view-outlook-diary-in-power-bi/)
