@@ -267,3 +267,5 @@ https://graph.microsoft.com/v1.0/me/calendars/AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMz
   },
   "role": "read"
 }
+
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "write" }
