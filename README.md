@@ -269,3 +269,81 @@ https://graph.microsoft.com/v1.0/me/calendars/AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMz
 }
 
 { "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "write" }
+
+
+
+How to Display Shared Calendars in Microsoft Teams
+
+You can display a Shared Calendar in Microsoft Teams using Microsoft 365 Group Calendars or Shared Mailbox Calendars. Below are the methods based on your setup.
+
+Option 1: Use a Microsoft 365 Group Calendar (Best for Teams)
+
+If your shared calendar is a Microsoft 365 Group Calendar, you can display it in Teams.
+
+Step 1: Get the Group Calendar URL
+	1.	Go to Outlook Web App (OWA): https://outlook.office.com.
+	2.	Click on the Calendar icon.
+	3.	In the left panel, under Groups, find the group calendar you want to add.
+	4.	Click on the group name → Select Calendar.
+	5.	Copy the URL from the browser’s address bar.
+
+Step 2: Add the Calendar to Teams
+	1.	Open Microsoft Teams.
+	2.	Go to the Team where you want to add the calendar.
+	3.	Click the + (Add a Tab) button at the top.
+	4.	Select Website.
+	5.	Paste the Group Calendar URL copied earlier.
+	6.	Name it (e.g., “Team Calendar”) and click Save.
+
+	Note: This works only for Microsoft 365 Group Calendars. It does not work for shared mailboxes.
+
+Option 2: Use a Shared Mailbox Calendar in Teams
+
+If you’re using a Shared Mailbox Calendar, there is no direct integration, but you can embed it as a tab using the Outlook Web View.
+
+Step 1: Open the Shared Calendar in Outlook
+	1.	Open https://outlook.office.com.
+	2.	Go to Calendar → Add Calendar.
+	3.	Select From Directory and enter the shared mailbox name.
+	4.	Click Open to display it in Outlook.
+
+Step 2: Get the Outlook Web View URL
+	1.	After opening the shared calendar, right-click on the calendar tab in your browser.
+	2.	Select Copy Link Address (this is the URL for your shared calendar).
+
+Step 3: Add the Shared Calendar to Teams
+	1.	Open Microsoft Teams.
+	2.	Go to the Team where you want to add the calendar.
+	3.	Click + (Add a Tab) at the top.
+	4.	Select Website.
+	5.	Paste the Outlook Web Calendar URL.
+	6.	Click Save.
+
+	Important: The user must have permissions to access the shared mailbox calendar in Outlook.
+
+Option 3: Use a Channel Calendar (Limited Functionality)
+
+If you want a basic calendar within Teams, use the built-in Channel Calendar.
+
+How to Add a Channel Calendar in Teams
+	1.	Open Microsoft Teams.
+	2.	Go to the Team and select a Channel.
+	3.	Click + (Add a Tab).
+	4.	Search for Channel Calendar and select it.
+	5.	Name the calendar and click Save.
+
+	Limitations: This calendar is not linked to Outlook and is only visible within the channel.
+
+Best Option for You
+
+Feature	Microsoft 365 Group Calendar	Shared Mailbox Calendar	Channel Calendar
+Best for	Teams collaborating with full Outlook integration	Teams that need granular permissions	Basic team scheduling
+Integration	Outlook, Teams, Planner	Outlook only	Teams only
+Permissions	Auto-added for members	Customizable (view/edit)	All team members can edit
+Setup Complexity	Easy	Moderate	Very Easy
+
+✅ Use Microsoft 365 Group Calendar for full Outlook & Teams integration.
+✅ Use a Shared Mailbox Calendar if you need permission control.
+✅ Use a Channel Calendar for basic scheduling within Teams.
+
+Let me know if you need further help!
