@@ -264,13 +264,13 @@ https://graph.microsoft.com/v1.0/me/calendars/AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMz
 Shared Calendars 
 
 'Can View When Im Busy'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "read" }
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "freeBusyRead" }
 
 'Can View Titles and Locations'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "read" }
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "limitedRead" }
 
 'Can View All Details'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "limitedRead" }
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "read" }
 
 'Can Edit'
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
