@@ -261,16 +261,4 @@ yo @microsoft/sharepoint --skip install
 ## Individual
 https://graph.microsoft.com/v1.0/me/calendars/AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMzYxLWQ0MTc1ZGRhNjEzNgBGAAAAAABWF_h4C6aqR5NoaI_tyHYRBwAEy5hfEG9qSYTA69r4K9ZSAAAAAAEGAAAEy5hfEG9qSYTA69r4K9ZSAAAMSh7SAAA=/calendarPermissions
 
-Shared Calendars 
-
-'Can View When Im Busy'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "freeBusyRead" }
-
-'Can View Titles and Locations'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "limitedRead" }
-
-'Can View All Details'
-{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "read" }
-
-'Can Edit'
-{ "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
+You are not authorized to send mail on behalf of the specified sending account.
