@@ -261,4 +261,154 @@ yo @microsoft/sharepoint --skip install
 ## Individual
 https://graph.microsoft.com/v1.0/me/calendars/AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMzYxLWQ0MTc1ZGRhNjEzNgBGAAAAAABWF_h4C6aqR5NoaI_tyHYRBwAEy5hfEG9qSYTA69r4K9ZSAAAAAAEGAAAEy5hfEG9qSYTA69r4K9ZSAAAMSh7SAAA=/calendarPermissions
 
-You are not authorized to send mail on behalf of the specified sending account.
+
+
+
+To create a hidden modal in Power Apps and display it when a button is clicked, follow these steps:
+
+Step 1: Add a Button to Show the Modal
+	1.	Open Power Apps and create a new canvas app.
+	2.	Insert a Button (btnShowModal) and set its Text property to "Show Modal".
+	3.	In the OnSelect property of the button, set the following formula:
+
+UpdateContext({ showModal: true })
+
+This creates a local variable showModal and sets it to true.
+
+Step 2: Add a Hidden Modal (Container)
+	1.	Insert a Container (ctrModal), which will act as the modal.
+	2.	Inside the container, add:
+	•	A Rectangle or Label as the background overlay.
+	•	A Label for the modal title.
+	•	A Text Label or Input Box for modal content.
+	•	A Button (btnCloseModal) to close the modal.
+	3.	Set the Visible property of the container (ctrModal) to:
+
+showModal
+
+This ensures the modal is only visible when showModal = true.
+
+Step 3: Close the Modal When Button is Clicked
+	1.	Set the OnSelect property of the Close button (btnCloseModal) to:
+
+UpdateContext({ showModal: false })
+
+This hides the modal by setting showModal to false.
+
+Final Setup
+
+Now, when you click the "Show Modal" button, the modal will appear. Clicking the "Close" button inside the modal will hide it.
+
+Would you like additional customization like animations or a dim background effect?
+
+
+Yes, Power Automate executes API calls under the flow author’s permissions in many cases, but it depends on how the flow is configured. Here’s a breakdown of how permissions work when users with lesser permissions need to run the flow:
+
+1. Flow Runs Under the Author’s Credentials (Default)
+	•	If a flow uses “Service Account Authentication” (such as a Shared Connection), the API calls inherit the permissions of the flow creator.
+	•	This applies to actions like:
+	•	Reading from SharePoint, Outlook, Dataverse, or SQL databases.
+	•	Calling external APIs using HTTP actions.
+	•	Sending approvals, emails, and Teams messages.
+
+✅ Best for scenarios where users don’t have direct permissions but need the flow to execute on their behalf.
+
+2. Flow Runs Using the Triggering User’s Credentials
+	•	Some triggers and actions run under the user’s permissions, meaning they need access to execute the flow successfully.
+	•	Example cases:
+	•	“Manually trigger a flow” (requires users to have permissions to execute actions).
+	•	SharePoint-based flows (“When an item is created or modified”) – If a user doesn’t have permission to the SharePoint list, the flow may fail.
+	•	Dataverse & SQL Queries – If the user lacks permissions, the API call might fail unless run under a service account.
+
+🚨 To allow users with lesser permissions to trigger a flow, consider using shared connections or service accounts.
+
+3. “Run-Only Users” (Delegation)
+	•	You can assign “Run-Only” permissions in Power Automate:
+	1.	Go to your flow > Share > Run-Only Users.
+	2.	Select users/groups who can run the flow.
+	3.	Choose:
+	•	Use the flow owner’s connection (✅ runs under the creator’s permissions).
+	•	Use their own connection (🚨 requires the user to have permissions).
+
+✅ Best for allowing less-privileged users to run a flow without direct API permissions.
+
+4. Using a Service Account (For Consistency)
+
+If multiple users need to run the flow but lack necessary permissions, you can:
+	•	Create a dedicated service account with the required permissions.
+	•	Authenticate API calls using that account.
+	•	Share the flow so it runs under the service account.
+
+✅ Best for IT-admin-controlled environments with strict access management.
+
+Summary: Does Power Automate Use the Flow Author’s API Permissions?
+
+Scenario	Runs Under Flow Author?
+Flow triggers automatically (e.g., email received, item modified)	✅ Yes
+Flow is manually triggered (by a user)	❌ Uses user’s permissions (unless set to use owner’s connection)
+API calls (HTTP, SharePoint, SQL, Outlook)	✅ Yes (if using the owner’s connection)
+Assigned “Run-Only” Users with “Use owner’s connection”	✅ Yes
+Assigned “Run-Only” Users with “Use their own connection”	❌ No (uses their credentials)
+
+Best Practice for Running Flows with Less-Permissioned Users
+	1.	Use “Run-Only” permissions to ensure they inherit the flow owner’s connection.
+	2.	Create a service account for flows that require consistent execution.
+	3.	Manually share the flow with users and allow them to run it under the owner’s permissions.
+
+Let me know if you need a step-by-step guide! 🚀
+
+
+Yes, Power Automate executes API calls under the flow author’s permissions in many cases, but it depends on how the flow is configured. Here’s a breakdown of how permissions work when users with lesser permissions need to run the flow:
+
+1. Flow Runs Under the Author’s Credentials (Default)
+	•	If a flow uses “Service Account Authentication” (such as a Shared Connection), the API calls inherit the permissions of the flow creator.
+	•	This applies to actions like:
+	•	Reading from SharePoint, Outlook, Dataverse, or SQL databases.
+	•	Calling external APIs using HTTP actions.
+	•	Sending approvals, emails, and Teams messages.
+
+✅ Best for scenarios where users don’t have direct permissions but need the flow to execute on their behalf.
+
+2. Flow Runs Using the Triggering User’s Credentials
+	•	Some triggers and actions run under the user’s permissions, meaning they need access to execute the flow successfully.
+	•	Example cases:
+	•	“Manually trigger a flow” (requires users to have permissions to execute actions).
+	•	SharePoint-based flows (“When an item is created or modified”) – If a user doesn’t have permission to the SharePoint list, the flow may fail.
+	•	Dataverse & SQL Queries – If the user lacks permissions, the API call might fail unless run under a service account.
+
+🚨 To allow users with lesser permissions to trigger a flow, consider using shared connections or service accounts.
+
+3. “Run-Only Users” (Delegation)
+	•	You can assign “Run-Only” permissions in Power Automate:
+	1.	Go to your flow > Share > Run-Only Users.
+	2.	Select users/groups who can run the flow.
+	3.	Choose:
+	•	Use the flow owner’s connection (✅ runs under the creator’s permissions).
+	•	Use their own connection (🚨 requires the user to have permissions).
+
+✅ Best for allowing less-privileged users to run a flow without direct API permissions.
+
+4. Using a Service Account (For Consistency)
+
+If multiple users need to run the flow but lack necessary permissions, you can:
+	•	Create a dedicated service account with the required permissions.
+	•	Authenticate API calls using that account.
+	•	Share the flow so it runs under the service account.
+
+✅ Best for IT-admin-controlled environments with strict access management.
+
+Summary: Does Power Automate Use the Flow Author’s API Permissions?
+
+Scenario	Runs Under Flow Author?
+Flow triggers automatically (e.g., email received, item modified)	✅ Yes
+Flow is manually triggered (by a user)	❌ Uses user’s permissions (unless set to use owner’s connection)
+API calls (HTTP, SharePoint, SQL, Outlook)	✅ Yes (if using the owner’s connection)
+Assigned “Run-Only” Users with “Use owner’s connection”	✅ Yes
+Assigned “Run-Only” Users with “Use their own connection”	❌ No (uses their credentials)
+
+Best Practice for Running Flows with Less-Permissioned Users
+	1.	Use “Run-Only” permissions to ensure they inherit the flow owner’s connection.
+	2.	Create a service account for flows that require consistent execution.
+	3.	Manually share the flow with users and allow them to run it under the owner’s permissions.
+
+Let me know if you need a step-by-step guide! 🚀
