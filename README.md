@@ -412,3 +412,21 @@ Best Practice for Running Flows with Less-Permissioned Users
 	3.	Manually share the flow with users and allow them to run it under the owner’s permissions.
 
 Let me know if you need a step-by-step guide! 🚀
+
+
+Can View When Im Busy'
+
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "freeBusyRead" }
+
+
+Can View Titles and Locations'
+
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "limitedRead" }
+
+'Can View All Details'
+
+{ "emailAddress": { "address": "testUser@budoapps2.onmicrosoft.com" }, "role": "read" }
+
+'Can Edit'
+
+{ "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
