@@ -431,5 +431,13 @@ Can View Titles and Locations'
 
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
 
+Dear [Recipient's Name],
 
-Attached are my TDY travel reports for 21 Jan thru 14 Feb and 14 April thru 25 April. I purchased a round trip ticket prior to planning my next visit which explains the roundtrip cost for TDY travel on 14 Feb. Airline and Uber receipts are attached for this past travel(21Jan thru 14 Feb). 
+Attached are my TDY travel reports for the periods January 21 – February 14 and April 14 – April 25.
+
+Please note that I purchased a round-trip ticket in advance before finalizing plans for my next visit, which accounts for the round-trip cost associated with my TDY travel on February 14.
+
+Additionally, I have included airline and Uber receipts for my travel from January 21 – February 14. Please let me know if any further details are needed.
+
+Best regards,
+[Your Name]
