@@ -430,3 +430,29 @@ Can View Titles and Locations'
 'Can Edit'
 
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
+
+
+
+Justification Statement for Service Account Usage in Battle Rhythm Outlook Event Synchronization
+Purpose
+The purpose of this justification is to establish the necessity of a dedicated service account for synchronizing and updating Battle Rhythm Outlook events via Power Automate into SharePoint. This ensures a reliable and uninterrupted integration process, independent of individual user accounts, thereby enhancing operational efficiency and long-term sustainability.
+
+Business Need
+The Battle Rhythm is a critical component of organizational planning and execution, requiring seamless synchronization between Outlook events and SharePoint for tracking, collaboration, and reporting. Utilizing a service account provides the following key advantages:
+
+Continuity and Stability
+
+A service account ensures that O365 connections are not tied to an individual user, preventing disruptions in case of personnel changes, such as resignations, transfers, or deactivations.
+Without a service account, if the designated user leaves the organization, all Power Automate flows associated with their credentials would fail, leading to potential data loss or missed updates in SharePoint.
+Security and Access Management
+
+A service account can be restricted to specific roles and permissions, ensuring that it only has access to required Outlook calendars and SharePoint lists, reducing security risks.
+It allows for centralized management through IT policies, ensuring proper auditing, credential rotation, and compliance with security best practices.
+Efficiency and Automation
+
+The service account ensures uninterrupted execution of Power Automate flows, eliminating the need for manual reconfiguration every time an individual user account changes.
+It provides a single, managed identity for automation tasks, reducing administrative overhead and improving troubleshooting efficiency.
+Compliance and Governance
+
+Using a service account aligns with IT governance policies, ensuring that automation processes remain operational without reliance on personal user accounts, which may pose compliance risks.
+It enables proper tracking and logging of changes within SharePoint, ensuring auditability for organizational compliance requirements.
