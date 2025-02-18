@@ -430,3 +430,6 @@ Can View Titles and Locations'
 'Can Edit'
 
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
+
+
+Attached are my TDY travel reports for 21 Jan thru 14 Feb and 14 April thru 25 April. I purchased a round trip ticket prior to planning my next visit which explains the roundtrip cost for TDY travel on 14 Feb. Airline and Uber receipts are attached for this past travel(21Jan thru 14 Feb). 
