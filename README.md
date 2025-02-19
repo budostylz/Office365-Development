@@ -280,9 +280,7 @@ Can View Titles and Locations'
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
 
 
-[Customer's Name],
-
-I’d like to clarify the process for moving your forms and flows from DISA’s default environment to the JECC location. Based on current availability, there is only an ACP-JECC-Production environment, and no separate Development environment for testing before moving to production.
+[Cn ACP-JECC-Production environment, and no separate Development environment for testing before moving to production.
 
 Given this, the recommended approach would be to create duplicate apps or flows—one for testing and another for production—to ensure changes are validated before being deployed.
 
@@ -293,6 +291,10 @@ A demo video is available that explains how to move Power Apps and Power Automat
 Please let us know how you'd like to proceed.
 
 Best regards,
+
+
+
+Great write-up. My next question is … would it make it sense to fully launch on 7MAR vs. 28FEB to avoid user redundancy? The difference is just a week, and if we opt to rollout a twice, it may confuse the staff. Just my thoughts.
 
 
 
