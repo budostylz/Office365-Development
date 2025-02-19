@@ -280,6 +280,19 @@ Can View Titles and Locations'
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
 
 
-Improve message and inform him we can do a quick teams call to review your apps and flows and find a plan of action moving them from DISA to JECC environment: I need to know if I can either get my forms and flows moved over to the JECC location, so they are not in DISA's default, or if I can get the location, I can move them to, so I can export from the current default and import them into the recommended location. Per a DISA email, this was supposed to have been done a few months ago. I'm open to making the move myself. I just need the location to put everything. Based on what I'm seeing, there is an ACP-JECC-Production location, but I would like to think there is a Dev Env to put them first, before elevating to PROD.
+[Customer's Name],
+
+I’d like to clarify the process for moving your forms and flows from DISA’s default environment to the JECC location. Based on current availability, there is only an ACP-JECC-Production environment, and no separate Development environment for testing before moving to production.
+
+Given this, the recommended approach would be to create duplicate apps or flows—one for testing and another for production—to ensure changes are validated before being deployed.
+
+Additionally, could you confirm whether you are using Power Apps forms or Microsoft Forms? Both have distinct migration processes, and knowing this will help us guide you effectively.
+
+A demo video is available that explains how to move Power Apps and Power Automate flows between environments. If needed, we can also schedule a quick Teams call to review your specific apps and flows and determine the best path forward.
+
+Please let us know how you'd like to proceed.
+
+Best regards,
+
 
 
