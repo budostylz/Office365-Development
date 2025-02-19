@@ -280,13 +280,8 @@ Can View Titles and Locations'
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
 
 
-[Cn ACP-JECC-Production environment, and no separate Development environment for testing before moving to production.
-
-Hi [Recipient's Name],
-
-The February 28th rollout date for Phase One was initially set based on the Initial Operating Capability (IOC) date and the plan to manage calendar access through JITTS.
-
-However, if we transition to using the Calendar Request Power App to decentralize access requests, it would make sense to extend the rollout date to March 7th to allow for proper implementation and user adaptation.
+## Migration
+[Moving Lists, Forms & Flows Between Environments](https://chatgpt.com/share/e/67b6379e-1450-8009-9673-5117c34b60b7)
 
 
 
