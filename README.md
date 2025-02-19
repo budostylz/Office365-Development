@@ -282,19 +282,11 @@ Can View Titles and Locations'
 
 [Cn ACP-JECC-Production environment, and no separate Development environment for testing before moving to production.
 
-Given this, the recommended approach would be to create duplicate apps or flows—one for testing and another for production—to ensure changes are validated before being deployed.
+Hi [Recipient's Name],
 
-Additionally, could you confirm whether you are using Power Apps forms or Microsoft Forms? Both have distinct migration processes, and knowing this will help us guide you effectively.
+The February 28th rollout date for Phase One was initially set based on the Initial Operating Capability (IOC) date and the plan to manage calendar access through JITTS.
 
-A demo video is available that explains how to move Power Apps and Power Automate flows between environments. If needed, we can also schedule a quick Teams call to review your specific apps and flows and determine the best path forward.
-
-Please let us know how you'd like to proceed.
-
-Best regards,
-
-
-
-Great write-up. My next question is … would it make it sense to fully launch on 7MAR vs. 28FEB to avoid user redundancy? The difference is just a week, and if we opt to rollout a twice, it may confuse the staff. Just my thoughts.
+However, if we transition to using the Calendar Request Power App to decentralize access requests, it would make sense to extend the rollout date to March 7th to allow for proper implementation and user adaptation.
 
 
 
