@@ -280,3 +280,6 @@ Can View Titles and Locations'
 { "emailAddress": { "address": "fernando.l.narvaez.ctr@mail.mil" }, "role": "write" }
 
 
+Improve message and inform him we can do a quick teams call to review your apps and flows and find a plan of action moving them from DISA to JECC environment: I need to know if I can either get my forms and flows moved over to the JECC location, so they are not in DISA's default, or if I can get the location, I can move them to, so I can export from the current default and import them into the recommended location. Per a DISA email, this was supposed to have been done a few months ago. I'm open to making the move myself. I just need the location to put everything. Based on what I'm seeing, there is an ACP-JECC-Production location, but I would like to think there is a Dev Env to put them first, before elevating to PROD.
+
+
