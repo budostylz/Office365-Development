@@ -283,29 +283,6 @@ Can View Titles and Locations'
 ## Migration
 [Moving Lists, Forms & Flows Between Environments](https://chatgpt.com/share/e/67b6379e-1450-8009-9673-5117c34b6
 
-COS Questions and Feedback:
-
- 
-
-Just for SA, the invite email was not customized. It was a standard prompt. 
-We're limited by the customization options for Microsoft's default access request emails. To address this, we'll create custom emails through the Calendar Request Power App (Phase 2). This will allow for more personalized messaging.
-Please press hard on the service account and let me know where I can help overcome inertia. 
-A service account has been requested and monitoring DISA movement on account creation.
-I changed the name of “Ops” to “Training” to start populating events and out of curiosity whether that change appeared for you (or if it was just local to my view). 
-This is a localized change where only users will see their own updates.
-We have to be very clear about what events should make the calendar and who has access to add/modify. I want to decentralize privileges and push down the ability to make modifications….but I don’t want to see a million “interesting but irrelevant” events populated. 
-There can be 4 levels of access
-Super Admins (J6) – Create/ Manage calendars and automation, owns the service account.
-Admins – Permission Delegation (Assign View/Edit Access to Calendars)
-Contribute – No Permission Delegation (Only able to create and modify calendar events)
-Members (View Access Only)
-These groups will limit the ability for anyone creating calendar events
- 
-
-We need to be deliberate about disabling the reminder/alarm feature so folks don’t get a prompt for every event. 
-Event notifications can be enabled or disabled directly within Outlook when creating or editing an event.
-I’d like to ensure we enable the drag and drop function so folks can pull single events into their personal calendars. 
-The drag-and-drop functionality for moving events between calendars is currently more robust in the Outlook desktop app compared to Outlook Web App (OWA).0b7)
 
 
 
