@@ -285,7 +285,18 @@ Can View Titles and Locations'
 
 
 
-I notice the service account is provisioned and thank you very much for your help. If possbile we will need one more service account to manage the Battle Rhtythm production calendars. The service account that was created will be used in our test environments. The name for the production service account is pending. Once the name is finalize will it be ok for you to submit another request on my behalf? Thank you very much for your support.
+Hi [Recipient's Name],
+
+I appreciate your help in provisioning the service account—it’s been set up successfully. Thank you very much for your support!
+
+If possible, we will need an additional service account to manage the Battle Rhythm production calendars. The current service account will be used for our test environments.
+
+The name for the production service account is still being finalized. Once confirmed, would you be able to submit another request on my behalf?
+
+Thanks again for your continued support!
+
+Best regards,
+[Your Name]
 
 
 
