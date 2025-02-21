@@ -285,4 +285,8 @@ Can View Titles and Locations'
 
 
 
+I notice the service account is provisioned and thank you very much for your help. If possbile we will need one more service account to manage the Battle Rhtythm production calendars. The service account that was created will be used in our test environments. The name for the production service account is pending. Once the name is finalize will it be ok for you to submit another request on my behalf? Thank you very much for your support.
+
+
+
 
