@@ -292,15 +292,7 @@ Can View Titles and Locations'
 
 ------------------
 
-ClearCollect(
-    colCalendars,
-    { CalendarName: "Battle Rhythm", CalendarID:"AAMkAGE1OWMyZDUzLWFjNWMtNGZkMy1iMzYxLWQ0MTc1ZGRhNjEzNgBGAAAAAABWF_h4C6aqR5NoaI_tyHYRBwAEy5hfEG9qSYTA69r4K9ZSAAAAAAEGAAAEy5hfEG9qSYTA69r4K9ZSAAAt5AjyAAA=", AdminGroupName: "Battle Rhythm Admin Group", AdminGroupID:"f8e001d3-8dbd-4a13-8555-8b7f5ed727f7", ContributorGroupName:"Battle Rhythm Contributor Group", ContributorGroupID:"e90545d2-baac-4991-aee4-fe251ca76c67" },
-    { CalendarName: "CRISIS Battle Rhythm", CalendarID:"",AdminGroupName: "CRISIS Battle Rhythm Admin Group", AdminGroupID:"",ContributorGroupName:"", ContributorGroupID:"" },
-    { CalendarName: "CMD Events", CalendarID:"", AdminGroupName: "CMD Events Group", AdminGroupID:"",ContributorGroupName:"", ContributorGroupID:"" },
-    { CalendarName: "KLE", CalendarID:"", AdminGroupName: "KLE Group", AdminGroupID:"",ContributorGroupName:"", ContributorGroupID:"" },
-    { CalendarName: "OPS", CalendarID:"", AdminGroupName: "OPS Group", AdminGroupID:"", ContributorGroupName:"", ContributorGroupID:"" },
-    { CalendarName: "Training Events", CalendarID:"", AdminGroupName: "Training Events Group", AdminGroupID:"",ContributorGroupName:"", ContributorGroupID:"" }
-)
+UpdateContext({showModal: true}); UpdateContext({calendarName:Label_Battle_Rhythm.Text}); Set(varSelectedCalendar, LookUp(colCalendars,CalendarName=Label_Battle_Rhythm.Text));
 
 
 
