@@ -284,20 +284,8 @@ Can View Titles and Locations'
 [Moving Lists, Forms & Flows Between Environments](https://chatgpt.com/share/e/67b6379e-1450-8009-9673-5117c34b6
 
 
-
-Hi [Recipient's Name],
-
-I appreciate your help in provisioning the service account—it’s been set up successfully. Thank you very much for your support!
-
-If possible, we will need an additional service account to manage the Battle Rhythm production calendars. The current service account will be used for our test environments.
-
-The name for the production service account is still being finalized. Once confirmed, would you be able to submit another request on my behalf?
-
-Thanks again for your continued support!
-
-Best regards,
-[Your Name]
-
+## CoPilot
+[CoPilot](https://copilot.microsoft.com/)
 
 
 
