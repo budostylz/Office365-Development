@@ -284,8 +284,8 @@ Can View Titles and Locations'
 [Moving Lists, Forms & Flows Between Environments](https://chatgpt.com/share/e/67b6379e-1450-8009-9673-5117c34b6
 
 
-## CoPilot
-[CoPilot](https://copilot.microsoft.com/)
+## CoPilot Studio
+[CoPilot Studio](https://copilot.microsoft.com/)
 
 
 
