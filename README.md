@@ -288,11 +288,34 @@ Can View Titles and Locations'
 [CoPilot Studio](https://copilot.microsoft.com/)
 
 
+Required Permissions
+To resolve this, you need administrative permissions in the target Microsoft Power Platform Environment or Microsoft 365 tenant. Specifically, ensure you have one of the following roles assigned:
 
+Power Platform Admin Role (if moving assets within Power Platform environments)
+Global Admin (for full control over all resources, including environments)
+Power Platform Environment Admin (for managing a specific environment)
+Dataverse System Administrator (if assets are stored in Dataverse)
+Additionally, ensure that your role includes:
 
-------------------
+Generate Resource Storage permission
+Manage Environment permission
+Move Solutions permission (if dealing with Power Platform solutions)
+Solution Steps
+Verify Your Role in Azure AD
 
-UpdateContext({showModal: true}); UpdateContext({calendarName:Label_Battle_Rhythm.Text}); Set(varSelectedCalendar, LookUp(colCalendars,CalendarName=Label_Battle_Rhythm.Text));
+Go to Azure Active Directory → Users → Search for your user → Check assigned roles.
+Check Power Platform Admin Center
+
+Visit Power Platform Admin Center
+Navigate to Environments → Select the target environment → Click on Security Roles
+Ensure you are assigned the Environment Admin or System Administrator role.
+Grant Necessary Permissions
+
+If using Dataverse, navigate to Dataverse Security Roles and ensure you have System Administrator access.
+If working with SharePoint, verify that your user has Full Control on related document libraries.
+Retry the Operation
+
+After updating permissions, sign out and sign back in before trying again.
 
 
 
