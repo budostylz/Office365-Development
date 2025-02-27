@@ -296,6 +296,10 @@ join(outputs('List_group_members')?['body/value']?['mail'], ';')
 
 
 
+Unable to process template language expressions in action 'Compose' inputs at line '0' and column '0': 'The template language expression 'join(outputs('List_group_members')?['body/value']?['mail'], ';')' cannot be evaluated because property 'mail' cannot be selected. Array elements can only be selected using an integer index. Please see https://aka.ms/logicexpressions for usage details.'.
+
+
+
 
 
 
