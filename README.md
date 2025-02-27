@@ -291,15 +291,111 @@ Can View Titles and Locations'
 ## Dataverse Licensing
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
-
-Comparison of Export Methods for Metadata Retention
-Export Method	Includes Metadata?	Includes Column Types?	Includes Choice Fields?	Includes Lookup Fields?	Supports Reimport?
-Export to Excel (.xlsx)	❌ No	❌ No (all text)	❌ No (values only)	❌ No (text only)	❌ No
-Export to CSV (.csv)	❌ No	❌ No (all text)	❌ No (text only)	❌ No (text only)	❌ No
-Export to Power BI	🔸 Partial	❌ No	✅ Yes	✅ Yes (if connected live)	❌ No
-Export to CSV with Schema (Power Automate / API)	✅ Yes	✅ Yes	✅ Yes	✅ Yes	✅ Yes
-
-
+Set(varFlow_JITS,ACP_JECC_GetSPOlist_JITS.Run().listjson);
+ClearCollect(colJITSv4,Blank());
+ClearCollect(colJITSv3raw,ForAll(Table(ParseJSON(varFlow_JITS).value) As JITSitem,
+{
+    ID: Value(Text(JITSitem.Value.ID)),
+    JITScontrol: Text(JITSitem.Value.JITS_Control),
+    CaseTitle: Text(JITSitem.Value.Title),
+    CaseJSON: JITSitem.Value.CaseV6_TaskComments,
+    OriginNotes: Text(JITSitem.Value.CaseV6_Notes),
+    //TaskComments: JITSitem.Value.CaseV6_CustomerFeedback,
+    Created: DateTimeValue(Text(JITSitem.Value.Created)),
+    CreatedBy: {
+        DisplayName: Text(JITSitem.Value.Author.DisplayName),
+        Email: Text(JITSitem.Value.Author.Email),
+        Claims: Text(JITSitem.Value.Author.Claims),
+        Department: Text(JITSitem.Value.Author.Department),
+        JobTitle: Text(JITSitem.Value.Author.JobTitle),
+        Picture: Text(JITSitem.Value.Author.Picture)
+    },
+    Modified: DateTimeValue(Text(JITSitem.Value.Modified)),
+    ModifiedBy: {
+        DisplayName: Text(JITSitem.Value.Editor.DisplayName),
+        Email: Text(JITSitem.Value.Editor.Email),
+        Claims: Text(JITSitem.Value.Editor.Claims),
+        Department: Text(JITSitem.Value.Editor.Department),
+        JobTitle: Text(JITSitem.Value.Editor.JobTitle),
+        Picture: Text(JITSitem.Value.Editor.Picture)
+    },
+    SurveyJSON: Text(JITSitem.Value.CustomerReviewSurvey),
+    RatingJSON: Text(JITSitem.Value.CustomerReviewRatings)
+}));
+ 
+ForAll(colJITSv3raw As JITSitem,
+Collect(colJITSv4,
+{
+    ID: JITSitem.ID,
+    JITScontrol: JITSitem.JITScontrol,
+    CaseTitle: JITSitem.CaseTitle,
+    Customers: ForAll(Table(ParseJSON(Text(JITSitem.CaseJSON)).Customers) As JSONitem,
+    {
+        DisplayName: Text(JSONitem.Value.DisplayName),
+        Email: Text(JSONitem.Value.Email),
+        Claims: Text(JSONitem.Value.Claims),
+        Department: Text(JSONitem.Value.Department),
+        JobTitle: Text(JSONitem.Value.JobTitle),
+        Picture: Text(JSONitem.Value.Picture)
+    }),
+    CustomerOrg: {Value: Text(ParseJSON(Text(JITSitem.CaseJSON)).CustomerOrg)},
+    VIP: {Value: Text(ParseJSON(Text(JITSitem.CaseJSON)).VIP)},
+    Priority: If(
+        IsBlank(Text(ParseJSON(Text(JITSitem.CaseJSON)).Priority)),
+        {Value: "3 - Standard"},
+        {Value: Text(ParseJSON(Text(JITSitem.CaseJSON)).Priority)}
+    ),
+    AsgnToOrg: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToOrg),
+    AsgnToLead: {
+        DisplayName: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.DisplayName),
+        Email: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.Email),
+        Claims: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.Claims),
+        Department: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.Department),
+        JobTitle: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.JobTitle),
+        Picture: Text(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToLead.Picture)
+    },
+    AsgnToPersonnel: ForAll(Table(ParseJSON(Text(JITSitem.CaseJSON)).AsgnToPersonnel) As JSONitem,
+    {
+        DisplayName: Text(JSONitem.Value.DisplayName),
+        Email: Text(JSONitem.Value.Email),
+        Claims: Text(JSONitem.Value.Claims),
+        Department: Text(JSONitem.Value.Department),
+        JobTitle: Text(JSONitem.Value.JobTitle),
+        Picture: Text(JSONitem.Value.Picture)
+    }),
+    Status: Text(ParseJSON(Text(JITSitem.CaseJSON)).Status),
+    CaseHold: If(IsBlankOrError(Text(ParseJSON(Text(JITSitem.CaseJSON)).CaseHold)),{Value: "-"},{Value: Text(ParseJSON(Text(JITSitem.CaseJSON)).CaseHold)}),
+    CaseDetermination: {Value: Text(ParseJSON(Text(JITSitem.CaseJSON)).CaseDetermination)},
+    CompletedDate: DateValue(Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedDate)),
+    CompletedBy:{
+        DisplayName: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.DisplayName),
+        Email: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.Email),
+        Claims: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.Claims),
+        Department: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.Department),
+        JobTitle: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.JobTitle),
+        Picture: Text(ParseJSON(Text(JITSitem.CaseJSON)).CompletedBy.Picture)
+    },
+    CaseDescription: JITSitem.OriginNotes,
+    Created: JITSitem.Created,
+    CreatedBy: JITSitem.CreatedBy,
+    Modified: JITSitem.Modified,
+    ModifiedBy: JITSitem.ModifiedBy,
+    SurveyJSON: JITSitem.SurveyJSON,
+    RatingJSON: JITSitem.RatingJSON
+}));
+ClearCollect(colJITSv4TEMP,colJITSv4);
+ForAll(colJITSv4TEMP As ActionItem,
+    Patch(colJITSv4,LookUp(colJITSv4,ID = ActionItem.ID),
+    {
+        Status: If(
+            !IsBlank(ActionItem.CompletedBy.Email),"Closed - Resolved",
+            IsBlank(ActionItem.AsgnToOrg),"Open - New",
+            ActionItem.CaseHold.Value = "-","Open - Researching",
+            ActionItem.CaseHold.Value
+        )
+    })
+);
+Clear(colJITSv4TEMP);
 
 
 
