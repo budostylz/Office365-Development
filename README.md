@@ -292,14 +292,8 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-outputs('List_group_members')?['body/value']
+replace(replace(replace(string(body('Select')), '[{"Email":"', ''),'"},{"Email":"', ';'),'"}]', '')
 
-item()?['mail']
-
-join(body('Select'), ';')
-
-
-Flow save failed with code 'WorkflowRunActionInputsInvalidProperty' and message 'The inputs of workflow run action 'Select' of type 'Select' are not valid. The 'from' property value is of type 'String'. The value must be an array or an expression.'.Upgrade
 
 
 
