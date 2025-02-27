@@ -292,6 +292,10 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
+join(outputs('List_group_members')?['body/value']?['mail'], ';')
+
+
+
 
 
 
