@@ -292,11 +292,14 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-join(outputs('List_group_members')?['body/value']?['mail'], ';')
+outputs('List_group_members')?['body/value']
+
+item()?['mail']
+
+join(body('Select'), ';')
 
 
 
-Unable to process template language expressions in action 'Compose' inputs at line '0' and column '0': 'The template language expression 'join(outputs('List_group_members')?['body/value']?['mail'], ';')' cannot be evaluated because property 'mail' cannot be selected. Array elements can only be selected using an integer index. Please see https://aka.ms/logicexpressions for usage details.'.
 
 
 
