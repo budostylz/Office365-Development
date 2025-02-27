@@ -299,6 +299,9 @@ item()?['mail']
 join(body('Select'), ';')
 
 
+Flow save failed with code 'WorkflowRunActionInputsInvalidProperty' and message 'The inputs of workflow run action 'Select' of type 'Select' are not valid. The 'from' property value is of type 'String'. The value must be an array or an expression.'.Upgrade
+
+
 
 
 
