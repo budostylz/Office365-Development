@@ -292,105 +292,12 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-Here’s an updated layout incorporating the SharePoint Calendar Access section.
-
-JECC Battle Rhythm Calendar – Web Page Layout (Updated)
-
-1. Overall Design Approach
-	•	Minimalist and sleek UI with a military-professional feel.
-	•	Dark mode option for operational visibility.
-	•	Accordion-style dropdowns for structured information.
-	•	Clear call-to-action buttons for quick navigation.
-
-Proposed Page Sections
-
-1. Header (Navigation Bar)
-	•	JECC Battle Rhythm Logo (Top-left corner)
-	•	Navigation Menu (Right-aligned):
-	•	Home
-	•	About
-	•	Calendars
-	•	SharePoint Calendar (New Section)
-	•	Contact
-	•	Request Access (Highlighted button)
-
-2. Hero Section
-
-Background Image:
-	•	Image Concept: A blurred-out command center with large multi-display monitors showing maps, operations, and calendar overlays.
-	•	Overlay Text:
-	•	Title: “JECC Battle Rhythm Calendar”
-	•	Subtitle: “Plan, Track, and Execute with Precision”
-	•	CTA Button: “Request Calendar Access” (Leads to Power App request form)
-
-3. About JECC Battle Rhythm
-	•	Brief Explanation:
-	•	The Joint Enabling Capabilities Command (JECC) Battle Rhythm Calendar provides a consolidated view for military commanders to track key operational and administrative events.
-	•	The system integrates Outlook events into the SharePoint Calendar for a unified schedule view.
-	•	Image Concept:
-	•	A simplified Gantt chart or heatmap of military schedules to represent calendar coordination.
-
-4. Calendar Categories (Interactive Section)
-	•	Displayed in an accordion-style dropdown format.
-	•	Each calendar section includes:
-	•	Calendar Name (with an icon)
-	•	POC Contact Info (Name, Rank, Email, Phone)
-	•	Brief Description
-
-Calendars Available:
-	1.	Battle Rhythm (Primary calendar for daily command updates)
-	2.	Crises Battle Rhythm (For high-priority, time-sensitive operations)
-	3.	Command Events (Official command-level meetings and gatherings)
-	4.	Key Leader Leave & Engagements (Tracks leadership absences and engagements)
-	5.	Operations (Critical mission execution events)
-	6.	Training Events (Personnel training & skill development schedules)
-	7.	Exercises (Simulated operational readiness drills)
-
-5. SharePoint Calendar Access (New Section)
-
-Description:
-	•	The JECC SharePoint Calendar provides a centralized view of all Outlook events synced to ensure real-time updates for command decisions.
-	•	All Outlook calendar entries related to Battle Rhythm, Operations, and Training will automatically reflect on the SharePoint Calendar.
-
-Access Options:
-	•	Direct SharePoint Link: (Opens SharePoint Calendar page)
-	•	Button: “Open SharePoint Calendar”
-	•	Sync with Outlook: (Instructions on syncing Outlook calendar with SharePoint)
-	•	Button: “Sync Calendar”
-
-Image Concept:
-	•	Option 1: Screenshot of a SharePoint Calendar UI with color-coded events.
-	•	Option 2: Illustration showing the connection between Outlook → SharePoint Calendar with arrows indicating real-time updates.
-
-6. Request Calendar Access (Call-to-Action Section)
-	•	Title: “Need Access to the JECC Battle Rhythm Calendar?”
-	•	Description: “Request access to view or update calendar events via our official Power App.”
-	•	Button: “Submit Access Request” (Links to Power App form)
-	•	Image Concept:
-	•	A tablet or computer screen with a military-style dashboard displaying an access form.
-
-7. Contact Information
-	•	Point of Contact for Support:
-	•	Name, Rank
-	•	Email
-	•	Phone Number
-	•	Footer Links:
-	•	JECC Website
-	•	Privacy Policy
-	•	Terms of Use
-
-Additional UI/UX Considerations
-	•	Typography: Military-grade, clean sans-serif font (e.g., Roboto, Montserrat)
-	•	Color Palette:
-	•	Dark Theme: #1E1E1E (dark gray), #0078D4 (military blue), #B3B3B3 (gray-white)
-	•	Light Theme: #F4F4F4 (off-white), #003366 (navy blue), #D9D9D9 (light gray)
-	•	Icons: Military-style calendar, clock, event, engagement, training symbols
-	•	Hover Effects: Subtle box shadows or color highlights for interactive elements.
-
-This layout ensures easy access to the JECC Battle Rhythm Calendar, integrates SharePoint Calendar with Outlook, and maintains a modern, minimal UI.
-
-Would you like a wireframe or a basic HTML/CSS prototype for this?
-
+Comparison of Export Methods for Metadata Retention
+Export Method	Includes Metadata?	Includes Column Types?	Includes Choice Fields?	Includes Lookup Fields?	Supports Reimport?
+Export to Excel (.xlsx)	❌ No	❌ No (all text)	❌ No (values only)	❌ No (text only)	❌ No
+Export to CSV (.csv)	❌ No	❌ No (all text)	❌ No (text only)	❌ No (text only)	❌ No
+Export to Power BI	🔸 Partial	❌ No	✅ Yes	✅ Yes (if connected live)	❌ No
+Export to CSV with Schema (Power Automate / API)	✅ Yes	✅ Yes	✅ Yes	✅ Yes	✅ Yes
 
 
 
