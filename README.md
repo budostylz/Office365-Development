@@ -308,6 +308,8 @@ Authorization: Bearer {access_token}
 }
 
 
+URI path is not a valid Graph endpoint, path is neither absolute nor relative or resource/object is not supported for this connector. Resources: teams,me,users Objects: channels,chats,installedApps,messages,pinnedMessages. Uri: https://graph.microsoft.com/v1.0/groups?$filter=displayName eq 'JECC-J6 Test Team For Development'
+
 
 
 
