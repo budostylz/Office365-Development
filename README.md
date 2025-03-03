@@ -321,9 +321,8 @@ Display Name: DISA NNSY J6 Mailbox JECC Battle Rhythm
 Email Address: disa.nnsy.j-6.mbx.jecc-battle-rhythm
 Please let me know if you need any additional details or if there are any restrictions preventing this request.
 
-Thank you for your assistance.
 
-Good afternoon, I hope you're doing well. Could you please confirm if there's a specific SharePoint site where you'd like to move the list? Just to clarify, Microsoft Lists are essentially SharePoint lists—they reside in the SharePoint site that hosts your tenant, rather than being tied to specific environments like DISA or JECC. If there's no need to relocate the data, we can simply keep it in its current location.
+Good afternoon, I hope you're doing well. Could you please confirm if there's a specific SharePoint site where you'd like to move the list? To clarify, Microsoft Lists are essentially SharePoint lists—stored in the SharePoint site that hosts your tenant. Currently, DISA hosts the DoD tenant via dod365.sharepoint-mil.us. Apologies for any earlier miscommunications regarding the Microsoft List move. If there's no need to move the data to another SharePoint site, we can simply keep it in place.
 
 
 
