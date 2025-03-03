@@ -323,6 +323,8 @@ Please let me know if you need any additional details or if there are any restri
 
 Thank you for your assistance.
 
+Good afternoon, I hope you're doing well. Could you please confirm if there's a specific SharePoint site where you'd like to move the list? Just to clarify, Microsoft Lists are essentially SharePoint lists—they reside in the SharePoint site that hosts your tenant, rather than being tied to specific environments like DISA or JECC. If there's no need to relocate the data, we can simply keep it in its current location.
+
 
 
 
