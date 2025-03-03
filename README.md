@@ -312,10 +312,16 @@ https://graph.microsoft.com/v1.0/groups/ebe41583-a2d9-4d7a-b7f8-b68dd646baa3
 
 
 
-[11:12 AM] Mcgrue, Charles R LTC USARMY 335 SIG CMD (USA)
-Looking at the forms, how would I know if I'm creating a form in the DISA environment or the JECC ACP Prod environment?
+1:12 AM] Mcgrue, Charles R LTC USARMY 335 SIG CMD (USA)
+Looking at the forms, how would I know if I'm creating a form in the DISA environment or the JECC ACP Prod env
+
+
+ionment?
  
 
+
+
+Flow save failed with code 'MultipleErrorsOccurred' and message 'The dynamic operation request to API 'microsoftforms' operation 'GetQuestions' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "error": { "code": "707", "message": "UnauthorizedAccess to CDB. Inner Message: {\"error\":{\"code\":\"OperationForbidden\",\"message\":\"Unauthorized Access\",\"innerError\":{\"code\":\"UnauthorizedAccess\"}}}", "@ms.form.error.type": "ExpectedFailure" } };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b\r\nserviceRequestId: e71894ff-19b8-4ad3-a5c2-6c36c9036313", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b\r\nserviceRequestId: 33048973-f921-4352-93e6-ccc7dc1fa7a7", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" }'.
 
 
 
