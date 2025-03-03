@@ -308,29 +308,20 @@ Authorization: Bearer {access_token}
 }
 
 
-https://graph.microsoft.com/v1.0/groups/ebe41583-a2d9-4d7a-b7f8-b68dd646baa3
+I need to update the display name of the existing mailbox disa.nnsy.j-6.mbx.jecc-battle-rhythm to DISA NNSY J6 Mailbox JECC Battle Rhythm.
 
+If renaming the mailbox is not possible, please delete the existing mailbox (disa.nnsy.j-6.mbx.jecc-battle-rhythm) and create a new one following the instructions below:
 
-
-1:12 AM] Mcgrue, Charles R LTC USARMY 335 SIG CMD (USA)
-Looking at the forms, how would I know if I'm creating a form in the DISA environment or the JECC ACP Prod env
-
-
-ionment?
- 
-
-I need to change the name to this exisiting mail box to 'DISA NNSY J6 Mailbox JECC Battle Rhythm' instead of 
-disa.nnsy.j-6.mbx.jecc-battle-rhythm. If the name cannot be changed, please delete disa.nnsy.j-6.mbx.jecc-battle-rhythm and create a new one. Please use the below instructions when creating the account:
+New Account Details:
 
 NPE: NNSY (Norfolk Naval Shipyard)
 Sub-Component: J-6
 Local Org/Account Name: JECC Battle Rhythm
+Display Name: DISA NNSY J6 Mailbox JECC Battle Rhythm
+Email Address: disa.nnsy.j-6.mbx.jecc-battle-rhythm
+Please let me know if you need any additional details or if there are any restrictions preventing this request.
 
-The complete display name of the account should look like this:
-DISA NNSY J6 Mailbox JECC Battle Rhythm
-
-The complete email address of the account should look like this:
-disa.nnsy.j-6.mbx.jecc-battle-rhythm
+Thank you for your assistance.
 
 
 
