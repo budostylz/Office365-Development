@@ -311,6 +311,20 @@ Authorization: Bearer {access_token}
 https://graph.microsoft.com/v1.0/groups/ebe41583-a2d9-4d7a-b7f8-b68dd646baa3
 
 
+Hi Bruce,
+
+I hope you're doing well.
+
+My company, Armavel, reviewed the travel request and noticed that the per diem rates differ from the current rates. I was advised to use the spreadsheet per diem rates when creating the travel reports.
+
+Armavel also informed me that they will be reaching out to Paragon to validate the rates.
+
+Please let me know if you need any further clarification.
+
+Best,
+[Your Name]
+
+
 
 
 
