@@ -312,6 +312,13 @@ https://graph.microsoft.com/v1.0/groups/ebe41583-a2d9-4d7a-b7f8-b68dd646baa3
 
 
 
+Improve message: DISA have created 3 calendars for the JECC Battle Rhythm. They mistakenly used the emails as the calendar display names (see screenshot). I am communicating with DISA to fix this as well as creating the additional 4 calendars: DISA NNSY J6 Mailbox JECC Crisis Battle Rhythm
+DISA NNSY J6 Mailbox JECC Command Events
+DISA NNSY J6 Mailbox JECC Key Leader Leave & Engagements
+DISA NNSY J6 Mailbox JECC Operations I willkeep you updated on this status.
+
+
+
 
 
 
