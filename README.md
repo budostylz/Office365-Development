@@ -319,9 +319,18 @@ Looking at the forms, how would I know if I'm creating a form in the DISA enviro
 ionment?
  
 
+I need to change the name to this exisiting mail box to 'DISA NNSY J6 Mailbox JECC Battle Rhythm' instead of 
+disa.nnsy.j-6.mbx.jecc-battle-rhythm. If the name cannot be changed, please delete disa.nnsy.j-6.mbx.jecc-battle-rhythm and create a new one. Please use the below instructions when creating the account:
 
+NPE: NNSY (Norfolk Naval Shipyard)
+Sub-Component: J-6
+Local Org/Account Name: JECC Battle Rhythm
 
-Flow save failed with code 'MultipleErrorsOccurred' and message 'The dynamic operation request to API 'microsoftforms' operation 'GetQuestions' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "error": { "code": "707", "message": "UnauthorizedAccess to CDB. Inner Message: {\"error\":{\"code\":\"OperationForbidden\",\"message\":\"Unauthorized Access\",\"innerError\":{\"code\":\"UnauthorizedAccess\"}}}", "@ms.form.error.type": "ExpectedFailure" } };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b\r\nserviceRequestId: e71894ff-19b8-4ad3-a5c2-6c36c9036313", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b\r\nserviceRequestId: 33048973-f921-4352-93e6-ccc7dc1fa7a7", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" };The dynamic operation request to API 'excelonlinebusiness' operation 'GetTable' failed with status code 'Forbidden'. This may indicate invalid input parameters. Error response: { "status": 403, "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'.\r\nclientRequestId: 84749cd8-ed38-42e0-b541-b72397d9d11b", "error": { "message": "The request is forbidden by Graph API. Error code is 'accessDenied'. Error message is 'Access denied'." }, "source": "excelonline-usdde.azconn-usdde-001.p.azurewebsites.us" }'.
+The complete display name of the account should look like this:
+DISA NNSY J6 Mailbox JECC Battle Rhythm
+
+The complete email address of the account should look like this:
+disa.nnsy.j-6.mbx.jecc-battle-rhythm
 
 
 
