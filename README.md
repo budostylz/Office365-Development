@@ -324,6 +324,7 @@ Please let me know if you need any additional details or if there are any restri
 
 Good day, Sir. I encountered issues importing 'Contact Form Redo - Test' due to invalid credentials on the DISA environment. To resolve this, I created a new flow in the ACP-JECC-Production environment and have shared it with you. At your convenience, please provide your Form ID so I can complete the necessary steps. I've attached some screenshots below to guide you in obtaining your Form ID.
 
+GET https://graph.microsoft.com/v1.0/me/calendars
 
 
 
