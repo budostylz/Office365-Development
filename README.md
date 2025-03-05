@@ -311,9 +311,13 @@ Authorization: Bearer {access_token}
 Click a calendar to request access.
 An email will be sent to the admin for approval.
 If approved, you will receive a calendar invite via email.
-Click “Accept” in Outlook to access the calendar.
+Click “Accept” in Outlook to access the calendar.GET https://graph.microsoft.com/v1.0/me/calendar/events?$filter=deletedDate
 
-GET https://graph.microsoft.com/v1.0/me/calendar/events?$filter=deletedDateTime ne null
+
+
+
+
+The execution of template action 'Apply_to_each' failed: the result of the evaluation of 'foreach' expression '@body('Parse_JSON')?['body']?['d']?['results']' is of type 'Null'. The result must be a valid array.me ne null
 
 
 
