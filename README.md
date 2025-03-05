@@ -308,7 +308,10 @@ Authorization: Bearer {access_token}
 }
 
 
-This page provides a streamlined process for requesting access to JECC calendars. Users can request access to the following calendars: Battle Rhythm, Command Events, Crisis Battle Rhythm, JECC Exercises, Key Leader Leave & Engagements, Operations, and Training Events. Once approved, access will be granted via an Outlook calendar invite.
+Click a calendar to request access.
+An email will be sent to the admin for approval.
+If approved, you will receive a calendar invite via email.
+Click “Accept” in Outlook to access the calendar.
 
 
 
