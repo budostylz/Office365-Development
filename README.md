@@ -313,6 +313,9 @@ An email will be sent to the admin for approval.
 If approved, you will receive a calendar invite via email.
 Click “Accept” in Outlook to access the calendar.
 
+GET https://graph.microsoft.com/v1.0/me/calendar/events?$filter=deletedDateTime ne null
+
+
 
 
 
