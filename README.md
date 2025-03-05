@@ -308,23 +308,7 @@ Authorization: Bearer {access_token}
 }
 
 
-I need to update the display name of the existing mailbox disa.nnsy.j-6.mbx.jecc-battle-rhythm to DISA NNSY J6 Mailbox JECC Battle Rhythm.
-
-If renaming the mailbox is not possible, please delete the existing mailbox (disa.nnsy.j-6.mbx.jecc-battle-rhythm) and create a new one following the instructions below:
-
-New Account Details:
-
-NPE: NNSY (Norfolk Naval Shipyard)
-Sub-Component: J-6
-Local Org/Account Name: JECC Battle Rhythm
-Display Name: DISA NNSY J6 Mailbox JECC Battle Rhythm
-Email Address: disa.nnsy.j-6.mbx.jecc-battle-rhythm
-Please let me know if you need any additional details or if there are any restrictions preventing this request.
-
-
-Good day, Sir. I encountered issues importing 'Contact Form Redo - Test' due to invalid credentials on the DISA environment. To resolve this, I created a new flow in the ACP-JECC-Production environment and have shared it with you. At your convenience, please provide your Form ID so I can complete the necessary steps. I've attached some screenshots below to guide you in obtaining your Form ID.
-
-GET https://graph.microsoft.com/v1.0/me/calendars
+This page provides a streamlined process for requesting access to JECC calendars. Users can request access to the following calendars: Battle Rhythm, Command Events, Crisis Battle Rhythm, JECC Exercises, Key Leader Leave & Engagements, Operations, and Training Events. Once approved, access will be granted via an Outlook calendar invite.
 
 
 
