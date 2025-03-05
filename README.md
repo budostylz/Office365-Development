@@ -310,3 +310,18 @@ Authorization: Bearer {access_token}
 
 
 
+-------------------------------------
+
+The following calendar events have been restored from SharePoint: Battle Rhythm, Command Events, Key Leader & Engagements, and Operations. The COS has access to the Battle Rhythm events. Let me know if he needs access to the other calendars, and I will grant it.
+
+Please note that these were test calendars, and only the event names and times were restored. The COS will need to recreate any event details as they were not included in the restoration. Additionally, any events created after the calendar deletion will not be restored and will need to be manually recreated by the COS if necessary.
+
+Moving forward, event details will be stored in SharePoint to ensure they can be fully restored in the future. However, calendar deletion will no longer be an issue, as the production calendars are now tied to organization accounts, ensuring better stability and continuity.
+
+Everyone should also receive emails granting them access to the production calendars. Please verify that you have received the necessary access, and let me know if there are any issues.
+
+Apologies for removing the test calendars—I was unaware that the COS was using them for presentations and had assumed they were solely for testing.
+
+Let me know if you need any further assistance.
+
+
