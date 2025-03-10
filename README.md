@@ -298,5 +298,6 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 split(outputs('Get_response_details')?['b')
 
 
- Hamilton, Kimberly K BG USARMY TRANSCOM JECC (USA)
+ replace(outputs('Get_response_details')?['body/Office'], '|', '')
+
 
