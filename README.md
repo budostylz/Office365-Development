@@ -301,5 +301,6 @@ split(outputs('Get_response_details')?['b')
  replace(outputs('Get_response_details')?['body/Office'], '|', '')
 
 
-Unable to process template language expressions in action 'Initialize_variable' inputs at line '0' and column '0': 'The template language function 'replace' expects its first parameter 'string' to be a string. The provided value is of type 'Null'. Please see https://aka.ms/logicexpressions#replace for usage details.'.
+replace(coalesce(outputs('Get_response_details')?['body/Office'], ''), '|', '')
+
 
