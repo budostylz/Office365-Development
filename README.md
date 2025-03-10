@@ -295,6 +295,4 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218&sr=8-1
 
 
-split(outputs('Get_file_content')?['body'], decodeUriComponent('%0A'))
-
-
+The form problem should be resolved since I updated the form id to reflect the new form created via your 'JECC' profile vice 'DISA'. When you get time remove the old Excel steps and replace them with new Excel steps. This should reflect the new references/GUIDs that relate to your new profile via JECC if that makes sense. It looks like the issue is related to your profile when creating the form. The flow was referencing your DISA profile within the Excel steps instead of your new JECC profile when running the flows which might be related to the unauthorized error.
