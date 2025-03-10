@@ -307,4 +307,7 @@ split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f']
 
 replace(split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f'], ';')[1], '|', '')
 
+trim(replace(split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f'], ';')[1], '|', ''))
+
+
 
