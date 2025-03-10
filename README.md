@@ -305,4 +305,6 @@ replace(coalesce(outputs('Get_response_details')?['body/Office'], ''), '|',
 
 split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f'],';')'')
 
+replace(split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f'], ';')[1], '|', '')
+
 
