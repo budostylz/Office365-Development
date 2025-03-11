@@ -298,6 +298,8 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 concat(formatDateTime(outputs('End_Date'), 'yyyy-MM-dd'), 'T', formatDateTime(outputs('End_Time'), 'HH:mm:ss'))
 
 
+concat(formatDateTime(outputs('Get_response_details')?['body/rc0c9b78310b447c7aa8a160452cee10f'], 'yyyy-MM-dd'), 'T', formatDateTime(outputs('12:01:00', 'HH:mm:ss'))
+
 
 
 
