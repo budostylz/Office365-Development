@@ -301,5 +301,7 @@ concat(formatDateTime(outputs('End_Date'), 'yyyy-MM-dd'), 'T', formatDateTime(ou
 concat(formatDateTime(outputs('Get_response_details')?['body/rc0c9b78310b447c7aa8a160452cee10f'], 'yyyy-MM-dd'), 'T', formatDateTime(outputs('12:01:00', 'HH:mm:ss'))
 
 
+concat(formatDateTime(outputs('Get_response_details')?['body/StartDateField'], 'yyyy-MM-dd'),'T','23:59:00')
+
 
 
