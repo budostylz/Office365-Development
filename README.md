@@ -309,5 +309,8 @@ replace(split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b6
 
 trim(replace(split(outputs('Get_response_details')?['body/r291cf2ae24244e18bf244af6b670813f'], ';')[1], '|', ''))
 
+greater(formatDateTime(outputs('Get_response_details')?['endDate'], 'yyyy-MM-dd'), formatDateTime(outputs('Get_response_details')?['startDate'], 'yyyy-MM-dd'))
+
+
 
 
