@@ -295,15 +295,11 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-concat(formatDateTime(outputs('End_Date'), 'yyyy-MM-dd'), 'T', formatDateTime(outputs('End_Time'), 'HH:mm:ss'))
+Hero Topic:
+Seamlessly Submit Your Leave & TDY on the Key Leaders Leave & Engagement Calendar
 
-
-concat(formatDateTime(outputs('Get_response_details')?['body/rc0c9b78310b447c7aa8a160452cee10f'], 'yyyy-MM-dd'), 'T', formatDateTime(outputs('12:01:00', 'HH:mm:ss'))
-
-
-concat(formatDateTime(outputs('Get_response_details')?['body/StartDateField'], 'yyyy-MM-dd'),'T','23:59:00')
-
-https://techcommunity.microsoft.com/blog/publicsectorblog/azure-openai-service-is-fedramp-high-and-copilot-for-microsoft-365-gcc-high-and-/4222955
+Description:
+Easily track and manage your leave and TDY (Temporary Duty) with the Key Leaders Leave & Engagement Calendar. This streamlined submission process ensures visibility and coordination across leadership, helping to maintain operational effectiveness. Submit your requests with confidence, keep leadership informed, and stay aligned with mission requirements—all in one place.
 
 
 
