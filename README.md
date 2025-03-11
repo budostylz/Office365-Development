@@ -303,5 +303,7 @@ concat(formatDateTime(outputs('Get_response_details')?['body/rc0c9b78310b447c7aa
 
 concat(formatDateTime(outputs('Get_response_details')?['body/StartDateField'], 'yyyy-MM-dd'),'T','23:59:00')
 
+https://techcommunity.microsoft.com/blog/publicsectorblog/azure-openai-service-is-fedramp-high-and-copilot-for-microsoft-365-gcc-high-and-/4222955
+
 
 
