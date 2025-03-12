@@ -303,11 +303,7 @@ Easily track and manage your leave and TDY (Temporary Duty) with the Key Leaders
 
 
 
-JECCBattleRhythmCalendarAccessApp.Run failed: The function 'Run' has an invalid value for parameter 'text_4' - a blank value was passed to it where it was not expected. Please make sure that a valid argument is passed to the function.
+If(IsBlank(Details.Text), "", Details.Text)
 
-
-
-JECCBattleRhythmCalendarAccessApp.Run(User().Email, varSelectedCalendar.CalendarName, varSelectedCalendar.AdminGroupID, varSelectedCalendar.ContributorGroupID, varSelectedCalendar.CalendarID, Details.Text);
-UpdateContext({showModal:false});
-Reset(Details);
+Coalesce(Details.Text, "")
 
