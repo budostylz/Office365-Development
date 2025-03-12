@@ -307,3 +307,5 @@ If(IsBlank(Details.Text), "", Details.Text)
 
 Coalesce(Details.Text, "")
 
+If(!IsBlank(Details.Text), Reset(Details))
+
