@@ -303,9 +303,14 @@ Easily track and manage your leave and TDY (Temporary Duty) with the Key Leaders
 
 
 
-If(IsBlank(Details.Text), "", Details.Text)
+Good afternoon, Fernando,
 
-Coalesce(Details.Text, "")
+Apologies for the delay—I meant to get this to you earlier. Attached is the test plan for the JECC Command Calendars solution. I believe these cover the core features needed for FOC testing.
 
-If(!IsBlank(Details.Text), Reset(Details))
+I was testing some of the calendars earlier, so you can disregard the email requests you may have received. Features like adding and removing users from both admin and contributor groups can be documented separately in an admin guide.
+
+For your convenience, I’ve included both a hard copy and a SharePoint link to the test plan. Looking forward to your feedback.
+
+Best,
+[Your Name]
 
