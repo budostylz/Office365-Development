@@ -295,22 +295,24 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-Hero Topic:
-Seamlessly Submit Your Leave & TDY on the Key Leaders Leave & Engagement Calendar
+Good day,
 
-Description:
-Easily track and manage your leave and TDY (Temporary Duty) with the Key Leaders Leave & Engagement Calendar. This streamlined submission process ensures visibility and coordination across leadership, helping to maintain operational effectiveness. Submit your requests with confidence, keep leadership informed, and stay aligned with mission requirements—all in one place.
+To create the form effectively, we first need to understand how it will be used. Will it be a one-time submission where responses are simply captured (e.g., a survey), or should users have the ability to submit the form and later return to make edits? Once this is determined, the next step is to define the questions, statements, and answer types for the form.
 
+Responses can include standard text, multiple-choice selections, dates, ratings, rankings, or other formats based on your needs. Once the questions and answers are clearly defined, please compile this information into a Word document and send it to me. Once we have a structured template, I will begin building out the form accordingly.
 
+Additionally, please outline the email flow that should follow form submission. This depends on whether the form allows a single submission or multiple updates. Key considerations include:
 
-Good afternoon, Fernando,
+What happens after a user submits the form?
+Who should receive email notifications?
+What format should the email templates follow?
+Is there an approval process required? If so, who will be responsible for reviewing and approving submissions?
+Once this process is defined, I will set up the necessary automation to facilitate it.
 
-Apologies for the delay—I meant to get this to you earlier. Attached is the test plan for the JECC Command Calendars solution. I believe these cover the core features needed for FOC testing.
+Lastly, please provide a direct link to the data source for this form, whether it resides in a SharePoint site or an external system. Understanding the data structure will help ensure seamless integration with the form.
 
-I was testing some of the calendars earlier, so you can disregard the email requests you may have received. Features like adding and removing users from both admin and contributor groups can be documented separately in an admin guide.
+Let me know if you have any questions or concerns. I also sent a similar email on the high side for reference.
 
-For your convenience, I’ve included both a hard copy and a SharePoint link to the test plan. Looking forward to your feedback.
-
-Best,
+Best regards,
 [Your Name]
 
