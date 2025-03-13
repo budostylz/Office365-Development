@@ -297,3 +297,8 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 
 The Room Scheduler Teams Integration proof of concept (POC) has been successfully developed to enhance meeting and event visibility by pulling Outlook and Teams data into the Room Scheduler Power App. This integration addresses the "white space problem" by aggregating scheduled meetings and events from Teams and Outlook, allowing users to visualize room availability and scheduling conflicts more effectively. The POC demonstrates how Teams event data can be dynamically fetched and displayed within the Power App, providing a unified view of scheduled activities. This solution improves scheduling efficiency, reduces conflicts, and lays the groundwork for further enhancements, such as automated booking and real-time availability updates.
 
+
+
+Thank you for your response Mr. Bellinger. When you get time please send the questions and answer choices for the form. You can send this to me via a word document. If the form information is unclassified, you can send the word document here on NIPR. If any of the form information s classified, you can send the word document to me on SIPR. Just want to clarify, will this form be used only on SIPR or will an NIPR version of this form needed?  Once I have this information  I will start building the form. 
+
+The email template is the content of the email notifications. We'll get into more detail about email content this after creating the intial form and start work on the automation piece.
