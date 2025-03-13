@@ -295,19 +295,9 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-Dear Mr. Bellinger,
-
-Thank you for your response. When you have a moment, please send me the questions and answer choices for the form in a Word document.
-
-If the form information is unclassified, you can send the document here on NIPR.
-If any part of the form is classified, please send it to me on SIPR.
-Just to clarify—will this form be used exclusively on SIPR, or will an NIPR version also be needed? Once I receive the information, I will begin building the form.
-
-Regarding the email template, it refers to the content of the email notifications. We will go into more detail on this after the initial form is created and as we begin working on the automation piece.
-
 
 
 
 https://graph.microsoft.com/v1.0/me/calendars/@{variables('CalendarID')}/calendarPermissions
 
-{ "emailAddress": { "address": "@{outputs('Get_user_profile_(V2)')?['body/mail']}" }, "role": "delegate" }
+{ "emailAddress": { "address": "@{outputs('Get_user_profile_(V2)')?['body/mail']}" }, "role": "delegateWithPrivateEventAccess" }
