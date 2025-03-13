@@ -304,3 +304,10 @@ If any part of the form is classified, please send it to me on SIPR.
 Just to clarify—will this form be used exclusively on SIPR, or will an NIPR version also be needed? Once I receive the information, I will begin building the form.
 
 Regarding the email template, it refers to the content of the email notifications. We will go into more detail on this after the initial form is created and as we begin working on the automation piece.
+
+
+
+
+https://graph.microsoft.com/v1.0/me/calendars/@{variables('CalendarID')}/calendarPermissions
+
+{ "emailAddress": { "address": "@{outputs('Get_user_profile_(V2)')?['body/mail']}" }, "role": "delegate" }
