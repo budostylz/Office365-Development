@@ -295,10 +295,12 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-The Room Scheduler Teams Integration proof of concept (POC) has been successfully developed to enhance meeting and event visibility by pulling Outlook and Teams data into the Room Scheduler Power App. This integration addresses the "white space problem" by aggregating scheduled meetings and events from Teams and Outlook, allowing users to visualize room availability and scheduling conflicts more effectively. The POC demonstrates how Teams event data can be dynamically fetched and displayed within the Power App, providing a unified view of scheduled activities. This solution improves scheduling efficiency, reduces conflicts, and lays the groundwork for further enhancements, such as automated booking and real-time availability updates.
+Dear Mr. Bellinger,
 
+Thank you for your response. When you have a moment, please send me the questions and answer choices for the form in a Word document.
 
+If the form information is unclassified, you can send the document here on NIPR.
+If any part of the form is classified, please send it to me on SIPR.
+Just to clarify—will this form be used exclusively on SIPR, or will an NIPR version also be needed? Once I receive the information, I will begin building the form.
 
-Thank you for your response Mr. Bellinger. When you get time please send the questions and answer choices for the form. You can send this to me via a word document. If the form information is unclassified, you can send the word document here on NIPR. If any of the form information s classified, you can send the word document to me on SIPR. Just want to clarify, will this form be used only on SIPR or will an NIPR version of this form needed?  Once I have this information  I will start building the form. 
-
-The email template is the content of the email notifications. We'll get into more detail about email content this after creating the intial form and start work on the automation piece.
+Regarding the email template, it refers to the content of the email notifications. We will go into more detail on this after the initial form is created and as we begin working on the automation piece.
