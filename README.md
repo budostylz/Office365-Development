@@ -296,4 +296,12 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 &sr=8-1
 
 
-Thank you Ms. Schohn for approving the request to access the app catalog. I tried the standard /appcatalog path but received a 404 error. If possible can you share me the direct link to the app catalog? I have requested the software for SPFX development for both myself and colleague (Node.JS, Yeoman and Gulp). I also requested Visual Studio Code. Below are the request numbers:
+Dear Ms. Schohn,
+
+Thank you for approving my request to access the app catalog. I attempted to access it via the standard /appcatalog path but encountered a 404 error. Would you be able to provide me with the direct link?
+
+Additionally, I have requested the necessary software for SPFX development for both myself and a colleague, including Node.js, Yeoman, and Gulp, as well as Visual Studio Code. Below are the corresponding request numbers:
+
+[Insert request numbers here]
+
+I appreciate your assistance and look forward to your response.
