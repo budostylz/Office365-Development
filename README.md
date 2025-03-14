@@ -296,43 +296,4 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 &sr=8-1
 
 
-
-
-Justification for Enabling SharePoint Framework (SPFx) for USTRANSCOM O365 Development via DISA's Tenant
-Background & Purpose
-The United States Transportation Command (USTRANSCOM) relies on Microsoft Office 365 (O365) services to support mission-critical operations, collaboration, and document management. SharePoint Online serves as a foundational platform for information sharing, workflow automation, and customized solutions within the O365 ecosystem. To enhance the usability, efficiency, and security of these solutions, enabling the SharePoint Framework (SPFx) within DISA's tenant is essential.
-
-Business and Mission Value of SPFx Enablement
-Enabling SPFx provides the following advantages to USTRANSCOM's O365 development efforts:
-
-Modern Web Development: SPFx allows for the creation of highly responsive, secure, and scalable applications that seamlessly integrate with SharePoint Online and Microsoft Teams.
-Enhanced User Experience: SPFx supports React, Angular, and other front-end frameworks to deliver dynamic, mobile-responsive user interfaces.
-Improved Security & Governance: SPFx solutions run entirely within the O365 ecosystem without requiring external API calls, ensuring compliance with DISA and DoD security guidelines.
-Interoperability with Microsoft 365: SPFx components extend beyond SharePoint and integrate with Microsoft Teams, OneDrive, and other O365 services, enhancing overall operational effectiveness.
-Custom Solution Deployment: Enabling SPFx will allow USTRANSCOM to build and deploy mission-specific solutions such as dashboards, workflow automation tools, and document management enhancements.
-Technical Requirements for Enabling SPFx Development
-To develop and deploy SPFx solutions within DISA’s O365 tenant, the following technical requirements must be met:
-
-Node.js
-
-Required Version: Node.js LTS version 16.x (as SPFx 1.17 supports Node 16)
-Justification: Node.js serves as the foundation for executing SPFx development tasks, compiling TypeScript, and managing dependencies.
-Security Compliance: Node.js 16 is stable, secure, and supported with long-term security updates.
-Yeoman Generator for SPFx
-
-Required Version: Yeoman 4.x
-Justification: Yeoman provides scaffolding for SPFx projects, ensuring proper configuration and structuring of the development environment.
-Security Compliance: Maintains consistency with Microsoft’s SharePoint generator updates.
-Gulp Task Runner
-
-Required Version: Gulp 4.x
-Justification: Gulp automates build tasks, including compiling and bundling SharePoint solutions.
-Security Compliance: Gulp 4.x is the required version for modern SPFx projects, providing compatibility with the latest security and performance updates.
-Request for Approval & Next Steps
-We request the necessary permissions and configurations within DISA’s O365 tenant to enable SharePoint Framework development for USTRANSCOM. Additionally, the required Node.js, Yeoman, and Gulp versions must be made available within the approved development environments to facilitate compliant and secure application development.
-
-Upon approval, we will proceed with setting up the development infrastructure, configuring SharePoint tenant permissions, and ensuring alignment with DISA’s governance policies for O365 development.
-
-Point of Contact: [Your Name]
-Organization: USTRANSCOM O365 Development Team
-Email: [Your Email]
+Thank you Ms. Schohn for approving the request to access the app catalog. I tried the standard /appcatalog path but received a 404 error. If possible can you share me the direct link to the app catalog? I have requested the software for SPFX development for both myself and colleague (Node.JS, Yeoman and Gulp). I also requested Visual Studio Code. Below are the request numbers:
