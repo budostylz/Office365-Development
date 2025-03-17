@@ -295,13 +295,4 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-
-Dear Ms. Schohn,
-
-Thank you for approving my request to access the app catalog. I attempted to access it via the standard /appcatalog path but encountered a 404 error. Would you be able to provide me with the direct link?
-
-Additionally, I have requested the necessary software for SPFX development for both myself and a colleague, including Node.js, Yeoman, and Gulp, as well as Visual Studio Code. Below are the corresponding request numbers:
-
-[Insert request numbers here]
-
-I appreciate your assistance and look forward to your response.
+Thanks Maria for your hard work and effort. If possible can you send me a direct link to the app catalog to confirm access?
