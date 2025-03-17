@@ -295,6 +295,14 @@ Can View Titles and Locations'
 https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
 &sr=8-1
 
-Thanks Maria for your hard work and effort. If possible can you send me a direct link to the app catalog to confirm access?
 
-Thanks, Maria, for your hard work and dedication! If possible, could you share a direct link to the app catalog so I can confirm access? Appreciate it!
+Good morning, Mr. Gus,
+
+I hope you're doing well. I’ve created a test form on the high side for your review. When you have some time, we can set up a call to go over the form, including the questions and responses.
+
+Please let me know a time that works for you, and I’ll schedule a meeting on SIPR accordingly.
+
+Thank you for your time. I look forward to your feedback.
+
+Best regards,
+[Your Name]
