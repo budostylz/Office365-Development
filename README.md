@@ -296,3 +296,5 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 &sr=8-1
 
 Thanks Maria for your hard work and effort. If possible can you send me a direct link to the app catalog to confirm access?
+
+Thanks, Maria, for your hard work and dedication! If possible, could you share a direct link to the app catalog so I can confirm access? Appreciate it!
