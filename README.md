@@ -292,93 +292,18 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FeIukDjQw4gjmUzRi1tJ0LQqEpeT3ty7yKsVnfDS21JR-sryf3dPyLogTV11Gq_NEIUgMUgc2UFx3pZaQT4dsESLj-WPSIv-UDziUboZEKCZyJVSuOmYvcAGtVuwWKaeSPn6IH4GNJ0XXhtBeq6GEDB8hfyjHC1fmaxHq_9g_z_r1G9mCtXt-rip0PcVKalX-z8SQzZUHybG7ftqm3h3SSgwrhy0bL8fIKa-YUXGtu4.mHa56TukMJunFT1xz5n02saDw7PpBq2izm8tPJ7USEo&dib_tag=se&keywords=extreme+ownership&qid=1740675218
-&sr=8-1
+Dear Mr. Buchanan,
 
+Thank you for your response and for providing the resources regarding software approvals. I appreciate the clarification on the scope of the DoDIN APL.
 
-Subject: Request for DoDIN APL Status of Node.js, Gulp, and Yeoman for SPFx Development
+Since DISA is currently using Node.js, Gulp, and Yeoman, could you please provide insight into how these tools were approved for internal use? Specifically:
 
-To: disa.meade.ie.list.approved-products-certification-office@mail.mil
-
-Dear Approved Products Certification Office,
-
-I hope this email finds you well. I am reaching out to request confirmation of the DoDIN Approved Products List (APL) status for Node.js, Gulp, and Yeoman, which are critical tools for SharePoint Framework (SPFx) development within the DoD environment.
-
-We are aware that DISA is currently using these tools, and we are requesting an APL listing to formally confirm their approval for use. Specifically, we would like to verify:
-
-The APL status of Node.js, Gulp, and Yeoman
-Any applicable product registration details
-Compliance or security requirements necessary for continued usage within DoD environments
-If these tools are not currently listed on the APL, could you please advise on the process for submitting them for approval?
-
-Your assistance in this matter is greatly appreciated. Please let us know if additional information is requ
-
-
-
-
-
-
-
-ired.
-
-
-
-Mr. Lewis,
-
+What process did DISA follow to ensure compliance with DoD cybersecurity requirements for these tools?
+Did DISA obtain an exception or local authorization for their use?
+Would the same approval method apply to other DoD entities wanting to use these tools?
+Your guidance on this matter would be greatly appreciated. Please let me know if additional details are required.
  
 
-These tools are not listed on the Department of Defense Information Network (DoDIN) Approved Products List (APL). I believe these would, most likely, fall under ‘software’ and, in general, software products are not listed on the DoDIN APL.
 
- 
 
-Software that does not affect communication and collaboration across the DoDIN is not applicable for placement on the DoDIN APL. The scope of the DoDIN APL is defined by the Unified Capabilities Requirements (UCR) which can be found at https://aplits.disa.mil/docs/UCR-2013-Change2.pdf.
 
- 
-
-There are several places where you can search for software. You may want to begin with the National Information Assurance Partnership (NIAP) list to see if they have any Common Criteria Protection Profiles (CCPP) applicable to the software type you are referencing. If you find a match and the software is not approved, you may need to contact the NIAP team for suggestions.
-
- 
-
-NIAP List: https://www.niap-ccevs.org/products
-
-NIAP Team email: niap@niap-ccevs.org
-
- 
-
-If you do not find the software on the NIAP list, you may want to review DoD Cyber Exchange: https://public.cyber.mil/stigs/downloads/ to see if they have the STIG requirements needed to run the software application.
-
- 
-
-The J6 Supported Products List (SPL), the authoritative approved product listing for use within the J6 - Pentagon IT environment.
-
- 
-
-DISA J6 SPL - Power Apps (appsplatform.us)
-
-DISA J6 Supported Products Support Team email: disa.pentagon.j6.mbx.spl1@mail.mil
-
- 
-
- 
-
-If you are unable to find the software at the above sites, the determination of approval may fall to the Local DoD Component Designated Accrediting Authority (DAA) / Authorizing Official (AO) for authorization to procure/use this product.
-
- 
-
-Please let us know if you have additional questions.
-
- 
-
-Respectfully,
-
-Jim Buchanan
-
- 
-
-DoDIN APL - Approved Products Certification Office (APCO)
-
-APCO Email: disa.meade.peo-transport.list.approved-products-certification-of@mail.mil
-
-DoDIN APL: https://aplits.disa.mil/apl
-
-APLITS Website: https://aplits.disa.mil
