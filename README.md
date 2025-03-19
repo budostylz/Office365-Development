@@ -292,16 +292,8 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-Dear Mr. Buchanan,
-
-Thank you for your response and for providing the resources regarding software approvals. I appreciate the clarification on the scope of the DoDIN APL.
-
-Since DISA is currently using Node.js, Gulp, and Yeoman, could you please provide insight into how these tools were approved for internal use? Specifically:
-
-What process did DISA follow to ensure compliance with DoD cybersecurity requirements for these tools?
-Did DISA obtain an exception or local authorization for their use?
-Would the same approval method apply to other DoD entities wanting to use these tools?
-Your guidance on this matter would be greatly appreciated. Please let me know if additional details are required.
+Not Listed on DoDIN APL – DISA confirms that Node.js, Gulp, and Yeoman are not on the DoDIN Approved Products List (APL) because the APL mainly covers hardware and software that impacts communication across the DoDIN.
+Software May Not Require APL Listing – They suggest that most general software applications do not appear on the DoDIN APL unless they meet Unified Capabilities Requirements (UCR), which mainly apply to communication and collaboration tools.
  
 
 
