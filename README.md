@@ -311,4 +311,74 @@ Any applicable product registration details
 Compliance or security requirements necessary for continued usage within DoD environments
 If these tools are not currently listed on the APL, could you please advise on the process for submitting them for approval?
 
-Your assistance in this matter is greatly appreciated. Please let us know if additional information is required.
+Your assistance in this matter is greatly appreciated. Please let us know if additional information is requ
+
+
+
+
+
+
+
+ired.
+
+
+
+Mr. Lewis,
+
+ 
+
+These tools are not listed on the Department of Defense Information Network (DoDIN) Approved Products List (APL). I believe these would, most likely, fall under ‘software’ and, in general, software products are not listed on the DoDIN APL.
+
+ 
+
+Software that does not affect communication and collaboration across the DoDIN is not applicable for placement on the DoDIN APL. The scope of the DoDIN APL is defined by the Unified Capabilities Requirements (UCR) which can be found at https://aplits.disa.mil/docs/UCR-2013-Change2.pdf.
+
+ 
+
+There are several places where you can search for software. You may want to begin with the National Information Assurance Partnership (NIAP) list to see if they have any Common Criteria Protection Profiles (CCPP) applicable to the software type you are referencing. If you find a match and the software is not approved, you may need to contact the NIAP team for suggestions.
+
+ 
+
+NIAP List: https://www.niap-ccevs.org/products
+
+NIAP Team email: niap@niap-ccevs.org
+
+ 
+
+If you do not find the software on the NIAP list, you may want to review DoD Cyber Exchange: https://public.cyber.mil/stigs/downloads/ to see if they have the STIG requirements needed to run the software application.
+
+ 
+
+The J6 Supported Products List (SPL), the authoritative approved product listing for use within the J6 - Pentagon IT environment.
+
+ 
+
+DISA J6 SPL - Power Apps (appsplatform.us)
+
+DISA J6 Supported Products Support Team email: disa.pentagon.j6.mbx.spl1@mail.mil
+
+ 
+
+ 
+
+If you are unable to find the software at the above sites, the determination of approval may fall to the Local DoD Component Designated Accrediting Authority (DAA) / Authorizing Official (AO) for authorization to procure/use this product.
+
+ 
+
+Please let us know if you have additional questions.
+
+ 
+
+Respectfully,
+
+Jim Buchanan
+
+ 
+
+DoDIN APL - Approved Products Certification Office (APCO)
+
+APCO Email: disa.meade.peo-transport.list.approved-products-certification-of@mail.mil
+
+DoDIN APL: https://aplits.disa.mil/apl
+
+APLITS Website: https://aplits.disa.mil
