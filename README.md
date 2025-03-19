@@ -292,23 +292,20 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-Not Listed on DoDIN APL – DISA confirms that Node.js, Gulp, and Yeoman are not on the DoDIN Approved Products List (APL) because the APL mainly covers hardware and software that impacts communication across the DoDIN.
-Software May Not Require APL Listing – They suggest that most general software applications do not appear on the DoDIN APL unless they meet Unified Capabilities Requirements (UCR), which mainly apply to communication and collaboration tools.
+=IF([Status]="value1", 1, 
+    IF([Status]="value2", 2, 
+        IF([Status]="value3", 3, 
+            IF([Status]="value4", 4, 
+                IF([Status]="value5", 5, 
+                    IF([Status]="value6", 6, 
+                        IF([Status]="value7", 7, 0)
+                    )
+                )
+            )
+        )
+    )
+)
 
- The 'inputs.parameters' of workflow operation 'Create_item' of type 'OpenApiConnection' is not valid. Error details: Input parameter 'item/field_8' is required to be of type 'String/date'. The runtime value '""' to be converted doesn't have the expected format '
-
-
-
-
-
- Activated new phone and issued to new user. Update AT&T applicably.
-Line is unassigned
-Issue with line. See notes.
-Holding for deployed user not at X-132
-User needs to return the device back to inventory
-In work on provisioning
- Awaiting device turn in
-![image](https://github.com/user-attachments/assets/2d051889-768e-44b1-8060-09917326834e)
 
 
 
