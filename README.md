@@ -296,18 +296,19 @@ https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?dib=
 &sr=8-1
 
 
-Good morning, Mr. Gus,
+Subject: Request for DoDIN APL Status of Node.js, Gulp, and Yeoman for SPFx Development
 
-I hope you're doing well. I’ve created a test form on the high side for your review. When you have some time, we can set up a call to go over the form, including the questions and responses.
+To: disa.meade.ie.list.approved-products-certification-office@mail.mil
 
-Please let me know a time that works for you, and I’ll schedule a meeting on SIPR accordingly.
+Dear Approved Products Certification Office,
 
-Thank you for your time. I look forward to your feedback.
+I hope this email finds you well. I am reaching out to request confirmation of the DoDIN Approved Products List (APL) status for Node.js, Gulp, and Yeoman, which are critical tools for SharePoint Framework (SPFx) development within the DoD environment.
 
-Best regards,
-[Your Name]
+We are aware that DISA is currently using these tools, and we are requesting an APL listing to formally confirm their approval for use. Specifically, we would like to verify:
 
+The APL status of Node.js, Gulp, and Yeoman
+Any applicable product registration details
+Compliance or security requirements necessary for continued usage within DoD environments
+If these tools are not currently listed on the APL, could you please advise on the process for submitting them for approval?
 
-
-
-Node.js is an open-source, Commercial-Off-The-Shelf (COTS) product that is free to download and use. No license is required, and there is no procurement cost associated with acquiring or using Node.js, regardless of the number of users or installations.
+Your assistance in this matter is greatly appreciated. Please let us know if additional information is required.
