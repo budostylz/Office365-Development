@@ -320,3 +320,6 @@ Currently, DISA has this integrated, and they have informed us to request access
 
 
 Is the product above a Government-Off-The-Shelf (GOTS) or Commercial-of-the-Shelf (COTS) product?
+
+
+Provide estimated procurement cost for the number of licenses required
