@@ -310,16 +310,4 @@ Best regards,
 
 
 
-Using Node.js via the command line is essential for developing SharePoint Framework (SPFx) solutions. It enables executing JavaScript and TypeScript code, managing dependencies with npm or Yarn, running the Yeoman generator to scaffold SPFx projects, and using the Gulp task runner for building, testing, and deploying solutions. Additionally, it facilitates version control and automation of development tasks within the SharePoint environment.
-
-Currently, DISA has this integrated, and they have informed us to request access through TRANSCOM.
-
-
-
-
-
-
-Is the product above a Government-Off-The-Shelf (GOTS) or Commercial-of-the-Shelf (COTS) product?
-
-
-Provide estimated procurement cost for the number of licenses required
+Node.js is an open-source, Commercial-Off-The-Shelf (COTS) product that is free to download and use. No license is required, and there is no procurement cost associated with acquiring or using Node.js, regardless of the number of users or installations.
