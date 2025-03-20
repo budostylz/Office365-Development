@@ -292,22 +292,11 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-=IF([Status]="value1", 1, 
-    IF([Status]="value2", 2, 
-        IF([Status]="value3", 3, 
-            IF([Status]="value4", 4, 
-                IF([Status]="value5", 5, 
-                    IF([Status]="value6", 6, 
-                        IF([Status]="value7", 7, 0)
-                    )
-                )
-            )
-        )
-    )
+Disappearing Missions: Missions vanish from the dashboard after being edited. Searching for them returns no results, and they sometimes reappear after 24 hours. Two missions have been permanently lost due to this issue.
 
+Unintentional Archiving: The "Archive" checkbox is automatically selected when a mission is opened for editing, regardless of its status. This leads to missions being archived unintentionally.
 
-
-alexander.m.cornellduhoux.mil@us.navy.mil
+Notes Not Saving in Nominations: When notes are added to a name in the nomination block, they do not save properly. To retain the notes, the individual must first be approved, then notes can be added and saved before moving them back into the nomination block.
 
 
 
