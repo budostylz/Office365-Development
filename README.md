@@ -292,46 +292,10 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-Subject: Assistance with JPSE OPS Mission Tracker App Issues
-
-Good day, Sir.
-
-I’m currently troubleshooting the JPSE OPS Mission Tracker App and would appreciate your assistance. When you have a moment, could you please send me the names of:
-
-Any missing missions that are not appearing on the dashboard.
-Any missions where the Archive box appears to be unintentionally checked.
-I’ve also provided screenshots to help clarify the areas of the app where the issues seem to be occurring. If your experience differs from what’s shown, kindly send me screenshots of the specific sections you’re referring to so I can align accordingly and resolve the issues more effectively.
-
-Thank you for your support.
-
-
-
-
-If(MISdetails_JECCapprove.Selected.Label = "Concur",
-    Collect(colOPSeventsAPI,ACP_JECC_JPSE_OPS_Events.Run(
-        Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value),"""","'"),Char(10)," "),Char(9),""),"/","-"),
-        MISdetails_MissionType.Selected.Result,
-        Text(DateTimeValue(MISdetails_StartDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
-        Text(DateTimeValue(MISdetails_EndDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
-        Value(varMissionSelectV3.MissionListID)).bodyjson);
-    ,ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID));
-);
-
-
-
-
-
-
-If(MISdetails_JECCapprove.Selected.Label = "Concur",
-    Collect(colOPSeventsAPI,ACP_JECC_JPSE_OPS_Events.Run(
-        Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value),"""","'"),Char(10)," "),Char(9),""),"/","-"),
-        MISdetails_MissionType.Selected.Result,
-        Text(DateTimeValue(MISdetails_StartDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
-        Text(DateTimeValue(MISdetails_EndDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
-        LookUp(Events, ID=Value(varMissionSelectV3.MissionListID)).bodyjson)).ID;
-    ,ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID));
-);
-
+and(
+    not(empty(body('Parse_JSON')?['id'])),
+    greater(int(body('Parse_JSON')?['id']), 0)
+)
 
 
 
