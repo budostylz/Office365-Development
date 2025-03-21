@@ -292,11 +292,17 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-Disappearing Missions: Missions vanish from the dashboard after being edited. Searching for them returns no results, and they sometimes reappear after 24 hours. Two missions have been permanently lost due to this issue.
+Subject: Assistance with JPSE OPS Mission Tracker App Issues
 
-Unintentional Archiving: The "Archive" checkbox is automatically selected when a mission is opened for editing, regardless of its status. This leads to missions being archived unintentionally.
+Good day, Sir.
 
-Notes Not Saving in Nominations: When notes are added to a name in the nomination block, they do not save properly. To retain the notes, the individual must first be approved, then notes can be added and saved before moving them back into the nomination block.
+I’m currently troubleshooting the JPSE OPS Mission Tracker App and would appreciate your assistance. When you have a moment, could you please send me the names of:
+
+Any missing missions that are not appearing on the dashboard.
+Any missions where the Archive box appears to be unintentionally checked.
+I’ve also provided screenshots to help clarify the areas of the app where the issues seem to be occurring. If your experience differs from what’s shown, kindly send me screenshots of the specific sections you’re referring to so I can align accordingly and resolve the issues more effectively.
+
+Thank you for your support.
 
 
 
