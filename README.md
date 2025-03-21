@@ -299,6 +299,12 @@ Can View Titles and Locations'
 The caller object id is '788383aa-c622-4d8f-a8b6-41abf8cc505b'. Connection 'e95c466810d44a309bb228face6d0032' to 'shared_sharepointonline' cannot be used to activate this flow, either because this is not a valid connection or because it is not a connection you have access permission for. Either replace the connection with a valid connection you can access or have the connection owner activate the flow, so the connection is shared with you in the context of this flow.
 code: ConnectionAuthorizationFailed
 
+
+
+
+
+Failed to parse invoker connections from trigger 'manual' outputs. Exception: Could not find any valid connection for connection reference name 'shared_sharepointonline_1' in APIM header.
+
 Session ID: 21e2a860-460d-4892-aa13-4fea53788431
 
 
