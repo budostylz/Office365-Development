@@ -307,6 +307,19 @@ Thank you for your support.
 
 
 
+If(MISdetails_JECCapprove.Selected.Label = "Concur",
+    Collect(colOPSeventsAPI,ACP_JECC_JPSE_OPS_Events.Run(
+        Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value),"""","'"),Char(10)," "),Char(9),""),"/","-"),
+        MISdetails_MissionType.Selected.Result,
+        Text(DateTimeValue(MISdetails_StartDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
+        Text(DateTimeValue(MISdetails_EndDate.SelectedDate),"yyyy-mm-ddT12:mm:ssZ"),
+        Value(varMissionSelectV3.MissionListID)).bodyjson);
+    ,ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID));
+);
+
+
+
+
 
 
 
