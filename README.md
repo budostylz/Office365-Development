@@ -308,5 +308,20 @@ Failed to parse invoker connections from trigger 'manual' outputs. Exception: Co
 Session ID: 21e2a860-460d-4892-aa13-4fea53788431
 
 
+Error saving to document server. Code: failedToPutApp Error: {"error":{"code":"AppLeaseMissing","message":"The user needs an active lease in order to modify 'JECC-JPSE-OPS Mission Tracker'."}}
+StackLength: 1470
+Stack: Core.ApplicationError
+    at n.t [as constructor] (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/Core.js?v=3.25031.10.326967675:2:300542)
+    at new t (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/Core.js?v=3.25031.10.326967675:2:407983)
+    at n.<anonymous> (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8467597)
+    at new n (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:520643)
+    at https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:539557
+    at l (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8462946)
+    at Object.next (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8462233)
+    at r (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466341)
+    at s (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466538)
+    at https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466597
+
+Session ID: 05c4e965-2168-4d7e-92d9-87018dd9a22a
 
 
