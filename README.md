@@ -296,7 +296,10 @@ Can View Titles and Locations'
 [Best practices when updating a flow used by a Power App](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-apps/connections/best-practices-when-updating-a-flow)
 
 
+The caller object id is '788383aa-c622-4d8f-a8b6-41abf8cc505b'. Connection 'e95c466810d44a309bb228face6d0032' to 'shared_sharepointonline' cannot be used to activate this flow, either because this is not a valid connection or because it is not a connection you have access permission for. Either replace the connection with a valid connection you can access or have the connection owner activate the flow, so the connection is shared with you in the context of this flow.
+code: ConnectionAuthorizationFailed
 
+Session ID: 21e2a860-460d-4892-aa13-4fea53788431
 
 
 
