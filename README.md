@@ -292,10 +292,8 @@ Can View Titles and Locations'
 [Dataverse Licensing](https://chatgpt.com/share/e/67bf4ed6-9628-8009-ac46-264ea67aeda8)
 
 
-and(
-    not(empty(body('Parse_JSON')?['id'])),
-    greater(int(body('Parse_JSON')?['id']), 0)
-)
+## Flow Errors
+[Best practices when updating a flow used by a Power App](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-apps/connections/best-practices-when-updating-a-flow)
 
 
 
