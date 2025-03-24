@@ -428,3 +428,34 @@ Switch(varReportView,
     "Future",Filter(colMissionListV3,And(JECC_Decision = "Concur",Archive = Text(false),StartDate > Today()))
 )
 
+
+-------------
+
+
+Switch(
+    varReportView,
+    
+    "Active",
+    Filter(
+        colMissionListV3,
+        And(
+            JECC_Decision = "Concur",
+            Archive = Text(false),
+            StartDate <= Date(2025, 3, 15),
+            EndDate >= Date(2025, 3, 15),
+            CountRows(Filter(MissionPersonnel, percategory = "Approved")) > 0
+        )
+    ),
+    
+    "Future",
+    Filter(
+        colMissionListV3,
+        And(
+            JECC_Decision = "Concur",
+            Archive = Text(false),
+            StartDate > Date(2025, 3, 15)
+        )
+    )
+)
+
+
