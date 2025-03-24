@@ -295,41 +295,11 @@ Can View Titles and Locations'
 ## Flow Errors
 [Best practices when updating a flow used by a Power App](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-apps/connections/best-practices-when-updating-a-flow)
 
-
-The caller object id is '788383aa-c622-4d8f-a8b6-41abf8cc505b'. Connection 'e95c466810d44a309bb228face6d0032' to 'shared_sharepointonline' cannot be used to activate this flow, either because this is not a valid connection or because it is not a connection you have access permission for. Either replace the connection with a valid connection you can access or have the connection owner activate the flow, so the connection is shared with you in the context of this flow.
-code: ConnectionAuthorizationFailed
-
+## DevOps
+[DevOps](https://dev.azure.com/lewisshaun)
 
 
-
-
-Failed to parse invoker connections from trigger 'manual' outputs. Exception: Could not find any valid connection for connection reference name 'shared_sharepointonline_1' in APIM header.
-
-Session ID: 21e2a860-460d-4892-aa13-4fea53788431
-
-
-Error saving to document server. Code: failedToPutApp Error: {"error":{"code":"AppLeaseMissing","message":"The user needs an active lease in order to modify 'JECC-JPSE-OPS Mission Tracker'."}}
-StackLength: 1470
-Stack: Core.ApplicationError
-    at n.t [as constructor] (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/Core.js?v=3.25031.10.326967675:2:300542)
-    at new t (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/Core.js?v=3.25031.10.326967675:2:407983)
-    at n.<anonymous> (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8467597)
-    at new n (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:520643)
-    at https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:539557
-    at l (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8462946)
-    at Object.next (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8462233)
-    at r (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466341)
-    at s (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466538)
-    at https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466597
-
-Session ID: 05c4e965-2168-4d7e-92d9-87018dd9a22
-
-
-
-
-a
-
-
+MissionDashboardV3_gallery OPS Mission Tracker
 
 
 
