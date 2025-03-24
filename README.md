@@ -352,3 +352,74 @@ false,Switch(varDisplaySort,
 ,ScreenCtrls_SearchText.Value,Location,MissionID,MissionTitle)
 
 
+
+
+
+-----------------------------------------
+// Archive toggle logic
+With(
+    {
+        baseList: If(
+            ScreenSelCtrls_ArchiveMission.Checked,
+            colMissionListV3,
+            Filter(colMissionListV3, Not(Archive))
+        )
+    },
+    With(
+        {
+            sortedList: If(
+                varDisplaySort,
+                Sort(baseList, EndDate, SortOrder.Descending),
+                Sort(baseList, StartDate, SortOrder.Ascending)
+            )
+        },
+        With(
+            {
+                filteredList: Switch(
+                    true,
+                    And(
+                        ScreenSelCtrls_FilterMissionStatus.Selected.Result = "Status - All",
+                        ScreenCtrls_FilterMissionType.Selected.Result = "Mission Type - All"
+                    ),
+                    sortedList,
+
+                    And(
+                        ScreenSelCtrls_FilterMissionStatus.Selected.Result = "Status - All",
+                        ScreenCtrls_FilterMissionType.Selected.Result <> "Mission Type - All"
+                    ),
+                    Filter(
+                        sortedList,
+                        MissionType = ScreenCtrls_FilterMissionType.Selected.Result
+                    ),
+
+                    And(
+                        ScreenSelCtrls_FilterMissionStatus.Selected.Result <> "Status - All",
+                        ScreenCtrls_FilterMissionType.Selected.Result = "Mission Type - All"
+                    ),
+                    Filter(
+                        sortedList,
+                        Status = ScreenSelCtrls_FilterMissionStatus.Selected.Result
+                    ),
+
+                    // Default case: filter by both
+                    Filter(
+                        sortedList,
+                        Status = ScreenSelCtrls_FilterMissionStatus.Selected.Result &&
+                        MissionType = ScreenCtrls_FilterMissionType.Selected.Result
+                    )
+                )
+            },
+            // Final Search
+            Search(
+                filteredList,
+                ScreenCtrls_SearchText.Value,
+                "Location",
+                "MissionID",
+                "MissionTitle"
+            )
+        )
+    )
+)
+
+
+
