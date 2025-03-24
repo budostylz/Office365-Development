@@ -458,4 +458,8 @@ Switch(
     )
 )
 
+------------------
+
+SortByColumns(AddColumns(Filter(ThisItem.MissionPersonnel,percategory = "Approved"),perstartdt_adj,If(IsBlank(perstartdt),ThisItem.StartDate,perstartdt),perenddt_adj,If(IsBlank(perenddt),ThisItem.EndDate,perenddt)),"perstartdt",SortOrder.Descending,"perenddt",SortOrder.Descending,"pername",SortOrder.Ascending)
+
 
