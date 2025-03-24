@@ -322,6 +322,63 @@ Stack: Core.ApplicationError
     at s (https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466538)
     at https://authoringcdn-govudcil301.azureedge.us/v3.25031.10.326967675/studio/js/appmagic-authoring.js?v=3.25031.10.326967675:1:8466597
 
-Session ID: 05c4e965-2168-4d7e-92d9-87018dd9a22a
+Session ID: 05c4e965-2168-4d7e-92d9-87018dd9a22
+
+
+
+
+a
+
+
+
+
+
+Search(
+
+If(And(ScreenSelCtrls_FilterMissionStatus.Selected.Result = "Status - All", ScreenCtrls_FilterMissionType.Selected.Result = "Mission Type - All"),
+Switch(ScreenSelCtrls_ArchiveMission.Checked,
+true,Switch(varDisplaySort,
+    true,Sort(colMissionListV3,EndDate,SortOrder.Descending),
+    false,Sort(colMissionListV3,StartDate,SortOrder.Ascending)
+    ),
+false,Switch(varDisplaySort,
+    true,Sort(Filter(colMissionListV3,Not(Archive)),EndDate,SortOrder.Descending),
+    false,Sort(Filter(colMissionListV3,Not(Archive)),StartDate,SortOrder.Ascending)
+)),
+
+And(ScreenSelCtrls_FilterMissionStatus.Selected.Result = "Status - All", ScreenCtrls_FilterMissionType.Selected.Result <> "Mission Type - All"),
+Filter(Switch(ScreenSelCtrls_ArchiveMission.Checked,
+true,Switch(varDisplaySort,
+    true,Sort(colMissionListV3,EndDate,SortOrder.Descending),
+    false,Sort(colMissionListV3,StartDate,SortOrder.Ascending)
+    ),
+false,Switch(varDisplaySort,
+    true,Sort(Filter(colMissionListV3,Not(Archive)),EndDate,SortOrder.Descending),
+    false,Sort(Filter(colMissionListV3,Not(Archive)),StartDate,SortOrder.Ascending)
+)),MissionType = ScreenCtrls_FilterMissionType.Selected.Result),
+
+And(ScreenSelCtrls_FilterMissionStatus.Selected.Result <> "Status - All", ScreenCtrls_FilterMissionType.Selected.Result = "Mission Type - All"),
+Filter(Switch(ScreenSelCtrls_ArchiveMission.Checked,
+true,Switch(varDisplaySort,
+    true,Sort(colMissionListV3,EndDate,SortOrder.Descending),
+    false,Sort(colMissionListV3,StartDate,SortOrder.Ascending)
+    ),
+false,Switch(varDisplaySort,
+    true,Sort(Filter(colMissionListV3,Not(Archive)),EndDate,SortOrder.Descending),
+    false,Sort(Filter(colMissionListV3,Not(Archive)),StartDate,SortOrder.Ascending)
+)),Status = ScreenSelCtrls_FilterMissionStatus.Selected.Result),
+
+Filter(Switch(ScreenSelCtrls_ArchiveMission.Checked,
+true,Switch(varDisplaySort,
+    true,Sort(colMissionListV3,EndDate,SortOrder.Descending),
+    false,Sort(colMissionListV3,StartDate,SortOrder.Ascending)
+    ),
+false,Switch(varDisplaySort,
+    true,Sort(Filter(colMissionListV3,Not(Archive)),EndDate,SortOrder.Descending),
+    false,Sort(Filter(colMissionListV3,Not(Archive)),StartDate,SortOrder.Ascending)
+)),And(Status = ScreenSelCtrls_FilterMissionStatus.Selected.Result,MissionType = ScreenCtrls_FilterMissionType.Selected.Result))
+)
+
+,ScreenCtrls_SearchText.Value,Location,MissionID,MissionTitle)
 
 
