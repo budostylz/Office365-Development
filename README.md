@@ -463,3 +463,15 @@ Switch(
 SortByColumns(AddColumns(Filter(ThisItem.MissionPersonnel,percategory = "Approved"),perstartdt_adj,If(IsBlank(perstartdt),ThisItem.StartDate,perstartdt),perenddt_adj,If(IsBlank(perenddt),ThisItem.EndDate,perenddt)),"perstartdt",SortOrder.Descending,"perenddt",SortOrder.Descending,"pername",SortOrder.Ascending)
 
 
+
+-----------------
+
+Resolved issues in two Power Automate flows (ACP_JECC_JPSE_OPS_Events and ACP-JECC_JPSE_OPS_EventsRemove) to ensure consistent execution during mission event creation and deletion.
+
+Fixed flow logic errors to enable successful and reliable operation of both flows.
+
+Added missing search filters for the ‘Notes’ and ‘MissionTask’ fields, allowing missions to be searchable by these attributes.
+
+Refactored the mission dashboard’s listing and search functionality for improved performance, code simplicity, and long-term maintainability.
+
+
