@@ -304,7 +304,8 @@ Can View Titles and Locations'
 
 MissionPersonnel: ForAll(
     ParseJSON(Text(personnelJson)),
-    With({ ActionPer: Value },
+    With(
+        { ActionPer: Value },
         {
             posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.posntitle)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
             perdodid: Text(ActionPer.perdodid, "0000000000"),
@@ -322,3 +323,4 @@ MissionPersonnel: ForAll(
         }
     )
 )
+
