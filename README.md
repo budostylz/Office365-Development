@@ -302,348 +302,62 @@ Can View Titles and Locations'
 ---------------------------------------------------------
 
 With(
-    {
-        clean: Substitute(Substitute(Substitute(Trim, """", "'"), Char(10), " "), Char(9), ""),
-        sanitize: With({ text: Clean }, Substitute(text, "/", "-")),
-        sortedPersonnel: SortByColumns(colMissionSelectManning, "percategory", Ascending, "perstartdt", Ascending, "perenddt", Ascending, "pername", Ascending),
-        personnelJson: "[" & If(
-            CountRows(sortedPersonnel) = 0,
-            "",
-            Concat(
-                sortedPersonnel,
-                "{ ""posntitle"": """ & clean(posntitle) & """, " &
-                """perdodid"": """ & perdodid & """, " &
-                """pername"": """ & clean(pername) & """, " &
-                """perfxgrp"": """ & perfxgrp & """, " &
-                """permail"": """ & permail & """, " &
-                """perstartdt"": """ & perstartdt & """, " &
-                """perenddt"": """ & perenddt & """, " &
-                """pernotes"": """ & clean(pernotes) & """, " &
-                """percompo"": """ & percompo & """, " &
-                """pergrd"": """ & pergrd & """, " &
-                """permos"": """ & permos & """, " &
-                """percategory"": """ & percategory & """, " &
-                """pervolunteer"": """ & pervolunteer & """ }",
-                ", "
-            )
-        ) & "]"
-    },
-    Switch(
-        Self.Selected.ItemKey,
-        
-        "DetailsExit",
-        Set(varMissionSelectV3, Blank());
-        Clear(colMissionSelectManning),
-        
-        "DetailsSave",
-        Concurrent(
-            Refresh(CurrentOpsList);
-            Patch(
-                CurrentOpsList,
-                LookUp(CurrentOpsList, ID = varMissionSelectV3.MissionListID),
-                {
-                    Title: sanitize(MISdetails_MissionTitle.Value),
-                    DEPORD: sanitize(MISdetails_MissionID.Value),
-                    MissionPartner: sanitize(MISdetails_MissionPartner.Value),
-                    OPR: sanitize(MISdetailsEdit_OPR.Value),
-                    MissionType: { Value: MISdetails_MissionType.Selected.Result },
-                    Status: { Value: MISdetails_Status.Text },
-                    StartDate: MISdetails_StartDate.SelectedDate,
-                    EndDate: MISdetails_EndDate.SelectedDate,
-                    Location: sanitize(MISdetails_Location.Value),
-                    PaxRequest: MISdetails_PAXreq.Value,
-                    JTIMS: MISdetails_JTIMS.Checked,
-                    XorgLoa: MISdetails_XORG.Checked,
-                    JECC_Decision: { Value: MISdetails_JECCapprove.Selected.Label },
-                    JPSE_Recommend: { Value: MISdetails_JPSErecommend.Selected.Label },
-                    Archive: MISdetailsEdit_Archive.Checked,
-                    MissionTask: sanitize(MISdetails_MissionTask.Value),
-                    Notes: sanitize(MISdetails_Notes.Value),
-                    SupportRequests: sanitize(MISdetailsEdit_SptRequest.Value),
-                    Funding: sanitize(MISdetailsEdit_Funding.Value),
-                    LeadComments: sanitize(MISdetailsEdit_LeadNotes.Value),
-                    TeamLead: MISdetails_TeamLead.Selected.pername,
-                    TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
-                    MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
-                    EngagementOfficer: MISdetails_EngageOff.Selected.pername,
-                    DWG1: Text(MISdetails_DWG1.SelectedDate, "mm/dd/yyyy"),
-                    DWG2: Text(MISdetails_DWG2.SelectedDate, "mm/dd/yyyy"),
-                    POM: Text(MISdetails_POM.SelectedDate, "mm/dd/yyyy"),
-                    Deploy: Text(MISdetails_Deploy.SelectedDate, "mm/dd/yyyy"),
-                    Arrival: Text(MISdetails_Arrive.SelectedDate, "mm/dd/yyyy"),
-                    RSOI: Text(MISdetails_RSOI.SelectedDate, "mm/dd/yyyy"),
-                    RDWG1: Text(MISdetails_RDWG1.SelectedDate, "mm/dd/yyyy"),
-                    RDWG2: Text(MISdetails_RDWG2.SelectedDate, "mm/dd/yyyy"),
-                    RPOM: Text(MISdetails_RPOM.SelectedDate, "mm/dd/yyyy"),
-                    Redeploy: Text(MISdetails_Redeploy.SelectedDate, "mm/dd/yyyy"),
-                    Arrival2: Text(MISdetails_Arrive2.SelectedDate, "mm/dd/yyyy"),
-                    EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
-                    JSONpersonnel: personnelJson
-                },
-                MISdetailsEdit_form.Updates
-            );
-            
-            Patch(
-                colMissionListV3,
-                LookUp(colMissionListV3, MissionListID = varMissionSelectV3.MissionListID),
-                {
-                    MissionTitle: sanitize(MISdetails_MissionTitle.Value),
-                    MissionID: sanitize(MISdetails_MissionID.Value),
-                    MissionPartner: sanitize(MISdetails_MissionPartner.Value),
-                    OPR: sanitize(MISdetailsEdit_OPR.Value),
-                    MissionType: MISdetails_MissionType.Selected.Result,
-                    Status: MISdetails_Status.Text,
-                    StartDate: MISdetails_StartDate.SelectedDate,
-                    EndDate: MISdetails_EndDate.SelectedDate,
-                    Location: sanitize(MISdetails_Location.Value),
-                    PaxRequest: MISdetails_PAXreq.Value,
-                    JTIMS: MISdetails_JTIMS.Checked,
-                    XorgLoa: MISdetails_XORG.Checked,
-                    JECC_Decision: MISdetails_JECCapprove.Selected.Label,
-                    JPSE_Recommend: MISdetails_JPSErecommend.Selected.Label,
-                    Archive: MISdetailsEdit_Archive.Checked,
-                    MissionTask: sanitize(MISdetails_MissionTask.Value),
-                    Notes: sanitize(MISdetails_Notes.Value),
-                    SupportRequests: sanitize(MISdetailsEdit_SptRequest.Value),
-                    Funding: sanitize(MISdetailsEdit_Funding.Value),
-                    LeadComments: sanitize(MISdetailsEdit_LeadNotes.Value),
-                    TeamLead: MISdetails_TeamLead.Selected.pername,
-                    TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
-                    MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
-                    EngagementOfficer: MISdetails_EngageOff.Selected.pername,
-                    DWG1: MISdetails_DWG1.SelectedDate,
-                    DWG2: MISdetails_DWG2.SelectedDate,
-                    POM: MISdetails_POM.SelectedDate,
-                    Deploy: MISdetails_Deploy.SelectedDate,
-                    Arrival: MISdetails_Arrive.SelectedDate,
-                    RSOI: MISdetails_RSOI.SelectedDate,
-                    RDWG1: MISdetails_RDWG1.SelectedDate,
-                    RDWG2: MISdetails_RDWG2.SelectedDate,
-                    RPOM: MISdetails_RPOM.SelectedDate,
-                    Redeploy: MISdetails_Redeploy.SelectedDate,
-                    Arrival2: MISdetails_Arrive2.SelectedDate,
-                    EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
-                    MissionPersonnel: ForAll(
-                        ParseJSON(Text(personnelJson)),
-                        {
-                            posntitle: clean(Text(ActionPer.posntitle)),
-                            perdodid: Text(ActionPer.perdodid, "0000000000"),
-                            pername: clean(Text(ActionPer.pername)),
-                            perfxgrp: Text(ActionPer.perfxgrp),
-                            permail: Text(ActionPer.permail),
-                            perstartdt: DateValue(Text(ActionPer.perstartdt)),
-                            perenddt: DateValue(Text(ActionPer.perenddt)),
-                            pernotes: clean(Text(ActionPer.pernotes)),
-                            percompo: Text(ActionPer.percompo),
-                            pergrd: Text(ActionPer.pergrd),
-                            permos: Text(ActionPer.permos),
-                            percategory: Text(ActionPer.percategory),
-                            pervolunteer: Text(ActionPer.pervolunteer)
-                        }
-                    ),
-                    Modified: Now(),
-                    ModifiedBy: User().Email
-                }
-            );
-
-            If(
-                MISdetails_JECCapprove.Selected.Label = "Concur",
-                Collect(
-                    colOPSeventsAPI,
-                    ACP_JECC_JPSE_OPS_Events.Run(
-                        sanitize(MISdetails_MissionTitle.Value),
-                        MISdetails_MissionType.Selected.Result,
-                        Text(DateTimeValue(MISdetails_StartDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
-                        Text(DateTimeValue(MISdetails_EndDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
-                        Value(varMissionSelectV3.MissionListID)
-                    ).bodyjson,
-                    ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID))
-                )
-            )
-        );
-
-        Set(varMissionSelectV3, Blank());
-        Clear(colMissionSelectManning),
-
-        "DetailsPrint",
-        Set(varMissionPrint, true)
-    )
-)
-
-
-
-
-
------------------------------------------------------------------
-
-
-
-With( { 
-    clean: Substitute(Substitute(Substitute(Trim, """", "'"), Char(10), " "), Char(9), ""), 
-    sanitize: With({ text: Clean }, Substitute(text, "/", "-")), 
-    sortedPersonnel: SortByColumns(colMissionSelectManning, "percategory", Ascending, "perstartdt", Ascending, "perenddt", Ascending, "pername", Ascending), 
-    personnelJson: "[" & If( 
-        CountRows(sortedPersonnel) = 0, 
-        "", 
-        Concat( 
-            sortedPersonnel, 
-            "{ ""posntitle"": """ & clean(posntitle) & """, " & 
-            """perdodid"": """ & perdodid & """, " & 
-            """pername"": """ & clean(pername) & """, " & 
-            """perfxgrp"": """ & perfxgrp & """, " & 
-            """permail"": """ & permail & """, " & 
-            """perstartdt"": """ & perstartdt & """, " & 
-            """perenddt"": """ & perenddt & """, " & 
-            """pernotes"": """ & clean(pernotes) & 
-            """, " & """percompo"": """ & percompo & 
-            """, " & """pergrd"": """ & pergrd & 
-            """, " & """permos"": """ & permos & 
-            """, " & """percategory"": """ & percategory & 
-            """, " & """pervolunteer"": """ & pervolunteer & """ }", 
-            ", " ) 
-        ) & "]" }, 
-        Switch( Self.Selected.ItemKey,
-
-    "DetailsExit",
-    Set(varMissionSelectV3, Blank());
-    Clear(colMissionSelectManning),
-    
-    "DetailsSave",
-    Concurrent(
-        Refresh(CurrentOpsList);
-        Patch(
-            CurrentOpsList,
-            LookUp(CurrentOpsList, ID = varMissionSelectV3.MissionListID),
-            {
-                Title: sanitize(MISdetails_MissionTitle.Value),
-                DEPORD: sanitize(MISdetails_MissionID.Value),
-                MissionPartner: sanitize(MISdetails_MissionPartner.Value),
-                OPR: sanitize(MISdetailsEdit_OPR.Value),
-                MissionType: { Value: MISdetails_MissionType.Selected.Result },
-                Status: { Value: MISdetails_Status.Text },
-                StartDate: MISdetails_StartDate.SelectedDate,
-                EndDate: MISdetails_EndDate.SelectedDate,
-                Location: sanitize(MISdetails_Location.Value),
-                PaxRequest: MISdetails_PAXreq.Value,
-                JTIMS: MISdetails_JTIMS.Checked,
-                XorgLoa: MISdetails_XORG.Checked,
-                JECC_Decision: { Value: MISdetails_JECCapprove.Selected.Label },
-                JPSE_Recommend: { Value: MISdetails_JPSErecommend.Selected.Label },
-                Archive: MISdetailsEdit_Archive.Checked,
-                MissionTask: sanitize(MISdetails_MissionTask.Value),
-                Notes: sanitize(MISdetails_Notes.Value),
-                SupportRequests: sanitize(MISdetailsEdit_SptRequest.Value),
-                Funding: sanitize(MISdetailsEdit_Funding.Value),
-                LeadComments: sanitize(MISdetailsEdit_LeadNotes.Value),
-                TeamLead: MISdetails_TeamLead.Selected.pername,
-                TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
-                MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
-                EngagementOfficer: MISdetails_EngageOff.Selected.pername,
-                DWG1: Text(MISdetails_DWG1.SelectedDate, "mm/dd/yyyy"),
-                DWG2: Text(MISdetails_DWG2.SelectedDate, "mm/dd/yyyy"),
-                POM: Text(MISdetails_POM.SelectedDate, "mm/dd/yyyy"),
-                Deploy: Text(MISdetails_Deploy.SelectedDate, "mm/dd/yyyy"),
-                Arrival: Text(MISdetails_Arrive.SelectedDate, "mm/dd/yyyy"),
-                RSOI: Text(MISdetails_RSOI.SelectedDate, "mm/dd/yyyy"),
-                RDWG1: Text(MISdetails_RDWG1.SelectedDate, "mm/dd/yyyy"),
-                RDWG2: Text(MISdetails_RDWG2.SelectedDate, "mm/dd/yyyy"),
-                RPOM: Text(MISdetails_RPOM.SelectedDate, "mm/dd/yyyy"),
-                Redeploy: Text(MISdetails_Redeploy.SelectedDate, "mm/dd/yyyy"),
-                Arrival2: Text(MISdetails_Arrive2.SelectedDate, "mm/dd/yyyy"),
-                EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
-                JSONpersonnel: personnelJson
-            },
-            MISdetailsEdit_form.Updates
-        );
-        
-        Patch(
-            colMissionListV3,
-            LookUp(colMissionListV3, MissionListID = varMissionSelectV3.MissionListID),
-            {
-                MissionTitle: sanitize(MISdetails_MissionTitle.Value),
-                MissionID: sanitize(MISdetails_MissionID.Value),
-                MissionPartner: sanitize(MISdetails_MissionPartner.Value),
-                OPR: sanitize(MISdetailsEdit_OPR.Value),
-                MissionType: MISdetails_MissionType.Selected.Result,
-                Status: MISdetails_Status.Text,
-                StartDate: MISdetails_StartDate.SelectedDate,
-                EndDate: MISdetails_EndDate.SelectedDate,
-                Location: sanitize(MISdetails_Location.Value),
-                PaxRequest: MISdetails_PAXreq.Value,
-                JTIMS: MISdetails_JTIMS.Checked,
-                XorgLoa: MISdetails_XORG.Checked,
-                JECC_Decision: MISdetails_JECCapprove.Selected.Label,
-                JPSE_Recommend: MISdetails_JPSErecommend.Selected.Label,
-                Archive: MISdetailsEdit_Archive.Checked,
-                MissionTask: sanitize(MISdetails_MissionTask.Value),
-                Notes: sanitize(MISdetails_Notes.Value),
-                SupportRequests: sanitize(MISdetailsEdit_SptRequest.Value),
-                Funding: sanitize(MISdetailsEdit_Funding.Value),
-                LeadComments: sanitize(MISdetailsEdit_LeadNotes.Value),
-                TeamLead: MISdetails_TeamLead.Selected.pername,
-                TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
-                MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
-                EngagementOfficer: MISdetails_EngageOff.Selected.pername,
-                DWG1: MISdetails_DWG1.SelectedDate,
-                DWG2: MISdetails_DWG2.SelectedDate,
-                POM: MISdetails_POM.SelectedDate,
-                Deploy: MISdetails_Deploy.SelectedDate,
-                Arrival: MISdetails_Arrive.SelectedDate,
-                RSOI: MISdetails_RSOI.SelectedDate,
-                RDWG1: MISdetails_RDWG1.SelectedDate,
-                RDWG2: MISdetails_RDWG2.SelectedDate,
-                RPOM: MISdetails_RPOM.SelectedDate,
-                Redeploy: MISdetails_Redeploy.SelectedDate,
-                Arrival2: MISdetails_Arrive2.SelectedDate,
-                EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
-                MissionPersonnel: ForAll(
-                    ParseJSON(Text(personnelJson)),
-                    {
-                        posntitle: clean(Text(ActionPer.posntitle)),
-                        perdodid: Text(ActionPer.perdodid, "0000000000"),
-                        pername: clean(Text(ActionPer.pername)),
-                        perfxgrp: Text(ActionPer.perfxgrp),
-                        permail: Text(ActionPer.permail),
-                        perstartdt: DateValue(Text(ActionPer.perstartdt)),
-                        perenddt: DateValue(Text(ActionPer.perenddt)),
-                        pernotes: clean(Text(ActionPer.pernotes)),
-                        percompo: Text(ActionPer.percompo),
-                        pergrd: Text(ActionPer.pergrd),
-                        permos: Text(ActionPer.permos),
-                        percategory: Text(ActionPer.percategory),
-                        pervolunteer: Text(ActionPer.pervolunteer)
-                    }
-                ),
-                Modified: Now(),
-                ModifiedBy: User().Email
-            }
-        );
-
-        If(
-            MISdetails_JECCapprove.Selected.Label = "Concur",
-            Collect(
-                colOPSeventsAPI,
-                ACP_JECC_JPSE_OPS_Events.Run(
-                    sanitize(MISdetails_MissionTitle.Value),
-                    MISdetails_MissionType.Selected.Result,
-                    Text(DateTimeValue(MISdetails_StartDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
-                    Text(DateTimeValue(MISdetails_EndDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
-                    Value(varMissionSelectV3.MissionListID)
-                ).bodyjson,
-                ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID))
-            )
+{
+    clean: Function(value, 
+        Substitute(
+            Substitute(
+                Substitute(
+                    Substitute(Trim(value), """", "'"), 
+                    Char(10), " "
+                ), 
+                Char(9), ""
+            ), 
+            "/", "-"
         )
-    );
+    ),
+    sanitize: Function(value, 
+        Substitute(
+            Substitute(
+                Substitute(
+                    Substitute(Trim(value), """", "'"), 
+                    Char(10), " "
+                ), 
+                Char(9), ""
+            ), 
+            "/", "-"
+        )
+    ),
+    
+    sortedPersonnel: SortByColumns(
+        colMissionSelectManning,
+        "percategory", Ascending,
+        "perstartdt", Ascending,
+        "perenddt", Ascending,
+        "pername", Ascending
+    ),
 
-    Set(varMissionSelectV3, Blank());
-    Clear(colMissionSelectManning),
-
-    "DetailsPrint",
-    Set(varMissionPrint, true)
-)
-)
-
-
+    personnelJson: "[" & If(
+        CountRows(sortedPersonnel) = 0,
+        "",
+        Concat(
+            sortedPersonnel,
+            "{ ""posntitle"": """ & clean(posntitle) & """, " &
+            """perdodid"": """ & perdodid & """, " &
+            """pername"": """ & clean(pername) & """, " &
+            """perfxgrp"": """ & perfxgrp & """, " &
+            """permail"": """ & permail & """, " &
+            """perstartdt"": """ & perstartdt & """, " &
+            """perenddt"": """ & perenddt & """, " &
+            """pernotes"": """ & clean(pernotes) & """, " &
+            """percompo"": """ & percompo & """, " &
+            """pergrd"": """ & pergrd & """, " &
+            """permos"": """ & permos & """, " &
+            """percategory"": """ & percategory & """, " &
+            """pervolunteer"": """ & pervolunteer & """ }",
+            ", "
+        )
+    ) & "]"
+},
 
 
 
