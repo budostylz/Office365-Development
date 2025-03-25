@@ -302,21 +302,20 @@ Can View Titles and Locations'
 ---------------------------------------------------------
 
    MissionPersonnel: ForAll(
-                    ParseJSON(Text(personnelJson)),
-                    {
-                        posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.posntitle)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
-                        perdodid: Text(ActionPer.perdodid, "0000000000"),
-                        pername: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pername)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
-                        perfxgrp: Text(ActionPer.perfxgrp),
-                        permail: Text(ActionPer.permail),
-                        perstartdt: DateValue(Text(ActionPer.perstartdt)),
-                        perenddt: DateValue(Text(ActionPer.perenddt)),
-                        pernotes: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pernotes)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
-                        percompo: Text(ActionPer.percompo),
-                        pergrd: Text(ActionPer.pergrd),
-                        permos: Text(ActionPer.permos),
-                        percategory: Text(ActionPer.percategory),
-                        pervolunteer: Text(ActionPer.pervolunteer)
-                    }
-                )
-
+    ParseJSON(Text(personnelJson)),
+    {
+        posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Value.posntitle), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+        perdodid: Text(Value.perdodid),
+        pername: Substitute(Substitute(Substitute(Substitute(Trim(Value.pername), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+        perfxgrp: Text(Value.perfxgrp),
+        permail: Text(Value.permail),
+        perstartdt: DateValue(Value.perstartdt),
+        perenddt: DateValue(Value.perenddt),
+        pernotes: Substitute(Substitute(Substitute(Substitute(Trim(Value.pernotes), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+        percompo: Text(Value.percompo),
+        pergrd: Text(Value.pergrd),
+        permos: Text(Value.permos),
+        percategory: Text(Value.percategory),
+        pervolunteer: Text(Value.pervolunteer)
+    }
+)
