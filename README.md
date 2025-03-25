@@ -301,43 +301,50 @@ Can View Titles and Locations'
 
 ---------------------------------------------------------
 
-{
-    sortedPersonnel: SortByColumns(
-        colMissionSelectManning,
-        "percategory", SortOrder.Ascending,
-        "perstartdt", SortOrder.Ascending,
-        "perenddt", SortOrder.Ascending,
-        "pername", SortOrder.Ascending
-    ),
+    Concurrent(
+        Refresh(CurrentOpsList),
 
-    personnelJson: With(
-        { localSorted: SortByColumns(
-            colMissionSelectManning,
-            "percategory", SortOrder.Ascending,
-            "perstartdt", SortOrder.Ascending,
-            "perenddt", SortOrder.Ascending,
-            "pername", SortOrder.Ascending
-        ) },
-        "[" & If(
-            CountRows(localSorted) = 0,
-            "",
-            Concat(
-                localSorted,
-                "{ ""posntitle"": """ & Substitute(Substitute(Substitute(Substitute(Trim(posntitle), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
-                """perdodid"": """ & perdodid & """, " &
-                """pername"": """ & Substitute(Substitute(Substitute(Substitute(Trim(pername), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
-                """perfxgrp"": """ & perfxgrp & """, " &
-                """permail"": """ & permail & """, " &
-                """perstartdt"": """ & perstartdt & """, " &
-                """perenddt"": """ & perenddt & """, " &
-                """pernotes"": """ & Substitute(Substitute(Substitute(Substitute(Trim(pernotes), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
-                """percompo"": """ & percompo & """, " &
-                """pergrd"": """ & pergrd & """, " &
-                """permos"": """ & permos & """, " &
-                """percategory"": """ & percategory & """, " &
-                """pervolunteer"": """ & pervolunteer & """ }",
-                ", "
-            )
-        ) & "]"
-    )
-},
+        Patch(
+            CurrentOpsList,
+            LookUp(CurrentOpsList, ID = varMissionSelectV3.MissionListID),
+            {
+                Title: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                DEPORD: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionID.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                MissionPartner: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionPartner.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                OPR: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_OPR.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                MissionType: { Value: MISdetails_MissionType.Selected.Result },
+                Status: { Value: MISdetails_Status.Text },
+                StartDate: MISdetails_StartDate.SelectedDate,
+                EndDate: MISdetails_EndDate.SelectedDate,
+                Location: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Location.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                PaxRequest: MISdetails_PAXreq.Value,
+                JTIMS: MISdetails_JTIMS.Checked,
+                XorgLoa: MISdetails_XORG.Checked,
+                JECC_Decision: { Value: MISdetails_JECCapprove.Selected.Label },
+                JPSE_Recommend: { Value: MISdetails_JPSErecommend.Selected.Label },
+                Archive: MISdetailsEdit_Archive.Checked,
+                MissionTask: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTask.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                Notes: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Notes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                SupportRequests: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_SptRequest.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                Funding: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_Funding.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                LeadComments: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_LeadNotes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                TeamLead: MISdetails_TeamLead.Selected.pername,
+                TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
+                MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
+                EngagementOfficer: MISdetails_EngageOff.Selected.pername,
+                DWG1: Text(MISdetails_DWG1.SelectedDate, "mm/dd/yyyy"),
+                DWG2: Text(MISdetails_DWG2.SelectedDate, "mm/dd/yyyy"),
+                POM: Text(MISdetails_POM.SelectedDate, "mm/dd/yyyy"),
+                Deploy: Text(MISdetails_Deploy.SelectedDate, "mm/dd/yyyy"),
+                Arrival: Text(MISdetails_Arrive.SelectedDate, "mm/dd/yyyy"),
+                RSOI: Text(MISdetails_RSOI.SelectedDate, "mm/dd/yyyy"),
+                RDWG1: Text(MISdetails_RDWG1.SelectedDate, "mm/dd/yyyy"),
+                RDWG2: Text(MISdetails_RDWG2.SelectedDate, "mm/dd/yyyy"),
+                RPOM: Text(MISdetails_RPOM.SelectedDate, "mm/dd/yyyy"),
+                Redeploy: Text(MISdetails_Redeploy.SelectedDate, "mm/dd/yyyy"),
+                Arrival2: Text(MISdetails_Arrive2.SelectedDate, "mm/dd/yyyy"),
+                EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
+                JSONpersonnel: personnelJson
+            },
+            MISdetailsEdit_form.Updates
+        ),
