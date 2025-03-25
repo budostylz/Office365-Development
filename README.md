@@ -299,7 +299,6 @@ Can View Titles and Locations'
 [DevOps](https://dev.azure.com/lewisshaun)
 
 -------------------------------------------------------
-
 Switch(
     Self.Selected.ItemKey,
 
@@ -308,9 +307,8 @@ Switch(
     Clear(colMissionSelectManning),
 
     "DetailsSave",
-    Concurrent(
-    Refresh(CurrentOpsList),
-
+    // First update CurrentOpsList (outside Concurrent)
+    Refresh(CurrentOpsList);
     Patch(
         CurrentOpsList,
         LookUp(CurrentOpsList, ID = varMissionSelectV3.MissionListID),
@@ -354,8 +352,10 @@ Switch(
             JSONpersonnel: personnelJson
         },
         MISdetailsEdit_form.Updates
-    ),
+    );
 
+    // Then perform remaining updates concurrently
+    Concurrent(
         Patch(
             colMissionListV3,
             LookUp(colMissionListV3, MissionListID = varMissionSelectV3.MissionListID),
@@ -396,30 +396,31 @@ Switch(
                 Redeploy: MISdetails_Redeploy.SelectedDate,
                 Arrival2: MISdetails_Arrive2.SelectedDate,
                 EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
-                MissionPersonnel: ForAll( 
-                    ParseJSON(Text(personnelJson)), 
-                    With( { ActionPer: ThisRecord }, 
-                    { 
-                        posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.posntitle)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
-                        perdodid: Text(ActionPer.perdodid, "0000000000"), 
-                        pername: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pername)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
-                        perfxgrp: Text(ActionPer.perfxgrp), 
-                        permail: Text(ActionPer.permail), 
-                        perstartdt: DateValue(Text(ActionPer.perstartdt)), 
-                        perenddt: DateValue(Text(ActionPer.perenddt)), 
-                        pernotes: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pernotes)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
-                        percompo: Text(ActionPer.percompo), 
-                        pergrd: Text(ActionPer.pergrd), 
-                        permos: Text(ActionPer.permos), 
-                        percategory: Text(ActionPer.percategory), 
-                        pervolunteer: Text(ActionPer.pervolunteer) 
-                        } 
-                    ) 
+                MissionPersonnel: ForAll(
+                    ParseJSON(Text(personnelJson)),
+                    With(
+                        { ActionPer: ThisRecord },
+                        {
+                            posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.posntitle)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                            perdodid: Text(ActionPer.perdodid, "0000000000"),
+                            pername: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pername)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                            perfxgrp: Text(ActionPer.perfxgrp),
+                            permail: Text(ActionPer.permail),
+                            perstartdt: DateValue(Text(ActionPer.perstartdt)),
+                            perenddt: DateValue(Text(ActionPer.perenddt)),
+                            pernotes: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pernotes)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                            percompo: Text(ActionPer.percompo),
+                            pergrd: Text(ActionPer.pergrd),
+                            permos: Text(ActionPer.permos),
+                            percategory: Text(ActionPer.percategory),
+                            pervolunteer: Text(ActionPer.pervolunteer)
+                        }
+                    )
                 ),
                 Modified: Now(),
                 ModifiedBy: User().Email
             }
-        );
+        ),
 
         If(
             MISdetails_JECCapprove.Selected.Label = "Concur",
@@ -431,7 +432,7 @@ Switch(
                     Text(DateTimeValue(MISdetails_StartDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
                     Text(DateTimeValue(MISdetails_EndDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
                     Value(varMissionSelectV3.MissionListID)
-                ).bodyjson 
+                ).bodyjson
             );
             ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID))
         )
