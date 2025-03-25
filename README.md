@@ -300,4 +300,131 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
+    Concurrent(
+    Refresh(CurrentOpsList),
 
+    Patch(
+        CurrentOpsList,
+        LookUp(CurrentOpsList, ID = varMissionSelectV3.MissionListID),
+        {
+            Title: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            DEPORD: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionID.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            MissionPartner: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionPartner.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            OPR: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_OPR.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            MissionType: { Value: MISdetails_MissionType.Selected.Result },
+            Status: { Value: MISdetails_Status.Text },
+            StartDate: MISdetails_StartDate.SelectedDate,
+            EndDate: MISdetails_EndDate.SelectedDate,
+            Location: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Location.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            PaxRequest: MISdetails_PAXreq.Value,
+            JTIMS: MISdetails_JTIMS.Checked,
+            XorgLoa: MISdetails_XORG.Checked,
+            JECC_Decision: { Value: MISdetails_JECCapprove.Selected.Label },
+            JPSE_Recommend: { Value: MISdetails_JPSErecommend.Selected.Label },
+            Archive: MISdetailsEdit_Archive.Checked,
+            MissionTask: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTask.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            Notes: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Notes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            SupportRequests: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_SptRequest.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            Funding: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_Funding.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            LeadComments: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_LeadNotes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+            TeamLead: MISdetails_TeamLead.Selected.pername,
+            TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
+            MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
+            EngagementOfficer: MISdetails_EngageOff.Selected.pername,
+            DWG1: Text(MISdetails_DWG1.SelectedDate, "mm/dd/yyyy"),
+            DWG2: Text(MISdetails_DWG2.SelectedDate, "mm/dd/yyyy"),
+            POM: Text(MISdetails_POM.SelectedDate, "mm/dd/yyyy"),
+            Deploy: Text(MISdetails_Deploy.SelectedDate, "mm/dd/yyyy"),
+            Arrival: Text(MISdetails_Arrive.SelectedDate, "mm/dd/yyyy"),
+            RSOI: Text(MISdetails_RSOI.SelectedDate, "mm/dd/yyyy"),
+            RDWG1: Text(MISdetails_RDWG1.SelectedDate, "mm/dd/yyyy"),
+            RDWG2: Text(MISdetails_RDWG2.SelectedDate, "mm/dd/yyyy"),
+            RPOM: Text(MISdetails_RPOM.SelectedDate, "mm/dd/yyyy"),
+            Redeploy: Text(MISdetails_Redeploy.SelectedDate, "mm/dd/yyyy"),
+            Arrival2: Text(MISdetails_Arrive2.SelectedDate, "mm/dd/yyyy"),
+            EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
+            JSONpersonnel: personnelJson
+        },
+        MISdetailsEdit_form.Updates
+    ),
+
+        Patch(
+            colMissionListV3,
+            LookUp(colMissionListV3, MissionListID = varMissionSelectV3.MissionListID),
+            {
+                MissionTitle: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                MissionID: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionID.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                MissionPartner: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionPartner.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                OPR: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_OPR.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                MissionType: MISdetails_MissionType.Selected.Result,
+                Status: MISdetails_Status.Text,
+                StartDate: MISdetails_StartDate.SelectedDate,
+                EndDate: MISdetails_EndDate.SelectedDate,
+                Location: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Location.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                PaxRequest: MISdetails_PAXreq.Value,
+                JTIMS: MISdetails_JTIMS.Checked,
+                XorgLoa: MISdetails_XORG.Checked,
+                JECC_Decision: MISdetails_JECCapprove.Selected.Label,
+                JPSE_Recommend: MISdetails_JPSErecommend.Selected.Label,
+                Archive: MISdetailsEdit_Archive.Checked,
+                MissionTask: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTask.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                Notes: Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_Notes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                SupportRequests: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_SptRequest.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                Funding: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_Funding.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                LeadComments: Substitute(Substitute(Substitute(Substitute(Trim(MISdetailsEdit_LeadNotes.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                TeamLead: MISdetails_TeamLead.Selected.pername,
+                TeamDeputy: MISdetails_TeamDeputy.Selected.pername,
+                MissionCoordinator: MISdetails_MissionCoordinator.Selected.pername,
+                EngagementOfficer: MISdetails_EngageOff.Selected.pername,
+                DWG1: MISdetails_DWG1.SelectedDate,
+                DWG2: MISdetails_DWG2.SelectedDate,
+                POM: MISdetails_POM.SelectedDate,
+                Deploy: MISdetails_Deploy.SelectedDate,
+                Arrival: MISdetails_Arrive.SelectedDate,
+                RSOI: MISdetails_RSOI.SelectedDate,
+                RDWG1: MISdetails_RDWG1.SelectedDate,
+                RDWG2: MISdetails_RDWG2.SelectedDate,
+                RPOM: MISdetails_RPOM.SelectedDate,
+                Redeploy: MISdetails_Redeploy.SelectedDate,
+                Arrival2: MISdetails_Arrive2.SelectedDate,
+                EarlyReturnDT: MISdetailsEdit_EarlyReturnDT.SelectedDate,
+                MissionPersonnel: ForAll( 
+                    ParseJSON(Text(personnelJson)), 
+                    With( { ActionPer: ThisRecord }, 
+                    { 
+                        posntitle: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.posntitle)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
+                        perdodid: Text(ActionPer.perdodid, "0000000000"), 
+                        pername: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pername)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
+                        perfxgrp: Text(ActionPer.perfxgrp), 
+                        permail: Text(ActionPer.permail), 
+                        perstartdt: DateValue(Text(ActionPer.perstartdt)), 
+                        perenddt: DateValue(Text(ActionPer.perenddt)), 
+                        pernotes: Substitute(Substitute(Substitute(Substitute(Trim(Text(ActionPer.pernotes)), """", "'"), Char(10), " "), Char(9), ""), "/", "-"), 
+                        percompo: Text(ActionPer.percompo), 
+                        pergrd: Text(ActionPer.pergrd), 
+                        permos: Text(ActionPer.permos), 
+                        percategory: Text(ActionPer.percategory), 
+                        pervolunteer: Text(ActionPer.pervolunteer) 
+                        } 
+                    ) 
+                ),
+                Modified: Now(),
+                ModifiedBy: User().Email
+            }
+        );
+
+        If(
+            MISdetails_JECCapprove.Selected.Label = "Concur",
+            Collect(
+                colOPSeventsAPI,
+                ACP_JECC_JPSE_OPS_Events.Run(
+                    Substitute(Substitute(Substitute(Substitute(Trim(MISdetails_MissionTitle.Value), """", "'"), Char(10), " "), Char(9), ""), "/", "-"),
+                    MISdetails_MissionType.Selected.Result,
+                    Text(DateTimeValue(MISdetails_StartDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
+                    Text(DateTimeValue(MISdetails_EndDate.SelectedDate), "yyyy-mm-ddT12:mm:ssZ"),
+                    Value(varMissionSelectV3.MissionListID)
+                ).bodyjson 
+            );
+            ACP_JECC_JPSE_OPS_EventsRemove.Run(Value(varMissionSelectV3.MissionListID))
+        )
+    )
