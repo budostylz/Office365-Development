@@ -301,64 +301,43 @@ Can View Titles and Locations'
 
 ---------------------------------------------------------
 
-With(
 {
-    clean: Function(value, 
-        Substitute(
-            Substitute(
-                Substitute(
-                    Substitute(Trim(value), """", "'"), 
-                    Char(10), " "
-                ), 
-                Char(9), ""
-            ), 
-            "/", "-"
-        )
-    ),
-    sanitize: Function(value, 
-        Substitute(
-            Substitute(
-                Substitute(
-                    Substitute(Trim(value), """", "'"), 
-                    Char(10), " "
-                ), 
-                Char(9), ""
-            ), 
-            "/", "-"
-        )
-    ),
-    
     sortedPersonnel: SortByColumns(
         colMissionSelectManning,
-        "percategory", Ascending,
-        "perstartdt", Ascending,
-        "perenddt", Ascending,
-        "pername", Ascending
+        "percategory", SortOrder.Ascending,
+        "perstartdt", SortOrder.Ascending,
+        "perenddt", SortOrder.Ascending,
+        "pername", SortOrder.Ascending
     ),
 
-    personnelJson: "[" & If(
-        CountRows(sortedPersonnel) = 0,
-        "",
-        Concat(
-            sortedPersonnel,
-            "{ ""posntitle"": """ & clean(posntitle) & """, " &
-            """perdodid"": """ & perdodid & """, " &
-            """pername"": """ & clean(pername) & """, " &
-            """perfxgrp"": """ & perfxgrp & """, " &
-            """permail"": """ & permail & """, " &
-            """perstartdt"": """ & perstartdt & """, " &
-            """perenddt"": """ & perenddt & """, " &
-            """pernotes"": """ & clean(pernotes) & """, " &
-            """percompo"": """ & percompo & """, " &
-            """pergrd"": """ & pergrd & """, " &
-            """permos"": """ & permos & """, " &
-            """percategory"": """ & percategory & """, " &
-            """pervolunteer"": """ & pervolunteer & """ }",
-            ", "
-        )
-    ) & "]"
+    personnelJson: With(
+        { localSorted: SortByColumns(
+            colMissionSelectManning,
+            "percategory", SortOrder.Ascending,
+            "perstartdt", SortOrder.Ascending,
+            "perenddt", SortOrder.Ascending,
+            "pername", SortOrder.Ascending
+        ) },
+        "[" & If(
+            CountRows(localSorted) = 0,
+            "",
+            Concat(
+                localSorted,
+                "{ ""posntitle"": """ & Substitute(Substitute(Substitute(Substitute(Trim(posntitle), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
+                """perdodid"": """ & perdodid & """, " &
+                """pername"": """ & Substitute(Substitute(Substitute(Substitute(Trim(pername), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
+                """perfxgrp"": """ & perfxgrp & """, " &
+                """permail"": """ & permail & """, " &
+                """perstartdt"": """ & perstartdt & """, " &
+                """perenddt"": """ & perenddt & """, " &
+                """pernotes"": """ & Substitute(Substitute(Substitute(Substitute(Trim(pernotes), """", "'"), Char(10), " "), Char(9), ""), "/", "-") & """, " &
+                """percompo"": """ & percompo & """, " &
+                """pergrd"": """ & pergrd & """, " &
+                """permos"": """ & permos & """, " &
+                """percategory"": """ & percategory & """, " &
+                """pervolunteer"": """ & pervolunteer & """ }",
+                ", "
+            )
+        ) & "]"
+    )
 },
-
-
-
-
