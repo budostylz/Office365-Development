@@ -339,3 +339,10 @@ ClearCollect(
         }
     }
 )
+
+
+
+
+
+
+If(varMissionSelectV3.Archive, varMissionSelectV3.Archive, false)
