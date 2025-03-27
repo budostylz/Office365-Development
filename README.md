@@ -300,9 +300,15 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
+Set(varGalleryItemHeight, 250); // or whatever your real row height is
 
 Set(
     varGalleryHeight,
-    (Gallery1.TemplateHeight + 10) * CountRows(colFlatGridItems)
+    varGalleryItemHeight * CountRows(colFlatGridItems)
 )
+
+
+Gallery1.Height = varGalleryHeight
+
+
 
