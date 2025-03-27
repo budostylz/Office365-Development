@@ -309,4 +309,118 @@ DISA NNSY J-6 Mailbox JCSE Key Events
 
 DISA NNSY J-6 Mailbox JPSE Key Events
 
-These additional calendars will enhance our ability to support mission planning, coordination, and analytics.
+These additional calendars will enhance our ability to support mission planning, coordination, and analytcs.
+
+
+UpdateContext({showModal: true}); 
+UpdateContext({calendarName:LookUp(colCalendars,id=6).CalendarName}); 
+Set(varSelectedCalendar, LookUp(colCalendars,id=6));
+
+
+
+//Grid Definition
+ClearCollect( 
+    colGridView, 
+    { 
+        LeftItem: { 
+            id:1, 
+            Title: "JECC Battle Rhythm", 
+            Description: "A deliberate, daily schedule of command, staff, and element activities intended synchronize staff actions and support the JECC commander's decision cycle. Examples include working groups, action boards, decision boards, crisis action teams, and joint planning groups.",
+            Image: Image2_6.Image,
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0DAAA=", 
+            AdminGroupName: "JECC-Battle Rhythm Calendar Admin", 
+            AdminGroupID:"44512266-0bbb-4a3e-a7f7-5616cb852d39", 
+            ContributorGroupName:"JECC-Battle Rhythm Calendar Contributor", 
+            ContributorGroupID:"6b544588-c5cd-40b1-b806-874bc9b888d6"
+        }, 
+            
+        RightItem: { 
+            id:2,
+            Title: "JECC Command Events", 
+            Description: "Key events or activities that merit the visibility of JECC leadership and staff for situational awareness, communication, decision-making, and command guidance. Examples include holidays, VIP visits, Service birthdays, facility repairs, and morale events.",
+            Image: Image2_5.Image,
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0EAAA=", 
+            AdminGroupName: "JECC-Command Events Calendar Admin", 
+            AdminGroupID:"574a5464-dac2-4968-9d84-52e5d7236730",
+            ContributorGroupName:"JECC-Command Events Calendar Contributor", 
+            ContributorGroupID:"4bb3fa52-50ff-4bbc-afa3-3d08bcbe3113" 
+        } 
+    }, 
+    { 
+        LeftItem: { 
+            id:3, 
+            Title: "Crisis Battle Rhythm", 
+            Description: "A modified battle rhythm to support an accelerated commander's decision cycle in periods of crisis. Ancillary staff events are suspended to clear space for a heightened operational tempo marked by an increased frequency in cross-functional planning and decision-making venues.",
+            Image: Image2_5.Image,
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0GAAA=",
+            AdminGroupName: "JECC-Crisis Battle Rhythm Calendar Admin", 
+            AdminGroupID:"62a71586-4eff-4c7a-85b9-0cce858f45df",
+            ContributorGroupName:"JECC-Crisis Battle Rhythm Calendar Contributor", 
+            ContributorGroupID:"2c7898ca-ac1e-4a4b-a526-6e2326a20f25" 
+
+        }, 
+        RightItem: { 
+            id:4,
+            Title: "JECC Training Events", 
+            Description: "Scheduled activities aimed at enhancing the skills, knowledge, and readiness of JECC personnel through individual and collective events. Examples include newcomer orientation, joint enhanced training, mission readiness exercises, joint planner course, reserve element battle assemblies, deployability training, JSAT-C. ",
+            Image: Image2_4.Image, 
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0HAAA=", 
+            AdminGroupName: "JECC-Training Events Calendar Admin", 
+            AdminGroupID:"fa8f85b6-d1b3-46fc-aac4-0312392b7d6b", 
+            ContributorGroupName:"JECC-Training Events Calendar Contributor", 
+            ContributorGroupID:"450787c5-5dee-4838-aa1e-d18ae5c98dd8"
+            
+        } 
+    }, 
+    { 
+        LeftItem: 
+        { 
+            id:5,
+            Title: "JECC Engagements", 
+            Description: "Deliberately planned meetings and events for the purpose of developing or informing JECC stakeholders. These are principally conducted by the headquarters command group, element commanders, and headquarters directors. Examples include engagements with enterprise leaders, combatant command visits, staff assist visits, and briefing Capstone or the Joint Flag Officer Warfighting Course.",
+            Image: Image2_4.Image
+           
+            
+        }, 
+        RightItem: 
+        { 
+            id:6,
+            Title: "JECC Exercises", 
+            Description: "Joint Event Life Cycle (JELC) events which include concept development, initial, mid, and final planning events, blue planning, and execution.",
+            Image: Image2_3.Image, 
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0CAAA=", 
+            AdminGroupName: "JECC-Exercise Calendar Admin", 
+            AdminGroupID:"22380be6-3e09-452e-be0c-249a2e9e3bb1", 
+            ContributorGroupName:"JECC-Exercise Calendar Contributor", 
+            ContributorGroupID:"8932870b-2488-4503-a4ff-4eaeda711bfb"
+        } 
+    },
+     { 
+        LeftItem: 
+        { 
+            id:7,
+            Title: "JECC Key Leader Absences", 
+            Description: "The extended absence (>24 hours) of headquarters command group, element commanders, and headquarters directors. Examples include leave or temporary duty.",
+            Image: Image2_3.Image,
+             CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0BAAA=", 
+            AdminGroupName: "JECC-Key Leader Leave and Engagements Calendar Admin", 
+            AdminGroupID:"b2d75f8d-f83c-40a5-b7f1-93c4b5f1e673",
+            ContributorGroupName:"JECC-Key Leader Leave & Engagements Calendar Contributor", ContributorGroupID:"9a955b5e-8c31-48fe-b24f-c4414e8504bc"
+            
+        }, 
+        RightItem: 
+        { 
+            id:8,
+            Title: "JECC Operations", 
+            Description: "Xyz",
+            Image: Image2_5.Image, 
+            CalendarID:"AAMkAGQzY2QxMDRlLWQxZDctNDMwZi1iYWIzLTVhMzEzNDQ4MDE1ZgBGAAAAAADydUjwPwYWSrNO6KIHHLCxBwAlxr96N1igS74x0Y1qI0zGAAAAAAEGAAAlxr96N1igS74x0Y1qI0zGAAGlUb0FAAA=", 
+            AdminGroupName: "JECC-Operations Calendar Admin", 
+            AdminGroupID:"95cc9e7a-a0fa-4205-a4c9-92cf629deb1b", 
+            ContributorGroupName:"JECC-Operations Calendar Contributor", 
+            ContributorGroupID:"891e5961-e16d-4393-b051-788b23ae9529"
+            
+        } 
+    }
+
+)
