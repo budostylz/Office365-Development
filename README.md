@@ -301,10 +301,4 @@ Can View Titles and Locations'
 -------------------------------------------------------
 
 
-// If you know it's RightItem with id = 6
-UpdateContext({calendarName: LookUp(colGridView, RightItem.id = 6).RightItem.Title});
-Set(varSelectedCalendar, LookUp(colGridView, RightItem.id = 6).RightItem);
-
-// If it's LeftItem with id = 3 for example
-UpdateContext({calendarName: LookUp(colGridView, LeftItem.id = 3).LeftItem.Title});
-Set(varSelectedCalendar, LookUp(colGridView, LeftItem.id = 3).LeftItem);
+Gallery1.Height = (Gallery1.TemplateHeight + Gallery1.TemplatePadding) * CountRows(Gallery1.AllItems)
