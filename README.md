@@ -300,49 +300,13 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-ClearCollect(
-    colGridView,
-    {
-        LeftItem: {
-            Title: "JECC Battle Rhythm",
-            Description: "A deliberate, daily schedule of command, staff...",
-            Image: SampleImage1
-        },
-        RightItem: {
-            Title: "JECC Command Events",
-            Description: "Key events or activities that merit the visibility...",
-            Image: SampleImage2
-        }
-    },
-    {
-        LeftItem: {
-            Title: "Crisis Battle Rhythm",
-            Description: "A modified battle rhythm to support an accelerated...",
-            Image: SampleImage3
-        },
-        RightItem: {
-            Title: "JECC Training Events",
-            Description: "Scheduled activities aimed at enhancing the skills...",
-            Image: SampleImage4
-        }
-    },
-    {
-        LeftItem: {
-            Title: "JECC Engagements",
-            Description: "Deliberately planned meetings and events...",
-            Image: SampleImage5
-        },
-        RightItem: {
-            Title: "JECC Exercises",
-            Description: "Joint Event Life Cycle (JELC) events...",
-            Image: SampleImage6
-        }
-    }
-)
 
+We require three additional calendar accounts to support our battle rhythm automation, mirroring the structure of our current DISA NNSY J-6 Mailbox JECC Battle Rhythm. The requested calendars are:
 
+DISA NNSY J-6 Mailbox JECC Engagements
 
+DISA NNSY J-6 Mailbox JCSE Key Events
 
+DISA NNSY J-6 Mailbox JPSE Key Events
 
-
-If(varMissionSelectV3.Archive, varMissionSelectV3.Archive, false)
+These additional calendars will enhance our ability to support mission planning, coordination, and analytics.
