@@ -301,4 +301,8 @@ Can View Titles and Locations'
 -------------------------------------------------------
 
 
-Gallery1.Height = (Gallery1.TemplateHeight + Gallery1.TemplatePadding) * CountRows(Gallery1.AllItems)
+Set(
+    varGalleryHeight,
+    (Gallery1.TemplateHeight + 10) * CountRows(colFlatGridItems)
+)
+
