@@ -300,15 +300,22 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-Set(varGalleryItemHeight, 250); // or whatever your real row height is
+We submitted a request under reference RITMU0313815 with the exact calendar names needed. However, the calendars provisioned were named using the users' email addresses, which we did not request.
 
-Set(
-    varGalleryHeight,
-    varGalleryItemHeight * CountRows(colFlatGridItems)
-)
+Additionally, we currently do not have access to these calendars.
 
+We specifically requested access to the calendars owned by the following users:
 
-Gallery1.Height = varGalleryHeight
+Primary Owner: Shaun Lewis – shaun.c.lewis3.ctr@mail.mil
+
+Jason Wymer – jason.r.wymer.ctr@mail.mil
+
+Please resolve this issue as soon as possible, as access to these calendars is critical for ongoing operations.
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+Shaun Lewis
 
 
 
