@@ -300,24 +300,17 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-We submitted a request under reference RITMU0313815 with the exact calendar names needed. However, the calendars provisioned were named using the users' email addresses, which we did not request.
+Subject: Request for Node.js, Yeoman, and Gulp Installation for SPFx Development
 
-Additionally, we currently do not have access to these calendars.
+Hello,
 
-We specifically requested access to the calendars owned by the following users:
+I was referred to submit this request via email for the installation of Node.js, Yeoman, and Gulp to support SharePoint Framework (SPFx) development.
 
-Primary Owner: Shaun Lewis – shaun.c.lewis3.ctr@mail.mil
+We are targeting SPFx version 1.17.4, which requires compatibility with Node.js 16.x—currently approved by DISA. Attached is a screenshot showing the available versions for SPFx development.
 
-Jason Wymer – jason.r.wymer.ctr@mail.mil
+Below are the relevant details including request numbers, version requirements, and computer names.
 
-Please resolve this issue as soon as possible, as access to these calendars is critical for ongoing operations.
+Please feel free to reach out to me if you need any additional information or clarification.
 
-Thank you for your prompt attention to this matter.
-
-
-
-
-
-I was referred to email the request for Node.JS, Yeoman and Gulp for SPFX development. Request numbers, versions and computer names are below. Attach is a screenshot of the avaiable versions for SPFX development. We're targeting SPFX 1.17.4 since DISA currently have Node.16x. Please reach out to me for additional information. 
-
-
+Thank you,
+[Your Name]
