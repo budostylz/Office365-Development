@@ -314,8 +314,10 @@ Please resolve this issue as soon as possible, as access to these calendars is c
 
 Thank you for your prompt attention to this matter.
 
-Best regards,
-Shaun Lewis
 
+
+
+
+I was referred to email the request for Node.JS, Yeoman and Gulp for SPFX development. Request numbers, versions and computer names are below. Attach is a screenshot of the avaiable versions for SPFX development. We're targeting SPFX 1.17.4 since DISA currently have Node.16x. Please reach out to me for additional information. 
 
 
