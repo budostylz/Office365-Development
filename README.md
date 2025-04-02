@@ -304,10 +304,11 @@ Max(
     ShowColumns(
         AddColumns(
             Self.AllItems,
-            "RowHeight",
-            25 * CountRows(Filter(MissionPersonnel, percategory = "Approved")) + 25 + 6
+            "ApprovedCount",
+            CountRows(Filter(MissionPersonnel, percategory = "Approved"))
         ),
-        "RowHeight"
+        "ApprovedCount"
     )
-)
+) * 25 + 25 + 6
+
 
