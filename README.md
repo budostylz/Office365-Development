@@ -300,78 +300,10 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-Subject: Request for Node.js, Yeoman, and Gulp Installation for SPFx Development
-
-Hello,
-
-I was referred to submit this request via email for the installation of Node.js, Yeoman, and Gulp to support SharePoint Framework (SPFx) development.
-
-We are targeting SPFx version 1.17.4, which requires compatibility with Node.js 16.x—currently approved by DISA. Attached is a screenshot showing the available versions for SPFx development.
-
-Below are the relevant details including request numbers, version requirements, and computer names.
-
-Please feel free to reach out to me if you need any additional information or clarification.
-
-Thank you,
-[Your Name]
-
-
-
-
-
-
-
-[{ "posntitle": "", "perdodid": "1278079275", "pername": "ABELLA, ERWIN E MAJ", "perfxgrp": "JPSE | OPS", "permail": "", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USAR", "pergrd": "O-4 ", "permos": "19A", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "2221144444", "pername": "ACEVEDO, RICARDO LTC", "perfxgrp": "JPSE | PLANS", "permail": "", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USAR", "pergrd": "O-5 ", "permos": "000", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1256075136", "pername": "ACKLES, ERIC R LTC", "perfxgrp": "JPSE | PLANS", "permail": "eric.r.ackles.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USA", "pergrd": "O-5 ", "permos": "14A", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1185178206", "pername": "ADAMES, JOSHUA M LTC", "perfxgrp": "JPSE | OPS", "permail": "disable.joshua.b.adames.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USAR", "pergrd": "O-5 ", "permos": "30A", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1013297009", "pername": "ADAMS, JAMES E CW5", "perfxgrp": "JCSE | CMD GRP - COMMAND SECTION", "permail": "disable.james.e.adams.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USA", "pergrd": "W-5 ", "permos": "W255Z", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1515519552", "pername": "ADAMS, JAMES T SGT", "perfxgrp": "JCSE | 1 JCS ALPHA TROOP", "permail": "james.t.adams150.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USA", "pergrd": "E-5 ", "permos": "25S", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1268016550", "pername": "ADAMS, STEPHEN W LCDR", "perfxgrp": "JPSE | PLANS", "permail": "stephen.w.adams.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USN", "pergrd": "O-4 ", "permos": "1110", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1013297025", "pername": "ADAMSGARCIA, DAVID A SPC", "perfxgrp": "JCSE | 4 JCS C2 TROOP", "permail": "", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USAR", "pergrd": "E-4 ", "permos": "25B10", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1246262183", "pername": "AGUILAR, ANGEL N SSG", "perfxgrp": "JCSE | 4 JCS COMM SPT TRP (CST)", "permail": "", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USAR", "pergrd": "E-6 ", "permos": "92Y3O", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1299952815", "pername": "AGUILAR, MARCO A GySgt", "perfxgrp": "JPSE | SUST", "permail": "marco.a.aguilar14.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "", "percompo": "USMCR", "pergrd": "E-7 ", "permos": "1732/CIVIL AFFAIRS SPECIALIST", "percategory": "Approved", "pervolunteer": "false" }, { "posntitle": "", "perdodid": "1043040118", "pername": "HOEPRICH, DANIEL J LTC", "perfxgrp": "JPSE | OPS", "permail": "daniel.j.hoeprich.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "THIS IS A TEST 60", "percompo": "USA", "pergrd": "O-5 ", "permos": "13A", "percategory": "Approved", "pervolunteer": "false" }, { "po
-sntitle": "", "perdodid": "1142553441", "pername": "MCGRUE, CHARLES R LTC", "perfxgrp": "JPSE | OPS", "permail": "charles.r.mcgrue.mil@mail.mil", "perstartdt": "", "perenddt": "", "pernotes": "THIS IS A TEST 60", "percompo": "USAR", "pergrd": "O-5 ", "permos": "25A, 26A", "percategory": "Approved", "pervolunteer": "false" }]
-
-
-
-
-SortByColumns(
-    AddColumns(
-        Filter(ThisItem.MissionPersonnel,percategory = "Approved"),
-        perstartdt_adj,If(IsBlank(perstartdt),ThisItem.StartDate,perstartdt),
-        perenddt_adj,If(IsBlank(perenddt),ThisItem.EndDate,perenddt)
-    ),
-    "perstartdt",SortOrder.Descending,
-    "perenddt",SortOrder.Descending,
-    "pername",SortOrder.Ascending
+Max(
+    ForAll(
+        Self.AllItems,
+        25 * CountRows(Filter(MissionPersonnel, percategory = "Approved")) + 25 + 6
+    )
 )
 
-
-
-
-Switch( varReportView,
-    "Active",
-        Filter(
-            colMissionListV3,
-            And(
-                JECC_Decision = "Concur",
-                Archive = Text(false),
-                StartDate <= Today(),
-                EndDate >= Today(),
-                CountRows(Filter(MissionPersonnel, percategory = "Approved")) > 0
-            )
-        ),
-    "Future",
-        Filter(
-            colMissionListV3,
-            And(
-                JECC_Decision = "Concur",
-                Archive = Text(false),
-                StartDate > Today()
-            )
-        )
-)
-
-/*
-Switch(varReportView,
-    "Active",Filter(colMissionListV3,And(JECC_Decision = "Concur",Archive = Text(false),StartDate <= Today(),EndDate >= Today(),CountRows(Filter(MissionPersonnel,percategory = "Approved"))>0)),
-    "Future",Filter(colMissionListV3,And(JECC_Decision = "Concur",Archive = Text(false),StartDate > Today()))
-)
-
-*/
-
-
-
-Max(CountRows(Filter(Self.AllItems,"Approved" in MissionPersonnel.percategory)))*25+25+6
