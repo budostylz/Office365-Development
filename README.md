@@ -371,3 +371,7 @@ Switch(varReportView,
 )
 
 */
+
+
+
+Max(CountRows(Filter(Self.AllItems,"Approved" in MissionPersonnel.percategory)))*25+25+6
