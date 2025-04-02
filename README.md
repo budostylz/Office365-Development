@@ -301,14 +301,16 @@ Can View Titles and Locations'
 -------------------------------------------------------
 
 Max(
-    ShowColumns(
-        AddColumns(
-            Self.AllItems,
-            "ApprovedCount",
-            CountRows(Filter(MissionPersonnel, percategory = "Approved"))
-        ),
-        "ApprovedCount"
+    ForAll(
+        Self.AllItems,
+        CountRows(
+            Filter(
+                MissionPersonnel,
+                percategory = "Approved"
+            )
+        )
     )
 ) * 25 + 25 + 6
+
 
 
