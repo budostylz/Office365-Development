@@ -301,9 +301,13 @@ Can View Titles and Locations'
 -------------------------------------------------------
 
 Max(
-    ForAll(
-        Self.AllItems,
-        25 * CountRows(Filter(MissionPersonnel, percategory = "Approved")) + 25 + 6
+    ShowColumns(
+        AddColumns(
+            Self.AllItems,
+            "RowHeight",
+            25 * CountRows(Filter(MissionPersonnel, percategory = "Approved")) + 25 + 6
+        ),
+        "RowHeight"
     )
 )
 
