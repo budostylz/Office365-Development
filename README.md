@@ -300,17 +300,15 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-Max(
-    ForAll(
-        Self.AllItems,
-        CountRows(
-            Filter(
-                MissionPersonnel,
-                percategory = "Approved"
-            )
+With(
+    {
+        countTable: ForAll(
+            Self.AllItems,
+            CountRows(Filter(MissionPersonnel, percategory = "Approved"))
         )
-    )
-) * 25 + 25 + 6
+    },
+    Max(countTable) * 25 + 25 + 6
+)
 
 
 
