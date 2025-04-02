@@ -304,10 +304,10 @@ With(
     {
         countTable: ForAll(
             Self.AllItems,
-            CountRows(Filter(MissionPersonnel, percategory = "Approved"))
+            { value: CountRows(Filter(MissionPersonnel, percategory = "Approved")) }
         )
     },
-    Max(countTable) * 25 + 25 + 6
+    Max(countTable, value) * 25 + 25 + 6
 )
 
 
