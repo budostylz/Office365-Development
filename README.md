@@ -337,3 +337,37 @@ SortByColumns(
     "perenddt",SortOrder.Descending,
     "pername",SortOrder.Ascending
 )
+
+
+
+
+Switch( varReportView,
+    "Active",
+        Filter(
+            colMissionListV3,
+            And(
+                JECC_Decision = "Concur",
+                Archive = Text(false),
+                StartDate <= Today(),
+                EndDate >= Today(),
+                CountRows(Filter(MissionPersonnel, percategory = "Approved")) > 0
+            )
+        ),
+    "Future",
+        Filter(
+            colMissionListV3,
+            And(
+                JECC_Decision = "Concur",
+                Archive = Text(false),
+                StartDate > Today()
+            )
+        )
+)
+
+/*
+Switch(varReportView,
+    "Active",Filter(colMissionListV3,And(JECC_Decision = "Concur",Archive = Text(false),StartDate <= Today(),EndDate >= Today(),CountRows(Filter(MissionPersonnel,percategory = "Approved"))>0)),
+    "Future",Filter(colMissionListV3,And(JECC_Decision = "Concur",Archive = Text(false),StartDate > Today()))
+)
+
+*/
