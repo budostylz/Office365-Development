@@ -300,4 +300,22 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-Search(Filter(SortByColumns(colMissionSelectManning,"perstartdt",SortOrder.Ascending,"perenddt",SortOrder.Ascending,"pername",SortOrder.Ascending),percategory="Approved"),MISdetailsManning_SearchText.Value,percompo,perdodid,perfxgrp,pernotes,pername,posntitle)
+ForAll(
+    Filter(colMissionSelectManning, percategory = "Approved"),
+    Patch(
+        colMissionSelectManning,
+        ThisRecord,
+        { perstartdt: DatePicker_ArriveMission.SelectedDate }
+    )
+)
+
+ForAll(
+    Filter(colMissionSelectManning, percategory = "Approved"),
+    Patch(
+        colMissionSelectManning,
+        ThisRecord,
+        { perenddt: DatePicker_ArriveHOR.SelectedDate }
+    )
+)
+
+
