@@ -318,4 +318,8 @@ ForAll(
     )
 )
 
+Set(varSelectedApprovePersonnel, ThisItem);
+Set(varSelectedApprovePersonnelModalStartEndDate, true);
 
+Patch(colMissionSelectManning,LookUp(colMissionSelectManning,perdodid = ThisItem.perdodid),{perstartdt: Self.SelectedDate});
+Set(varSelectedApprovePersonnelModalStartEndDate, false);
