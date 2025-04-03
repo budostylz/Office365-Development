@@ -300,3 +300,4 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
+Search(Filter(SortByColumns(colMissionSelectManning,"perstartdt",SortOrder.Ascending,"perenddt",SortOrder.Ascending,"pername",SortOrder.Ascending),percategory="Approved"),MISdetailsManning_SearchText.Value,percompo,perdodid,perfxgrp,pernotes,pername,posntitle)
