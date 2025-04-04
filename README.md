@@ -323,3 +323,108 @@ Set(varSelectedApprovePersonnelModalStartEndDate, true);
 
 Patch(colMissionSelectManning,LookUp(colMissionSelectManning,perdodid = ThisItem.perdodid),{perstartdt: Self.SelectedDate});
 Set(varSelectedApprovePersonnelModalStartEndDate, false);
+
+
+
+
+
+
+transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx-ed
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx ED
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx-rev
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx REV
+
+ 
+
+transcom.scott.jecc.mbx.engagements
+
+TRANSCOM Scott AFB JECC Mailbox Engagements
+
+ 
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx-ed
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx ED
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx-rev
+
+TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx REV
+
+ 
+
+transcom.scott.jecc.mbx.key-leader-leave
+
+TRANSCOM Scott AFB JECC Mailbox Key Leader Leave
+
+ 
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx
+
+TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx-ed
+
+TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx ED
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx-rev
+
+TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx REV
+
+ 
+
+transcom.scott.jecc.mbx.jcse-key-events
+
+TRANSCOM Scott AFB JECC Mailbox JCSE Key Events
+
+ 
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx
+
+TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx-ed
+
+TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx ED
+
+ 
+
+transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx-rev
+
+TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx REV
+
+ 
+
+transcom.scott.jecc.mbx.jpse-key-events
+
+TRANSCOM Scott AFB JECC Mailbox JPSE Key Events
