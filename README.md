@@ -299,18 +299,3 @@ Can View Titles and Locations'
 [DevOps](https://dev.azure.com/lewisshaun)
 
 -------------------------------------------------------
-
-Subject: Request for Calendar Creation and Access Configuration Correction
-
-Good morning James,
-
-We submitted the ticket requesting calendar creation because TRANSCOM currently does not have the capability to provision new Office 365 organizational mailboxes. Their configuration defaults to legacy distribution lists, which are not compatible with our current requirements.
-
-Previously, DISA has successfully fulfilled similar requests on our behalf, and we are requesting the same support to establish new calendars that will enable us to maintain our battle rhythm and support Office 365 automation workflows.
-
-Additionally, I currently do not have access to the new calendars, despite being listed as the Owner. It appears there may be a misconfiguration, as the calendar aliases are identical to the email addresses. Please review and correct the current access settings to ensure proper functionality.
-
-Your assistance in resolving these issues is greatly appreciated.
-
-Best regards,
-[Your Name]
