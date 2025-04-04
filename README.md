@@ -303,11 +303,30 @@ Can View Titles and Locations'
 
 
 
+Patch(
+    colMissionSelectManning,
+    LookUp(
+        colMissionSelectManning,
+        perdodid = varSelectedApprovePersonnel.perdodid
+    ),
+    {
+        perstartdt: MismanningApproved_StartDT.SelectedDate,
+        perenddt: MismanningApproved_EndDT.SelectedDate
+    }
+);
 
-ForAll( 
-    Filter(colMissionSelectManning, percategory = "Approved"), 
-    Patch( 
-        colMissionSelectManning, 
-        ThisRecord, { perstartdt: MISdetails_Deploy.SelectedDate } 
-        ) 
+// Optional: Update the variable too if you're referencing it live
+Set(
+    varSelectedApprovePersonnel,
+    Patch(
+        varSelectedApprovePersonnel,
+        Defaults(colMissionSelectManning),
+        {
+            perstartdt: MismanningApproved_StartDT.SelectedDate,
+            perenddt: MismanningApproved_EndDT.SelectedDate
+        }
     )
+);
+
+// Close the modal
+Set(varSelectedApprovePersonnelModalStartEndDate, false);
