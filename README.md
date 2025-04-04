@@ -300,131 +300,17 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
-ForAll(
-    Filter(colMissionSelectManning, percategory = "Approved"),
-    Patch(
-        colMissionSelectManning,
-        ThisRecord,
-        { perstartdt: DatePicker_ArriveMission.SelectedDate }
-    )
-)
+Subject: Request for Calendar Creation and Access Configuration Correction
 
-ForAll(
-    Filter(colMissionSelectManning, percategory = "Approved"),
-    Patch(
-        colMissionSelectManning,
-        ThisRecord,
-        { perenddt: DatePicker_ArriveHOR.SelectedDate }
-    )
-)
+Good morning James,
 
-Set(varSelectedApprovePersonnel, ThisItem);
-Set(varSelectedApprovePersonnelModalStartEndDate, true);
+We submitted the ticket requesting calendar creation because TRANSCOM currently does not have the capability to provision new Office 365 organizational mailboxes. Their configuration defaults to legacy distribution lists, which are not compatible with our current requirements.
 
-Patch(colMissionSelectManning,LookUp(colMissionSelectManning,perdodid = ThisItem.perdodid),{perstartdt: Self.SelectedDate});
-Set(varSelectedApprovePersonnelModalStartEndDate, false);
+Previously, DISA has successfully fulfilled similar requests on our behalf, and we are requesting the same support to establish new calendars that will enable us to maintain our battle rhythm and support Office 365 automation workflows.
 
+Additionally, I currently do not have access to the new calendars, despite being listed as the Owner. It appears there may be a misconfiguration, as the calendar aliases are identical to the email addresses. Please review and correct the current access settings to ensure proper functionality.
 
+Your assistance in resolving these issues is greatly appreciated.
 
-
-
-
-transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx-ed
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx ED
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jecc-engagements-mbx-rev
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Engagements Mbx REV
-
- 
-
-transcom.scott.jecc.mbx.engagements
-
-TRANSCOM Scott AFB JECC Mailbox Engagements
-
- 
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx-ed
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx ED
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jecc-key-leader-leave-mbx-rev
-
-TRANSCOM Scott AFB RSRC MGMT MESG JECC Key Leader Leave Mbx REV
-
- 
-
-transcom.scott.jecc.mbx.key-leader-leave
-
-TRANSCOM Scott AFB JECC Mailbox Key Leader Leave
-
- 
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx
-
-TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx-ed
-
-TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx ED
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jcse-key-events-mbx-rev
-
-TRANSCOM Scott AFB RSRC MGMT MESG JCSE Key Events Mbx REV
-
- 
-
-transcom.scott.jecc.mbx.jcse-key-events
-
-TRANSCOM Scott AFB JECC Mailbox JCSE Key Events
-
- 
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx
-
-TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx-ed
-
-TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx ED
-
- 
-
-transcom.scott.rsrcmgmt.mesg.jpse-key-events-mbx-rev
-
-TRANSCOM Scott AFB RSRC MGMT MESG JPSE Key Events Mbx REV
-
- 
-
-transcom.scott.jecc.mbx.jpse-key-events
-
-TRANSCOM Scott AFB JECC Mailbox JPSE Key Events
+Best regards,
+[Your Name]
