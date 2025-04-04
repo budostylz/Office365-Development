@@ -299,3 +299,15 @@ Can View Titles and Locations'
 [DevOps](https://dev.azure.com/lewisshaun)
 
 -------------------------------------------------------
+
+
+
+
+
+ForAll( 
+    Filter(colMissionSelectManning, percategory = "Approved"), 
+    Patch( 
+        colMissionSelectManning, 
+        ThisRecord, { perstartdt: MISdetails_Deploy.SelectedDate } 
+        ) 
+    )
