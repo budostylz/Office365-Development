@@ -258,3 +258,19 @@ yo @microsoft/sharepoint --skip install
 [Create accessible canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/accessible-apps)
 
 [Microsoft Licensing](https://chatgpt.com/share/e/67b4f590-42dc-8009-83c6-d19b7710e89b)
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Good morning team,
+
+ 
+
+Two fast observations on the calendars. I sent out an invite from the JECC Battle Rhythm for Friday’s meeting. I know….not a BR event, but I wanted to see what it would do.
+
+I am receiving response notification to my personal email. Not a problem….but maybe a feature we want to turn off in the settings or business rules so the entire JECC are not notified every time someone declines a meeting.
+I was still unable to drag-and-drop, in either direction, whether in Outlook or OWA. This may be something you cannot overcome, or maybe it’s a button we need to click deep inside some settings menu somewhere.
+ 
+
+I left you both off the invite as a control variable. Curious if you’re receiving the response notifications, can see the event, and/or can drag it to your personal calendars.
