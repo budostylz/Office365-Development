@@ -300,33 +300,14 @@ Can View Titles and Locations'
 
 -------------------------------------------------------
 
+Dear Sir,
 
+It appears the mission partner blocks were resetting due to missing data, most likely because the backend flows were not saving the entries correctly. This was addressed during the initial fix.
 
+I’ve added test data to the affected missions under the mission partner block labeled "This is a Test". Please check if the data is now visible on your end and confirm whether you're able to view and modify it as expected.
 
-Patch(
-    colMissionSelectManning,
-    LookUp(
-        colMissionSelectManning,
-        perdodid = varSelectedApprovePersonnel.perdodid
-    ),
-    {
-        perstartdt: MismanningApproved_StartDT.SelectedDate,
-        perenddt: MismanningApproved_EndDT.SelectedDate
-    }
-);
+If any data still appears to be missing, kindly re-enter it and save.
 
-// Optional: Update the variable too if you're referencing it live
-Set(
-    varSelectedApprovePersonnel,
-    Patch(
-        varSelectedApprovePersonnel,
-        Defaults(colMissionSelectManning),
-        {
-            perstartdt: MismanningApproved_StartDT.SelectedDate,
-            perenddt: MismanningApproved_EndDT.SelectedDate
-        }
-    )
-);
+Best regards,
+Shaun
 
-// Close the modal
-Set(varSelectedApprovePersonnelModalStartEndDate, false);
