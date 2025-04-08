@@ -262,6 +262,4 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-
-%USERPROFILE%\AppData\Local\PackageManagement\ProviderAssemblies\
-
+https://msevents.microsoft.com/event?id=2818413297&wt.mc_id=eventscatalog
