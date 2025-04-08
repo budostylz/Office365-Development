@@ -261,29 +261,3 @@ yo @microsoft/sharepoint --skip install
 
 
 -------------------------------------------------------------------------------------------------------------
-
-To enable efficient and effective development of SharePoint Framework (SPFx) solutions, a capable source code editor or integrated development environment (IDE) is required. This tool should provide an environment conducive to modern web development, with specific features that enhance productivity, collaboration, and code quality throughout the SPFx solution lifecycle.
-
-✅ Functional Requirements
-Rich Code Editing Capabilities
-The IDE must support advanced editing features for web technologies including TypeScript, JavaScript, HTML, SCSS, and JSON. This includes syntax highlighting, intelligent code completion (IntelliSense), bracket matching, and real-time error detection.
-
-Integrated Terminal Support
-A built-in terminal or console must be available to allow developers to execute development toolchain commands (e.g., Gulp tasks, Yeoman scaffolding, Node.js scripts) directly within the environment.
-
-Debugging and Build Integration
-The environment should support integrated debugging, allowing for breakpoints, step-through execution, and inspection of variables during runtime. It should also integrate with task runners and bundlers such as Gulp and Webpack to streamline build operations.
-
-Extension and Plugin Ecosystem
-The tool should support a wide range of extensions or plugins to enhance SPFx development, such as linters, Git integration, markdown previewers, and SharePoint-specific productivity tools.
-
-Cross-Platform Availability
-The IDE must operate reliably across major operating systems (Windows, macOS, and Linux) to accommodate diverse development environments.
-
-Version Control Integration
-It should provide built-in or easily extendable support for version control systems such as Git, enabling staging, committing, branching, and syncing repositories within the editor.
-
-Project and Workspace Management
-Developers should be able to manage SPFx projects as distinct workspaces, supporting folder navigation, task management, and multi-root workspaces where applicable.
-
-
