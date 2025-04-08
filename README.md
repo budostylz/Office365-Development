@@ -262,15 +262,4 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-
-Good morning team,
-
- 
-
-Two fast observations on the calendars. I sent out an invite from the JECC Battle Rhythm for Friday’s meeting. I know….not a BR event, but I wanted to see what it would do.
-
-I am receiving response notification to my personal email. Not a problem….but maybe a feature we want to turn off in the settings or business rules so the entire JECC are not notified every time someone declines a meeting.
-I was still unable to drag-and-drop, in either direction, whether in Outlook or OWA. This may be something you cannot overcome, or maybe it’s a button we need to click deep inside some settings menu somewhere.
- 
-
-I left you both off the invite as a control variable. Curious if you’re receiving the response notifications, can see the event, and/or can drag it to your personal calendars.
+The Defense Information Systems Agency (DISA) presently utilizes Node.js as a component of its technology stack for the development of SharePoint Framework (SPFx) applications.
