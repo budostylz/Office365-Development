@@ -263,14 +263,5 @@ yo @microsoft/sharepoint --skip install
 -------------------------------------------------------------------------------------------------------------
 
 
-Software Provisioning Request: SPFx Tools Already Provisioned by DISA
+%USERPROFILE%\AppData\Local\PackageManagement\ProviderAssemblies\
 
-Attached are the software provisioning request documents for SharePoint Framework (SPFx) development tools, including Node.js, Gulp, Yeoman, and Visual Studio Code.
-
-While there appears to be a series of questions regarding the necessity of producing these documents, it’s important to note that DISA already has these tools provisioned. These requests are procedural to ensure the software is made available through the TRANSCOM Software Center.
-
-Please review the attached forms and route them to Laurie for signature. Laurie should sign in the "Business Sponsor" section block located just below my signature. Once signed, kindly return the documents to me so I can submit them to TRANSCOM.
-
-Upon submission, TRANSCOM will coordinate with DISA to facilitate the software push to the TRANSCOM Software Center.
-
-If you have any questions or need additional information, please feel free to reach out. Thank you for your continued support.
