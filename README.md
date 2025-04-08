@@ -262,20 +262,28 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-To support the development of SharePoint Framework (SPFx) solutions, there is a need for a code scaffolding utility that facilitates standardized project initialization and enforces consistent project structure across development teams. This utility should fulfill the following functional objectives:
+To enable efficient and effective development of SharePoint Framework (SPFx) solutions, a capable source code editor or integrated development environment (IDE) is required. This tool should provide an environment conducive to modern web development, with specific features that enhance productivity, collaboration, and code quality throughout the SPFx solution lifecycle.
 
-Core Functional Requirements:
-Project Initialization and Structure Generation
-The tool must enable developers to generate well-structured SPFx project templates, including folder hierarchy, configuration files, and essential boilerplate code aligned with organizational or platform standards.
+✅ Functional Requirements
+Rich Code Editing Capabilities
+The IDE must support advanced editing features for web technologies including TypeScript, JavaScript, HTML, SCSS, and JSON. This includes syntax highlighting, intelligent code completion (IntelliSense), bracket matching, and real-time error detection.
 
-Interactive Command-Line Interface
-It should provide an interactive, command-line-driven interface that guides developers through selecting configuration options such as web part types, component names, framework preferences (React, No Framework, etc.), and solution deployment scopes.
+Integrated Terminal Support
+A built-in terminal or console must be available to allow developers to execute development toolchain commands (e.g., Gulp tasks, Yeoman scaffolding, Node.js scripts) directly within the environment.
 
-Consistency and Standardization
-By automating the creation of solution templates, the tool should ensure uniformity across SPFx projects, thereby reducing manual setup errors and enhancing maintainability.
+Debugging and Build Integration
+The environment should support integrated debugging, allowing for breakpoints, step-through execution, and inspection of variables during runtime. It should also integrate with task runners and bundlers such as Gulp and Webpack to streamline build operations.
 
-Customization and Extensibility
-The solution should allow for extension or customization of scaffolding templates to support organization-specific coding practices, file structures, or configurations.
+Extension and Plugin Ecosystem
+The tool should support a wide range of extensions or plugins to enhance SPFx development, such as linters, Git integration, markdown previewers, and SharePoint-specific productivity tools.
 
-Integration with Development Toolchains
-The tool must be compatible with existing development toolchains and workflows, including Node.js, Gulp, TypeScript, and version control systems, to support continuous integration and agile development methodologies.
+Cross-Platform Availability
+The IDE must operate reliably across major operating systems (Windows, macOS, and Linux) to accommodate diverse development environments.
+
+Version Control Integration
+It should provide built-in or easily extendable support for version control systems such as Git, enabling staging, committing, branching, and syncing repositories within the editor.
+
+Project and Workspace Management
+Developers should be able to manage SPFx projects as distinct workspaces, supporting folder navigation, task management, and multi-root workspaces where applicable.
+
+
