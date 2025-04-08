@@ -262,16 +262,15 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-As part of SharePoint Framework (SPFx) development, there is a need for a robust task automation mechanism to streamline and manage repetitive development processes. The desired functionality should support the following capabilities:
+ Licensing Overview
+License Type: MIT License
 
-Build Automation: Enable the automatic execution of tasks such as compiling TypeScript, transpiling SCSS, bundling JavaScript modules, and optimizing assets.
+Cost: $0 (Free and Open Source)
 
-Development Workflow Support: Provide tools to support local development, including serving files through a local web server, watching for file changes, and performing live reloads.
+Usage Rights:
 
-Custom Task Integration: Allow the creation and execution of custom tasks that can extend or override default behaviors in the development pipeline.
+Commercial use allowed
 
-Pipeline Consistency: Ensure consistency in task execution across environments and team members by defining declarative workflows that can be version-controlled.
+Modification and redistribution permitted
 
-Integration with Microsoft Tooling: Seamlessly integrate with the SPFx Yeoman generator and other Microsoft tooling to align with Microsoft's prescribed development model.
-
-The software selected to fulfill this requirement should facilitate efficient and scalable SPFx project management through scriptable, automatable workflows that enhance developer productivity and enforce consistency throughout the development lifecycle.
+No limitations on the number of users or installations
