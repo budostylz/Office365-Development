@@ -265,3 +265,5 @@ yo @microsoft/sharepoint --skip install
 GET https://graph.microsoft.com/v1.0/me/calendar
 
 
+{"name":"Wymer, Jason R CTR (USA)","address":"jason.r.wymer.ctr@mail.mil"}
+
