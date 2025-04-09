@@ -262,8 +262,5 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-json(@{items('Apply_to_each')?['emailAddress']})?['body']['address']
-
-
-{"name":"Wymer, Jason R CTR (USA)","address":"jason.r.wymer.ctr@mail.mil"}
+  https://graph.microsoft.com/beta/me/joinedgroups  
 
