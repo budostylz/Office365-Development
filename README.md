@@ -262,4 +262,5 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-https://graph.microsoft.com/v1.0/users/{user-email}/calendars/{calendar-id}/calendarPermissions
+GET https://graph.microsoft.com/v1.0/me/calendars/AAMkAGVmM.../calendarPermissions
+
