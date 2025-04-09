@@ -262,4 +262,4 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-[https://msevents.microsoft.com/event?id=2818413297&wt.mc_id=eventscatalog](https://graph.microsoft.com/v1.0/users/{user-email}/calendars/{calendar-id}/calendarPermissions)
+https://graph.microsoft.com/v1.0/users/{user-email}/calendars/{calendar-id}/calendarPermissions
