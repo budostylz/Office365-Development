@@ -262,6 +262,6 @@ yo @microsoft/sharepoint --skip install
 
 -------------------------------------------------------------------------------------------------------------
 
-https://outlook.office.com/api/v2.0/me/calendars/{calendar-id}/calendarPermissions
+GET https://graph.microsoft.com/v1.0/me/calendar
 
 
