@@ -259,8 +259,6 @@ yo @microsoft/sharepoint --skip install
 
 [Microsoft Licensing](https://chatgpt.com/share/e/67b4f590-42dc-8009-83c6-d19b7710e89b)
 
-
--------------------------------------------------------------------------------------------------------------
-
-  https://graph.microsoft.com/beta/me/joinedgroups  
+## Introduction to Semantic Kernel
+[Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
