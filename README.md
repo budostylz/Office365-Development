@@ -262,3 +262,18 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
+----------------------------------------
+
+ACP_JECC_Battle_Rhythm_Calendar_Access_App.Run(User().Email, varSelectedCalendar.Title, varSelectedCalendar.AdminGroupID, varSelectedCalendar.ContributorGroupID, varSelectedCalendar.CalendarID, Details.Text);
+Notify(varSelectedCalendar.Title & " Access Request sent to Admins for Approval. ",NotificationType.Success);
+UpdateContext({showModal:false});
+Coalesce(Details.Text, "");
+If(!IsBlank(Details.Text), Reset(Details));
+
+
+
+
+
+
+
+
