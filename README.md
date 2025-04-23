@@ -271,6 +271,10 @@ Coalesce(Details.Text, "");
 If(!IsBlank(Details.Text), Reset(Details));
 
 
+Coalesce(Details.Text, "No details provided.")
+
+
+
 
 
 
