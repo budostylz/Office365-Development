@@ -264,15 +264,7 @@ yo @microsoft/sharepoint --skip install
 
 ----------------------------------------
 
-ACP_JECC_Battle_Rhythm_Calendar_Access_App.Run(User().Email, varSelectedCalendar.Title, varSelectedCalendar.AdminGroupID, varSelectedCalendar.ContributorGroupID, varSelectedCalendar.CalendarID, Details.Text);
-Notify(varSelectedCalendar.Title & " Access Request sent to Admins for Approval. ",NotificationType.Success);
-UpdateContext({showModal:false});
-Coalesce(Details.Text, "");
-If(!IsBlank(Details.Text), Reset(Details));
-
-
-Coalesce(Details.Text, "No details provided.")
-
+GET https://graph.microsoft.com/v1.0/groups/{group-id}/members?$filter=mail eq 'user@example.com'
 
 
 
