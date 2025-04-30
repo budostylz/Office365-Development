@@ -264,7 +264,34 @@ yo @microsoft/sharepoint --skip install
 
 ----------------------------------------
 
-GET https://graph.microsoft.com/v1.0/groups/{group-id}/members?$filter=mail eq 'user@example.com'
+function main(
+  workbook: ExcelScript.Workbook,
+  data: string[][], // Dynamic 2D array from Power Automate
+  headerColor: string
+) {
+  const sheet = workbook.getActiveWorksheet();
+
+  // Clear previous contents
+  sheet.getUsedRange()?.clear();
+
+  // Set header
+  if (data.length > 0) {
+    const headerRange = sheet.getRangeByIndexes(0, 0, 1, data[0].length);
+    headerRange.setValues([data[0]]);
+    headerRange.getFormat().getFont().setBold(true);
+    headerRange.getFormat().getFill().setColor(headerColor);
+  }
+
+  // Set data rows
+  if (data.length > 1) {
+    const dataRange = sheet.getRangeByIndexes(1, 0, data.length - 1, data[0].length);
+    dataRange.setValues(data.slice(1)); // Everything except header
+  }
+
+  // Auto-fit columns
+  sheet.getUsedRange().getFormat().autofitColumns();
+}
+
 
 
 
