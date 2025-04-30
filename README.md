@@ -293,6 +293,15 @@ function main(
 }
 
 
+Good afternoon Jordyn,
+
+I wasn’t able to clear the signatures; however, I noticed that the signature includes my DOD ID number, so we should be good to proceed. I’m forwarding the software request forms to you again for your review.
+
+Please let me know if anything else is needed.
+
+Best regards,
+Shaun
+
 
 
 
