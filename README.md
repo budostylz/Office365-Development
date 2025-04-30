@@ -263,50 +263,19 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 ----------------------------------------
-Justification for Enabling Office Scripts for [Group Name / Team]
-Subject: Request to Enable Office Scripts for Automated Reporting via Power Automate
+[
+  { "Name": "Alice", "Role": "Commander", "Status": "Active" },
+  { "Name": "Bob", "Role": "Engineer", "Status": "Standby" },
+  { "Name": "Charlie", "Role": "Pilot", "Status": "Active" },
+  { "Name": "David", "Role": "Navigator", "Status": "Active" },
+  { "Name": "Ella", "Role": "Medic", "Status": "Standby" },
+  { "Name": "Frank", "Role": "Operator", "Status": "Active" },
+  { "Name": "Grace", "Role": "Technician", "Status": "Standby" },
+  { "Name": "Hank", "Role": "Security", "Status": "Active" },
+  { "Name": "Isla", "Role": "Observer", "Status": "Active" },
+  { "Name": "Jack", "Role": "Coordinator", "Status": "Active" }
+]
 
-To DISA / Microsoft 365 Global Admin Team,
-
-We are submitting this request to enable Office Scripts for our Microsoft 365 group supporting TRANSCOM operations, as this feature is essential for our automated reporting workflows.
-
-Purpose:
-We need to print mission operation custom reporting through our Mission Operation Power Apps. These reports are automatically generated from structured data submitted and processed through our internal Power Apps platform. The reports must be formatted, color-coded, and dynamically structured to meet mission brief and operational presentation requirements without manual edits.
-
-Justification:
-Office Scripts is required to automate cell formatting, header styling, and conditional visual cues (e.g., status highlighting, operational thresholds) that cannot be applied using standard Excel connector actions in Power Automate.
-
-This feature enables us to maintain print-ready and compliance-ready Excel reports integrated directly with Microsoft 365 components (Power Apps → Power Automate → Excel Online).
-
-The Excel Online (Business) connector supports triggering Office Scripts, allowing us to embed formatting logic during report generation.
-
-Access Limitation:
-We do not have the necessary admin privileges within TRANSCOM to enable Office Scripts directly. This request must be routed through DISA for elevation and enforcement. Please note:
-
-We have attached a screenshot of the Automate tab in Excel Online, showing where Office Scripts are available.
-
-We have also attached a screenshot from the Microsoft 365 Admin Center, showing the exact setting where Office Scripts must be enabled (Settings > Org Settings > Services > Office Scripts).
-
-Benefits of Enabling This Feature:
-Eliminates manual formatting for operational reports
-
-Improves speed and accuracy of mission reporting
-
-Ensures reports are standardized and compliant with presentation protocols
-
-Keeps all reporting within the secure Microsoft 365 ecosystem
-
-Security Considerations:
-Office Scripts run only in authenticated sessions within our managed M365 environment
-
-Files are stored in OneDrive or SharePoint (enterprise-controlled storage)
-
-Script sharing and execution can be limited to specific security groups
-
-Conclusion:
-We respectfully request DISA approval and action to enable Office Scripts for our group to support mission-critical automated reporting through Power Apps. This is essential to our operational workflow and supports efficiency, accuracy, and compliance in reporting deliverables.
-
-Please refer to the attached screenshots for clarity on Excel and Admin Center locations.
 
 Sincerely,
 Shaun Lewis
