@@ -263,48 +263,11 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 ----------------------------------------
-
-function main(
-  workbook: ExcelScript.Workbook,
-  data: string[][], // Dynamic 2D array from Power Automate
-  headerColor: string
-) {
-  const sheet = workbook.getActiveWorksheet();
-
-  // Clear previous contents
-  sheet.getUsedRange()?.clear();
-
-  // Set header
-  if (data.length > 0) {
-    const headerRange = sheet.getRangeByIndexes(0, 0, 1, data[0].length);
-    headerRange.setValues([data[0]]);
-    headerRange.getFormat().getFont().setBold(true);
-    headerRange.getFormat().getFill().setColor(headerColor);
-  }
-
-  // Set data rows
-  if (data.length > 1) {
-    const dataRange = sheet.getRangeByIndexes(1, 0, data.length - 1, data[0].length);
-    dataRange.setValues(data.slice(1)); // Everything except header
-  }
-
-  // Auto-fit columns
-  sheet.getUsedRange().getFormat().autofitColumns();
+function main(workbook: ExcelScript.Workbook) {
+  let sheet = workbook.getActiveWorksheet();
+  let range = sheet.getRange("A1");
+  range.getFormat().getFill().setColor("yellow"); // Set background color
 }
-
-
-Good afternoon Jordyn,
-
-I wasn’t able to clear the signatures; however, I noticed that the signature includes my DOD ID number, so we should be good to proceed. I’m forwarding the software request forms to you again for your review.
-
-Please let me know if anything else is needed.
-
-Best regards,
-Shaun
-
-
-
-
 
 
 
