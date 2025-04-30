@@ -276,9 +276,11 @@ yo @microsoft/sharepoint --skip install
   { "Name": "Jack", "Role": "Coordinator", "Status": "Active" }
 ]
 
-
-Sincerely,
-Shaun Lewis
+| Excel Column | Expression |
+|--------------|------------|
+| Name         | `items('Apply_to_each')?['Name']` |
+| Role         | `items('Apply_to_each')?['Role']` |
+| Status       | `items('Apply_to_each')?['Status']` |
 
 
 
