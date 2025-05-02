@@ -262,25 +262,13 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-----------------------------------------
-[
-  { "Name": "Alice", "Role": "Commander", "Status": "Active" },
-  { "Name": "Bob", "Role": "Engineer", "Status": "Standby" },
-  { "Name": "Charlie", "Role": "Pilot", "Status": "Active" },
-  { "Name": "David", "Role": "Navigator", "Status": "Active" },
-  { "Name": "Ella", "Role": "Medic", "Status": "Standby" },
-  { "Name": "Frank", "Role": "Operator", "Status": "Active" },
-  { "Name": "Grace", "Role": "Technician", "Status": "Standby" },
-  { "Name": "Hank", "Role": "Security", "Status": "Active" },
-  { "Name": "Isla", "Role": "Observer", "Status": "Active" },
-  { "Name": "Jack", "Role": "Coordinator", "Status": "Active" }
-]
+Good day, Sir,
 
-| Excel Column | Expression |
-|--------------|------------|
-| Name         | `items('Apply_to_each')?['Name']` |
-| Role         | `items('Apply_to_each')?['Role']` |
-| Status       | `items('Apply_to_each')?['Status']` |
+I have applied both the DODID and Email fields to the report. It is displaying correctly on my end, and I would like to confirm whether you are able to see both fields on your side as well.
+
+Once I receive your confirmation that both fields are visible in the report, I will proceed with closing the ticket.
+
+Thank you!
 
 
 
