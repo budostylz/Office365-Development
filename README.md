@@ -262,14 +262,7 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-Good day, Sir,
-
-I have applied both the DODID and Email fields to the report. It is displaying correctly on my end, and I would like to confirm whether you are able to see both fields on your side as well.
-
-Once I receive your confirmation that both fields are visible in the report, I will proceed with closing the ticket.
-
-Thank you!
-
+_api/web/lists/getbytitle('YourListName')/items
 
 
 
