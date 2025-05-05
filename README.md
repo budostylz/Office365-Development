@@ -265,4 +265,122 @@ yo @microsoft/sharepoint --skip install
 _api/web/lists/getbytitle('YourListName')/items
 
 
+--------------------------------------
+
+
+**Presentation Draft for JECC/JA Digital Space Solution**
+
+---
+
+# Introduction
+
+Welcome to the "JECC/JA Digital Space" initiative. This project aims to modernize and enhance JECC/JA's operational capabilities by creating a digital information sharing space and a data-enabled workflow management system. Built entirely within the Office 365 SharePoint Online environment, this solution is tailored to meet the specific legal support needs of the organization.
+
+# Project Overview
+
+* **Solution Platform**: Microsoft SharePoint Online (O365)
+* **Target Audience**: JECC/JA Staff and Command Leadership
+* **Key Deliverables**:
+
+  * Creation of the "Digital Space" SharePoint Page
+  * Development of a Workflow Management Power App
+
+# Digital Space - SharePoint Page
+
+## Purpose
+
+To provide a centralized, accessible, and organized digital environment to store and share legal information, enabling data-driven decision-making.
+
+## Features
+
+* **Three Main Legal Domains**:
+
+  * Civil Law
+  * Military Justice (MJ)
+  * Operational & International Law
+* **Sub-Domain Structure**:
+
+  * Example: Civil Law > Ethics > Ethics Documents & Links
+* **Editable Content**:
+
+  * SJA Office authorized to add, update, and remove materials
+* **Freshness & Relevance Management**:
+
+  * Preference for linking to dynamic external resources (e.g., Foreign Clearance Guide)
+  * Direct Link: [Foreign Clearance Guide (FCG)](https://www.fcg.pentagon.mil/)
+  * Document access tracking and usage ranking capability (future enhancement)
+
+# Digital Space - SharePoint Page Layout Example
+
+* **Home Page**: JECC/JA Digital Space
+
+  * → **Civil Law**
+
+    * Ethics
+    * Contracts & Fiscal
+    * Labor & Employment
+  * → **Military Justice**
+  * → **Operational & International Law**
+
+# Workflow Management - Power App Integration
+
+## Purpose
+
+To manage and monitor legal support activities and requests efficiently, similar to the existing "Photo Lab" Power App model.
+
+## Power App Features
+
+* **Support Request Topics**:
+
+  * Ethics
+  * Contracts & Fiscal Law
+  * Labor and Employment Law
+  * Legal Readiness (Legal Assistance)
+  * Regulatory/Statutory Compliance
+  * Operations Legal Support
+  * International Agreements (SOFAs)
+  * Law of War
+  * Intelligence Law/Force Protection
+
+* **Form Details**:
+
+  * User Information Collection
+  * Dynamic Fields Based on Topic Selected
+  * Ability to Add Attachments
+  * Embedded Disclaimers for Privacy & Classification Compliance
+
+# Workflow Example: Ethics Support Request
+
+* Ethics Review Request Type (e.g., Travel, Fundraiser)
+* Requested Return Date
+* Notes and Attachments
+* Disclaimers on Privacy Act and Sensitive Information
+
+# Risk Mitigation
+
+* **Information Sensitivity**: Exclude domains with inherent confidentiality risks (e.g., Military Justice workflows)
+* **Compliance Measures**: Incorporate standard disclaimers
+
+# End State Goals
+
+* **Digital Information Sharing**:
+
+  * JECC/JA has an accessible SharePoint space to inform legal considerations for OAIs.
+* **Workflow Tool**:
+
+  * JECC/JA has a Power App to observe, collect, and report on legal operations and activities.
+
+# Next Steps
+
+* Finalize SharePoint site structure and page designs
+* Develop and customize Power App form and workflows
+* User Testing and Feedback Collection
+* Deployment and Training
+
+---
+
+*This draft presentation can now be refined collaboratively on this canvas.*
+
+
+
 
