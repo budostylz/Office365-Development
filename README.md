@@ -379,7 +379,11 @@ To manage and monitor legal support activities and requests efficiently, similar
 
 ---
 
-*This draft presentation can now be refined collaboratively on this canvas.*
+Each main domain (Civil Law, Military Justice, Operational & International Law) is a clickable tile or navigation link.
+
+Sub-domains under each main domain provide folders or quick links to documents, forms, and external resources.
+
+Featured external link (example): Foreign Clearance Guide (for International Law sub-domain).
 
 
 
