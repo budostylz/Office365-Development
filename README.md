@@ -267,5 +267,7 @@ _api/web/lists/getbytitle('YourListName')/items
 
 --------------------------------------
 
+split(base64ToString(body('Get_file_content')), '\n')
+
 
 
