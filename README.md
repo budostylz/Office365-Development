@@ -267,7 +267,8 @@ _api/web/lists/getbytitle('YourListName')/items
 
 --------------------------------------
 
-split(body('Get_file_content'), '\n')
+split(body('Get_file_content'), decodeUriComponent('%0A'))
+
 
 
 
