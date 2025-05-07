@@ -267,8 +267,6 @@ _api/web/lists/getbytitle('YourListName')/items
 
 --------------------------------------
 
-split(outputs('Get_file_content_using_path')?['body'], '\n')
-
-
+split(base64ToString(body('Get_file_content')), '\n')
 
 
