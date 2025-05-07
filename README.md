@@ -269,6 +269,36 @@ _api/web/lists/getbytitle('YourListName')/items
 
 split(body('Get_file_content'), decodeUriComponent('%0A'))
 
+[
+  "kyle.r.yates.mil@mail.mil",
+  "matthew.d.jacobs4.mil@mail.mil",
+  "christopher.f.oppenlander.mil@mail.mil",
+  "brandon.m.mendez2.mil@mail.mil",
+  "william.e.moore52.mil@mail.mil",
+  "jeovannie.melendezmorales.mil@mail.mil",
+  "mark.j.saurer.mil@mail.mil",
+  "justin.m.papalia.mil@mail.mil",
+  "jeovanny.santanaesquilin.mil@mail.mil",
+  "terrance.a.jones8.mil@mail.mil",
+  "marshall.e.merriweather.mil@mail.mil",
+  "tyrell.r.davis.mil@mail.mil",
+  "arlina.travieso.mil@mail.mil",
+  "angelica.e.bordan.mil@mail.mil",
+  "davina.m.jones.mil@mail.mil",
+  "bernard.mcgriff.civ@mail.mil",
+  "robinson.v.tran.mil@mail.mil",
+  "joey.d.rodriguez.mil@mail.mil",
+  "edward.l.fourquet.mil@mail.mil",
+  "brian.s.westerman.civ@mail.mil",
+  "scott.c.marshall10.mil@mail.mil",
+  "mark.s.cannon.civ@mail.mil",
+  "leif.a.paulin.mil@mail.mil",
+  "nick.oquendo.civ@mail.mil",
+  "robert.t.duenas.mil@mail.mil",
+  "mark.d.carlson16.civ@mail.mil",
+  "cody.r.neuweiler.mil@mail.mil",
+  "christopher.j.cowgill.mil@mail.mil",
+]
 
 
 
