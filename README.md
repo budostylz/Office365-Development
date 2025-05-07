@@ -267,38 +267,216 @@ _api/web/lists/getbytitle('YourListName')/items
 
 --------------------------------------
 
-split(body('Get_file_content'), decodeUriComponent('%0A'))
-
-[
-  "kyle.r.yates.mil@mail.mil",
-  "matthew.d.jacobs4.mil@mail.mil",
-  "christopher.f.oppenlander.mil@mail.mil",
-  "brandon.m.mendez2.mil@mail.mil",
-  "william.e.moore52.mil@mail.mil",
-  "jeovannie.melendezmorales.mil@mail.mil",
-  "mark.j.saurer.mil@mail.mil",
-  "justin.m.papalia.mil@mail.mil",
-  "jeovanny.santanaesquilin.mil@mail.mil",
-  "terrance.a.jones8.mil@mail.mil",
-  "marshall.e.merriweather.mil@mail.mil",
-  "tyrell.r.davis.mil@mail.mil",
-  "arlina.travieso.mil@mail.mil",
-  "angelica.e.bordan.mil@mail.mil",
-  "davina.m.jones.mil@mail.mil",
-  "bernard.mcgriff.civ@mail.mil",
-  "robinson.v.tran.mil@mail.mil",
-  "joey.d.rodriguez.mil@mail.mil",
-  "edward.l.fourquet.mil@mail.mil",
-  "brian.s.westerman.civ@mail.mil",
-  "scott.c.marshall10.mil@mail.mil",
-  "mark.s.cannon.civ@mail.mil",
-  "leif.a.paulin.mil@mail.mil",
-  "nick.oquendo.civ@mail.mil",
-  "robert.t.duenas.mil@mail.mil",
-  "mark.d.carlson16.civ@mail.mil",
-  "cody.r.neuweiler.mil@mail.mil",
-  "christopher.j.cowgill.mil@mail.mil",
-]
 
 
 
+
+
+//SJA Data Structure
+ClearCollect( 
+    colSJAType, 
+    { 
+        ethics: { 
+            id:1,
+            ethics_review_request_type:{
+                value1:"Travel",
+                value2:"Fundraiser",
+                value3:"Gifts",
+                value4:"Post-Government Employment",
+                value5:"Relations with Non-Federal Entities",
+                value6:"Use of Official Resources"
+                
+            },
+            topics:{
+                travel:{ //Pull from USTC/JA Ethics Dashboard
+                    traveler_first_name:"",
+                    traveler_last_name:"",
+                    form_of_transportation:{
+                        value1:"MILAIR",
+                        value2:"Commercial",
+                        value3:"Other (Describe)",
+                        value4:"N/A"
+                    },
+                    date_leaving:Today(),
+                    date_returning:Today(),
+                    destination:"",
+                    other_form_of_transportation:"", //Show When Other (Describe) is Selected Under Form of Transportation 
+                    purpose:"",          
+                    hosting_organization:"",
+                    additional_official_business:"",
+                    expected_to_wear_uniform:false,
+                    is_this_event_a_fundraiser:false,
+                    is_this_a_training_event:false,
+                    does_the_engagement_involve:"false",
+                    has_the_host_of_the_meeting:false,
+                    is_the_invitee_expected:false,
+                    will_leave_be_taken: false,
+                    will_the_traveler_be_accompanied:false,
+                    does_this_event_involve_speaking:false,
+                    approval_authority:{
+                        value1:"No Approval Needed",
+                        value2:"Email to TCCC-E (intended for TCDC/TCCC/SEL)",
+                        value3:"Email TCCS Org Email (Intended for GO/FO/SES/Directors/CSG-Heads)",
+                        value4:"Email Supervisor (All others - Enter choice below)"
+                    },
+                    pOC:"", //People Picker
+                    supervisor_email:"", //People Picker
+                    attachments:""
+                },
+                fundraiser:{ //Pull from USTC/JA Ethics Dashboard
+                    requesting_organization_or_directorate:"",
+                    dates_of_calendar_year_fundraisers:Today(),
+                    organizations_are_limited:Today(),
+                    event_date_time:Today(),
+                    location_of_fundraiser:"",
+                    type_of_fundraiser:"",
+                    purpose_of_fundraiser:"",
+                    who_is_running_the_event:"",
+                    is_the_requesting_po:{
+                        value1:"Yes",
+                        value2:"No",
+                        value3:"N/A"
+                    },
+                    if_this_event_involves_food:{
+                        value1:"Yes",
+                        value2:"No",
+                        value3:"N/A"
+                    }, 
+                    depending_on_location:{
+                        value1:"Yes",
+                        value2:"No",
+                        value3:"N/A"
+                    },
+                    does_the_event_involve_a_raffle:false,
+                    poc_name:"",
+                    poc_phone_number:"",
+                    attachments:""
+
+                },
+                gifts:{ //Pull from USTC/JA Ethics Dashboard
+                    gift:"",
+                    gift_description:"",
+                    presented_to:"",
+                    presented_by:"",
+                    date_received:"",
+                    gift_value:"",
+                    occasion_or_event:"",
+                    foreign_or_domestic:{
+                        value1:"Foreign",
+                        value2:"Domestic"
+                    },
+                    disposition_domestic:{ //Enable When Domestic is Selected
+                        value1:"Return to donor",
+                        value2:"Accept as personal gift and retain",
+                        value3:"Accept as gift to USTRANSCOM",
+                        value4:"Display",
+                        value5:"Transfer to TCRC for disposition",
+                        value6:"Other"
+                    },
+                    price:{ //Enable when Foriegn is Selected
+                        value1:"Less than $480",
+                        value2:"More than $480"
+                    },
+                    disposition_less_than_480:{ //Enable when Price Less Than $480 is Selected
+                        value1:"Send home/retain",
+                        value2:"Display",
+                        value3:"To remain in office at conclusion of tenure",
+                        value4:"To be kept by recipient at conclusion of tenure",
+                        value5:"To be transferred to TCRC at conclusion of tenure",
+                        value6:"Transfer to TCRC for disposition",
+                        value7:"Other"
+                    },
+                    disposition_more_than_480:{ //Enable when Price More Than $480 is Selected
+                        value1:"Display",
+                        value2:"Transfer to TCRC for disposition",
+                        value3:"Request to purchase"
+                    },
+                    poc:"",
+                    poc_number:"",
+                    attachments:""
+
+                },
+                value4:"Post-Government Employment", //just a stub field for ref, actually a hyperlink
+                value5:"Relations with Non-Federal Entities",
+                value6:"Use of Official Resources"
+
+
+            }
+        },    
+        contracts_and_fiscal_law: { 
+            id:2,
+            legal_review_request_type:{
+                value1:"Contracts",
+                value2:"Fiscal",
+                value3:"Contractor Visit"   
+            },
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"Disclaimers on Contract Sensitive or Contractor Proprietary Information",
+            disclaimer:"Please do not enter information that is Controlled Unclassified Information (CUI) in the categories of PROCURE, SSEL, SBIZ, PROPIN or any other sensitive contract information or applicable CUI category.  Such information can be emailed directly to the legal office for review."
+        },
+         labor_and_employment_law: { 
+            id:3,
+            supervisor_or_employee :{
+                value1:"Supervisor",
+                value2:"Employee",
+                value3:"Other"   
+            },
+            other_description:"", //Display when Other is selected
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"Disclaimer on Privacy Act Material",
+            disclaimer:"Please do not enter content or information that may or is subject to the Privacy Act of 1974 (5 U.S.C. Section 552(a)). Information of this nature may be emailed directly to the legal office for review."
+        },
+        legal_readiness_assistance:{
+            id:4,
+             legal_support_requested :{
+                value1:"Power of Attorney",
+                value2:"Notary",
+                value3:"Will", 
+                value4:"General Legal Assistance" 
+            },
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"No privacy act material",
+            disclaimer:"Please do not enter content or information that may or is subject to the Privacy Act of 1974 (5 U.S.C. Section 552(a)). Information of this nature may be emailed directly to the legal office for review."
+        },
+        regulatory_statutory_compliance:{
+            id:5,
+            requested_return_date:Today(),
+            notes:""
+        },
+        operations_legal_support:{ 
+            id:6,
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"No classified information",
+            disclaimer:"This system is only rated to process up to Controlled Unclassified Information.  Do not enter any classified information in this system. Such information can be sent to the legal office on the appropriate information system to process that information."
+        }, 
+        international_agreements:{
+            id:7,
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"No classified information",
+            disclaimer:"This system is only rated to process up to Controlled Unclassified Information.  Do not enter any classified information in this system. Such information can be sent to the legal office on the appropriate information system to process that information."
+        },
+        law_of_war:{
+            id:8, 
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"No classified information",
+            disclaimer:"This system is only rated to process up to Controlled Unclassified Information.  Do not enter any classified information in this system. Such information can be sent to the legal office on the appropriate information system to process that information."
+        },
+        intelligence_law_force_protection:{
+            id:9,
+            requested_return_date:Today(),
+            notes:"",
+            disclaimer_type:"No classified information",
+            disclaimer:"This system is only rated to process up to Controlled Unclassified Information.  Do not enter any classified information in this system. Such information can be sent to the legal office on the appropriate information system to process that information."
+            
+        }
+
+        
+    }
+
+);
