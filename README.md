@@ -265,21 +265,15 @@ yo @microsoft/sharepoint --skip install
 _api/web/lists/getbytitle('YourListName')/items
 
 
---------------------------------------
-Dear [Judge Advocate's Name],
 
-I hope this message finds you well.
 
-We would like to request a brief meeting with you via Microsoft Teams to review and ensure alignment on our current requirements. We are flexible and can meet either today or at a time that works for you next week.
 
-I would like to note that I will be unavailable this Friday due to a prior appointment. However, this is not to suggest that Friday is being neglected for any other reason — we simply want to ensure we accommodate your availability as best as possible.
 
-Please let us know if there is a time that works for you today or next week, and we will make the necessary arrangements.
 
-Thank you very much for your time and support.
-
-Very respectfully,
-[Your Name]
-[Your Position/Title]
-[Your Phone Number (optional)]
-[Your Email Signature]
+If(IsBlank(varView),
+    Filter(colMenuOptions,RolePlacement = "None"),
+IsBlank(varCaseSelected),
+    Filter(colMenuOptions,And(RolePlacement = "Left Side",ItemKey = "ExitView")),
+    Filter(colMenuOptions,And(RolePlacement = "Left Side",ItemKey <> "ExitView"))
+)
+ 
