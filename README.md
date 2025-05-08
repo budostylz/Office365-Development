@@ -267,13 +267,5 @@ _api/web/lists/getbytitle('YourListName')/items
 
 
 
-
-
-
-If(IsBlank(varView),
-    Filter(colMenuOptions,RolePlacement = "None"),
-IsBlank(varCaseSelected),
-    Filter(colMenuOptions,And(RolePlacement = "Left Side",ItemKey = "ExitView")),
-    Filter(colMenuOptions,And(RolePlacement = "Left Side",ItemKey <> "ExitView"))
-)
- 
+ClearCollect(colMenuOptionsTEMP,colMenuOptions);
+ForAll(colMenuOptionsTEMP,Patch(colMenuOptions,LookUp(colMenuOptions,ItemKey=ThisRecord.ItemKey),{ItemDisabled: true }));
