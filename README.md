@@ -262,10 +262,6 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-_api/web/lists/getbytitle('YourListName')/items
+ 
 
-
-
-
-ClearCollect(colMenuOptionsTEMP,colMenuOptions);
-ForAll(colMenuOptionsTEMP,Patch(colMenuOptions,LookUp(colMenuOptions,ItemKey=ThisRecord.ItemKey),{ItemDisabled: true }));
+I spoke to a very professional service desk member, and we have troubleshooted all steps to solve the problem of me not able to connect to the domain after inputting my PIN. We turned off the hotspot and removed the battery to power back up, We reboot the WINDAR machine to see if I can login to my profile. These all failed and receiving not able to connect domain error after entering my PIN number. We were able to connect to the inner vpn but for some reason when I enter my Pin number, Im receiving a cannot connect to domain error message. Please advise.
