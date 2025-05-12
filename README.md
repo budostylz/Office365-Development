@@ -264,4 +264,10 @@ yo @microsoft/sharepoint --skip install
 
  
 
-I spoke to a very professional service desk member, and we have troubleshooted all steps to solve the problem of me not able to connect to the domain after inputting my PIN. We turned off the hotspot and removed the battery to power back up, We reboot the WINDAR machine to see if I can login to my profile. These all failed and receiving not able to connect domain error after entering my PIN number. We were able to connect to the inner vpn but for some reason when I enter my Pin number, Im receiving a cannot connect to domain error message. Please advise.
+I spoke with a very professional service desk representative, and we went through all the recommended troubleshooting steps to resolve the issue preventing me from connecting to the domain after entering my PIN.
+
+We disabled the hotspot, removed and reinserted the battery to perform a full power cycle, and rebooted the WINDAR machine to attempt login to my profile. Unfortunately, none of these steps resolved the issue.
+
+Although we successfully connected to the inner VPN, I continue to receive a "Cannot connect to domain" error immediately after entering my PIN.
+
+I would appreciate further guidance on how to proceed.
