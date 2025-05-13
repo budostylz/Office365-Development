@@ -263,10 +263,39 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-This is correct—I'm currently working remotely in Miami and was informed that I can receive support for WINDARS at DISA SOUTHCOM.
-
-Both my NIPR and SIPR accounts were temporarily disabled due to an outage. After my CAC and SIPR token access were restored, I began experiencing issues signing into WINDARS via SIPR. I believe this may be related to the previous disruption.
-
-Please let me know a suitable time to submit my WINDARS system for maintenance and access troubleshooting. For additional context, Mr. Gabrielse is my point of contact and can provide further details if needed.
-
-Thank you very much for your support.
+{
+  "sections": [
+    {
+      //give a display name for the section
+      "displayname": "Book Information",
+      "fields": [
+        //reference your fields here using their display name
+        "Thumbnail",
+	  "Title",
+	  "Author",
+	  "Publication Date",
+	  "ISBN"
+      ]
+    },
+    {
+      //give a display name for the section
+      "displayname": "Availability",
+      "fields": [
+        //reference your fields here using their display name
+	  "Available",
+        "Check Out",
+	  "Checked Out By",
+	  "Due Date",
+	  "Join the Waitlist"
+      ]
+    },
+    {
+      //give a display name for the section
+      "displayname": "Check In",
+      "fields": [
+        //reference your fields here using their display name
+	  "Check In"
+      ]
+    }
+  ]
+}
