@@ -292,4 +292,20 @@ With(
 ]
 
 
+With(
+    {
+        userResponse: Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas1.SearchText})
+    },
+    ForAll(
+        userResponse.value,
+        {
+            DisplayName: displayName,
+            Email: mail,
+            Picture: "https://via.placeholder.com/48"
+        }
+    )
+)
+
+
+
 
