@@ -262,12 +262,6 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
- 
 
-I spoke with a very professional service desk representative, and we went through all the recommended troubleshooting steps to resolve the issue preventing me from connecting to the domain after entering my PIN.
 
-We disabled the hotspot, removed and reinserted the battery to perform a full power cycle, and rebooted the WINDAR machine to attempt login to my profile. Unfortunately, none of these steps resolved the issue.
-
-Although we successfully connected to the inner VPN, I continue to receive a "Cannot connect to domain" error immediately after entering my PIN.
-
-I would appreciate further guidance on how to proceed.
+ I'll try this again Jared. I was on the phone with DISA and we have completed all troubleshooting steps. First you need to understand the back story, before coming to the conclusions. After my account was dropped and re-enabled both my NIPR and SIPR I could not connect to SIPR. Not because I locked out my SIPR token due to numerous attempts as some folks there think (I had the same SIPR pin for 15 years and pretty much think I can remember it by now). I'll try this again and will send you feedback. Alex and I are coordinating my WINDARS being sent to DISA here at SOUTHCOM since they both have WINDAR and mobile support. Hopefully they can take care of this issue. Again, I'll try to see if I can login but if unsuccessful, I'll have to send this over to the WINDAR team at SOUTHCOM.
