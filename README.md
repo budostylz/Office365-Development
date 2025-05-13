@@ -263,14 +263,11 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-Switch(varNewJITStype,
-    "Ethics", "Ethics Dashboard",
-    "ContractsandFiscal","Contracts & Fiscal Law Dashboard",
-    "LaborandEmployment","Labor and Employment Law",
-    "LegalReadiness","Legal Readiness & (Legal Assistance)",
-    "RegulatoryStatutory","Regulatory/Statutory Compliance",
-    "Operations","Operations Legal Support",
-    "International","International Agreements (SOFAs)",
-    "LawofWar","Law of War",
-    "IntelLaw","Intelligence Law & Force Protection"
+ClearCollect(
+    colUsers,
+    AddColumns(
+        Office365Users.SearchUser({SearchTerm: ""}).value,
+        Picture, Office365Users.UserPhotoMetadataV2(mail).Url
+    )
 )
+
