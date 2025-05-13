@@ -263,10 +263,19 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-AddColumns(
-    Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas2.SearchText}).value,
-    "Picture",
-    Office365Users.UserPhotoV2(mail)
+With(
+    {
+        userResponse: Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas1.SearchText})
+    },
+    ForAll(
+        userResponse.value,
+        {
+            DisplayName: displayName,
+            Email: mail,
+            Picture: "https://via.placeholder.com/48"
+        }
+    )
 )
+
 
 
