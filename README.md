@@ -264,8 +264,9 @@ yo @microsoft/sharepoint --skip install
 
 
 AddColumns(
-    Office365Users.SearchUser({SearchTerm: ComboBoxCanvas2.SearchText}).value,
+    Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas2.SearchText}).value,
     "Picture",
-    Office365Users.UserPhotoMetadataV2(mail).Url
+    Office365Users.UserPhotoV2(mail)
 )
+
 
