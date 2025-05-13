@@ -278,4 +278,18 @@ With(
 )
 
 
+[
+    {
+        DisplayName: "Shaun Lewis",
+        Email: "lewis.shaun@budoapps.com",
+        Picture: "https://via.placeholder.com/48"
+    },
+    {
+        DisplayName: "Valeria Johnson",
+        Email: "valeria@example.com",
+        Picture: "https://via.placeholder.com/48"
+    }
+]
+
+
 
