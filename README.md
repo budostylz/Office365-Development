@@ -266,36 +266,31 @@ yo @microsoft/sharepoint --skip install
 {
   "sections": [
     {
-      //give a display name for the section
       "displayname": "Book Information",
       "fields": [
-        //reference your fields here using their display name
         "Thumbnail",
-	  "Title",
-	  "Author",
-	  "Publication Date",
-	  "ISBN"
+        "Title",
+        "Author",
+        "Publication Date",
+        "ISBN"
       ]
     },
     {
-      //give a display name for the section
       "displayname": "Availability",
       "fields": [
-        //reference your fields here using their display name
-	  "Available",
+        "Available",
         "Check Out",
-	  "Checked Out By",
-	  "Due Date",
-	  "Join the Waitlist"
+        "Checked Out By",
+        "Due Date",
+        "Join the Waitlist"
       ]
     },
     {
-      //give a display name for the section
       "displayname": "Check In",
       "fields": [
-        //reference your fields here using their display name
-	  "Check In"
+        "Check In"
       ]
     }
   ]
 }
+
