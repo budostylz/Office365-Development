@@ -263,11 +263,9 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-ClearCollect(
-    colUsers,
-    AddColumns(
-        Office365Users.SearchUser({SearchTerm: ""}).value,
-        Picture, Office365Users.UserPhotoMetadataV2(mail).Url
-    )
+AddColumns(
+    Office365Users.SearchUser({SearchTerm: ComboBoxCanvas2.SearchText}).value,
+    "Picture",
+    Office365Users.UserPhotoMetadataV2(mail).Url
 )
 
