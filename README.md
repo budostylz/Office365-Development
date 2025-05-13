@@ -263,4 +263,10 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-This is correct. I'm currently working remote in Miami and was informed that I can receive support at DISA SOUTHCOM for WINDAR support. Both my NIPR and SIPR accounts were disabled due to a temporary outage and when both my CAC and SIPR token was reinstated, this when I notice problems of not signing into my WINDARS via SIPR. Let me know when it is a best time to submit my WINDARS for maintenance and access. I have Mr. Gabrielse, who is the POC if you need more context regarding the WINDARS. Thank you very much for your support.
+This is correct—I'm currently working remotely in Miami and was informed that I can receive support for WINDARS at DISA SOUTHCOM.
+
+Both my NIPR and SIPR accounts were temporarily disabled due to an outage. After my CAC and SIPR token access were restored, I began experiencing issues signing into WINDARS via SIPR. I believe this may be related to the previous disruption.
+
+Please let me know a suitable time to submit my WINDARS system for maintenance and access troubleshooting. For additional context, Mr. Gabrielse is my point of contact and can provide further details if needed.
+
+Thank you very much for your support.
