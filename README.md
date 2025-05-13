@@ -308,4 +308,11 @@ With(
 
 
 
+Good day Sir, below is the link to access the JECC SJA Request app. The applicable sections and fields are applied. When you get a chance, you can review the sections and fields at your convivence and send feedback if the app looks good or need corrections. Please note that the fields have limited functionality and logic and I am currently applying this. This version is to just confirm that we have all the fields in place. Below is the link to the Power App.
+
+
+https://play.apps.appsplatform.us/play/e/b3f13f2d-1d9f-ef43-810d-3603e340c361/a/36d3c59c-c585-47c5-8f72-d56c6ce14ad0?tenantId=102d0191-eeae-4761-b1cb-1a83e86ef445&hint=f8d3e8f7-fb3c-4efb-8e52-b061dc631313&sourcetime=1747179886994
+
+
+
 
