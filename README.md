@@ -263,5 +263,12 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
+Hi Jared,
 
- I'll try this again Jared. I was on the phone with DISA and we have completed all troubleshooting steps. First you need to understand the back story, before coming to the conclusions. After my account was dropped and re-enabled both my NIPR and SIPR I could not connect to SIPR. Not because I locked out my SIPR token due to numerous attempts as some folks there think (I had the same SIPR pin for 15 years and pretty much think I can remember it by now). I'll try this again and will send you feedback. Alex and I are coordinating my WINDARS being sent to DISA here at SOUTHCOM since they both have WINDAR and mobile support. Hopefully they can take care of this issue. Again, I'll try to see if I can login but if unsuccessful, I'll have to send this over to the WINDAR team at SOUTHCOM.
+I’m giving this another try. I was on the phone with DISA, and we've completed all recommended troubleshooting steps.
+
+Before drawing conclusions, it’s important to understand the background. After my account was dropped and then re-enabled on both NIPR and SIPR, I’ve been unable to connect to SIPR. This is not due to a locked SIPR token from failed login attempts, as has been suggested. I’ve had the same SIPR PIN for 15 years and am confident I’ve entered it correctly.
+
+I’ll attempt to log in once more and will share feedback shortly. In parallel, Alex and I have already escalated the issue and are coordinating the transfer of my WINDARS equipment to DISA here at SOUTHCOM, since they have both WINDAR and mobile support available. We're hoping they can address this directly.
+
+If login remains unsuccessful, we’ll continue working through the WINDAR team at SOUTHCOM to resolve it.
