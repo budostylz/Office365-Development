@@ -263,34 +263,14 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-{
-  "sections": [
-    {
-      "displayname": "Book Information",
-      "fields": [
-        "Thumbnail",
-        "Title",
-        "Author",
-        "Publication Date",
-        "ISBN"
-      ]
-    },
-    {
-      "displayname": "Availability",
-      "fields": [
-        "Available",
-        "Check Out",
-        "Checked Out By",
-        "Due Date",
-        "Join the Waitlist"
-      ]
-    },
-    {
-      "displayname": "Check In",
-      "fields": [
-        "Check In"
-      ]
-    }
-  ]
-}
-
+Switch(varNewJITStype,
+    "Ethics", "Ethics Dashboard",
+    "ContractsandFiscal","Contracts & Fiscal Law Dashboard",
+    "LaborandEmployment","Labor and Employment Law",
+    "LegalReadiness","Legal Readiness & (Legal Assistance)",
+    "RegulatoryStatutory","Regulatory/Statutory Compliance",
+    "Operations","Operations Legal Support",
+    "International","International Agreements (SOFAs)",
+    "LawofWar","Law of War",
+    "IntelLaw","Intelligence Law & Force Protection"
+)
