@@ -322,15 +322,16 @@ body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
   not(equals(item()?['Check_x0020_out_x0020_date'], null)),
   or(
     equals(
-      div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000),
+      floor(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
       45
     ),
     equals(
-      div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000),
+      floor(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
       59
     )
   )
 )
+
 
 
 
