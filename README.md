@@ -346,3 +346,6 @@ With(
 )
 
 
+body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
+
+
