@@ -307,30 +307,26 @@ With(
 )
 
 
-
-
-@and(
-  not(equals(item()?['Checkout'], null)),
-  not(equals(item()?['CheckoutDate'], null))
-)
-
-body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
-
-
-@and(
-  equals(item()?['Checkoutthistitle']?['results']?[0], 'YES'),
-  not(equals(item()?['Check_x0020_out_x0020_date'], null)),
-  or(
-    equals(
-      int(div(sub(ticks(addHours(utcNow(), 12)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      45
-    ),
-    equals(
-      int(div(sub(ticks(addHours(utcNow(), 12)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      59
-    )
-  )
-)
+[
+  {
+    "__metadata": {
+      "id": "22f8f18e-1e89-4182-ba0d-45952499716b",
+      "uri": "https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/_api/Web/Lists(guid'5d09cc60-d7f2-4b4a-bf0a-4cd8afca8a6b')/Items(39)",
+      "etag": "\"12\"",
+      "type": "SP.Data.DigitalLibraryListItem"
+    },
+    "Title": "A Wrestling  Life:  Dan Gable",
+    "Checkoutthistitle": {
+      "__metadata": {
+        "type": "Collection(Edm.String)"
+      },
+      "results": [
+        "YES"
+      ]
+    },
+    "Check_x0020_out_x0020_date": "2025-03-17T04:00:00Z"
+  }
+]
 
 
 
