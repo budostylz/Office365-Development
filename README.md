@@ -360,5 +360,17 @@ items('Apply_to_each')?['Title']
 )
 
 
+---------------
+
+or(
+  equals(
+    int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000)),
+    45
+  ),
+  equals(
+    int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000)),
+    59
+  )
+)
 
 
