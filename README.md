@@ -330,5 +330,21 @@ With(
 
 
 
+@and(
+  equals(item()?['Checkoutthistitle']?['results']?[0], 'YES'),
+  not(equals(item()?['Check_x0020_out_x0020_date'], null)),
+  or(
+    equals(
+      int(div(sub(ticks(addHours(utcNow(), 16)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
+      45
+    ),
+    equals(
+      int(div(sub(ticks(addHours(utcNow(), 16)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
+      59
+    )
+  )
+)
+
+
 
 
