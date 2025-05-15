@@ -384,4 +384,10 @@ concat(
 )
 
 
+--------------------
+
+int(div(sub(ticks(utcNow()), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))
+
+
+
 
