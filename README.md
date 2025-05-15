@@ -403,6 +403,25 @@ concat(
   )
 )
 
+------------------------
+
+@and(
+  not(equals(item()?['Checkoutthistitle']?['results'], null)),
+  not(empty(item()?['Checkoutthistitle']?['results'])),
+  not(equals(item()?['Check_x0020_out_x0020_date'], null)),
+  or(
+    equals(
+      int(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
+      45
+    ),
+    equals(
+      int(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
+      59
+    )
+  )
+)
+
+
 
 
 
