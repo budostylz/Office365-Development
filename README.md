@@ -306,16 +306,14 @@ With(
     )
 )
 
-If(
-    toggleMissionViewList=false, 
-    Set(toggleMissionViewList, true);
-    Notify("Toggle Status: " & toggleMissionViewList,NotificationType.Success),
 
-    toggleMissionViewList=true,
-    Set(toggleMissionViewList, true);
-    Notify("Toggle Status: " & toggleMissionViewList,NotificationType.Success)
-    
-);
+Set(toggleMissionViewList, !toggleMissionViewList);
+If(
+    toggleMissionViewList,
+    Notify("After saving, you will remain in mission view.", NotificationType.Success),
+    Notify("After saving, you'll be returned to Mission List.", NotificationType.Information)
+)
+
 
 
 
