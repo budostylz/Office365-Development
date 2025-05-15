@@ -386,7 +386,23 @@ concat(
 
 --------------------
 
-int(div(sub(ticks(utcNow()), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))
+concat(
+  'Title: ', items('Apply_to_each')?['Title'],
+  ' | Checkout Date: ', items('Apply_to_each')?['Check_x0020_out_x0020_date'],
+  ' | Days Ago: ',
+  string(
+    int(
+      div(
+        sub(
+          ticks(utcNow()),
+          ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])
+        ),
+        864000000000
+      )
+    )
+  )
+)
+
 
 
 
