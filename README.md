@@ -348,4 +348,9 @@ With(
 
 body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
 
+int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))
+
+items('Apply_to_each')?['Title']
+
+
 
