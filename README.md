@@ -306,23 +306,16 @@ With(
     )
 )
 
+If(
+    toggleMissionViewList=false, 
+    Set(toggleMissionViewList, true);
+    Notify("Toggle Status: " & toggleMissionViewList,NotificationType.Success),
 
-
-Good day Sir,
-
-Below is the link to access the JECC SJA Request App. All applicable sections and fields have been included in this version. At your convenience, please review the structure to confirm whether the correct sections and fields are in place, and feel free to share any feedback or corrections.
-
-Please note:
-
-This version focuses solely on validating the field layout and structure.
-
-Field-level logic and functionality are still in progress and will be applied in subsequent updates.
-
-🔗 Access the App
-
-If you encounter any access issues with the app, please don’t hesitate to reach out so I can assist promptly.
-
-Thank you for your time and support.
+    toggleMissionViewList=true,
+    Set(toggleMissionViewList, true);
+    Notify("Toggle Status: " & toggleMissionViewList,NotificationType.Success)
+    
+);
 
 
 
