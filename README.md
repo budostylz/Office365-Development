@@ -314,6 +314,9 @@ With(
   not(equals(item()?['CheckoutDate'], null))
 )
 
+body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
+
+
 
 
 
