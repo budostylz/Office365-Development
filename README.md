@@ -335,16 +335,14 @@ With(
   not(equals(item()?['Check_x0020_out_x0020_date'], null)),
   or(
     equals(
-      int(div(sub(ticks(addHours(utcNow(), 16)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      45
+      formatDateTime(item()?['Check_x0020_out_x0020_date'], 'yyyy-MM-dd'),
+      formatDateTime(addDays(utcNow(), -45), 'yyyy-MM-dd')
     ),
     equals(
-      int(div(sub(ticks(addHours(utcNow(), 16)), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      59
+      formatDateTime(item()?['Check_x0020_out_x0020_date'], 'yyyy-MM-dd'),
+      formatDateTime(addDays(utcNow(), -59), 'yyyy-MM-dd')
     )
   )
 )
-
-
 
 
