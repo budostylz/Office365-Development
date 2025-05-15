@@ -422,6 +422,27 @@ concat(
 )
 
 
+--------------------------
+
+Hello,
+
+Here are the checkout details from the digital library:
+
+<b>Title:</b> @{items('Apply_to_each')?['Title']}<br>
+<b>Checked Out Title:</b> @{items('Apply_to_each')?['Checkoutthistitle']?['results']?[0]}<br>
+<b>Checkout Date:</b> @{items('Apply_to_each')?['Check_x0020_out_x0020_date']}<br>
+<b>Item ID:</b> @{items('Apply_to_each')?['ID']}<br>
+<b>Days Since Checkout:</b> 
+@{int(div(sub(ticks(utcNow()), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))}<br>
+<b>Item URI:</b> <a href="@{items('Apply_to_each')?['__metadata']?['uri']}">View Item</a>
+
+<br><br>
+Please follow up as needed.
+
+Thank you.
+
+
+
 
 
 
