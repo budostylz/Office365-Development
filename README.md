@@ -353,4 +353,12 @@ int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_
 items('Apply_to_each')?['Title']
 
 
+@and(
+  not(equals(item()?['Checkoutthistitle']?['results'], null)),
+  not(empty(item()?['Checkoutthistitle']?['results'])),
+  not(equals(item()?['Check_x0020_out_x0020_date'], null))
+)
+
+
+
 
