@@ -317,7 +317,9 @@ With(
 body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
 
 
+
 @and(
+  not(empty(item()?['Checkoutthistitle']?['results'])),
   equals(item()?['Checkoutthistitle']?['results']?[0], 'YES'),
   not(equals(item()?['Check_x0020_out_x0020_date'], null)),
   or(
@@ -331,9 +333,6 @@ body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
     )
   )
 )
-
-
-
 
 
 
