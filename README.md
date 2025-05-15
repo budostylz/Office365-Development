@@ -307,12 +307,13 @@ With(
 )
 
 
-Set(toggleMissionViewList, !toggleMissionViewList);
-If(
-    toggleMissionViewList,
-    Notify("After saving, you will remain in mission view.", NotificationType.Success),
-    Notify("After saving, you'll be returned to Mission List.", NotificationType.Information)
+
+
+@and(
+  not(equals(item()?['Checkout'], null)),
+  not(equals(item()?['CheckoutDate'], null))
 )
+
 
 
 
