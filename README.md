@@ -442,6 +442,13 @@ Please follow up as needed.
 Thank you.
 
 
+Add additional text after travel: “Requesting legal review of proposed travel for ethics or Joint Travel Regulation compliance (Please select the Travel button on the right and enter the data fields to complete request)
+Add additional text after fundraiser: “Requesting legal review of a proposed fundraising activity (Please select the fundraiser button on the right and enter the data fields to complete request).”
+Add additional text after gifts: “Requesting legal review of a proposed gift or receipt of a gift (Please select the gift button on the right and enter the data fields to complete request).”
+Add additional text after Post-Government Employment: “Requesting legal review for a post-government employment activity (Please download the DD Form 2945 (link below) and attach completed DD Form 2945 to the request)
+Add additional text after Use of Official Resources: “Requesting ethics review of proposed use of official resources”
+
+
 
 
 
