@@ -441,12 +441,30 @@ Please follow up as needed.
 
 Thank you.
 
+<b>Definitions</b><br><br>
 
-Add additional text after travel: “Requesting legal review of proposed travel for ethics or Joint Travel Regulation compliance (Please select the Travel button on the right and enter the data fields to complete request)
-Add additional text after fundraiser: “Requesting legal review of a proposed fundraising activity (Please select the fundraiser button on the right and enter the data fields to complete request).”
-Add additional text after gifts: “Requesting legal review of a proposed gift or receipt of a gift (Please select the gift button on the right and enter the data fields to complete request).”
-Add additional text after Post-Government Employment: “Requesting legal review for a post-government employment activity (Please download the DD Form 2945 (link below) and attach completed DD Form 2945 to the request)
-Add additional text after Use of Official Resources: “Requesting ethics review of proposed use of official resources”
+<b>Travel</b><br>
+Requesting legal review of proposed travel for ethics or Joint Travel Regulation compliance. 
+(Please select the <b>Travel</b> button on the right and enter the data fields to complete request.)<br><br>
+
+<b>Fundraiser</b><br>
+Requesting legal review of a proposed fundraising activity. 
+(Please select the <b>Fundraiser</b> button on the right and enter the data fields to complete request.)<br><br>
+
+<b>Gifts</b><br>
+Requesting legal review of a proposed gift or receipt of a gift. 
+(Please select the <b>Gifts</b> button on the right and enter the data fields to complete request.)<br><br>
+
+<b>Post-Government Employment</b><br>
+Requesting legal review for a post-government employment activity. 
+(Please download the DD Form 2945 (link below) and attach completed DD Form 2945 to the request.)<br><br>
+
+<b>Relations with Non-Federal Entities</b><br>
+Requesting review of activities involving non-federal entities (description not provided).<br><br>
+
+<b>Use of Official Resources</b><br>
+Requesting ethics review of proposed use of official resources.<br><br>
+
 
 
 
