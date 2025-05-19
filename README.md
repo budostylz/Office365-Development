@@ -422,5 +422,58 @@ concat(
 )
 
 
---------------------------
-_api/web/lists/GetByTitle('Digital Library')/items?$select=Title,Checkoutthistitle,Check_x0020_out_x0020_date,CheckedOutBy/Title,CheckedOutBy/EMail&$expand=CheckedOutBy&$top=4999
+-------------------------
+[
+  {
+    "__metadata": {
+      "id": "0db4e2b9-3c79-442b-9dca-9a349c65bd7a",
+      "uri": "https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/_api/Web/Lists(guid'5d09cc60-d7f2-4b4a-bf0a-4cd8afca8a6b')/Items(39)",
+      "etag": "\"13\"",
+      "type": "SP.Data.DigitalLibraryListItem"
+    },
+    "CheckedOutBy": {
+      "__metadata": {
+        "id": "5ed0d946-6813-4944-a810-b52956c6d13b",
+        "type": "SP.Data.UserInfoItem"
+      },
+      "Title": "Davis, Danita R CTR TRANSCOM JECCJ6 (USA)",
+      "EMail": "danita.r.davis2.ctr@mail.mil"
+    },
+    "Title": "A Wrestling  Life:  Dan Gable",
+    "Checkoutthistitle": {
+      "__metadata": {
+        "type": "Collection(Edm.String)"
+      },
+      "results": [
+        "YES"
+      ]
+    },
+    "Check_x0020_out_x0020_date": "2025-03-21T04:00:00Z"
+  },
+  {
+    "__metadata": {
+      "id": "6f5bf8b0-d20d-4ffd-ac99-5ea279bb936c",
+      "uri": "https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/_api/Web/Lists(guid'5d09cc60-d7f2-4b4a-bf0a-4cd8afca8a6b')/Items(63)",
+      "etag": "\"33\"",
+      "type": "SP.Data.DigitalLibraryListItem"
+    },
+    "CheckedOutBy": {
+      "__metadata": {
+        "id": "b0d7f0eb-61ea-45cb-be3b-690f87e2b2d0",
+        "type": "SP.Data.UserInfoItem"
+      },
+      "Title": "Lewis, Shaun Cornell CTR DISA J-0 OCOS (USA)",
+      "EMail": "shaun.c.lewis3.ctr@mail.mil"
+    },
+    "Title": "1776",
+    "Checkoutthistitle": {
+      "__metadata": {
+        "type": "Collection(Edm.String)"
+      },
+      "results": [
+        "Yes"
+      ]
+    },
+    "Check_x0020_out_x0020_date": "2025-04-04T04:00:00Z"
+  }
+]
