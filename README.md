@@ -425,8 +425,7 @@ concat(
 -------------------------
 
 
-items('Apply_to_each')?['CheckedOutBy']?['EMail']
+https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/Lists/Digital%20Library/DispForm.aspx?ID=39
 
-formatDateTime(items('Apply_to_each')?['Check_x0020_out_x0020_date'], 'MM/dd/yyyy')
 
 
