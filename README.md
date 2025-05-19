@@ -463,12 +463,18 @@ Requesting legal review for a post-government employment activity.
 Requesting review of activities involving non-federal entities (description not provided).<br><br>
 
 <b>Use of Official Resources</b><br>
-Requesting ethics review of proposed use of official resources.<br><br>
+Requesting ethics review of proposed use of official resources.<br>
 
 
 
+<br>
+
+The query to field 'CheckedOutBy' is not valid. The $select query string must specify the target fields and the $expand query string must contains CheckedOutBy.
+clientRequestId: e3bce039-3fb8-44f8-87a0-28e7e52d7399
+serviceRequestId: 67ae9fa1-1001-0000-2b1e-f5adc60500fb
 
 
+_api/web/lists/GetByTitle('Digital Library')/items?$select=Title,Checkoutthistitle,Check_x0020_out_x0020_date,CheckedOutBy&$top=4999
 
 
 
