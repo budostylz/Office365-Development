@@ -427,3 +427,6 @@ concat(
 
 items('Apply_to_each')?['CheckedOutBy']?['EMail']
 
+formatDateTime(items('Apply_to_each')?['Check_x0020_out_x0020_date'], 'MM/dd/yyyy')
+
+
