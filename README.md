@@ -262,170 +262,93 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-
-With(
-    {
-        userResponse: Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas1.SearchText})
-    },
-    ForAll(
-        userResponse.value,
-        {
-            DisplayName: displayName,
-            Email: mail,
-            Picture: "https://via.placeholder.com/48"
-        }
-    )
-)
-
-
-[
-    {
-        DisplayName: "Shaun Lewis",
-        Email: "lewis.shaun@budoapps.com",
-        Picture: "https://via.placeholder.com/48"
-    },
-    {
-        DisplayName: "Valeria Johnson",
-        Email: "valeria@example.com",
-        Picture: "https://via.placeholder.com/48"
-    }
-]
-
-
-With(
-    {
-        userResponse: Office365Users.SearchUserV2({SearchTerm: ComboBoxCanvas1.SearchText})
-    },
-    ForAll(
-        userResponse.value,
-        {
-            DisplayName: displayName,
-            Email: mail,
-            Picture: "https://via.placeholder.com/48"
-        }
-    )
-)
-
-
-[
-  {
-    "__metadata": {
-      "id": "22f8f18e-1e89-4182-ba0d-45952499716b",
-      "uri": "https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/_api/Web/Lists(guid'5d09cc60-d7f2-4b4a-bf0a-4cd8afca8a6b')/Items(39)",
-      "etag": "\"12\"",
-      "type": "SP.Data.DigitalLibraryListItem"
-    },
-    "Title": "A Wrestling  Life:  Dan Gable",
-    "Checkoutthistitle": {
-      "__metadata": {
-        "type": "Collection(Edm.String)"
-      },
-      "results": [
-        "YES"
-      ]
-    },
-    "Check_x0020_out_x0020_date": "2025-03-17T04:00:00Z"
-  }
-]
-
-
-
-@and(
-  equals(item()?['Checkoutthistitle']?['results']?[0], 'YES'),
-  not(equals(item()?['Check_x0020_out_x0020_date'], null)),
-  or(
-    equals(
-      formatDateTime(item()?['Check_x0020_out_x0020_date'], 'yyyy-MM-dd'),
-      formatDateTime(addDays(utcNow(), -45), 'yyyy-MM-dd')
-    ),
-    equals(
-      formatDateTime(item()?['Check_x0020_out_x0020_date'], 'yyyy-MM-dd'),
-      formatDateTime(addDays(utcNow(), -59), 'yyyy-MM-dd')
-    )
-  )
-)
-
-
-body('Send_an_HTTP_request_to_SharePoint')?['d']?['results']
-
-int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))
-
-items('Apply_to_each')?['Title']
-
-
-@and(
-  not(equals(item()?['Checkoutthistitle']?['results'], null)),
-  not(empty(item()?['Checkoutthistitle']?['results'])),
-  not(equals(item()?['Check_x0020_out_x0020_date'], null))
-)
-
-
----------------
-
-or(
-  equals(
-    int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000)),
-    45
-  ),
-  equals(
-    int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000)),
-    59
-  )
-)
-----------------
-
-concat(
-  'Title: ', items('Apply_to_each')?['Title'],
-  ' | Checkout Date: ', items('Apply_to_each')?['Check_x0020_out_x0020_date'],
-  ' | Days Ago: ',
-  string(
-    int(div(sub(ticks(addHours(utcNow(), 16)), ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])), 864000000000))
-  )
-)
-
-
---------------------
-
-concat(
-  'Title: ', items('Apply_to_each')?['Title'],
-  ' | Checkout Date: ', items('Apply_to_each')?['Check_x0020_out_x0020_date'],
-  ' | Days Ago: ',
-  string(
-    int(
-      div(
-        sub(
-          ticks(utcNow()),
-          ticks(items('Apply_to_each')?['Check_x0020_out_x0020_date'])
-        ),
-        864000000000
-      )
-    )
-  )
-)
-
-------------------------
-
-@and(
-  not(equals(item()?['Checkoutthistitle']?['results'], null)),
-  not(empty(item()?['Checkoutthistitle']?['results'])),
-  not(equals(item()?['Check_x0020_out_x0020_date'], null)),
-  or(
-    equals(
-      int(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      45
-    ),
-    equals(
-      int(div(sub(ticks(utcNow()), ticks(item()?['Check_x0020_out_x0020_date'])), 864000000000)),
-      59
-    )
-  )
-)
-
-
--------------------------
-
-
-https://dod365.sharepoint-mil.us/sites/JECC-HQ-DEV/Lists/Digital%20Library/DispForm.aspx?ID=39
-
+Patch(Module_JITS,Defaults(Module_JITS),
+{
+    JITS_Control: "SJA Support",
+    'Case Title': "CASE TITLE",
+    CaseV6_OriginalNotes:"<ul>
+        <li>Customer Location:&nbsp;&nbsp;<b>Customer Location</b></li>
+        <li>Customer Phone Number:&nbsp;&nbsp;<b>Customer Phone Number</b></li></ul>
+        <hr>
+            <ul>
+            <li>Office Move Request</li><ul>
+                <li> Starting Location: <strong>Starting Location</strong></li>
+                <li> Starting Date: <strong>Starting Date</strong></li>
+                <li> End Date of Move: <strong>End Date of Move</strong></li>
+                </ul>
+            <li>Capabilities:
+                <ul>
+                <li>Capabilities</li>
+                </ul>
+            <li>Equipment Requested:
+                <ul>
+                    Equipment Requested:
+                </ul>
+            </ul>
+        <hr>
+        <ul>
+        <li>Event Name:
+        <ul>
+            <li><strong>Event Name</strong></li>
+        </ul>
+    <li>Event Timeline:
+        <ul>
+            <li>Start Date:<strong>Start Date</strong></li>
+            <li>End Date:  <strong>End Date</strong></li>
+        </ul>
+    <li>Event Coordinator:
+        <ul>
+            <li>NewCaseDetails_EventSpt_Coordinator.Selected.EMPLOYEE_NAME</li>
+            <li>NewCaseDetails_EventSpt_Coordinator.Selected.EMAIL_ADDRESS</li>
+        </ul>
+    <li>Capabilities:
+        <ul>
+            <li>Capabilities</li>
+        </ul>
+    <li>Equipment Requested:
+        <ul>
+            <li>Equipment Requested</li>
+        </ul>
+    </ul>
+    
+    <hr>",
+    CaseV6_JSON:
+"{""Customers"":
+    ["&Concat(CustInfo_Customer.SelectedItems,"{
+            ""DisplayName"": """&DisplayName&""",
+            ""Email"": """&Email&""",
+            ""Claims"": ""i:0#.f|membership|"&Email&""",
+            ""Department"": """",
+            ""JobTitle"": """",
+            ""Picture"": """"
+    }",",
+    ")&"],
+""CustomerOrg"": ""CustomerOrg"",
+""VIP"": """ & CustInfo_VIP.Selected.Value & """,
+""Priority"": """ & CustInfo_Priority.Selected.Value & """,
+""TargetCloseDT"": """ & CaseDetails_DueDT.SelectedDate & """,
+""AsgnToOrg"": ""JECC | Special Staff"",
+""AsgnToLead"": {},
+""AsgnToPersonnel"":
+    [],
+""Status"": ""Open - New"",
+""CaseHold"": ""-"",
+""CaseDetermination"": """",
+""CompletedDate"": """",
+""CompletedBy"": {}
+}"
+}/*,NewCaseDetails_Attach_form.Updates*/);
+ 
+Refresh(Module_EmailNotificationsLog);
+Patch(Module_EmailNotificationsLog,Defaults(Module_EmailNotificationsLog),
+{
+    Title: "New JITS SJA Case >> TOPIC",
+    EmailTo: Concat(CustInfo_Customer.SelectedItems,Email,"; "),
+    EmailCC: "shaun.c.lewis3.ctr@mail.mil", //"TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
+    EmailBCC: "",
+    EmailBody: "<p>Congratulations!</p><p>You have successfully submitted a JECC Internal Ticket System (JITS) case. &nbsp;Your JITS case is currently awaiting our HelpDesk to assign it to the appropriate technician for action. &nbsp;Please watch your emails for more communication.</p><p><a href='https://play.apps.appsplatform.us/play/e/b3f13f2d-1d9f-ef43-810d-3603e340c361/a/0aac08a6-b237-49ec-8a3e-13fa3b7f67fb?tenantId=102d0191-eeae-4761-b1cb-1a83e86ef445&amp;hint=06e9cb09-7569-458e-86f5-bb3a4df9d0be&amp;sourcetime=1722449502159'>All of your Open JITS cases can be found here.</a><br /><br />Thank you,<br />JECC Help Desk</p>",
+    EmailFrom: "TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
+    NotificationSoure: "JITS.new"
+});
 
 
