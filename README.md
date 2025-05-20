@@ -262,85 +262,124 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-Patch(Module_JITS, Defaults(Module_JITS),
-{
-    JITS_Control: "SJA Support",
-    'Case Title': "CASE TITLE",
-    
-    CaseV6_OriginalNotes:
-    Switch(
-        varNewJITSType,
-        
-        "Ethics",
-        "<ul><li><b>Ethics Support Details</b></li></ul><hr>",
 
-        "ContractsandFiscal",
-        "<ul><li><b>Contracts & Fiscal Details</b></li></ul><hr>",
 
-        "LaborandEmployment",
-        "<ul><li><b>Labor & Employment Details</b></li></ul><hr>",
 
-        "LegalReadiness",
-        "<ul><li><b>Legal Readiness Details</b></li></ul><hr>",
 
-        "RegulatoryStatutory",
-        "<ul><li><b>Regulatory & Statutory Details</b></li></ul><hr>",
+Set(
+    topics,
+    ShowColumns(
+        Filter(
+            Table(
+                {Value: "travel", Selected: chkTravel.Value},
+                {Value: "fundraiser", Selected: chkFundraiser.Value},
+                {Value: "gifts", Selected: chkGifts.Value}
+            ),
+            Selected
+        ),
+        "Value"
+    )
+)
 
-        "Operations",
-        "<ul><li><b>Operational Support Details</b></li></ul><hr>",
 
-        "International",
-        "<ul><li><b>International Law Details</b></li></ul><hr>",
+------------------------------
 
-        "LawOfWar",
-        "<ul><li><b>Law of War Guidance</b></li></ul><hr>",
+CaseV6_OriginalNotes:
+Switch(
+    varNewJITSType,
 
-        "IntelLaw",
-        "<ul><li><b>Intelligence Law Details</b></li></ul><hr>",
+    "Ethics",
+    "<h3><u>Ethics Dashboard</u></h3>
+    <ul>
+        <li>Travel</li>
+        <li>Fundraiser</li>
+        <li>Gifts</li>
+        <li>Post-Government Employment</li>
+        <li>Relations with Non-Federal Entities</li>
+        <li>Use of Official Resources</li>
+    </ul>
+    <hr>" &
 
-        // Default (optional)
-        "<ul><li><b>General JITS Case Notes</b></li></ul><hr>"
+    If(
+        "travel" in topics,
+        "<h3><u>Travel Information</u></h3>
+        <ul>
+            <li>Traveler First Name: <strong>John</strong></li>
+            <li>Traveler Last Name: <strong>Doe</strong></li>
+            <li>Form of Travel: <strong>MILAIR</strong></li>
+            <li>Date Leaving: <strong>06/01/2025</strong></li>
+            <li>Date Returning: <strong>06/05/2025</strong></li>
+            <li>Destination: <strong>Germany</strong></li>
+            <li>Purpose: <strong>Joint Training Event</strong></li>
+            <li>Hosting Organization: <strong>USEUCOM</strong></li>
+            <li>Additional Official Business: <strong>Briefing Support</strong></li>
+            <li>Expected to Wear Uniform?: <strong>No</strong></li>
+            <li>Is this Event a Fundraiser?: <strong>No</strong></li>
+            <li>Training Event with ≥20% DoD Attendance?: <strong>No</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Engagement & Support Info</u></h3>
+        <ul>
+            <li>Engagement hosted by DoD Contractor/NFE?: <strong>No</strong></li>
+            <li>No-cost travel benefits offered?: <strong>No</strong></li>
+            <li>Expected to receive Gift/Memento?: <strong>No</strong></li>
+            <li>Leave taken with TDY?: <strong>No</strong></li>
+            <li>Accompanied by support staff?: <strong>No</strong></li>
+            <li>Involves presenting/speaking?: <strong>No</strong></li>
+            <li>Approval Authority: <strong>COL Jane Smith</strong></li>
+            <li>POC: <strong>Mr. Mark Davis</strong></li>
+        </ul>
+        <hr>",
+        ""
+    ) &
+
+    If(
+        "fundraiser" in topics,
+        "<h3><u>Fundraiser Details</u></h3>
+        <ul>
+            <li>[Fundraiser Field 1]</li>
+            <li>[Fundraiser Field 2]</li>
+        </ul>
+        <hr>",
+        ""
+    ) &
+
+    If(
+        "gifts" in topics,
+        "<h3><u>Gift Details</u></h3>
+        <ul>
+            <li>[Gift Policy Reference]</li>
+            <li>[Gift Value Limit]</li>
+        </ul>
+        <hr>",
+        ""
     ),
 
-    CaseV6_JSON:
-    "{
-        ""Customers"": [" & Concat(
-            CustInfo_Customer.SelectedItems,
-            "{
-                ""DisplayName"": """ & DisplayName & """,
-                ""Email"": """ & Email & """,
-                ""Claims"": ""i:0#.f|membership|" & Email & """,
-                ""Department"": """",
-                ""JobTitle"": """",
-                ""Picture"": """"
-            }",
-            ","
-        ) & "],
-        ""CustomerOrg"": ""CustomerOrg"",
-        ""VIP"": """ & CustInfo_VIP.Selected.Value & """,
-        ""Priority"": """ & CustInfo_Priority.Selected.Value & """,
-        ""TargetCloseDT"": """ & CaseDetails_DueDT.SelectedDate & """,
-        ""AsgnToOrg"": ""JECC | Special Staff"",
-        ""AsgnToLead"": {},
-        ""AsgnToPersonnel"": [],
-        ""Status"": ""Open - New"",
-        ""CaseHold"": ""-"",
-        ""CaseDetermination"": """",
-        ""CompletedDate"": """",
-        ""CompletedBy"": {}
-    }"
-});
+    "ContractsandFiscal",
+    "<ul><li><b>Contracts & Fiscal Details</b></li></ul><hr>",
 
-Refresh(Module_EmailNotificationsLog);
-Patch(Module_EmailNotificationsLog,Defaults(Module_EmailNotificationsLog),
-{
-    Title: "New JITS SJA Case >> TOPIC",
-    EmailTo: Concat(CustInfo_Customer.SelectedItems,Email,"; "),
-    EmailCC: "shaun.c.lewis3.ctr@mail.mil", //"TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
-    EmailBCC: "",
-    EmailBody: "<p>Congratulations!</p><p>You have successfully submitted a JECC Internal Ticket System (JITS) case. &nbsp;Your JITS case is currently awaiting our HelpDesk to assign it to the appropriate technician for action. &nbsp;Please watch your emails for more communication.</p><p><a href='https://play.apps.appsplatform.us/play/e/b3f13f2d-1d9f-ef43-810d-3603e340c361/a/0aac08a6-b237-49ec-8a3e-13fa3b7f67fb?tenantId=102d0191-eeae-4761-b1cb-1a83e86ef445&amp;hint=06e9cb09-7569-458e-86f5-bb3a4df9d0be&amp;sourcetime=1722449502159'>All of your Open JITS cases can be found here.</a><br /><br />Thank you,<br />JECC Help Desk</p>",
-    EmailFrom: "TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
-    NotificationSoure: "JITS.new"
-});
+    "LaborandEmployment",
+    "<ul><li><b>Labor & Employment Details</b></li></ul><hr>",
 
+    "LegalReadiness",
+    "<ul><li><b>Legal Readiness Details</b></li></ul><hr>",
+
+    "RegulatoryStatutory",
+    "<ul><li><b>Regulatory & Statutory Details</b></li></ul><hr>",
+
+    "Operations",
+    "<ul><li><b>Operational Support Details</b></li></ul><hr>",
+
+    "International",
+    "<ul><li><b>International Law Details</b></li></ul><hr>",
+
+    "LawOfWar",
+    "<ul><li><b>Law of War Guidance</b></li></ul><hr>",
+
+    "IntelLaw",
+    "<ul><li><b>Intelligence Law Details</b></li></ul><hr>",
+
+    // Default fallback
+    "<ul><li><b>General JITS Case Notes</b></li></ul><hr>"
+)
 
