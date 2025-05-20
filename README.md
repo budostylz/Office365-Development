@@ -284,102 +284,14 @@ Set(
 
 ------------------------------
 
-CaseV6_OriginalNotes:
-Switch(
-    varNewJITSType,
+"<h3><u>Ethics Dashboard</u></h3>
+<ul>" &
 
-    "Ethics",
-    "<h3><u>Ethics Dashboard</u></h3>
-    <ul>
-        <li>Travel</li>
-        <li>Fundraiser</li>
-        <li>Gifts</li>
-        <li>Post-Government Employment</li>
-        <li>Relations with Non-Federal Entities</li>
-        <li>Use of Official Resources</li>
-    </ul>
-    <hr>" &
+If("travel" in topics, "<li>Travel</li>", "") &
+If("fundraiser" in topics, "<li>Fundraiser</li>", "") &
+If("gifts" in topics, "<li>Gifts</li>", "") &
+If("postgov" in topics, "<li>Post-Government Employment</li>", "") &
+If("relations" in topics, "<li>Relations with Non-Federal Entities</li>", "") &
+If("resources" in topics, "<li>Use of Official Resources</li>", "") &
 
-    If(
-        "travel" in topics,
-        "<h3><u>Travel Information</u></h3>
-        <ul>
-            <li>Traveler First Name: <strong>John</strong></li>
-            <li>Traveler Last Name: <strong>Doe</strong></li>
-            <li>Form of Travel: <strong>MILAIR</strong></li>
-            <li>Date Leaving: <strong>06/01/2025</strong></li>
-            <li>Date Returning: <strong>06/05/2025</strong></li>
-            <li>Destination: <strong>Germany</strong></li>
-            <li>Purpose: <strong>Joint Training Event</strong></li>
-            <li>Hosting Organization: <strong>USEUCOM</strong></li>
-            <li>Additional Official Business: <strong>Briefing Support</strong></li>
-            <li>Expected to Wear Uniform?: <strong>No</strong></li>
-            <li>Is this Event a Fundraiser?: <strong>No</strong></li>
-            <li>Training Event with ≥20% DoD Attendance?: <strong>No</strong></li>
-        </ul>
-        <hr>
-        <h3><u>Engagement & Support Info</u></h3>
-        <ul>
-            <li>Engagement hosted by DoD Contractor/NFE?: <strong>No</strong></li>
-            <li>No-cost travel benefits offered?: <strong>No</strong></li>
-            <li>Expected to receive Gift/Memento?: <strong>No</strong></li>
-            <li>Leave taken with TDY?: <strong>No</strong></li>
-            <li>Accompanied by support staff?: <strong>No</strong></li>
-            <li>Involves presenting/speaking?: <strong>No</strong></li>
-            <li>Approval Authority: <strong>COL Jane Smith</strong></li>
-            <li>POC: <strong>Mr. Mark Davis</strong></li>
-        </ul>
-        <hr>",
-        ""
-    ) &
-
-    If(
-        "fundraiser" in topics,
-        "<h3><u>Fundraiser Details</u></h3>
-        <ul>
-            <li>[Fundraiser Field 1]</li>
-            <li>[Fundraiser Field 2]</li>
-        </ul>
-        <hr>",
-        ""
-    ) &
-
-    If(
-        "gifts" in topics,
-        "<h3><u>Gift Details</u></h3>
-        <ul>
-            <li>[Gift Policy Reference]</li>
-            <li>[Gift Value Limit]</li>
-        </ul>
-        <hr>",
-        ""
-    ),
-
-    "ContractsandFiscal",
-    "<ul><li><b>Contracts & Fiscal Details</b></li></ul><hr>",
-
-    "LaborandEmployment",
-    "<ul><li><b>Labor & Employment Details</b></li></ul><hr>",
-
-    "LegalReadiness",
-    "<ul><li><b>Legal Readiness Details</b></li></ul><hr>",
-
-    "RegulatoryStatutory",
-    "<ul><li><b>Regulatory & Statutory Details</b></li></ul><hr>",
-
-    "Operations",
-    "<ul><li><b>Operational Support Details</b></li></ul><hr>",
-
-    "International",
-    "<ul><li><b>International Law Details</b></li></ul><hr>",
-
-    "LawOfWar",
-    "<ul><li><b>Law of War Guidance</b></li></ul><hr>",
-
-    "IntelLaw",
-    "<ul><li><b>Intelligence Law Details</b></li></ul><hr>",
-
-    // Default fallback
-    "<ul><li><b>General JITS Case Notes</b></li></ul><hr>"
-)
-
+"</ul><hr>"
