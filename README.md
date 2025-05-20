@@ -262,83 +262,75 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-Patch(Module_JITS,Defaults(Module_JITS),
+Patch(Module_JITS, Defaults(Module_JITS),
 {
     JITS_Control: "SJA Support",
     'Case Title': "CASE TITLE",
-    CaseV6_OriginalNotes:"<ul>
-        <li>Customer Location:&nbsp;&nbsp;<b>Customer Location</b></li>
-        <li>Customer Phone Number:&nbsp;&nbsp;<b>Customer Phone Number</b></li></ul>
-        <hr>
-            <ul>
-            <li>Office Move Request</li><ul>
-                <li> Starting Location: <strong>Starting Location</strong></li>
-                <li> Starting Date: <strong>Starting Date</strong></li>
-                <li> End Date of Move: <strong>End Date of Move</strong></li>
-                </ul>
-            <li>Capabilities:
-                <ul>
-                <li>Capabilities</li>
-                </ul>
-            <li>Equipment Requested:
-                <ul>
-                    Equipment Requested:
-                </ul>
-            </ul>
-        <hr>
-        <ul>
-        <li>Event Name:
-        <ul>
-            <li><strong>Event Name</strong></li>
-        </ul>
-    <li>Event Timeline:
-        <ul>
-            <li>Start Date:<strong>Start Date</strong></li>
-            <li>End Date:  <strong>End Date</strong></li>
-        </ul>
-    <li>Event Coordinator:
-        <ul>
-            <li>NewCaseDetails_EventSpt_Coordinator.Selected.EMPLOYEE_NAME</li>
-            <li>NewCaseDetails_EventSpt_Coordinator.Selected.EMAIL_ADDRESS</li>
-        </ul>
-    <li>Capabilities:
-        <ul>
-            <li>Capabilities</li>
-        </ul>
-    <li>Equipment Requested:
-        <ul>
-            <li>Equipment Requested</li>
-        </ul>
-    </ul>
     
-    <hr>",
+    CaseV6_OriginalNotes:
+    Switch(
+        varNewJITSType,
+        
+        "Ethics",
+        "<ul><li><b>Ethics Support Details</b></li></ul><hr>",
+
+        "ContractsandFiscal",
+        "<ul><li><b>Contracts & Fiscal Details</b></li></ul><hr>",
+
+        "LaborandEmployment",
+        "<ul><li><b>Labor & Employment Details</b></li></ul><hr>",
+
+        "LegalReadiness",
+        "<ul><li><b>Legal Readiness Details</b></li></ul><hr>",
+
+        "RegulatoryStatutory",
+        "<ul><li><b>Regulatory & Statutory Details</b></li></ul><hr>",
+
+        "Operations",
+        "<ul><li><b>Operational Support Details</b></li></ul><hr>",
+
+        "International",
+        "<ul><li><b>International Law Details</b></li></ul><hr>",
+
+        "LawOfWar",
+        "<ul><li><b>Law of War Guidance</b></li></ul><hr>",
+
+        "IntelLaw",
+        "<ul><li><b>Intelligence Law Details</b></li></ul><hr>",
+
+        // Default (optional)
+        "<ul><li><b>General JITS Case Notes</b></li></ul><hr>"
+    ),
+
     CaseV6_JSON:
-"{""Customers"":
-    ["&Concat(CustInfo_Customer.SelectedItems,"{
-            ""DisplayName"": """&DisplayName&""",
-            ""Email"": """&Email&""",
-            ""Claims"": ""i:0#.f|membership|"&Email&""",
-            ""Department"": """",
-            ""JobTitle"": """",
-            ""Picture"": """"
-    }",",
-    ")&"],
-""CustomerOrg"": ""CustomerOrg"",
-""VIP"": """ & CustInfo_VIP.Selected.Value & """,
-""Priority"": """ & CustInfo_Priority.Selected.Value & """,
-""TargetCloseDT"": """ & CaseDetails_DueDT.SelectedDate & """,
-""AsgnToOrg"": ""JECC | Special Staff"",
-""AsgnToLead"": {},
-""AsgnToPersonnel"":
-    [],
-""Status"": ""Open - New"",
-""CaseHold"": ""-"",
-""CaseDetermination"": """",
-""CompletedDate"": """",
-""CompletedBy"": {}
-}"
-}/*,NewCaseDetails_Attach_form.Updates*/);
- 
+    "{
+        ""Customers"": [" & Concat(
+            CustInfo_Customer.SelectedItems,
+            "{
+                ""DisplayName"": """ & DisplayName & """,
+                ""Email"": """ & Email & """,
+                ""Claims"": ""i:0#.f|membership|" & Email & """,
+                ""Department"": """",
+                ""JobTitle"": """",
+                ""Picture"": """"
+            }",
+            ","
+        ) & "],
+        ""CustomerOrg"": ""CustomerOrg"",
+        ""VIP"": """ & CustInfo_VIP.Selected.Value & """,
+        ""Priority"": """ & CustInfo_Priority.Selected.Value & """,
+        ""TargetCloseDT"": """ & CaseDetails_DueDT.SelectedDate & """,
+        ""AsgnToOrg"": ""JECC | Special Staff"",
+        ""AsgnToLead"": {},
+        ""AsgnToPersonnel"": [],
+        ""Status"": ""Open - New"",
+        ""CaseHold"": ""-"",
+        ""CaseDetermination"": """",
+        ""CompletedDate"": """",
+        ""CompletedBy"": {}
+    }"
+});
+
 Refresh(Module_EmailNotificationsLog);
 Patch(Module_EmailNotificationsLog,Defaults(Module_EmailNotificationsLog),
 {
