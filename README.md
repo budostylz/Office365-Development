@@ -283,44 +283,43 @@ Set(
 
 
 ------------------------------
-<h3><u>Ethics Dashboard</u></h3>
+<h3><u>Fundraiser Information</u></h3>
 <ul>
-    <li>Travel</li>
-    <li>Fundraiser</li>
-    <li>Gifts</li>
-    <li>Post-Government Employment</li>
-    <li>Relations with Non-Federal Entities</li>
-    <li>Use of Official Resources</li>
+    <li>Requesting Organization or Directorate(s): <strong>[Requesting Organization]</strong></li>
+    <li>Date of Calendar Year Fundraiser #1: <strong>[Date1]</strong></li>
+    <li>Additional Fundraiser Date (Limit: 3 per quarter): <strong>[Date2]</strong></li>
+    <li>Event Date: <strong>[Event Date]</strong></li>
+    <li>Event Time: <strong>[Hour]:[Minute]</strong></li>
+    <li>Location of Fundraiser: <strong>[Location]</strong></li>
+    <li>Type of Fundraiser: <strong>[Type]</strong></li>
+    <li>Purpose of Fundraiser: <strong>[Purpose]</strong></li>
+    <li>Who is running the event / Who is your target audience?: <strong>[Target Audience]</strong></li>
+    <li>Is the requesting PO primarily made up of DoD members?: <strong>[Yes/No]</strong></li>
+    <li>Public Health office approval (if food involved)?: <strong>[Yes/No]</strong></li>
+    <li>Facilities Manager consulted (if applicable)?: <strong>[Yes/No]</strong></li>
+    <li>Does the event involve a raffle or game of chance?: <strong>[Yes/No]</strong></li>
+    <li>POC Name: <strong>[POC Name]</strong></li>
+    <li>POC Phone Number: <strong>[POC Phone]</strong></li>
 </ul>
 <hr>
 
-<h3><u>Travel Information</u></h3>
-<ul>
-    <li>Traveler First Name: <strong>John</strong></li>
-    <li>Traveler Last Name: <strong>Doe</strong></li>
-    <li>Form of Travel: <strong>MILAIR</strong></li>
-    <li>Date Leaving: <strong>06/01/2025</strong></li>
-    <li>Date Returning: <strong>06/05/2025</strong></li>
-    <li>Destination: <strong>Germany</strong></li>
-    <li>Purpose: <strong>Joint Training Event</strong></li>
-    <li>Hosting Organization: <strong>USEUCOM</strong></li>
-    <li>Additional Official Business: <strong>Briefing Support</strong></li>
-    <li>Expected to Wear Uniform?: <strong>No</strong></li>
-    <li>Is this Event a Fundraiser?: <strong>No</strong></li>
-    <li>Training Event with ≥20% DoD Attendance?: <strong>No</strong></li>
-</ul>
-<hr>
 
-<h3><u>Engagement & Support Info</u></h3>
+<h3><u>Gift Information</u></h3>
 <ul>
-    <li>Engagement hosted by DoD Contractor/NFE?: <strong>No</strong></li>
-    <li>No-cost travel benefits offered?: <strong>No</strong></li>
-    <li>Expected to receive Gift/Memento?: <strong>No</strong></li>
-    <li>Leave taken with TDY?: <strong>No</strong></li>
-    <li>Accompanied by support staff?: <strong>No</strong></li>
-    <li>Involves presenting/speaking?: <strong>No</strong></li>
-    <li>Approval Authority: <strong>COL Jane Smith</strong></li>
-    <li>POC: <strong>Mr. Mark Davis</strong></li>
+    <li>Gift: <strong>[Gift Title]</strong></li>
+    <li>Gift Description: <strong>[Gift Description]</strong></li>
+    <li>Presented to: <strong>[Presented To]</strong></li>
+    <li>Presented by: <strong>[Presented By]</strong></li>
+    <li>Date Received: <strong>[Date Received]</strong></li>
+    <li>Gift Value: <strong>[Gift Value]</strong></li>
+    <li>Occasion or Event: <strong>[Occasion or Event]</strong></li>
+    <li>Foreign or Domestic?: <strong>[Foreign or Domestic]</strong></li>
+    <li>Disposition (Domestic): <strong>[Domestic Disposition]</strong></li>
+    <li>Price: <strong>[Price]</strong></li>
+    <li>Disposition (Foreign, less than $480): <strong>[Foreign <$480]</strong></li>
+    <li>Disposition (Foreign, more than $480): <strong>[Foreign >$480]</strong></li>
+    <li>POC: <strong>[POC Name]</strong></li>
+    <li>POC Number: <strong>[POC Number]</strong></li>
 </ul>
 <hr>
 
