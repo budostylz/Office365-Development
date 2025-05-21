@@ -265,35 +265,17 @@ yo @microsoft/sharepoint --skip install
 
 
 
+"""AsgnToPersonnel"": [" & 
+Concat(
+    colM365memberSJA,
+    "{
+        ""DisplayName"": """ & displayName & """,
+        ""Email"": """ & mail & """,
+        ""Claims"": ""i:0#.f|membership|" & mail & """,
+        ""Department"": """",
+        ""JobTitle"": """",
+        ""Picture"": """"
+    }",
+    ","
+) & "]"
 
-Set(
-    topics,
-    ShowColumns(
-        Filter(
-            Table(
-                {Value: "travel", Selected: chkTravel.Value},
-                {Value: "fundraiser", Selected: chkFundraiser.Value},
-                {Value: "gifts", Selected: chkGifts.Value}
-            ),
-            Selected
-        ),
-        "Value"
-    )
-)
-
-ClearCollect(colM365memberSJA,Office365Groups.ListGroupMembers("e777b156-9a99-4051-abd6-7a2189c8f8f3",{top: 999}).value);
-
-"{""Customers"":
-    ["&Concat(CustInfo_Customer.SelectedItems,"{
-            ""DisplayName"": """&DisplayName&""",
-            ""Email"": """&Email&""",
-            ""Claims"": ""i:0#.f|membership|"&Email&""",
-            ""Department"": """",
-            ""JobTitle"": """",
-            ""Picture"": """"
-    }",",
-    ")&"],
-
-
-""AsgnToPersonnel"":
-    [],
