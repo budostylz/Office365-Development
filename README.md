@@ -281,45 +281,10 @@ Set(
     )
 )
 
+ClearCollect(colM365memberSJA,Office365Groups.ListGroupMembers("e777b156-9a99-4051-abd6-7a2189c8f8f3",{top: 999}).value);
+//Assign to Personnel
+//JECC-HQ-SJA
 
-------------------------------
-<h3><u>Fundraiser Information</u></h3>
-<ul>
-    <li>Requesting Organization or Directorate(s): <strong>[Requesting Organization]</strong></li>
-    <li>Date of Calendar Year Fundraiser #1: <strong>[Date1]</strong></li>
-    <li>Additional Fundraiser Date (Limit: 3 per quarter): <strong>[Date2]</strong></li>
-    <li>Event Date: <strong>[Event Date]</strong></li>
-    <li>Event Time: <strong>[Hour]:[Minute]</strong></li>
-    <li>Location of Fundraiser: <strong>[Location]</strong></li>
-    <li>Type of Fundraiser: <strong>[Type]</strong></li>
-    <li>Purpose of Fundraiser: <strong>[Purpose]</strong></li>
-    <li>Who is running the event / Who is your target audience?: <strong>[Target Audience]</strong></li>
-    <li>Is the requesting PO primarily made up of DoD members?: <strong>[Yes/No]</strong></li>
-    <li>Public Health office approval (if food involved)?: <strong>[Yes/No]</strong></li>
-    <li>Facilities Manager consulted (if applicable)?: <strong>[Yes/No]</strong></li>
-    <li>Does the event involve a raffle or game of chance?: <strong>[Yes/No]</strong></li>
-    <li>POC Name: <strong>[POC Name]</strong></li>
-    <li>POC Phone Number: <strong>[POC Phone]</strong></li>
-</ul>
-<hr>
-
-
-<h3><u>Gift Information</u></h3>
-<ul>
-    <li>Gift: <strong>[Gift Title]</strong></li>
-    <li>Gift Description: <strong>[Gift Description]</strong></li>
-    <li>Presented to: <strong>[Presented To]</strong></li>
-    <li>Presented by: <strong>[Presented By]</strong></li>
-    <li>Date Received: <strong>[Date Received]</strong></li>
-    <li>Gift Value: <strong>[Gift Value]</strong></li>
-    <li>Occasion or Event: <strong>[Occasion or Event]</strong></li>
-    <li>Foreign or Domestic?: <strong>[Foreign or Domestic]</strong></li>
-    <li>Disposition (Domestic): <strong>[Domestic Disposition]</strong></li>
-    <li>Price: <strong>[Price]</strong></li>
-    <li>Disposition (Foreign, less than $480): <strong>[Foreign <$480]</strong></li>
-    <li>Disposition (Foreign, more than $480): <strong>[Foreign >$480]</strong></li>
-    <li>POC: <strong>[POC Name]</strong></li>
-    <li>POC Number: <strong>[POC Number]</strong></li>
-</ul>
-<hr>
-
+ClearCollect(colM365memberADMIN,Office365Groups.ListGroupMembers("3b331b3f-234c-429e-bdcc-2fc1562b9b3c",{top:999}).value);
+RemoveIf(colM365memberSJA,mail in colM365memberADMIN.mail);
+//JECC-SPO-Admin
