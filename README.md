@@ -282,9 +282,18 @@ Set(
 )
 
 ClearCollect(colM365memberSJA,Office365Groups.ListGroupMembers("e777b156-9a99-4051-abd6-7a2189c8f8f3",{top: 999}).value);
-//Assign to Personnel
-//JECC-HQ-SJA
 
-ClearCollect(colM365memberADMIN,Office365Groups.ListGroupMembers("3b331b3f-234c-429e-bdcc-2fc1562b9b3c",{top:999}).value);
-RemoveIf(colM365memberSJA,mail in colM365memberADMIN.mail);
-//JECC-SPO-Admin
+"{""Customers"":
+    ["&Concat(CustInfo_Customer.SelectedItems,"{
+            ""DisplayName"": """&DisplayName&""",
+            ""Email"": """&Email&""",
+            ""Claims"": ""i:0#.f|membership|"&Email&""",
+            ""Department"": """",
+            ""JobTitle"": """",
+            ""Picture"": """"
+    }",",
+    ")&"],
+
+
+""AsgnToPersonnel"":
+    [],
