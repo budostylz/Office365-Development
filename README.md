@@ -284,6 +284,9 @@ Set(showLegalHeader2,false);
 Set(headerText, "");
 
 //Due Date
+
+
+// Step 1: Set all individual date variables
 Set(ethicsDate, Today());
 Set(contractsDate, Today());
 Set(laborDate, Today());
@@ -296,22 +299,19 @@ Set(internationalDate, Today());
 Set(lawOfWarDate, Today());
 Set(intelDate, Today());
 
-
+// Step 2: Build the collection (no duplicates)
 ClearCollect(dateByType,
     { type: "Ethics", date: ethicsDate },
     { type: "ContractsandFiscal", date: contractsDate },
     { type: "LaborandEmployment", date: laborDate },
-
     { type: "LegalReadiness", date: legalDate },
     { type: "RegulatoryStatutory", date: regDate },
     { type: "Operations", date: opsDate },
-    
-    { type: "LegalReadiness", date: legalDate },
-    { type: "RegulatoryStatutory", date: regDate },
-    { type: "Operations", date: opsDate }
-
-
+    { type: "International", date: internationalDate },
+    { type: "LawofWar", date: lawOfWarDate },
+    { type: "IntelLaw", date: intelDate }
 );
+
 
 
 
