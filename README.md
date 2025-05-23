@@ -263,19 +263,16 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
+Switch(varNewJITStype,
+    "Ethics",  Set(EthicsDesc, CaseDetails_Desc_HtmlEditor.HtmlText); CaseDetails_Desc_HtmlEditor.HtmlText=EthicsDesc,
+    "ContractsandFiscal",Set(ContractsandFiscalDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=ContractsandFiscalDesc,
+    "LaborandEmployment",Set(LaborandEmploymentDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=LaborandEmploymentDesc,
+    "LegalReadiness",Set(LegalReadinessDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=LegalReadinessDesc,
+    "RegulatoryStatutory",Set(RegulatoryStatutoryDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=RegulatoryStatutoryDesc,
+    "Operations",Set(OperationsDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=OperationsDesc,
+    "International",Set(InternationalDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=InternationalDesc,
+    "LawofWar", Set(LawofWarDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=LawofWarDesc,
+    "IntelLaw",Set(IntelLawDesc, CaseDetails_Desc_HtmlEditor.HtmlText);CaseDetails_Desc_HtmlEditor.HtmlText=IntelLawDesc
+);
 
-
-"""AsgnToPersonnel"": [" & 
-Concat(
-    colM365memberSJA,
-    "{
-        ""DisplayName"": """ & displayName & """,
-        ""Email"": """ & mail & """,
-        ""Claims"": ""i:0#.f|membership|" & mail & """,
-        ""Department"": """",
-        ""JobTitle"": """",
-        ""Picture"": """"
-    }",
-    ","
-) & "]"
 
