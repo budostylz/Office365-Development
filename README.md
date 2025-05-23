@@ -280,4 +280,38 @@ Patch(
 
 
 
+Set(showLegalHeader2,false);
+Set(headerText, "");
+
+//Due Date
+Set(ethicsDate, Today());
+Set(contractsDate, Today());
+Set(laborDate, Today());
+
+Set(legalDate, Today());
+Set(regDate, Today());
+Set(opsDate, Today());
+
+Set(internationalDate, Today());
+Set(lawOfWarDate, Today());
+Set(intelDate, Today());
+
+
+ClearCollect(dateByType,
+    { type: "Ethics", date: ethicsDate },
+    { type: "ContractsandFiscal", date: contractsDate },
+    { type: "LaborandEmployment", date: laborDate },
+
+    { type: "LegalReadiness", date: legalDate },
+    { type: "RegulatoryStatutory", date: regDate },
+    { type: "Operations", date: opsDate },
+    
+    { type: "LegalReadiness", date: legalDate },
+    { type: "RegulatoryStatutory", date: regDate },
+    { type: "Operations", date: opsDate }
+
+
+);
+
+
 
