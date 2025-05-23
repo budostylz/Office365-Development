@@ -263,74 +263,12 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-If(
-    varNewJITStype = "Ethics",
-    Set(EthicsDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = EthicsDesc,
-
-    varNewJITStype = "ContractsandFiscal",
-    Set(ContractsandFiscalDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = ContractsandFiscalDesc,
-
-    varNewJITStype = "LaborandEmployment",
-    Set(LaborandEmploymentDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = LaborandEmploymentDesc,
-
-    varNewJITStype = "LegalReadiness",
-    Set(LegalReadinessDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = LegalReadinessDesc,
-
-    varNewJITStype = "RegulatoryStatutory",
-    Set(RegulatoryStatutoryDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = RegulatoryStatutoryDesc,
-
-    varNewJITStype = "Operations",
-    Set(OperationsDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = OperationsDesc,
-
-    varNewJITStype = "International",
-    Set(InternationalDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = InternationalDesc,
-
-    varNewJITStype = "LawofWar",
-    Set(LawofWarDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = LawofWarDesc,
-
-    varNewJITStype = "IntelLaw",
-    Set(IntelLawDesc, CaseDetails_Desc_HtmlEditor.HtmlText);
-    CaseDetails_Desc_HtmlEditor.HtmlText = IntelLawDesc
-)
+Set(varNewJITStype, "Ethics");
+Set(CaseDetails_Desc_HtmlEditor.HtmlText, EthicsDesc)
 
 
-
-If(
-    varNewJITStype = "Ethics",
-    CaseDetails_Desc_HtmlEditor.HtmlText = EthicsDesc,
-
-    varNewJITStype = "ContractsandFiscal",
-    CaseDetails_Desc_HtmlEditor.HtmlText = ContractsandFiscalDesc,
-
-    varNewJITStype = "LaborandEmployment",
-    CaseDetails_Desc_HtmlEditor.HtmlText = LaborandEmploymentDesc,
-
-    varNewJITStype = "LegalReadiness",
-    CaseDetails_Desc_HtmlEditor.HtmlText = LegalReadinessDesc,
-
-    varNewJITStype = "RegulatoryStatutory",
-    CaseDetails_Desc_HtmlEditor.HtmlText = RegulatoryStatutoryDesc,
-
-    varNewJITStype = "Operations",
-    CaseDetails_Desc_HtmlEditor.HtmlText = OperationsDesc,
-
-    varNewJITStype = "International",
-    CaseDetails_Desc_HtmlEditor.HtmlText = InternationalDesc,
-
-    varNewJITStype = "LawofWar",
-    CaseDetails_Desc_HtmlEditor.HtmlText = LawofWarDesc,
-
-    varNewJITStype = "IntelLaw",
-    CaseDetails_Desc_HtmlEditor.HtmlText = IntelLawDesc
-)
+Set(varNewJITStype, "ContractsandFiscal");
+Set(CaseDetails_Desc_HtmlEditor.HtmlText, ContractsandFiscalDesc)
 
 
 
