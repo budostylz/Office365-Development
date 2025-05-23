@@ -267,42 +267,24 @@ yo @microsoft/sharepoint --skip install
 
 
 
-Set(ethicsDesc, "<p>Type ethics content here...</p>");
-Set(contractsDesc, "<p>Contracts description</p>");
-Set(laborDesc, "<p>Labor guidance</p>");
-Set(legalDesc, "");
-Set(regDesc, "");
-Set(opsDesc, "");
-Set(internationalDesc, "");
-Set(lawofwarDesc, "");
-Set(intelDesc, "");
-
-ClearCollect(descByType,
-    { type: "Ethics", desc: ethicsDesc },
-    { type: "ContractsandFiscal", desc: contractsDesc },
-    { type: "LaborandEmployment", desc: laborDesc },
-    { type: "LegalReadiness", desc: legalDesc },
-    { type: "RegulatoryStatutory", desc: regDesc },
-    { type: "Operations", desc: opsDesc },
-    { type: "International", desc: internationalDesc },
-    { type: "LawofWar", desc: lawofwarDesc },
-    { type: "IntelLaw", desc: intelDesc }
-)
-
-Default = LookUp(descByType, type = varNewJITStype, desc)
+// Set the initial section
+Set(varNewJITStype, "Ethics");
+Set(currentJITSdesc, LookUp(descByType, type = varNewJITStype, desc));
 
 
 
 
-// Save current content
+currentJITSdesc
+
+
+
+// Save current value to the collection
 Patch(
     descByType,
     LookUp(descByType, type = varNewJITStype),
     { desc: CaseDetails_Desc_HtmlEditor.HtmlText }
 );
 
-// Switch section and load content
+// Update new type and load its saved content
 Set(varNewJITStype, "Ethics");
-Reset(CaseDetails_Desc_HtmlEditor)
-
-
+Set(currentJITSdesc, LookUp(descByType, type = "Ethics", desc))
