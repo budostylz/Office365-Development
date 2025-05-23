@@ -263,12 +263,21 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-Set(varNewJITStype, "Ethics");
-Set(CaseDetails_Desc_HtmlEditor.HtmlText, EthicsDesc)
+ClearCollect(dateByType,
+    { type: "travel", date: travelDate },
+    { type: "fundraiser", date: fundraiserDate },
+    { type: "gifts", date: giftsDate }
+)
 
 
-Set(varNewJITStype, "ContractsandFiscal");
-Set(CaseDetails_Desc_HtmlEditor.HtmlText, ContractsandFiscalDesc)
+LookUp(dateByType, type = varNewJITStype, date)
+
+Patch(
+    dateByType,
+    LookUp(dateByType, type = varNewJITStype),
+    { date: Self.SelectedDate }
+)
+
 
 
 
