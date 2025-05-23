@@ -264,10 +264,19 @@ yo @microsoft/sharepoint --skip install
 
 
 
-Good morning!  You're listed as one of the admin members on our new M365 group:
-JECC-JPSE-JPC@groups.mail.mil
- 
-I have some questions for you when you have a chance:
-We intend to use this on our public-facing JECC Joint Planners Course webpage (link below)...is that okay?  I enabled "Let people outside the organization email the group" and we tested its functionality (it worked), but I want to verify that we're allowed to post an internal M365 group email address on a DoD website before doing so.
-If able to post on the JECC website, to make it more official looking can we change the domain from "groups.mail.mil" to "mail.mil" (and still retain its group functionality)?
-Thank you for any assistance you can provide!
+Good morning Clifford,
+
+Thank you for reaching out.
+
+To address your questions:
+
+Posting on the Public Website: While external emailing has been successfully enabled for the M365 group, posting a groups.mail.mil address on a public-facing DoD website may have policy implications. I recommend confirming with your cybersecurity or public affairs office to ensure compliance with organizational guidance regarding exposure of internal group addresses.
+
+Domain Change Request: The groups.mail.mil domain is specific to Microsoft 365 Groups and cannot be altered to mail.mil without fundamentally changing the group type and potentially losing collaborative features. If you require a more formal email address, consider requesting a mail.mil shared mailbox or distribution list, which can then be configured to forward to the group as needed.
+
+For further assistance and to explore options specific to your unit’s configuration and policies, please submit a JITTS ticket. The JITTS team can provide detailed support and help coordinate any changes with the appropriate administrators.
+
+Let me know if I can support you with the ticket or provide any additional information.
+
+Best regards,
+Shaun Lewis
