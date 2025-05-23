@@ -264,21 +264,10 @@ yo @microsoft/sharepoint --skip install
 
 
 
-
-
-// Step 1: Store the old type in a temporary variable (before clearing!)
-Set(prevType, varNewJITStype);
-
-// Step 2: Save current content tied to the previous type
-Patch(
-    descByType,
-    LookUp(descByType, type = prevType),
-    { desc: CaseDetails_Desc_HtmlEditor.HtmlText }
-);
-
-// Step 3: Now switch the view
-Set(varNewJITStype, "ContractsandFiscal");
-
-// Step 4: Load new content for the new view
-Set(currentJITSdesc, LookUp(descByType, type = "ContractsandFiscal", desc));
-
+Good morning!  You're listed as one of the admin members on our new M365 group:
+JECC-JPSE-JPC@groups.mail.mil
+ 
+I have some questions for you when you have a chance:
+We intend to use this on our public-facing JECC Joint Planners Course webpage (link below)...is that okay?  I enabled "Let people outside the organization email the group" and we tested its functionality (it worked), but I want to verify that we're allowed to post an internal M365 group email address on a DoD website before doing so.
+If able to post on the JECC website, to make it more official looking can we change the domain from "groups.mail.mil" to "mail.mil" (and still retain its group functionality)?
+Thank you for any assistance you can provide!
