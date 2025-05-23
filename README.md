@@ -263,65 +263,46 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-ClearCollect(dateByType,
-    { type: "travel", date: travelDate },
-    { type: "fundraiser", date: fundraiserDate },
-    { type: "gifts", date: giftsDate }
+
+
+
+
+Set(ethicsDesc, "<p>Type ethics content here...</p>");
+Set(contractsDesc, "<p>Contracts description</p>");
+Set(laborDesc, "<p>Labor guidance</p>");
+Set(legalDesc, "");
+Set(regDesc, "");
+Set(opsDesc, "");
+Set(internationalDesc, "");
+Set(lawofwarDesc, "");
+Set(intelDesc, "");
+
+ClearCollect(descByType,
+    { type: "Ethics", desc: ethicsDesc },
+    { type: "ContractsandFiscal", desc: contractsDesc },
+    { type: "LaborandEmployment", desc: laborDesc },
+    { type: "LegalReadiness", desc: legalDesc },
+    { type: "RegulatoryStatutory", desc: regDesc },
+    { type: "Operations", desc: opsDesc },
+    { type: "International", desc: internationalDesc },
+    { type: "LawofWar", desc: lawofwarDesc },
+    { type: "IntelLaw", desc: intelDesc }
 )
 
+Default = LookUp(descByType, type = varNewJITStype, desc)
 
-LookUp(dateByType, type = varNewJITStype, date)
 
+
+
+// Save current content
 Patch(
-    dateByType,
-    LookUp(dateByType, type = varNewJITStype),
-    { date: Self.SelectedDate }
-)
-
-
-
-Set(showLegalHeader2,false);
-Set(headerText, "");
-
-//Due Date
-
-
-// Step 1: Set all individual date variables
-Set(ethicsDate, Today());
-Set(contractsDate, Today());
-Set(laborDate, Today());
-
-Set(legalDate, Today());
-Set(regDate, Today());
-Set(opsDate, Today());
-
-Set(internationalDate, Today());
-Set(lawOfWarDate, Today());
-Set(intelDate, Today());
-
-// Step 2: Build the collection (no duplicates)
-ClearCollect(dateByType,
-    { type: "Ethics", date: ethicsDate },
-    { type: "ContractsandFiscal", date: contractsDate },
-    { type: "LaborandEmployment", date: laborDate },
-    { type: "LegalReadiness", date: legalDate },
-    { type: "RegulatoryStatutory", date: regDate },
-    { type: "Operations", date: opsDate },
-    { type: "International", date: internationalDate },
-    { type: "LawofWar", date: lawOfWarDate },
-    { type: "IntelLaw", date: intelDate }
+    descByType,
+    LookUp(descByType, type = varNewJITStype),
+    { desc: CaseDetails_Desc_HtmlEditor.HtmlText }
 );
 
-
-
-LookUp(dateByType, type = varNewJITStype, date)
-
-
-Patch(
-    dateByType,
-    LookUp(dateByType, type = varNewJITStype),
-    { date: Self.SelectedDate }
-)
-
+// Switch section and load content
+Set(varNewJITStype, "Ethics");
+Reset(CaseDetails_Desc_HtmlEditor)
 
 
