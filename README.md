@@ -263,67 +263,9 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-ClearCollect(attachmentsByType,
-    { type: "Ethics", files: Table() },
-    { type: "ContractsandFiscal", files: Table() },
-    { type: "LaborandEmployment", files: Table() },
-    { type: "LegalReadiness", files: Table() },
-    { type: "RegulatoryStatutory", files: Table() },
-    { type: "Operations", files: Table() },
-    { type: "International", files: Table() },
-    { type: "LawofWar", files: Table() },
-    { type: "IntelLaw", files: Table() }
-);
 
-Set(varActiveView, "Ethics");
-Set(currentAttachments, LookUp(attachmentsByType, type = varActiveView, files));
-
--------------------------
-currentAttachments
-
-
-------------------------
-OnAddFile
-
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: Collect(
-            LookUp(attachmentsByType, type = varActiveView, files),
-            Self.Attachments
-        )
-    }
-);
-Set(currentAttachments, LookUp(attachmentsByType, type = varActiveView, files));
-
---------------------------
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: Remove(
-            LookUp(attachmentsByType, type = varActiveView, files),
-            Self.Selected
-        )
-    }
-);
-Set(currentAttachments, LookUp(attachmentsByType, type = varActiveView, files));
-
-
-----------------------------
-
-// Save current attachments
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    { files: DataCardValue44.Attachments }
-);
-
-// Change view
-Set(varActiveView, "ContractsandFiscal");
-
-// Load attachments for new section
-Set(currentAttachments, LookUp(attachmentsByType, type = "ContractsandFiscal", files));
-
+With(
+    { a: LookUp(attachmentsByType, type = varActiveView, files) },
+    Table(a) // wrap to force new memory reference
+)
 
