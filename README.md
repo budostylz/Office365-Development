@@ -264,10 +264,21 @@ yo @microsoft/sharepoint --skip install
 
 
 
+
+
+// Step 1: Store the old type in a temporary variable (before clearing!)
+Set(prevType, varNewJITStype);
+
+// Step 2: Save current content tied to the previous type
 Patch(
     descByType,
-    LookUp(descByType, type = varNewJITStype),
-    { desc: Self.HtmlText }
+    LookUp(descByType, type = prevType),
+    { desc: CaseDetails_Desc_HtmlEditor.HtmlText }
 );
-Set(currentJITSdesc, Self.HtmlText);
+
+// Step 3: Now switch the view
+Set(varNewJITStype, "ContractsandFiscal");
+
+// Step 4: Load new content for the new view
+Set(currentJITSdesc, LookUp(descByType, type = "ContractsandFiscal", desc));
 
