@@ -264,27 +264,10 @@ yo @microsoft/sharepoint --skip install
 
 
 
-
-
-
-// Set the initial section
-Set(varNewJITStype, "Ethics");
-Set(currentJITSdesc, LookUp(descByType, type = varNewJITStype, desc));
-
-
-
-
-currentJITSdesc
-
-
-
-// Save current value to the collection
 Patch(
     descByType,
     LookUp(descByType, type = varNewJITStype),
-    { desc: CaseDetails_Desc_HtmlEditor.HtmlText }
+    { desc: Self.HtmlText }
 );
+Set(currentJITSdesc, Self.HtmlText);
 
-// Update new type and load its saved content
-Set(varNewJITStype, "Ethics");
-Set(currentJITSdesc, LookUp(descByType, type = "Ethics", desc))
