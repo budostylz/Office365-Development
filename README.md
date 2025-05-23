@@ -314,4 +314,14 @@ ClearCollect(dateByType,
 
 
 
+LookUp(dateByType, type = varNewJITStype, date)
+
+
+Patch(
+    dateByType,
+    LookUp(dateByType, type = varNewJITStype),
+    { date: Self.SelectedDate }
+)
+
+
 
