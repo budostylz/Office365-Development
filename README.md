@@ -263,9 +263,55 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-
-With(
-    { a: LookUp(attachmentsByType, type = varActiveView, files) },
-    Table(a) // wrap to force new memory reference
+//Add
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: Concat(
+            ForAll(
+                DataCardValue44.Attachments,
+                {
+                    Name: ThisRecord.Name,
+                    Value: ThisRecord,
+                    deleted: false
+                }
+            ),
+            Value
+        )
+    }
 )
+
+
+
+
+
+//Remove
+
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                ThisRecord.Name = DataCardValue44.LastRemoved.Name,
+                Patch(ThisRecord, { deleted: true }),
+                ThisRecord
+            )
+        )
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
 
