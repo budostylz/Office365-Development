@@ -303,3 +303,34 @@ If(
 
 
 
+If(
+    varNewJITStype = "Ethics",
+    CaseDetails_Desc_HtmlEditor.HtmlText = EthicsDesc,
+
+    varNewJITStype = "ContractsandFiscal",
+    CaseDetails_Desc_HtmlEditor.HtmlText = ContractsandFiscalDesc,
+
+    varNewJITStype = "LaborandEmployment",
+    CaseDetails_Desc_HtmlEditor.HtmlText = LaborandEmploymentDesc,
+
+    varNewJITStype = "LegalReadiness",
+    CaseDetails_Desc_HtmlEditor.HtmlText = LegalReadinessDesc,
+
+    varNewJITStype = "RegulatoryStatutory",
+    CaseDetails_Desc_HtmlEditor.HtmlText = RegulatoryStatutoryDesc,
+
+    varNewJITStype = "Operations",
+    CaseDetails_Desc_HtmlEditor.HtmlText = OperationsDesc,
+
+    varNewJITStype = "International",
+    CaseDetails_Desc_HtmlEditor.HtmlText = InternationalDesc,
+
+    varNewJITStype = "LawofWar",
+    CaseDetails_Desc_HtmlEditor.HtmlText = LawofWarDesc,
+
+    varNewJITStype = "IntelLaw",
+    CaseDetails_Desc_HtmlEditor.HtmlText = IntelLawDesc
+)
+
+
+
