@@ -263,82 +263,18 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-Patch(
+ClearCollect(
     attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: DisplayName,
-                Value: ThisRecord,
-                deleted: false
-            }
-        )
-    }
-)
-
-
-
-
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: ForAll(
-            LookUp(attachmentsByType, type = varActiveView).files,
-            If(
-                ThisRecord.Name = RemovedFile.Name,
-                Patch(ThisRecord, { deleted: true }),
-                ThisRecord
-            )
-        )
-    }
-)
-
-
-Filter(
-    LookUp(attachmentsByType, type = varActiveView).files,
-    !deleted
-)
-
-
-
-
-// STEP 1: Format the attachments as records with Name, Value, and deleted fields
-With(
-    {
-        formattedFiles: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: ThisRecord.Name,
-                Value: ThisRecord,
-                deleted: false
-            }
-        )
-    },
-    
-    // STEP 2: Save current section attachments
-    Patch(
-        attachmentsByType,
-        LookUp(attachmentsByType, type = varActiveView),
-        { files: formattedFiles }
-    )
+    { type: "Ethics", files: Table() },
+    { type: "ContractsandFiscal", files: Table() },
+    { type: "LaborandEmployment", files: Table() },
+    { type: "LegalReadiness", files: Table() },
+    { type: "RegulatoryStatutory", files: Table() },
+    { type: "Operations", files: Table() },
+    { type: "International", files: Table() },
+    { type: "LawofWar", files: Table() },
+    { type: "IntelLaw", files: Table() }
 );
-
-// STEP 3: Switch view and load next section's attachments
-Set(varActiveView, "Ethics"); // update this as needed
-
-Set(
-    currentAttachments,
-    Filter(
-        LookUp(attachmentsByType, type = varActiveView).files,
-        !deleted
-    )
-);
-
-
-
 
 
 
