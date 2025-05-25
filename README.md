@@ -263,18 +263,45 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-ClearCollect(
+Patch(
     attachmentsByType,
-    { type: "Ethics", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "ContractsandFiscal", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LaborandEmployment", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LegalReadiness", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "RegulatoryStatutory", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "Operations", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "International", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LawofWar", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "IntelLaw", files: Table({ Name: "", Value: Blank(), deleted: false }) }
-);
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            DataCardValue44.Attachments,
+            {
+                Name: DisplayName,
+                Value: ThisRecord,
+                deleted: false
+            }
+        )
+    }
+)
+
+
+
+
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                ThisRecord.Name = RemovedFile.Name,
+                Patch(ThisRecord, { deleted: true }),
+                ThisRecord
+            )
+        )
+    }
+)
+
+
+Filter(
+    LookUp(attachmentsByType, type = varActiveView).files,
+    !deleted
+)
+
 
 
 
