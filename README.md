@@ -264,6 +264,8 @@ yo @microsoft/sharepoint --skip install
 
 
 
+Set(RemovedFile, ThisItem);
+
 Patch(
     attachmentsByType,
     LookUp(attachmentsByType, type = varActiveView),
@@ -285,7 +287,8 @@ Patch(
             )
         )
     }
-)
+);
+
 
 
 
