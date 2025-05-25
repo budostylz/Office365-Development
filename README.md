@@ -266,6 +266,8 @@ yo @microsoft/sharepoint --skip install
 
 Set(RemovedFile, ThisItem);
 
+Set(RemovedFile, ThisItem);
+
 Patch(
     attachmentsByType,
     LookUp(attachmentsByType, type = varActiveView),
@@ -273,21 +275,14 @@ Patch(
         files: ForAll(
             LookUp(attachmentsByType, type = varActiveView).files,
             If(
-                ThisRecord.Name = RemovedFile.Name,
-                {
-                    Name: ThisRecord.Name,
-                    Value: ThisRecord.Value,
-                    deleted: true
-                },
-                {
-                    Name: ThisRecord.Name,
-                    Value: ThisRecord.Value,
-                    deleted: Coalesce(ThisRecord.deleted, false)
-                }
+                JSON(ThisRecord) = JSON(RemovedFile),
+                Patch(ThisRecord, { deleted: true }),
+                Patch(ThisRecord, { deleted: Coalesce(ThisRecord.deleted, false) })
             )
         )
     }
 )
+
 
 
 
