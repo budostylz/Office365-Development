@@ -275,13 +275,14 @@ Patch(
         files: ForAll(
             LookUp(attachmentsByType, type = varActiveView).files,
             If(
-                JSON(ThisRecord) = JSON(RemovedFile),
-                Patch(ThisRecord, { deleted: true }),
-                Patch(ThisRecord, { deleted: Coalesce(ThisRecord.deleted, false) })
+                ThisRecord.Name = FileToRestore.Name,
+                Patch(ThisRecord, { deleted: false }),
+                ThisRecord
             )
         )
     }
 )
+
 
 
 
