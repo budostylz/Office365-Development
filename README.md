@@ -272,12 +272,16 @@ Patch(
     LookUp(attachmentsByType, type = varActiveView),
     {
         files: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: ThisRecord.Name,
-                Value: ThisRecord,
-                deleted: false
-            }
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                ThisRecord.Name = RemovedFile.Name,
+                {
+                    Name: ThisRecord.Name,
+                    Value: ThisRecord.Value,
+                    deleted: true
+                },
+                ThisRecord
+            )
         )
     }
 )
