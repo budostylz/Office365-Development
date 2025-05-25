@@ -305,6 +305,38 @@ Filter(
 
 
 
+// STEP 1: Save current section's attachments
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            DataCardValue44.Attachments,
+            {
+                Name: ThisRecord.Name,
+                Value: ThisRecord,
+                deleted: false
+            }
+        )
+    }
+);
+
+// STEP 2: Switch to new section
+Set(varActiveView, "Ethics"); // change this to the new section type (e.g. "ContractsandFiscal")
+
+// STEP 3: Load attachments for new section into working collection
+Set(
+    currentAttachments,
+    Filter(
+        LookUp(attachmentsByType, type = varActiveView).files,
+        !deleted
+    )
+);
+
+
+
+
+
 
 
 
