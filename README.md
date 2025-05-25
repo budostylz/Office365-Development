@@ -266,17 +266,35 @@ yo @microsoft/sharepoint --skip install
 
 
 
+
 Patch(
     attachmentsByType,
     LookUp(attachmentsByType, type = varActiveView),
     {
         files: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: ThisRecord.Name,
-                Value: ThisRecord,
-                deleted: false
-            }
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                !("deleted" in ThisRecord),
+                Patch(ThisRecord, { deleted: false }),
+                ThisRecord
+            )
+        )
+    }
+);
+
+
+
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                ThisRecord.Name = RemovedFile.Name,
+                Patch(ThisRecord, { deleted: true }),
+                ThisRecord
+            )
         )
     }
 );
