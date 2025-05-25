@@ -273,21 +273,21 @@ Patch(
         files: ForAll(
             LookUp(attachmentsByType, type = varActiveView).files,
             If(
-                Coalesce(ThisRecord.Name, "") = Coalesce(RemovedFile.Name, ""),
+                ThisRecord.Name = RemovedFile.Name,
                 {
-                    Name: Coalesce(ThisRecord.Name, ""),
+                    Name: ThisRecord.Name,
                     Value: ThisRecord.Value,
                     deleted: true
                 },
                 {
-                    Name: Coalesce(ThisRecord.Name, ""),
+                    Name: ThisRecord.Name,
                     Value: ThisRecord.Value,
                     deleted: Coalesce(ThisRecord.deleted, false)
                 }
             )
         )
     }
-);
+)
 
 
 
