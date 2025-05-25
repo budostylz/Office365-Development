@@ -320,6 +320,45 @@ Filter(
 
 
 
+------------
+
+
+// STEP 1: Save current section's attachments
+With(
+    {
+        formattedFiles: ForAll(
+            DataCardValue44.Attachments,
+            {
+                Name: ThisRecord.Name,
+                Value: ThisRecord,
+                deleted: false
+            }
+        )
+    },
+    Patch(
+        attachmentsByType,
+        LookUp(attachmentsByType, type = varActiveView),
+        {
+            files: formattedFiles
+        }
+    )
+);
+
+// STEP 2: Switch view to the new section
+Set(varActiveView, "Ethics"); // Replace with your target section key, e.g., "ContractsandFiscal"
+
+// STEP 3: Load attachments for new section
+Set(
+    currentAttachments,
+    Filter(
+        LookUp(attachmentsByType, type = varActiveView).files,
+        !deleted
+    )
+);
+
+
+
+
 
 
 
