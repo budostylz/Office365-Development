@@ -263,25 +263,18 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-
-Set(RemovedFile, ThisItem);
-
-Set(RemovedFile, ThisItem);
-
-Patch(
+ClearCollect(
     attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: ForAll(
-            LookUp(attachmentsByType, type = varActiveView).files,
-            If(
-                ThisRecord.Name = FileToRestore.Name,
-                Patch(ThisRecord, { deleted: false }),
-                ThisRecord
-            )
-        )
-    }
-)
+    { type: "Ethics", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "ContractsandFiscal", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LaborandEmployment", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LegalReadiness", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "RegulatoryStatutory", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "Operations", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "International", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LawofWar", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "IntelLaw", files: Table({ Name: "", Value: Blank(), deleted: false }) }
+);
 
 
 
