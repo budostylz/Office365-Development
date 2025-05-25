@@ -305,12 +305,10 @@ Filter(
 
 
 
-// STEP 1: Save current section's attachments
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
+// STEP 1: Format the attachments as records with Name, Value, and deleted fields
+With(
     {
-        files: ForAll(
+        formattedFiles: ForAll(
             DataCardValue44.Attachments,
             {
                 Name: ThisRecord.Name,
@@ -318,13 +316,19 @@ Patch(
                 deleted: false
             }
         )
-    }
+    },
+    
+    // STEP 2: Save current section attachments
+    Patch(
+        attachmentsByType,
+        LookUp(attachmentsByType, type = varActiveView),
+        { files: formattedFiles }
+    )
 );
 
-// STEP 2: Switch to new section
-Set(varActiveView, "Ethics"); // change this to the new section type (e.g. "ContractsandFiscal")
+// STEP 3: Switch view and load next section's attachments
+Set(varActiveView, "Ethics"); // update this as needed
 
-// STEP 3: Load attachments for new section into working collection
 Set(
     currentAttachments,
     Filter(
