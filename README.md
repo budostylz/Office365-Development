@@ -273,28 +273,12 @@ Patch(
     {
         files: ForAll(
             LookUp(attachmentsByType, type = varActiveView).files,
-            If(
-                !("deleted" in ThisRecord),
-                Patch(ThisRecord, { deleted: false }),
-                ThisRecord
-            )
+            {
+                Name: ThisRecord.Name,
+                Value: ThisRecord.Value,
+                deleted: Coalesce(ThisRecord.deleted, false)
+            }
         )
     }
-);
+)
 
-
-
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: ForAll(
-            LookUp(attachmentsByType, type = varActiveView).files,
-            If(
-                ThisRecord.Name = RemovedFile.Name,
-                Patch(ThisRecord, { deleted: true }),
-                ThisRecord
-            )
-        )
-    }
-);
