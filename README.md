@@ -274,18 +274,20 @@ Patch(
                 Coalesce(ThisRecord.Name, "") = Coalesce(RemovedFile.Name, ""),
                 {
                     Name: Coalesce(ThisRecord.Name, ""),
-                    Value: ThisRecord, // Attachments are records already
+                    Value: ThisRecord.Value,
                     deleted: true
                 },
                 {
                     Name: Coalesce(ThisRecord.Name, ""),
-                    Value: ThisRecord,
+                    Value: ThisRecord.Value,
                     deleted: Coalesce(ThisRecord.deleted, false)
                 }
             )
         )
     }
 )
+
+
 
 
 
