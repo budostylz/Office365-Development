@@ -263,18 +263,61 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-ClearCollect(
-    attachmentsByType,
-    { type: "Ethics", files: Table() },
-    { type: "ContractsandFiscal", files: Table() },
-    { type: "LaborandEmployment", files: Table() },
-    { type: "LegalReadiness", files: Table() },
-    { type: "RegulatoryStatutory", files: Table() },
-    { type: "Operations", files: Table() },
-    { type: "International", files: Table() },
-    { type: "LawofWar", files: Table() },
-    { type: "IntelLaw", files: Table() }
+1. OnAdd (When uploading new files)
+2. With(
+    {
+        formattedFiles: ForAll(
+            DataCardValue44.Attachments,
+            {
+                Name: ThisRecord.Name,
+                Value: ThisRecord,
+                deleted: false
+            }
+        )
+    },
+    Patch(
+        attachmentsByType,
+        LookUp(attachmentsByType, type = varActiveView),
+        {
+            files: formattedFiles
+        }
+    )
 );
+Set(
+    currentAttachments,
+    Filter(LookUp(attachmentsByType, type = varActiveView).files, !deleted)
+)
+
+2. OnRemove (Soft delete by flagging deleted: true)
+Set(FileToRemove, ThisItem);
+
+Patch(
+    attachmentsByType,
+    LookUp(attachmentsByType, type = varActiveView),
+    {
+        files: ForAll(
+            LookUp(attachmentsByType, type = varActiveView).files,
+            If(
+                ThisRecord.Name = FileToRemove.Name,
+                Patch(ThisRecord, { deleted: true }),
+                ThisRecord
+            )
+        )
+    }
+);
+
+Set(
+    currentAttachments,
+    Filter(LookUp(attachmentsByType, type = varActiveView).files, !deleted)
+)
+
+Items Property for Attachments Control
+
+Filter(
+    LookUp(attachmentsByType, type = varActiveView).files,
+    !deleted
+)
+
 
 
 
