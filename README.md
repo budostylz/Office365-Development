@@ -264,9 +264,6 @@ yo @microsoft/sharepoint --skip install
 
 
 
-
-
-
 Patch(
     attachmentsByType,
     LookUp(attachmentsByType, type = varActiveView),
@@ -277,17 +274,20 @@ Patch(
                 Coalesce(ThisRecord.Name, "") = Coalesce(RemovedFile.Name, ""),
                 {
                     Name: Coalesce(ThisRecord.Name, ""),
-                    Value: Coalesce(ThisRecord.Value, ThisRecord),
+                    Value: ThisRecord, // Attachments are records already
                     deleted: true
                 },
                 {
                     Name: Coalesce(ThisRecord.Name, ""),
-                    Value: Coalesce(ThisRecord.Value, ThisRecord),
+                    Value: ThisRecord,
                     deleted: Coalesce(ThisRecord.deleted, false)
                 }
             )
         )
     }
 )
+
+
+
 
 
