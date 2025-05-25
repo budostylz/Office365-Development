@@ -359,6 +359,19 @@ Set(
 
 
 
+ClearCollect(
+    attachmentsByType,
+    { type: "Ethics", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "ContractsandFiscal", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LaborandEmployment", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LegalReadiness", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "RegulatoryStatutory", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "Operations", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "International", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "LawofWar", files: Table({ Name: "", Value: Blank(), deleted: false }) },
+    { type: "IntelLaw", files: Table({ Name: "", Value: Blank(), deleted: false }) }
+)
+
 
 
 
