@@ -262,6 +262,17 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
+
+
+1. ClearCollect(colSelectedTopics, []);
+2. Collect(colSelectedTopics, ThisItem.Value)
+3. Remove(colSelectedTopics, ThisItem.Value)
+4. If("Travel" in colSelectedTopics, "<h3><u>Travel Info</u></h3><ul>...</ul>", "")
+
+
+
+
+
 Notify("Submit");
 Patch(Module_JITS,Defaults(Module_JITS),
 {
