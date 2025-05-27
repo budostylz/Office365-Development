@@ -263,5 +263,10 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-<li>Description: <strong>" & LookUp(descByType, desc = "", desc) & "</strong></li>
+<li>Description: <strong>" & If(
+    !IsBlank(LookUp(descByType, type = "ContractsandFiscal", desc)),
+    LookUp(descByType, type = "ContractsandFiscal", desc),
+    "N/A"
+) & "</strong></li>
+
 
