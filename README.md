@@ -263,4 +263,9 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-<li>Return Date: <strong>" & LookUp(dateByType, date = "", date) & "</strong></li>
+<li>Return Date: <strong>" & If(
+    !IsBlank(LookUp(dateByType, type = "ContractsandFiscal", date)),
+    Text(LookUp(dateByType, type = "ContractsandFiscal", date), "[$-en-US]mmmm d, yyyy"),
+    "N/A"
+) & "</strong></li>
+
