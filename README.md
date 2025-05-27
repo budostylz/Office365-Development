@@ -262,24 +262,5 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-If(
-    !IsBlank(ContractsField) || 
-    !IsBlank(FiscalField) || 
-    !IsBlank(ContractorVisitField) || 
-    !IsBlank(ReturnDateField) || 
-    !IsBlank(DescriptionField),
-    
-    // HTML block if any field has data
-    "<h3><u>Contracts & Fiscal Law Dashboard</u></h3>
-    <ul>
-        <li>Contracts</li>
-        <li>Fiscal</li>
-        <li>Contractor Visit</li>
-        <li>Return Date: <strong>" & ReturnDateField & "</strong></li>
-        <li>Description: <strong>" & DescriptionField & "</strong></li>
-    </ul>",
-    
-    // Else return empty
-    ""
-)
 
+<li>Return Date: <strong>" & LookUp(dateByType, date = "", date) & "</strong></li>
