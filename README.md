@@ -262,11 +262,11 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
+If(
+    varNewJITSType = "ContractsandFiscal",
+    colContractFiscalRequestTypes,
+    Blank()
+)
 
-<li>Description: <strong>" & If(
-    !IsBlank(LookUp(descByType, type = "ContractsandFiscal", desc)),
-    LookUp(descByType, type = "ContractsandFiscal", desc),
-    "N/A"
-) & "</strong></li>
 
 
