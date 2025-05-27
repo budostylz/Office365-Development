@@ -263,119 +263,16 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-1. OnAdd (When uploading new files)
-2. With(
-    {
-        formattedFiles: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: ThisRecord.Name,
-                Value: ThisRecord,
-                deleted: false
-            }
-        )
-    },
-    Patch(
-        attachmentsByType,
-        LookUp(attachmentsByType, type = varActiveView),
-        {
-            files: formattedFiles
-        }
-    )
-);
-Set(
-    currentAttachments,
-    Filter(LookUp(attachmentsByType, type = varActiveView).files, !deleted)
-)
+Good day, Sir,
 
-2. OnRemove (Soft delete by flagging deleted: true)
-Set(FileToRemove, ThisItem);
+We’ve enhanced the app’s user interface and user experience to significantly improve responsiveness and overall usability. Our team is currently conducting thorough quality assurance checks to ensure the new design functions seamlessly.
 
-Patch(
-    attachmentsByType,
-    LookUp(attachmentsByType, type = varActiveView),
-    {
-        files: ForAll(
-            LookUp(attachmentsByType, type = varActiveView).files,
-            If(
-                ThisRecord.Name = FileToRemove.Name,
-                Patch(ThisRecord, { deleted: true }),
-                ThisRecord
-            )
-        )
-    }
-);
+These checks will be completed shortly. Once finalized, I will send you a link via email so you can review the updates and confirm that the new look and functionality meet your expectations.
 
-Set(
-    currentAttachments,
-    Filter(LookUp(attachmentsByType, type = varActiveView).files, !deleted)
-)
+As a reminder, when a customer submits a JITTS ticket, you will receive a corresponding JITTS notification to assist in managing the SJA case.
 
-Items Property for Attachments Control
+Please let me know if you have any questions in the meantime.
 
-Filter(
-    LookUp(attachmentsByType, type = varActiveView).files,
-    !deleted
-)
-
-
-
-------------
-
-
-// STEP 1: Save current section's attachments
-With(
-    {
-        formattedFiles: ForAll(
-            DataCardValue44.Attachments,
-            {
-                Name: ThisRecord.Name,
-                Value: ThisRecord,
-                deleted: false
-            }
-        )
-    },
-    Patch(
-        attachmentsByType,
-        LookUp(attachmentsByType, type = varActiveView),
-        {
-            files: formattedFiles
-        }
-    )
-);
-
-// STEP 2: Switch view to the new section
-Set(varActiveView, "Ethics"); // Replace with your target section key, e.g., "ContractsandFiscal"
-
-// STEP 3: Load attachments for new section
-Set(
-    currentAttachments,
-    Filter(
-        LookUp(attachmentsByType, type = varActiveView).files,
-        !deleted
-    )
-);
-
-
-
-
-ClearCollect(
-    attachmentsByType,
-    { type: "Ethics", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "ContractsandFiscal", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LaborandEmployment", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LegalReadiness", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "RegulatoryStatutory", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "Operations", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "International", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "LawofWar", files: Table({ Name: "", Value: Blank(), deleted: false }) },
-    { type: "IntelLaw", files: Table({ Name: "", Value: Blank(), deleted: false }) }
-)
-
-
-
-
-
-
-
+Best regards,
+[Your Name]
 
