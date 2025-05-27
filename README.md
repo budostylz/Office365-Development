@@ -262,17 +262,204 @@ yo @microsoft/sharepoint --skip install
 ## Introduction to Semantic Kernel
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
+Notify("Submit");
+Patch(Module_JITS,Defaults(Module_JITS),
+{
+    JITS_Control: "SJA Support",
+    'Case Title': "THIS IS A TEST SJA CASE",
+    CaseV6_OriginalNotes:"
+    <h3><u>Ethics Dashboard</u></h3>
+        <ul>
+            <li>Travel</li>
+            <li>Fundraiser</li>
+            <li>Gifts</li>
+            <li>Post-Government Employment</li>
+            <li>Relations with Non-Federal Entities</li>
+            <li>Use of Official Resources</li>
+        </ul>
+        <hr>
 
-Good day, Sir,
+        <h3><u>Travel Information</u></h3>
+        <ul>
+            <li>Traveler First Name: <strong>Traveler First Name</strong></li>
+            <li>Traveler Last Name: <strong>Traveler Last Name</strong></li>
+            <li>Form of Travel: <strong>Form of Travel</strong></li>
+            <li>Date Leaving: <strong>Date Leaving</strong></li>
+            <li>Date Returning: <strong>Date Returning</strong></li>
+            <li>Destination: <strong>Destination</strong></li>
+            <li>Purpose: <strong>Purpose</strong></li>
+            <li>Hosting Organization: <strong>Hosting Organization</strong></li>
+            <li>Additional Official Business: <strong>Additional Official Business</strong></li>
+            <li>Expected to Wear Uniform?: <strong>Expected to Wear Uniform?</strong></li>
+            <li>Is this Event a Fundraiser?: <strong>Is this Event a Fundraiser?</strong></li>
+            <li>Training Event with ≥20% DoD Attendance?: <strong>Training Event with ≥20% DoD Attendance?</strong></li>
+            <li>Engagement hosted by DoD Contractor/NFE?: <strong>Engagement hosted by DoD Contractor/NFE?</strong></li>
+            <li>No-cost travel benefits offered?: <strong>No-cost travel benefits offered?</strong></li>
+            <li>Expected to receive Gift/Memento?: <strong>Leave taken with TDY?</strong></li>
+            <li>Leave taken with TDY?: <strong>Leave taken with TDY?</strong></li>
+            <li>Accompanied by support staff?: <strong>Accompanied by support staff?</strong></li>
+            <li>Involves presenting/speaking?: <strong>Involves presenting/speaking?</strong></li>
+            <li>Approval Authority: <strong>COL Jane Smith</strong></li>
+            <li>POC: <strong>Mr. Mark Davis</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Fundraiser Information</u></h3>
+            <ul>
+                <li>Requesting Organization or Directorate(s): <strong>Requesting Organization or Directorate(s)</strong></li>
+                <li>Date of Calendar Year Fundraiser: <strong>Date of Calendar Year Fundraiser</strong></li>
+                <li>Additional Fundraiser Date (Limit: 3 per quarter): <strong>[Date2]</strong></li>
+                <li>Event Date: <strong>Event Date</strong></li>
+                <li>Event Time: <strong>Event Time</strong></li>
+                <li>Location of Fundraiser: <strong>Location of Fundraiser</strong></li>
+                <li>Type of Fundraiser: <strong>Type of Fundraiser</strong></li>
+                <li>Purpose of Fundraiser: <strong>Purpose of Fundraiser</strong></li>
+                <li>Who is running the event / Who is your target audience?: <strong>Who is running the event / Who is your target audience?</strong></li>
+                <li>Is the requesting PO primarily made up of DoD members?: <strong>Is the requesting PO primarily made up of DoD members?</strong></li>
+                <li>Public Health office approval (if food involved)?: <strong>Public Health office approval (if food involved)?</strong></li>
+                <li>Facilities Manager consulted (if applicable)?: <strong>Facilities Manager consulted (if applicable)?</strong></li>
+                <li>Does the event involve a raffle or game of chance?: <strong>Does the event involve a raffle or game of chance?</strong></li>
+                <li>POC Name: <strong>[POC Name]</strong></li>
+                <li>POC Phone Number: <strong>[POC Phone]</strong></li>
+            </ul>
+        <hr>
+        <h3><u>Gift Information</u></h3>
+        <ul>
+            <li>Gift: <strong>Gift</strong></li>
+            <li>Gift Description: <strong>Gift Description</strong></li>
+            <li>Presented to: <strong>Presented to</strong></li>
+            <li>Presented by: <strong>Presented by</strong></li>
+            <li>Date Received: <strong>Date Received</strong></li>
+            <li>Gift Value: <strong>Gift Value</strong></li>
+            <li>Occasion or Event: <strong>Occasion or Event</strong></li>
+            <li>Foreign or Domestic?: <strong>Foreign or Domestic</strong></li>
+            <li>Disposition (Domestic): <strong>Disposition (Domestic)</strong></li>
+            <li>Price: <strong>Price</strong></li>
+            <li>Disposition (Foreign, less than $480): <strong>Disposition (Foreign, less than $480)</strong></li>
+            <li>Disposition (Foreign, more than $480): <strong>Disposition (Foreign, more than $480)</strong></li>
+            <li>POC: <strong>[POC Name]</strong></li>
+            <li>POC Number: <strong>[POC Number]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Travel Misc</u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+         </ul>
+        <hr>
+        <h3><u>Contracts & Fiscal Law Dashboard</u></h3>
+         <ul>
+            <li>Contracts</li>
+            <li>Fiscal</li>
+            <li>Contractor Visit</li>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Labor and Employment Law Dashboard</u></h3>
+         <ul>
+            <li>Supervisor</li>
+            <li>Employee</li>
+            <li>Other</li>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+         </ul>
+        <hr>
+        <h3><u>Legal Readiness & (Legal Assistance)</u></h3>
+        <ul>
+            <li>Power of Attorney</li>
+            <li>Notary</li>
+            <li>Will</li>
+            <li>General Legal Assistance</li>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Regulatory/Statutory Compliance </u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Operations/Legal Support</u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>International Agreements (SOFAs)</u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Law of War</u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+        <hr>
+        <h3><u>Intelligence Law/Force Protection </u></h3>
+         <ul>
+            <li>Return Date: <strong>[Return Date]</strong></li>
+            <li>Description: <strong>[Description]</strong></li>
+        </ul>
+ 
+    ",
+    CaseV6_JSON:
+"{""Customers"":
+    ["&Concat(CustInfo_Customer.SelectedItems,"{
+            ""DisplayName"": """&DisplayName&""",
+            ""Email"": """&Email&""",
+            ""Claims"": ""i:0#.f|membership|"&Email&""",
+            ""Department"": """",
+            ""JobTitle"": """",
+            ""Picture"": """"
+    }",",
+    ")&"],
+""CustomerOrg"": """ &CustInfo_CMDDIR.Selected.'CMD/DIR' & """,
+""VIP"": """ & CustInfo_VIP.Selected.Value & """,
+""Priority"": """ & CustInfo_Priority.Selected.Value & """,
+""TargetCloseDT"": """ & CaseDetails_DueDT.SelectedDate & """,
+""AsgnToOrg"": ""JECC | Special Staff"",
+""AsgnToLead"": {
+    ""DisplayName"":""Lewis, Shaun Cornell CTR DISA J-0 OCOS (USA)"",
+    ""Email"":""shaun.c.lewis3.ctr@mail.mil"",
+    ""Claims"":""i:0#.f|membership|shaun.c.lewis3.ctr@mail.mil"",
+    ""Department"": """",
+    ""JobTitle"": """",
+    ""Picture"": """"
+    }, 
+""AsgnToPersonnel"":
+    ["&Concat(colAutoAsgnTO,"{
+        ""DisplayName"": """&DisplayName&""",
+        ""Email"": """&Email&""",
+        ""Claims"": """&Claims&""",
+        ""Department"": """",
+        ""JobTitle"": """",
+        ""Picture"": """"
+    }",",
+    ") & "],
+""Status"": ""Open - Researching"",
+""CaseHold"": ""-"",
+""CaseDetermination"": """",
+""CompletedDate"": """",
+""CompletedBy"": {}
+}"
+},CaseDetails_AttachmentForm.Updates);
+ 
+Refresh(Module_EmailNotificationsLog);
+Patch(Module_EmailNotificationsLog,Defaults(Module_EmailNotificationsLog),
+{
+    Title: "New JITS SJA Case >> TOPIC",
+    EmailTo: Concat(CustInfo_Customer.SelectedItems,Email,"; "),
+    EmailCC: "shaun.c.lewis3.ctr@mail.mil", //"TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
+    EmailBCC: "",
+    EmailBody: "<p>Congratulations!</p><p>You have successfully submitted a JECC Internal Ticket System (JITS) case. &nbsp;Your JITS case is currently awaiting our HelpDesk to assign it to the appropriate technician for action. &nbsp;Please watch your emails for more communication.</p><p><a href='https://play.apps.appsplatform.us/play/e/b3f13f2d-1d9f-ef43-810d-3603e340c361/a/0aac08a6-b237-49ec-8a3e-13fa3b7f67fb?tenantId=102d0191-eeae-4761-b1cb-1a83e86ef445&amp;hint=06e9cb09-7569-458e-86f5-bb3a4df9d0be&amp;sourcetime=1722449502159'>All of your Open JITS cases can be found here.</a><br /><br />Thank you,<br />JECC Help Desk</p>",
+    EmailFrom: "TRANSCOM-JECC-J6-HelpDesk@groups.mail.mil",
+    NotificationSoure: "JITS.new"
+});
 
-We’ve enhanced the app’s user interface and user experience to significantly improve responsiveness and overall usability. Our team is currently conducting thorough quality assurance checks to ensure the new design functions seamlessly.
 
-These checks will be completed shortly. Once finalized, I will send you a link via email so you can review the updates and confirm that the new look and functionality meet your expectations.
 
-As a reminder, when a customer submits a JITTS ticket, you will receive a corresponding JITTS notification to assist in managing the SJA case.
 
-Please let me know if you have any questions in the meantime.
-
-Best regards,
-[Your Name]
 
