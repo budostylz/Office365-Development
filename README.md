@@ -263,12 +263,9 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-If(
-    IsBlank(DropdownCanvas1.Selected.Value),
-    RGBA(255, 230, 230, 1), // Light red (unselected)
-    RGBA(230, 255, 230, 1)  // Light green (selected)
-)
+When a user visits the SJA page and submits a request, the SJA group will generate a notification in the same manner as a standard JITTS ticket. Your team will then review the notification and continue communication with the customer through JITTS.
 
+We are currently finalizing updates to the user interface and refining the notification process. Once the notification functionality is ready for testing, we’ll send you an update with next steps.
 
 
 
