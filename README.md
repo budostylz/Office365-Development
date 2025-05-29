@@ -263,7 +263,12 @@ yo @microsoft/sharepoint --skip install
 [Semantic Kernal](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
 
-!IsBlank(LookUp(descByType, type = "ContractsandFiscal", desc))
+If(
+    IsBlank(DropdownCanvas1.Selected.Value),
+    RGBA(255, 230, 230, 1), // Light red (unselected)
+    RGBA(230, 255, 230, 1)  // Light green (selected)
+)
+
 
 
 
