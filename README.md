@@ -278,5 +278,22 @@ We are currently finalizing updates to the user interface and refining the notif
 
 
 
+Subject: SJA Ready for Testing and Feedback
+
+Good morning Sir,
+
+The SJA is now ready for your test and review. While I’m still finalizing a few UI enhancements, you may begin testing the notification workflow and reviewing the case details.
+
+You should have received two test notifications from me, simulating SJA requests from a customer. One includes Ethics-related information, and the other contains the full case data. This setup is designed to ensure both you and your customers see only the information that is relevant to each ticket.
+
+Please let me know if you encounter any issues, have suggestions for improvement, or require any additional information.
+
+I will also be sending you a user guide shortly, which you can share with your team and customers.
+
+Thank you very much for your continued patience—I look forward to your feedback.
+
+Best regards,
+[Your Name]
+
 
 
