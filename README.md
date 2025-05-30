@@ -267,6 +267,16 @@ When a user visits the SJA page and submits a request, the SJA group will genera
 
 We are currently finalizing updates to the user interface and refining the notification process. Once the notification functionality is ready for testing, we’ll send you an update with next steps.
 
+"AsgnToLead": {
+    ""DisplayName"": """ & First(colAutoAsgnTO).DisplayName & """,
+    ""Email"": """ & First(colAutoAsgnTO).Email & """,
+    ""Claims"": ""i:0#.f|membership|" & First(colAutoAsgnTO).Email & """,
+    ""Department"": """ & First(colAutoAsgnTO).Department & """,
+    ""JobTitle"": """ & First(colAutoAsgnTO).JobTitle & """,
+    ""Picture"": """"
+},
+
+
 
 
 
